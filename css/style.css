@@ -30,7 +30,7 @@ body {
 
 .homeHeader {
   position: relative;
-  height: 90vh;
+  height: 95vh;
   background-image: linear-gradient(to right top, #5E54D0, #307FAB); }
   .homeHeader__content {
     position: absolute;
@@ -38,7 +38,7 @@ body {
     left: 10%;
     z-index: 300;
     height: 50rem;
-    width: 50vw; }
+    width: 36vw; }
   .homeHeader__title {
     color: white;
     font-size: 4rem;
@@ -46,7 +46,7 @@ body {
     letter-spacing: 3px; }
   .homeHeader__subtitle {
     color: white;
-    font-size: 3.3rem;
+    font-size: 2.7rem;
     font-weight: 400;
     margin-bottom: 1rem; }
   .homeHeader__description {
@@ -66,6 +66,11 @@ body {
     .homeHeader__action:hover {
       border: 2px solid #307FAB;
       background-color: #307FAB; }
+  .homeHeader__mockups {
+    position: absolute;
+    height: 57rem;
+    top: 12%;
+    right: 12%; }
 
 .nav {
   position: fixed;
@@ -79,7 +84,7 @@ body {
   padding: 0 1.5rem;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #307FAB; }
+  border-bottom: 1px solid #eee; }
   .nav__logo--container {
     height: 3rem;
     display: flex;

@@ -1,6 +1,6 @@
 .homeHeader {
     position: relative;
-    height: 90vh;
+    height: 95vh;
     background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
 
     &__content {
@@ -11,7 +11,7 @@
         z-index: 300;
 
         height: 50rem;
-        width: 50vw;
+        width: 36vw;
     }
 
     &__title {
@@ -23,7 +23,7 @@
 
     &__subtitle {
         color: white;
-        font-size: 3.3rem;
+        font-size: 2.7rem;
         font-weight: 400;
 
         margin-bottom: 1rem; 
@@ -53,5 +53,12 @@
 
         }
 
+    }
+
+    &__mockups {
+        position: absolute;
+        height: 57rem;
+        top: 12%;
+        right: 12%;        
     }
 }
