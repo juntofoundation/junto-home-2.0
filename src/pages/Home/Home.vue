@@ -13,8 +13,11 @@
         <!-- sponsors-->
         <junto-home-sponsors></junto-home-sponsors>
 
-        <!-- sponsors-->
-        <junto-flux></junto-flux>        
+        <!-- flux-->
+        <junto-flux></junto-flux>      
+
+        <!-- footer-->
+        <junto-footer></junto-footer>                
 
     </div>
 </template>
@@ -25,6 +28,7 @@
     import juntoHomePillars from '../../components/Home/HomePillars/HomePillars.vue';
     import juntoHomeSponsors from '../../components/Home/HomeSponsors/HomeSponsors.vue';
     import juntoFlux from '../../components/Flux/Flux.vue';
+    import juntoFooter from '../../components/Footer/Footer.vue';
 
     export default {
         components: {
@@ -32,7 +36,8 @@
             juntoHomeHeader,
             juntoHomePillars,
             juntoHomeSponsors,
-            juntoFlux
+            juntoFlux,
+            juntoFooter
         }
     }
 </script>
