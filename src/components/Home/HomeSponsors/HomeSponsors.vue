@@ -2,9 +2,9 @@
 <template>
     <div class="homeSponsors">
         <h2 class="homeSponsors__title">Meet the people who are making this project possible</h2>
-        <p class="homeSponsors__body">As an open source nonprofit initiative, our early 
-            stage success relies on generous contributions of individuals and organizations. 
-            We'd like to recognize the following philanthropists.</p>
+        <p class="homeSponsors__body">As a nonprofit, our early 
+            stage success relies on the generosity of individuals and organizations. 
+            The following philanthropists have provided Junto with a strong foundation to move forward.</p>
 
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SPECIAL SPONSORS</h2>    

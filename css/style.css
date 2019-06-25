@@ -55,7 +55,7 @@ body {
     margin-bottom: 2rem; }
   .homeHeader__action {
     border: 2px solid white;
-    border-radius: 2px;
+    border-radius: 100px;
     color: white;
     font-size: 17px;
     font-weight: 500;
@@ -154,20 +154,15 @@ body {
       margin-bottom: 2rem;
       text-align: center; }
   .homeSponsors__sponsors {
+    font-size: 1.7rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
-    .homeSponsors__sponsors--special {
-      font-size: 1.7rem; }
     .homeSponsors__sponsors--platinum {
-      font-size: 1.7rem;
       justify-content: center; }
     .homeSponsors__sponsors--gold {
-      font-size: 1.7rem;
       justify-content: center; }
-    .homeSponsors__sponsors--silver {
-      font-size: 1.7rem; }
   .homeSponsors__sponsor {
     font-weight: 500;
     color: #333;
@@ -226,16 +221,27 @@ body {
     font-weight: 500;
     margin-left: .75rem; }
   .nav__items {
-    display: flex; }
+    display: flex;
+    align-items: center; }
   .nav__item {
     margin-left: 2rem;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
     color: #555;
     cursor: pointer;
     transition: all .2s; }
     .nav__item:hover {
       color: #307FAB; }
+  .nav__button {
+    margin-left: 2rem;
+    padding: .75rem 2rem;
+    color: white;
+    background-image: linear-gradient(to right, #5E54D0, #307FAB);
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 100px; }
 
 .flux {
   padding: 5rem 8%;

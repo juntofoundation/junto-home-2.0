@@ -41,27 +41,24 @@
     }
 
     &__sponsors {
+        font-size: 1.7rem;
         width: 100%; 
         display: flex; 
         justify-content: space-between; 
         flex-wrap: wrap; 
 
         &--special {
-            font-size: 1.7rem;
 
         }
-        &--platinum {
-            font-size: 1.7rem;
+        &--platinum {            
             justify-content: center; 
         }
 
-        &--gold {
-            font-size: 1.7rem;  
+        &--gold {              
             justify-content: center;
         }
 
-        &--silver {
-            font-size: 1.7rem;             
+        &--silver {                         
         }
     }
 
@@ -81,7 +78,7 @@
         }
 
         &--special {
-            flex-basis: 33.33%;
+            flex-basis: 33.33%;            
         }
 
         &--gold {

@@ -8,7 +8,7 @@
                     in the spirit of authenticity. Our goal is to rebalance our relationship with technology
                     and activate a wave of agency, privacy, and free expression.
                 </p>
-                <a href="https://junto.typeform.com/to/xpwCxK" target="blank" class="removelink"><button class="homeHeader__action">Sign Up For Our Beta</button></a>
+                <a href="https://junto.typeform.com/to/xpwCxK" target="blank" class="removelink"><button class="homeHeader__action">&#9658; OUR STORY</button></a>
             </div>
             <img class="homeHeader__mockups" src="../../../assets/images/junto-home-2.0__mockups.png" alt="">            
     </div>
