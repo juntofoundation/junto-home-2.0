@@ -8,7 +8,12 @@
                     in the spirit of authenticity. Our goal is to rebalance our relationship with technology
                     and activate a wave of agency, privacy, and free expression.
                 </p>
-                <a href="https://junto.typeform.com/to/xpwCxK" target="blank" class="removelink"><button class="homeHeader__action">&#9658; OUR STORY</button></a>
+                <a href="https://junto.typeform.com/to/xpwCxK" target="blank" class="removelink">
+                    <div class="homeHeader__action">
+                        <img src="../../../assets/images/junto-home-2.0__play.png" alt="" class="homeHeader__action--icon">
+                        <p class="homeHeader__action--text">OUR STORY</p>
+                    </div>
+                </a>
             </div>
             <img class="homeHeader__mockups" src="../../../assets/images/junto-home-2.0__mockups.png" alt="">            
     </div>

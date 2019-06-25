@@ -33,6 +33,9 @@ body {
   height: 95vh;
   background-image: linear-gradient(to right top, #5E54D0, #307FAB); }
   .homeHeader__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     position: absolute;
     top: 15rem;
     left: 10%;
@@ -54,11 +57,10 @@ body {
     font-size: 1.7rem;
     margin-bottom: 2rem; }
   .homeHeader__action {
+    display: flex;
+    align-items: center;
     border: 2px solid white;
     border-radius: 100px;
-    color: white;
-    font-size: 17px;
-    font-weight: 500;
     background-color: transparent;
     padding: 1rem 2rem;
     cursor: pointer;
@@ -66,6 +68,13 @@ body {
     .homeHeader__action:hover {
       border: 2px solid #307FAB;
       background-color: #307FAB; }
+    .homeHeader__action--icon {
+      height: 2.2rem;
+      margin-right: 1rem; }
+    .homeHeader__action--text {
+      font-size: 1.4rem;
+      color: white;
+      font-weight: 500; }
   .homeHeader__mockups {
     position: absolute;
     height: 57rem;

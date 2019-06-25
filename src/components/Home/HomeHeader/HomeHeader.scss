@@ -4,10 +4,12 @@
     background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
 
     &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         top: 15rem;
         left: 10%;
-        // background-color: blue;
         z-index: 300;
 
         height: 50rem;
@@ -36,11 +38,10 @@
     }
 
     &__action {
+        display: flex;
+        align-items: center;
         border: 2px solid white;
         border-radius: 100px;
-        color: white;
-        font-size: 17px;
-        font-weight: 500;
         background-color: transparent;
         padding: 1rem 2rem;
 
@@ -51,6 +52,17 @@
             border: 2px solid $junto-primary; 
             background-color: $junto-primary;
 
+        }
+
+        &--icon {
+            height: 2.2rem;
+            margin-right: 1rem; 
+        }
+
+        &--text {
+            font-size: 1.4rem; 
+            color: white;
+            font-weight: 500;
         }
 
     }
