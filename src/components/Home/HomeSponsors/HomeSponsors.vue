@@ -9,29 +9,29 @@
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SPECIAL SPONSORS</h2>    
             <div class="homeSponsors__sponsors homeSponsors__sponsors--special">
-                <div class="homeSponsors__sponsor">    
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
                     <a href="https://www.pacificintegral.com/gtc-north-america  " class="removelink">
                         GTC                    
                     </a>                                     
                 </div>
 
-                <div class="homeSponsors__sponsor">                     
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">                     
                         RAYMOND POWELL                    
                 </div>    
 
-                <div class="homeSponsors__sponsor"> 
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special"> 
                     <a href="http://artbrock.com/" class="removelink">
                         ARTHUR BROCK                                        
                     </a>                    
                 </div>    
 
-                <div class="homeSponsors__sponsor">    
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
                     <a href="https://news.vice.com/en_us/article/yw7wxm/facebook-is-so-afraid-of-this-man-it-smeared-him-as-both-backed-by-george-soros-and-anti-semitic" class="removelink">
                         DAVID MAGERMAN                                        
                     </a>                 
                 </div>      
-                <div class="homeSponsors__sponsor">                     
-                        YANG FAMILY                 
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">                     
+                        楊家庭               
                 </div>                    
             </div>                                
         </div>            
@@ -102,7 +102,15 @@
                 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         Hemp360                    
-                </div>                    
+                </div>   
+
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
+                        Philip Kirsh                 
+                </div>       
+
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
+                        John Howe                 
+                </div>                                                    
             </div>                                
         </div>   
 
