@@ -23,6 +23,9 @@
             <div class="nav__item">
                 <a href='/' class="removelink">FAQ</a>
             </div>
+            <div class="nav__button">
+                <a href='/' class="removelink">SIGN UP</a>
+            </div>            
         </div>
 
     </div>

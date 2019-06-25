@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     
-    border-bottom: 1px solid $junto-primary;
+    border-bottom: 1px solid #eee;
 
     &__logo {
         &--container {
@@ -37,11 +37,12 @@
 
     &__items {
         display: flex;
+        align-items: center;
     }
 
     &__item {
         margin-left: 2rem;
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 500;
         color: #555;
         cursor: pointer;
@@ -50,5 +51,17 @@
         &:hover {
             color: $junto-primary;
         }
+    }
+
+    &__button {
+        margin-left: 2rem; 
+        padding: .75rem 2rem;
+        color: white; 
+        background-image: linear-gradient(to right, $junto-purple, $junto-primary);
+        font-size: 1.2rem;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        border-radius: 100px;
     }
 }

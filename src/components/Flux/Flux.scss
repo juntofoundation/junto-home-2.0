@@ -1,0 +1,40 @@
+
+.flux {
+    padding: 5rem 8%;
+    background-color: white; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        font-size: 2.4rem; 
+        margin-bottom: 1rem;
+    }
+
+    &__subtitle {
+        font-size: 2rem;
+        margin-bottom: 1.5rem; 
+    }
+
+    &__subscribe {
+        background-image: linear-gradient(to right, $junto-purple, $junto-primary);
+        color: white;        
+        font-size: 1.4rem;
+        font-weight: 500;
+        border-radius: 100px;
+        padding: 1.5rem 3rem; 
+        outline: none; 
+        border: none;
+        text-transform: uppercase;
+
+        cursor: pointer;
+        transition: all .2s;
+
+
+        &:hover {
+            transform: scale(1.05);
+
+        }
+    }
+}

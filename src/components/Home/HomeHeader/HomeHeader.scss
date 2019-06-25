@@ -1,17 +1,19 @@
 .homeHeader {
     position: relative;
-    height: 90vh;
+    height: 95vh;
     background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
 
     &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         top: 15rem;
         left: 10%;
-        // background-color: blue;
         z-index: 300;
 
         height: 50rem;
-        width: 50vw;
+        width: 36vw;
     }
 
     &__title {
@@ -23,7 +25,7 @@
 
     &__subtitle {
         color: white;
-        font-size: 3.3rem;
+        font-size: 2.7rem;
         font-weight: 400;
 
         margin-bottom: 1rem; 
@@ -36,11 +38,10 @@
     }
 
     &__action {
+        display: flex;
+        align-items: center;
         border: 2px solid white;
-        border-radius: 2px;
-        color: white;
-        font-size: 17px;
-        font-weight: 500;
+        border-radius: 100px;
         background-color: transparent;
         padding: 1rem 2rem;
 
@@ -53,5 +54,23 @@
 
         }
 
+        &--icon {
+            height: 2.2rem;
+            margin-right: 1rem; 
+        }
+
+        &--text {
+            font-size: 1.4rem; 
+            color: white;
+            font-weight: 500;
+        }
+
+    }
+
+    &__mockups {
+        position: absolute;
+        height: 57rem;
+        top: 12%;
+        right: 12%;        
     }
 }
