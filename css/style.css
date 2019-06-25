@@ -25,7 +25,7 @@ body {
 .home {
   margin-top: 7rem;
   width: 100%;
-  height: 200vh;
+  height: 100%;
   position: relative; }
 
 .homeHeader {
@@ -73,7 +73,6 @@ body {
     right: 12%; }
 
 .homePillars {
-  height: 40rem;
   width: 100%;
   background-color: white;
   padding: 4rem 8%;
@@ -83,7 +82,8 @@ body {
   .homePillars__title {
     font-size: 2.4rem;
     font-weight: 500;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    text-align: center; }
   .homePillars__subtitle {
     padding: 0 17%;
     font-size: 2rem;
@@ -110,10 +110,94 @@ body {
       font-size: 1.5rem;
       text-align: center; }
   .homePillars__more {
-    padding: 1rem 2rem;
-    font-size: 1.4rem;
+    padding: 1.5rem 3rem;
+    background-image: linear-gradient(to right, #5E54D0, #307FAB);
+    color: white;
     font-weight: 500;
-    border: 1.5px solid #333; }
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s; }
+    .homePillars__more:hover {
+      transform: scale(1.05); }
+
+.homeSponsors {
+  background-color: #fbfbfb;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .homeSponsors__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem; }
+  .homeSponsors__body {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 17%;
+    margin-bottom: 2rem; }
+  .homeSponsors__section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 22%;
+    width: 100vw; }
+    .homeSponsors__section--title {
+      font-size: 1.4rem;
+      background: -webkit-linear-gradient(#5E54D0, #307FAB);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 500;
+      margin-bottom: 2rem;
+      text-align: center; }
+  .homeSponsors__sponsors {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .homeSponsors__sponsors--special {
+      font-size: 1.7rem; }
+    .homeSponsors__sponsors--platinum {
+      font-size: 1.7rem; }
+    .homeSponsors__sponsors--gold {
+      font-size: 1.7rem;
+      justify-content: center; }
+    .homeSponsors__sponsors--silver {
+      font-size: 1.7rem; }
+  .homeSponsors__sponsor {
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    transition: all .2s;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .4s; }
+    .homeSponsors__sponsor:hover {
+      color: #111; }
+  .homeSponsors__kickstarter {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .homeSponsors__kickstarter--title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem; }
+    .homeSponsors__kickstarter--button {
+      padding: 1.5rem 2rem;
+      background-image: linear-gradient(to right, #5E54D0, #307FAB);
+      color: white;
+      font-weight: 500;
+      font-size: 1.4rem;
+      border: none;
+      border-radius: 100px;
+      outline: none;
+      cursor: pointer;
+      transition: all .2s; }
+      .homeSponsors__kickstarter--button:hover {
+        transform: scale(1.05); }
 
 .nav {
   position: fixed;

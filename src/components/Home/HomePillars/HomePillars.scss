@@ -1,6 +1,5 @@
 
 .homePillars {
-    height: 40rem;
     width: 100%;
     background-color: white;
     padding: 4rem 8%; 
@@ -12,6 +11,7 @@
         font-size: 2.4rem;
         font-weight: 500;
         margin-bottom: 1rem;
+        text-align: center; 
         // color: $junto-primary;
     }
 
@@ -55,9 +55,20 @@
     }
 
     &__more {
-        padding: 1rem 2rem;
-        font-size: 1.4rem;
+        padding: 1.5rem 3rem;
+        background-image: linear-gradient(to right, $junto-purple, $junto-primary);
+        color: white;
         font-weight: 500;
-        border: 1.5px solid #333; 
-    }
+        font-size: 1.4rem;
+        border: none;
+        border-radius: 100px; 
+        outline: none;
+
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }  
 }
