@@ -7,11 +7,11 @@
                         <img class="footer__logo--image" src="../../assets/images/junto-home-2.0__logo--outline.png" alt="">
                     </a>
                     <a href="/" class="removelink footer__logo--text">
-                        <p class="footer__logo--text">JUNTO</p>
+                        <p class="footer__logo--text">JUNTO FOUNDATION</p>
                     </a>
                 </div>
 
-            <p class="footer__copyright">Made with love in New York</p>
+            <p class="footer__copyright">Made with <span style="color: #EA6BA1">&hearts;</span> in New York</p>
         </div>
         <div class="footer__right">
             <div class="footer__socials">
