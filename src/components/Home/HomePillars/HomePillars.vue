@@ -38,6 +38,8 @@
                 </p>
             </div>                        
         </div>
-        <button class="homePillars__more">GO DEEPER</button>
+        <a href="/learn" class="removelink">
+            <button class="homePillars__more">GO DEEPER</button>
+        </a>
     </div>
 </template>

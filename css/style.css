@@ -358,7 +358,7 @@ body {
   .homeSponsors__section {
     display: flex;
     flex-direction: column;
-    padding: 2rem 24%;
+    padding: 2rem 24% 0 24%;
     width: 100vw; }
     .homeSponsors__section--title {
       font-size: 1.4rem;
@@ -374,6 +374,8 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
+    .homeSponsors__sponsors--specialtwo {
+      justify-content: center; }
     .homeSponsors__sponsors--platinum {
       justify-content: center; }
     .homeSponsors__sponsors--gold {
@@ -385,16 +387,32 @@ body {
     transition: all .2s;
     text-transform: uppercase;
     cursor: pointer;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     transition: all .4s; }
     .homeSponsors__sponsor:hover {
       color: #111; }
     .homeSponsors__sponsor--special {
       flex-basis: 33.33%; }
-    .homeSponsors__sponsor--gold {
+    .homeSponsors__sponsor--specialtwo {
+      margin: 0 3rem; }
+    .homeSponsors__sponsor--platinum {
       margin: 0 2rem; }
     .homeSponsors__sponsor--silver {
       flex-basis: 33%; }
+  .homeSponsors__cta {
+    margin: 2rem;
+    border: 2px solid #307FAB;
+    color: #307FAB;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 1.5rem 3rem;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s; }
+    .homeSponsors__cta:hover {
+      transform: scale(1.05); }
   .homeSponsors__kickstarter {
     padding: 0 24%;
     text-align: center;

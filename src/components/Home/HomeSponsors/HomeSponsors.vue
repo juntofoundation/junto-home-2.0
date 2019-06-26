@@ -11,7 +11,7 @@
             <div class="homeSponsors__sponsors homeSponsors__sponsors--special">
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
                     <a href="https://www.pacificintegral.com/gtc-north-america  " class="removelink">
-                        GTC                    
+                        PACIFIC INTEGRAL                       
                     </a>                                     
                 </div>
 
@@ -23,29 +23,30 @@
                     <a href="http://artbrock.com/" class="removelink">
                         ARTHUR BROCK                                        
                     </a>                    
-                </div>    
-
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
+                </div>                      
+            </div>      
+            <div class="homeSponsors__sponsors homeSponsors__sponsors--specialtwo">
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">    
                     <a href="https://news.vice.com/en_us/article/yw7wxm/facebook-is-so-afraid-of-this-man-it-smeared-him-as-both-backed-by-george-soros-and-anti-semitic" class="removelink">
                         DAVID MAGERMAN                                        
                     </a>                 
                 </div>      
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">                     
-                        楊家庭               
-                </div>                    
-            </div>                                
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">                     
+                        YANG FAMILY              
+                </div>                  
+            </div>                          
         </div>            
          
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">PLATINUM</h2>    
             <div class="homeSponsors__sponsors homeSponsors__sponsors--platinum">
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--gold">    
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--platinum">    
                     <a href="https://www.pacificintegral.com/gtc-north-america  " class="removelink">
                         ANDREW BURGE           
                     </a>                                     
                 </div>
 
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--gold">                     
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--platinum">                     
                         HW                  
                 </div>                    
             </div>                                
@@ -113,6 +114,8 @@
                 </div>                                                    
             </div>                                
         </div>   
+
+        <button class="homeSponsors__cta">Become a sponsor!</button>
 
         <div class="homeSponsors__kickstarter">
             <p class="homeSponsors__kickstarter--title">Thank you as well to the 
