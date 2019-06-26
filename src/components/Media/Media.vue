@@ -18,6 +18,7 @@
                 <iframe v-if="videoFive" class="media__main--video" src="https://www.youtube.com/embed/yaZCqaJw8yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
             </div>
             <div class="media__videos">
+                <p class="media__videos--title">PLAYLIST</p>
                 <div class="media__video" @click="updateVideo('one')">
                     <img class="media__video--thumbnail" src="../../assets/images/junto-home-2.0__thumbnail--flows.png" alt="">
                     <div class="media__video--details">
