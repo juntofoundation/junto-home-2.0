@@ -7,6 +7,18 @@
 
 html {
   font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 70%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 46.88%; } }
 
 body {
   font-family: 'Avenir', 'Raleway', sans-serif;
@@ -50,7 +62,7 @@ body {
     align-items: center; }
   .nav__item {
     margin-left: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #555;
     cursor: pointer;

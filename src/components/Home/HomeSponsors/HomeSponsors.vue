@@ -42,7 +42,7 @@
                     </a>                 
                 </div>      
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">                     
-                        YANG FAMILY              
+                        YANG FAMILY (楊家)              
                 </div>                  
             </div>                          
         </div>            
