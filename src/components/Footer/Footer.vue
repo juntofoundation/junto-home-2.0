@@ -15,33 +15,33 @@
         </div>
         <div class="footer__right">
             <div class="footer__socials">
-                <a href="" target="blank" class="removelink footer__social">
+                <a href="mailto:hi@junto.foundation" target="blank" class="removelink footer__social">
                     <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__email.png" alt="">
                     <p class="footer__social--text">Email</p>
                 </a>       
 
-                <a href="" target="blank" class="removelink footer__social">
+                <a href="https://twitter.com/juntofoundation" target="blank" class="removelink footer__social">
                     <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__twitter.png" alt="">
                     <p class="footer__social--text">Twitter</p>
                 </a>      
 
-                <a href="" target="blank" class="removelink footer__social">
+                <a href="https://github.com/juntofoundation" target="blank" class="removelink footer__social">
                     <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__github.png" alt="">
                     <p class="footer__social--text">Github</p>
                 </a>                      
 
-                <a href="" target="blank" class="removelink footer__social">
-                    <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__twitter.png" alt="">
+                <a href="https://medium.com/juntolove" target="blank" class="removelink footer__social">
+                    <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__medium.png" alt="">
                     <p class="footer__social--text">Medium</p>
                 </a>       
 
-                <a href="" target="blank" class="removelink footer__social">
-                    <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__twitter.png" alt="">
+                <a href="https://www.instagram.com/junto.foundation/" target="blank" class="removelink footer__social">
+                    <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__instagram.png" alt="">
                     <p class="footer__social--text">Instagram</p>
                 </a>                       
 
-                <a href="" target="blank" class="removelink footer__social">
-                    <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__twitter.png" alt="">
+                <a href="https://www.facebook.com/juntofam" target="blank" class="removelink footer__social">
+                    <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__fb.png" alt="">
                     <p class="footer__social--text">Facebook</p>
                 </a>      
                                                                                                                        
