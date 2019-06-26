@@ -4,48 +4,57 @@
         <h2 class="homeSponsors__title">Meet the people who are making this project possible</h2>
         <p class="homeSponsors__body">As a nonprofit, our early 
             stage success relies on the generosity of individuals and organizations. 
-            The following philanthropists have provided Junto with a strong foundation to move forward.</p>
+            We'd like to recognize the following philanthropists.</p>
 
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SPECIAL SPONSORS</h2>    
             <div class="homeSponsors__sponsors homeSponsors__sponsors--special">
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
-                    <a href="https://www.pacificintegral.com/gtc-north-america  " class="removelink">
-                        GTC                    
-                    </a>                                     
-                </div>
-
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">                     
-                        RAYMOND POWELL                    
-                </div>    
+                
+  
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--special"> 
-                    <a href="http://artbrock.com/" class="removelink">
+                    <a href="http://artbrock.com/" target="blank" class="removelink">
                         ARTHUR BROCK                                        
                     </a>                    
-                </div>    
+                </div>   
 
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special"> 
+                    <a href="http://cogov.startbutton.com/" target="blank" class="removelink">
+                        RAYMOND POWELL                                        
+                    </a>                    
+                </div>  
+
+                <!-- <a href="" class="removelink"> -->
+                    <div class="homeSponsors__sponsor--special">    
+                        <a href="https://www.pacificintegral.com/gtc-north-america" target="blank" class="removelink homeSponsors__sponsor--logo">
+                            <img src="../../../assets/images/junto-home-2.0__sponsor--gtc.png" alt="" class="homeSponsors__sponsor--logo--image">
+                            <p class="homeSponsors__sponsor--logo--text">PACIFIC INTEGRAL</p>                            
+                        </a>                 
+                    </div> 
+
+                <!-- </a>    -->
+                   
+            </div>      
+            <div class="homeSponsors__sponsors homeSponsors__sponsors--specialtwo">
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">    
                     <a href="https://news.vice.com/en_us/article/yw7wxm/facebook-is-so-afraid-of-this-man-it-smeared-him-as-both-backed-by-george-soros-and-anti-semitic" class="removelink">
                         DAVID MAGERMAN                                        
                     </a>                 
                 </div>      
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">                     
-                        楊家庭               
-                </div>                    
-            </div>                                
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">                     
+                        YANG FAMILY              
+                </div>                  
+            </div>                          
         </div>            
          
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">PLATINUM</h2>    
             <div class="homeSponsors__sponsors homeSponsors__sponsors--platinum">
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--gold">    
-                    <a href="https://www.pacificintegral.com/gtc-north-america  " class="removelink">
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--platinum">    
                         ANDREW BURGE           
-                    </a>                                     
-                </div>
+                    </div>
 
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--gold">                     
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--platinum">                     
                         HW                  
                 </div>                    
             </div>                                
@@ -62,57 +71,64 @@
 
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SILVER</h2>    
-            <div class="homeSponsors__sponsors homeSponsors__sponsors--silver">
-
+            <div class="homeSponsors__sponsors homeSponsors__sponsors--silver">                              
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
+                        Abeer Owainati                    
+                </div>     
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         David Wu                
                 </div>   
-
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        DHTNETWORK           
-                </div>    
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         Chris Graff             
-                </div>                
-
+                </div>           
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Adishakti                    
-                </div>    
+                        Henry Owainati                    
+                </div>           
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
+                        John Howe                 
+                </div>                                           
+
+                <div class="homeSponsors__sponsor--silver">     
+                    <a href="https://hemp360.com/" target="blank" class="removelink homeSponsors__sponsor--logo">
+                        <img src="../../../assets/images/junto-home-2.0__sponsor--hemp.png" class="homeSponsors__sponsor--logo--image">  
+                        <p class="homeSponsors__sponsor--logo--text">HEMP 360</p>
+                    </a>                         
+                </div>                           
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         Ian McCauley                    
                 </div>    
+                <div class="homeSponsors__sponsor--silver">     
+                    <a href="https://koineks.com/" target="blank" class="removelink homeSponsors__sponsor--logo">
+                        <img src="../../../assets/images/junto-home-2.0__sponsor--koineks.png" class="homeSponsors__sponsor--logo--image">  
+                        <p class="homeSponsors__sponsor--logo--text">Koineks</p>
+                    </a>                         
+                </div>      
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Henry Owainati                    
-                </div>  
-                              
-
+                        Adishakti                    
+                </div>   
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Abeer Owainati                    
-                </div>  
+                       Prayugo Moekie                  
+                </div>                    
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         BENNETT FAMILY                 
                 </div>                  
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        KOINEKS                    
-                </div>
-                
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Hemp360                    
-                </div>   
+                        DHTNETWORK           
+                </div>                                                            
+            </div>             
 
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Philip Kirsh                 
-                </div>       
-
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        John Howe                 
-                </div>                                                    
-            </div>                                
+                <div class="homeSponsors__sponsor" style='font-size: 1.7rem'>                     
+                       Philip Kirsh                  
+                </div>                    
         </div>   
+
+        <a href="/foundation" class="removelink">
+            <button class="homeSponsors__cta">Become a sponsor!</button>
+        </a>
 
         <div class="homeSponsors__kickstarter">
             <p class="homeSponsors__kickstarter--title">Thank you as well to the 
@@ -123,6 +139,12 @@
                     Check out the campaign here
                 </p>
             </a>
+
+            <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="removelink">
+                <p class="homeSponsors__kickstarter--more">
+                    Get involved through Indiegogo here
+                </p>
+            </a>            
         </div>              
     </div>
 

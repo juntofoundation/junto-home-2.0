@@ -1,11 +1,39 @@
 
 @import 'base';
 
+// Global components
+@import './../src/components/Nav/Nav';  
+@import './../src/components/Flux/Flux';    
+@import './../src/components/Footer/Footer';        
+@import './../src/components/Media/Media';        
+
+// Home 
 @import './../src/pages/Home/Home';
 @import './../src/components/Home/HomeHeader/HomeHeader';   
 @import './../src/components/Home/HomePillars/HomePillars';   
 @import './../src/components/Home/HomeSponsors/HomeSponsors';           
 
-@import './../src/components/Nav/Nav';  
-@import './../src/components/Flux/Flux';    
-@import './../src/components/Footer/Footer';        
+// Learn
+@import './../src/pages/Learn/Learn';
+
+// Pack
+@import './../src/pages/Pack/Pack';
+
+// Foundation 
+@import './../src/pages/Foundation/Foundation';
+
+// Events
+@import './../src/pages/Events/Events';
+
+// Manifesto
+@import './../src/pages/Manifesto/Manifesto';
+
+// Faq
+@import './../src/pages/Faq/Faq';
+
+
+
+
+
+
+

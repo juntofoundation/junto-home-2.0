@@ -4,27 +4,29 @@
         <a href="/" class="removelink">
             <div class="nav__logo--container">
                 <img class="nav__logo--image" src="../../assets/images/junto-home-2.0__logo.png" alt="">
-                <!-- <p class="nav__logo--text">JUNTO</p>             -->
             </div>        
         </a>
         <div class="nav__items">
             <div class="nav__item">
-                <a href='/' class="removelink">LEARN</a>
+                <a href='/learn' class="removelink">LEARN</a>
             </div>            
             <div class="nav__item">
-                <a href='/' class="removelink">PACK</a>
-            </div>
-            <!-- <div class="nav__item">
-                <a href='/' class="removelink">FOUNDATION</a>
-            </div> -->
-            <div class="nav__item">
-                <a href='/' class="removelink">MANIFESTO</a>
+                <a href='/pack' class="removelink">PACK</a>
             </div>
             <div class="nav__item">
-                <a href='/' class="removelink">FAQ</a>
+                <a href='/foundation' class="removelink">FOUNDATION</a>
+            </div>            
+            <div class="nav__item">
+                <a href='/events' class="removelink">EVENTS</a>
             </div>
+            <div class="nav__item">
+                <a href='/manifesto' class="removelink">MANIFESTO</a>
+            </div>
+            <div class="nav__item">
+                <a href='/faq' class="removelink">FAQ</a>
+            </div>            
             <div class="nav__button">
-                <a href='/' class="removelink">SIGN UP</a>
+                <a href='https://junto.typeform.com/to/xpwCxK' target="blank" class="removelink">SIGN UP</a>
             </div>            
         </div>
 
