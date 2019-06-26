@@ -55,7 +55,7 @@
 
     &__button {
         margin-left: 2rem; 
-        padding: .75rem 2rem;
+        padding: 1rem 2rem;
         color: white; 
         background-image: linear-gradient(to right, $junto-purple, $junto-primary);
         font-size: 1.2rem;
@@ -63,5 +63,10 @@
         outline: none;
         border: none;
         border-radius: 100px;
+        transition: all .2s; 
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }

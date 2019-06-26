@@ -243,14 +243,17 @@ body {
       color: #307FAB; }
   .nav__button {
     margin-left: 2rem;
-    padding: .75rem 2rem;
+    padding: 1rem 2rem;
     color: white;
     background-image: linear-gradient(to right, #5E54D0, #307FAB);
     font-size: 1.2rem;
     font-weight: 500;
     outline: none;
     border: none;
-    border-radius: 100px; }
+    border-radius: 100px;
+    transition: all .2s; }
+    .nav__button:hover {
+      transform: scale(1.05); }
 
 .flux {
   padding: 5rem 8%;
@@ -331,3 +334,76 @@ body {
       font-weight: 500; }
       .footer__social--text:hover {
         text-decoration: underline; }
+
+.media {
+  z-index: 1001;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column; }
+  .media__top {
+    min-height: 7rem;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    background-color: white;
+    display: flex;
+    padding: 0 1.5rem;
+    align-items: center;
+    justify-content: space-between; }
+  .media__logo {
+    display: flex;
+    align-items: center; }
+    .media__logo--image {
+      height: 3rem; }
+    .media__logo--name {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-left: .75rem; }
+  .media__back {
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer; }
+  .media__bottom {
+    height: 95vh;
+    width: 100vw;
+    display: flex; }
+  .media__panel {
+    width: 25vw;
+    background-color: white;
+    border-left: 1px solid #eee; }
+  .media__main {
+    width: 70vw; }
+    .media__main--video {
+      height: 80%;
+      width: 100%; }
+  .media__videos {
+    width: 30vw;
+    background-color: white;
+    border-left: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; }
+  .media__video {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    cursor: pointer; }
+    .media__video--thumbnail {
+      height: 10rem;
+      margin-right: 1rem; }
+    .media__video--details {
+      display: flex;
+      flex-direction: column; }
+    .media__video--title {
+      font-size: 1.4rem;
+      font-weight: 500; }
+    .media__video--date {
+      font-size: 1.2rem;
+      color: #555;
+      font-weight: 500; }
