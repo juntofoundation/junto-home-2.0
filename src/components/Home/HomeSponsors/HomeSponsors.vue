@@ -4,7 +4,7 @@
         <h2 class="homeSponsors__title">Meet the people who are making this project possible</h2>
         <p class="homeSponsors__body">As a nonprofit, our early 
             stage success relies on the generosity of individuals and organizations. 
-            The following philanthropists have provided Junto with a strong foundation to move forward.</p>
+            We'd like to recognize the following philanthropists.</p>
 
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SPECIAL SPONSORS</h2>    
@@ -123,6 +123,12 @@
                     Check out the campaign here
                 </p>
             </a>
+
+            <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="removelink">
+                <p class="homeSponsors__kickstarter--more">
+                    Get involved through Indiegogo here
+                </p>
+            </a>            
         </div>              
     </div>
 
