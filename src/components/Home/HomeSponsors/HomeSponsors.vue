@@ -9,21 +9,31 @@
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SPECIAL SPONSORS</h2>    
             <div class="homeSponsors__sponsors homeSponsors__sponsors--special">
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
-                    <a href="https://www.pacificintegral.com/gtc-north-america  " class="removelink">
-                        PACIFIC INTEGRAL                       
-                    </a>                                     
-                </div>
-
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--special">                     
-                        RAYMOND POWELL                    
-                </div>    
+                
+  
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--special"> 
-                    <a href="http://artbrock.com/" class="removelink">
+                    <a href="http://artbrock.com/" target="blank" class="removelink">
                         ARTHUR BROCK                                        
                     </a>                    
-                </div>                      
+                </div>   
+
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special"> 
+                    <a href="http://cogov.startbutton.com/" target="blank" class="removelink">
+                        RAYMOND POWELL                                        
+                    </a>                    
+                </div>  
+
+                <!-- <a href="" class="removelink"> -->
+                    <div class="homeSponsors__sponsor--special">    
+                        <a href="https://www.pacificintegral.com/gtc-north-america" target="blank" class="removelink homeSponsors__sponsor--logo">
+                            <img src="../../../assets/images/junto-home-2.0__sponsor--gtc.png" alt="" class="homeSponsors__sponsor--logo--image">
+                            <p class="homeSponsors__sponsor--logo--text">PACIFIC INTEGRAL</p>                            
+                        </a>                 
+                    </div> 
+
+                <!-- </a>    -->
+                   
             </div>      
             <div class="homeSponsors__sponsors homeSponsors__sponsors--specialtwo">
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">    
@@ -41,10 +51,8 @@
             <h2 class="homeSponsors__section--title">PLATINUM</h2>    
             <div class="homeSponsors__sponsors homeSponsors__sponsors--platinum">
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--platinum">    
-                    <a href="https://www.pacificintegral.com/gtc-north-america  " class="removelink">
                         ANDREW BURGE           
-                    </a>                                     
-                </div>
+                    </div>
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--platinum">                     
                         HW                  
@@ -63,59 +71,64 @@
 
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SILVER</h2>    
-            <div class="homeSponsors__sponsors homeSponsors__sponsors--silver">
-
+            <div class="homeSponsors__sponsors homeSponsors__sponsors--silver">                              
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
+                        Abeer Owainati                    
+                </div>     
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         David Wu                
                 </div>   
-
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        DHTNETWORK           
-                </div>    
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         Chris Graff             
-                </div>                
-
+                </div>           
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Adishakti                    
-                </div>    
+                        Henry Owainati                    
+                </div>           
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
+                        John Howe                 
+                </div>                                           
+
+                <div class="homeSponsors__sponsor--silver">     
+                    <a href="https://hemp360.com/" target="blank" class="removelink homeSponsors__sponsor--logo">
+                        <img src="../../../assets/images/junto-home-2.0__sponsor--hemp.png" class="homeSponsors__sponsor--logo--image">  
+                        <p class="homeSponsors__sponsor--logo--text">HEMP 360</p>
+                    </a>                         
+                </div>                           
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         Ian McCauley                    
                 </div>    
+                <div class="homeSponsors__sponsor--silver">     
+                    <a href="https://koineks.com/" target="blank" class="removelink homeSponsors__sponsor--logo">
+                        <img src="../../../assets/images/junto-home-2.0__sponsor--koineks.png" class="homeSponsors__sponsor--logo--image">  
+                        <p class="homeSponsors__sponsor--logo--text">Koineks</p>
+                    </a>                         
+                </div>      
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Henry Owainati                    
-                </div>  
-                              
-
+                        Adishakti                    
+                </div>   
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Abeer Owainati                    
-                </div>  
+                       Prayugo Moekie                  
+                </div>                    
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         BENNETT FAMILY                 
                 </div>                  
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        KOINEKS                    
-                </div>
-                
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Hemp360                    
-                </div>   
+                        DHTNETWORK           
+                </div>                                                            
+            </div>             
 
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Philip Kirsh                 
-                </div>       
-
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        John Howe                 
-                </div>                                                    
-            </div>                                
+                <div class="homeSponsors__sponsor" style='font-size: 1.7rem'>                     
+                       Philip Kirsh                  
+                </div>                    
         </div>   
 
-        <button class="homeSponsors__cta">Become a sponsor!</button>
+        <a href="/foundation" class="removelink">
+            <button class="homeSponsors__cta">Become a sponsor!</button>
+        </a>
 
         <div class="homeSponsors__kickstarter">
             <p class="homeSponsors__kickstarter--title">Thank you as well to the 

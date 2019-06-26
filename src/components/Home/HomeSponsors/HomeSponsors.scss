@@ -68,7 +68,7 @@
     }
 
     &__sponsor {
-        font-weight: 500; 
+        font-weight: 500;
         color: #333;
         text-align: center;
         transition: all .2s;
@@ -82,11 +82,34 @@
             color: #111;
         }
 
-        &--special {
+        &--logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            cursor: pointer;
+
+            &:hover > &--text {
+                color: #111;
+            }
+
+            &--image {
+                height: 3rem;
+                margin-right: .75rem;
+            }
+
+            &--text {
+                font-weight: 500;
+                color: #333;    
+                text-transform: uppercase;             
+            }
+        }
+
+        &--special {             
             flex-basis: 33.33%;            
         }
 
-        &--specialtwo {
+        &--specialtwo {             
             margin: 0 3rem;
         }
 
@@ -106,6 +129,7 @@
     &__cta {
         margin: 2rem; 
         border: 2px solid $junto-primary;
+        background-color: transparent; 
         color: $junto-primary;        
         font-size: 1.2rem;
         font-weight: 500;

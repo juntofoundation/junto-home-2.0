@@ -391,6 +391,21 @@ body {
     transition: all .4s; }
     .homeSponsors__sponsor:hover {
       color: #111; }
+    .homeSponsors__sponsor--logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+      cursor: pointer; }
+      .homeSponsors__sponsor--logo:hover > .homeSponsors__sponsor--logo--text {
+        color: #111; }
+      .homeSponsors__sponsor--logo--image {
+        height: 3rem;
+        margin-right: .75rem; }
+      .homeSponsors__sponsor--logo--text {
+        font-weight: 500;
+        color: #333;
+        text-transform: uppercase; }
     .homeSponsors__sponsor--special {
       flex-basis: 33.33%; }
     .homeSponsors__sponsor--specialtwo {
@@ -402,6 +417,7 @@ body {
   .homeSponsors__cta {
     margin: 2rem;
     border: 2px solid #307FAB;
+    background-color: transparent;
     color: #307FAB;
     font-size: 1.2rem;
     font-weight: 500;
