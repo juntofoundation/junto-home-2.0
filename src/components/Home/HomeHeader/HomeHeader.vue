@@ -17,9 +17,13 @@
             </div>
             <img class="homeHeader__mockups" src="../../../assets/images/junto-home-2.0__mockups.png" alt="">  
 
-            <junto-media v-if="visible">
-                <p slot="back" class="media__back" @click="visible=false">BACK</p>
-            </junto-media>
+            <transition name="fade">
+                <junto-media v-if="visible">
+                    <p slot="back" class="media__back" @click="visible=false">BACK</p>
+                </junto-media>
+                <div v-else></div>        
+            </transition>
+
     </div>
 </template>
 
@@ -51,3 +55,14 @@
 </script>
 
  
+<style>
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity .2s
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+        opacity: 0
+    }
+</style>
