@@ -1,0 +1,64 @@
+
+.packHeader {
+    background-color: white; 
+    padding: 4rem 8rem; 
+
+    &__title {
+        font-size: 2.4rem; 
+        font-weight: 600;
+        margin-bottom: 1.5rem; 
+    }
+
+    &__subtitle {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-right: 25%;
+        margin-bottom: 2rem; 
+    }
+
+    &__section {
+        // margin-bottom: 1rem; 
+    }
+
+    &__pack {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+
+    }
+
+    &__member {
+        flex-basis: 25%;
+        margin-bottom: 3rem;
+        
+        &--photo {
+            height: 22rem;
+            width: 22rem;
+            margin-bottom: 1rem; 
+            overflow-y: hidden; 
+
+
+            &--image {
+                // height: 100%;
+                width: 100%;
+            }
+        }
+
+        &--details {
+            display: flex;
+            flex-direction: column;       
+            width: 22rem;   
+        }
+
+        &--name {
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+
+        &--title  {
+            font-size: 1.7rem;
+            font-weight: 500;            
+        }
+    }
+}
