@@ -485,22 +485,22 @@ body {
   .packHeader__pack {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap; }
   .packHeader__member {
     flex-basis: 25%;
     margin-bottom: 3rem; }
     .packHeader__member--photo {
-      height: 22rem;
-      width: 22rem;
+      height: 24rem;
+      width: 24rem;
       margin-bottom: 1rem;
-      overflow-y: hidden; }
+      overflow-y: hidden;
+      cursor: pointer; }
       .packHeader__member--photo--image {
         width: 100%; }
     .packHeader__member--details {
       display: flex;
       flex-direction: column;
-      width: 22rem; }
+      width: 24rem; }
     .packHeader__member--name {
       font-size: 1.7rem;
       font-weight: 600; }
@@ -513,6 +513,27 @@ body {
   width: 100%;
   height: 100%;
   position: relative; }
+
+.eventsHeader {
+  background-color: white;
+  padding: 4rem 0; }
+  .eventsHeader__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding: 0 8rem; }
+  .eventsHeader__subtitle {
+    padding: 0 25% 0 8rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 2rem; }
+  .eventsHeader__calendar {
+    height: 75vh;
+    width: 100vw;
+    padding: 0 8rem; }
+    .eventsHeader__calendar--calendar {
+      height: 100%;
+      width: 100%; }
 
 .manifesto {
   margin-top: 7rem;

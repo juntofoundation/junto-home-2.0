@@ -37,7 +37,7 @@
                     </div>
                     <div class="packHeader__member--details">
                         <p class="packHeader__member--name">Josh Parkin</p>
-                        <p class="packHeader__member--title">CTO</p>
+                        <p class="packHeader__member--title">Chief Technology Officer</p>
                     </div>
                 </div>             
 
