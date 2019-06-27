@@ -37,6 +37,11 @@
 
                 <a href="https://www.instagram.com/junto.foundation/" target="blank" class="removelink footer__social">
                     <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__instagram.png" alt="">
+                    <p class="footer__social--text">Telegram</p>
+                </a>                          
+
+                <a href="https://www.instagram.com/junto.foundation/" target="blank" class="removelink footer__social">
+                    <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__instagram.png" alt="">
                     <p class="footer__social--text">Instagram</p>
                 </a>                       
 

@@ -2,8 +2,9 @@
 <template>
     <div class="eventsHeader">
         <p class="eventsHeader__title">Junto Events</p>
-        <p class="eventsHeader__subtitle">We understand social media can do so much. Our commmunity
-            holds space for a variety of physical events around the world. Come connect with people
+        <p class="eventsHeader__subtitle">We understand social media won't replace 
+            the connections you make it real life. We
+            hold space for a variety of events around the world. Get to know the community
             and reach out if you'd like to host Junto events in your city!
         </p>
         <div class="eventsHeader__calendar">

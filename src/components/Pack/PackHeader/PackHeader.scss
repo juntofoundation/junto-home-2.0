@@ -33,8 +33,8 @@
         margin-bottom: 3rem;      
         
         &--photo {
-            height: 24rem;
-            width: 24rem;
+            height: 22rem;
+            width: 22rem;
             margin-bottom: 1rem; 
             overflow-y: hidden; 
 
@@ -49,16 +49,16 @@
         &--details {
             display: flex;
             flex-direction: column;       
-            width: 24rem;   
+            width: 22rem;   
         }
 
         &--name {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             font-weight: 600;
         }
 
         &--title  {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             font-weight: 500;            
         }
     }

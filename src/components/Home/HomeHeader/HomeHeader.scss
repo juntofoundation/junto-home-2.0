@@ -2,6 +2,7 @@
     position: relative;
     height: 95vh;
     background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
+    background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
 
     &__content {
         display: flex;

@@ -111,7 +111,7 @@ body {
       transform: scale(1.05); }
 
 .footer {
-  height: 27rem;
+  height: 33rem;
   width: 100%;
   background-color: #111;
   padding: 4rem 1.5rem;
@@ -249,7 +249,8 @@ body {
 .homeHeader {
   position: relative;
   height: 95vh;
-  background-image: linear-gradient(to right top, #5E54D0, #307FAB); }
+  background-image: linear-gradient(to right top, #5E54D0, #307FAB);
+  background-image: linear-gradient(to right top, #4D42C9, #307FAB); }
   .homeHeader__content {
     display: flex;
     flex-direction: column;
@@ -464,6 +465,10 @@ body {
   height: 100%;
   position: relative; }
 
+.learnHeader {
+  height: 40rem;
+  background-color: #eee; }
+
 .pack {
   margin-top: 7rem;
   width: 100%;
@@ -490,8 +495,8 @@ body {
     flex-basis: 25%;
     margin-bottom: 3rem; }
     .packHeader__member--photo {
-      height: 24rem;
-      width: 24rem;
+      height: 22rem;
+      width: 22rem;
       margin-bottom: 1rem;
       overflow-y: hidden;
       cursor: pointer; }
@@ -500,12 +505,12 @@ body {
     .packHeader__member--details {
       display: flex;
       flex-direction: column;
-      width: 24rem; }
+      width: 22rem; }
     .packHeader__member--name {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       font-weight: 600; }
     .packHeader__member--title {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       font-weight: 500; }
 
 .events {
@@ -523,7 +528,7 @@ body {
     margin-bottom: 1.5rem;
     padding: 0 8rem; }
   .eventsHeader__subtitle {
-    padding: 0 25% 0 8rem;
+    padding: 0 20% 0 8rem;
     font-size: 1.7rem;
     font-weight: 500;
     margin-bottom: 2rem; }
@@ -546,3 +551,39 @@ body {
   width: 100%;
   height: 100%;
   position: relative; }
+
+.faqHeader {
+  background-color: white;
+  padding: 4rem 8rem; }
+  .faqHeader__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .faqHeader__subtitle {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: 25%;
+    margin-bottom: 2rem; }
+  .faqHeader__nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem; }
+    .faqHeader__nav--item {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-right: 4rem;
+      cursor: pointer;
+      transition: all .2s;
+      color: #999; }
+      .faqHeader__nav--item:hover {
+        color: #333; }
+      .faqHeader__nav--item--active {
+        color: #333; }
+  .faqHeader__faq {
+    margin-bottom: 1rem; }
+    .faqHeader__faq--question {
+      font-size: 1.7rem;
+      font-weight: 600; }
+    .faqHeader__faq--answer {
+      font-size: 1.7rem;
+      font-weight: 400; }
