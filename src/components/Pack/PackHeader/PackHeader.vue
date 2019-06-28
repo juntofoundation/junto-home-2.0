@@ -39,17 +39,8 @@
                         <p class="packHeader__member--name">Josh Parkin</p>
                         <p class="packHeader__member--title">Chief Technology Officer</p>
                     </div>
-                </div>             
+                </div>       
 
-                <div class="packHeader__member">
-                    <div class="packHeader__member--photo">
-                        <img src="../../../assets/images/junto-home-2.0__headshot--drea.png" alt="" class="packHeader__member--photo--image">
-                    </div>
-                    <div class="packHeader__member--details">
-                        <p class="packHeader__member--name">Drea Bennett</p>
-                        <p class="packHeader__member--title">Creative Director</p>
-                    </div>
-                </div>        
 
                 <div class="packHeader__member">
                     <div class="packHeader__member--photo">
@@ -59,7 +50,17 @@
                         <p class="packHeader__member--name">Dora Czovek</p>
                         <p class="packHeader__member--title">Head of Operations</p>
                     </div>
-                </div>                                             
+                </div>                       
+
+                <div class="packHeader__member">
+                    <div class="packHeader__member--photo">
+                        <img src="../../../assets/images/junto-home-2.0__headshot--drea.png" alt="" class="packHeader__member--photo--image">
+                    </div>
+                    <div class="packHeader__member--details">
+                        <p class="packHeader__member--name">Drea Bennett</p>
+                        <p class="packHeader__member--title">Creative Director</p>
+                    </div>
+                </div>                                                    
             </div>             
         </div>        
 

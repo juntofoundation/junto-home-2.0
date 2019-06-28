@@ -20,8 +20,8 @@
             </div>
 
             <div class="faqHeader__faq" v-for="faq in faqs" v-if="community">
-                <p class="faqHeader__faq--question" v-if="faq.type == 'community'"> {{ faq.question }}</p>
-                <p class="faqHeader__faq--answer" v-if="faq.type == 'community'">{{ faq.answer }}</p>
+                <p class="faqHeader__faq--question" v-if="faq.type == 'community'" @click="toggleVisibility(faq.id)"> {{ faq.question }}</p>
+                <p class="faqHeader__faq--answer" v-if="faq.type == 'community' && isVisible">{{ faq.answer }}</p>
             </div>            
 
             <div class="faqHeader__faq" v-for="faq in faqs" v-if="design">
@@ -46,6 +46,7 @@
     export default {
         data() {
             return {
+                isVisible: false,
                 all: true,
                 community: false,
                 design: false,
@@ -55,17 +56,22 @@
                     { 
                       question: 'What was the inspiration behind Junto?', 
                       answer: 'Authenticity', 
-                      type: 'community'
+                      type: 'community',
+                      id: 0
                     },
                     { 
                       question: 'What does Junto mean and how do you pronounce it?', 
                       answer: 'Authenticity', 
-                      type: 'community'
+                      type: 'community',
+                      id: 1
+
                     },
                     { 
                       question: 'What is Junto for?', 
                       answer: 'Authenticity', 
-                      type: 'community'
+                      type: 'community',
+                      id: 2
+
                     },
                     { 
                       question: 'What does decentralized technology mean and what value does it provide?', 
@@ -102,10 +108,16 @@
                     this.community = true;
                 } else if (category == 'design') {
                     this.design = true;
-                } else if (category == 'technology') {
+                } else if (category == 'technology') {  
                     this.technology = true;
                 } else if (category == 'fundraising') {
                     this.fundraising = true;
+                }
+            },
+
+            toggleVisibility(id) {
+                if(this.isVisible == false) {
+                    this.isVisible == true; 
                 }
             }
         },        

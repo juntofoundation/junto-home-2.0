@@ -1,0 +1,76 @@
+
+.foundationHeader {
+    background-color: white; 
+    padding: 4rem 8rem; 
+
+    &__title {
+        font-size: 2.4rem; 
+        font-weight: 600;
+        margin-bottom: 1.5rem; 
+    }
+
+    &__subtitle {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-right: 25%;
+        margin-bottom: 4rem; 
+    }
+
+    &__pillars {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+    }
+
+    &__pillar {
+        flex-basis: 33.3%;
+        display: flex;
+        flex-direction: column;
+
+        &--middle {
+            margin: 0 6rem; 
+        }
+
+        &--icon {
+            height: 4rem;
+            margin-bottom: 1.5rem; 
+        }
+        &--title {
+            font-size: 1.7rem;
+            font-weight: 600;
+            margin-bottom: 1rem; 
+        }
+
+        &--body {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__channels {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem; 
+
+        &--title {
+            font-size: 2.4rem;
+            font-weight: 600;
+        }
+
+        &--subtitle {
+            font-size: 1.7rem;
+            font-weight: 500;
+        }
+
+        &--channels {
+            margin-top: 1rem; 
+            display: flex;
+        }
+
+        &--channel {
+            font-size: 1.7rem;
+            font-weight: 500; 
+            margin-right: 2rem; 
+        }
+    }
+
+}

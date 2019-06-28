@@ -39,8 +39,11 @@
 
         }
     }
-
+    &__faqs {
+        margin-right: 36%; 
+    }
     &__faq {
+        cursor: pointer;
         margin-bottom: 1rem; 
 
         &--question {

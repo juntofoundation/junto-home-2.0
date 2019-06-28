@@ -513,6 +513,61 @@ body {
       font-size: 1.5rem;
       font-weight: 500; }
 
+.foundation {
+  margin-top: 7rem;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.foundationHeader {
+  background-color: white;
+  padding: 4rem 8rem; }
+  .foundationHeader__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .foundationHeader__subtitle {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: 25%;
+    margin-bottom: 4rem; }
+  .foundationHeader__pillars {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem; }
+  .foundationHeader__pillar {
+    flex-basis: 33.3%;
+    display: flex;
+    flex-direction: column; }
+    .foundationHeader__pillar--middle {
+      margin: 0 6rem; }
+    .foundationHeader__pillar--icon {
+      height: 4rem;
+      margin-bottom: 1.5rem; }
+    .foundationHeader__pillar--title {
+      font-size: 1.7rem;
+      font-weight: 600;
+      margin-bottom: 1rem; }
+    .foundationHeader__pillar--body {
+      font-size: 1.5rem; }
+  .foundationHeader__channels {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem; }
+    .foundationHeader__channels--title {
+      font-size: 2.4rem;
+      font-weight: 600; }
+    .foundationHeader__channels--subtitle {
+      font-size: 1.7rem;
+      font-weight: 500; }
+    .foundationHeader__channels--channels {
+      margin-top: 1rem;
+      display: flex; }
+    .foundationHeader__channels--channel {
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-right: 2rem; }
+
 .events {
   margin-top: 7rem;
   width: 100%;
@@ -579,7 +634,10 @@ body {
         color: #333; }
       .faqHeader__nav--item--active {
         color: #333; }
+  .faqHeader__faqs {
+    margin-right: 36%; }
   .faqHeader__faq {
+    cursor: pointer;
     margin-bottom: 1rem; }
     .faqHeader__faq--question {
       font-size: 1.7rem;
