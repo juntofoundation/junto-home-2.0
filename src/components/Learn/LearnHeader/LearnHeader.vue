@@ -13,6 +13,8 @@
         </div>
        
         <junto-learn-header-design v-if="design"></junto-learn-header-design>
+        <junto-learn-header-technology v-if="technology"></junto-learn-header-technology>
+        <junto-learn-header-nonprofit v-if="nonprofit"></junto-learn-header-nonprofit>
 
         <div class="learnHeader__section--reads">
 
@@ -23,7 +25,9 @@
 </template>
 
 <script>
-import juntoLearnHeaderDesign from './LearnHeaderDesign/LearnHeaderDesign.vue';
+    import juntoLearnHeaderDesign from './LearnHeaderDesign/LearnHeaderDesign.vue';
+    import juntoLearnHeaderTechnology from './LearnHeaderTechnology/LearnHeaderTechnology.vue';
+    import juntoLearnHeaderNonprofit from './LearnHeaderNonprofit/LearnHeaderNonprofit.vue';
 
     export default {
         data() {
@@ -50,7 +54,11 @@ import juntoLearnHeaderDesign from './LearnHeaderDesign/LearnHeaderDesign.vue';
             }
         },
         components: {
-            juntoLearnHeaderDesign
+            juntoLearnHeaderDesign,
+            juntoLearnHeaderTechnology,
+            juntoLearnHeaderNonprofit,
+
+
         }
     }
 </script>

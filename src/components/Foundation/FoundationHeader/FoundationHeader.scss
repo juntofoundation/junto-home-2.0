@@ -46,31 +46,4 @@
         }
     }
 
-    &__channels {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 2rem; 
-
-        &--title {
-            font-size: 2.4rem;
-            font-weight: 600;
-        }
-
-        &--subtitle {
-            font-size: 1.7rem;
-            font-weight: 500;
-        }
-
-        &--channels {
-            margin-top: 1rem; 
-            display: flex;
-        }
-
-        &--channel {
-            font-size: 1.7rem;
-            font-weight: 500; 
-            margin-right: 2rem; 
-        }
-    }
-
 }
