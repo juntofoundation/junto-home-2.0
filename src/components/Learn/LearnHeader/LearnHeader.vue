@@ -7,9 +7,9 @@
             sustainable online and offline tools dedicated to activating the vast resovoir of human potential.
         </p>
         <div class="learnHeader__nav">
-            <p class="learnHeader__nav--item" @click="setCategory('design')">DESIGN</p>
-            <p class="learnHeader__nav--item" @click="setCategory('technology')">TECHNOLOGY</p>
-            <p class="learnHeader__nav--item" @click="setCategory('nonprofit')">NOT FOR PROFIT</p>
+            <p class="learnHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p>
+            <p class="learnHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">TECHNOLOGY</p>
+            <p class="learnHeader__nav--item" :class="{ active: nonprofit }" @click="setCategory('nonprofit')">NOT FOR PROFIT</p>
         </div>
        
         <junto-learn-header-design v-if="design"></junto-learn-header-design>
@@ -54,3 +54,9 @@ import juntoLearnHeaderDesign from './LearnHeaderDesign/LearnHeaderDesign.vue';
         }
     }
 </script>
+
+<style>
+    .active {
+        color: #333; 
+    }
+</style>
