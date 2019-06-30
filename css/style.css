@@ -466,8 +466,60 @@ body {
   position: relative; }
 
 .learnHeader {
-  height: 40rem;
-  background-color: #eee; }
+  background-color: white;
+  padding: 4rem 8rem; }
+  .learnHeader__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .learnHeader__subtitle {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: 25%;
+    margin-bottom: 2rem; }
+  .learnHeader__nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem; }
+    .learnHeader__nav--item {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-right: 4rem;
+      cursor: pointer;
+      transition: all .2s;
+      color: #999; }
+      .learnHeader__nav--item:hover {
+        color: #333; }
+  .learnHeader__section {
+    min-height: 27rem;
+    margin: 6rem 0;
+    display: flex; }
+    .learnHeader__section--left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 8%;
+      padding-left: 8%; }
+    .learnHeader__section--right {
+      width: 50%;
+      margin-left: 8%;
+      padding-right: 8%; }
+    .learnHeader__section--video {
+      height: 100%;
+      width: 100%; }
+    .learnHeader__section--visual {
+      width: 100%; }
+    .learnHeader__section--title {
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 1rem; }
+    .learnHeader__section--body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+    .learnHeader__section--text {
+      font-size: 1.7rem; }
 
 .pack {
   margin-top: 7rem;

@@ -21,8 +21,7 @@
                 <p class="foundationHeader__pillar--title">OPEN SOURCE</p>
                 <p class="foundationHeader__pillar--body">All of our software development is open source.
                     This means our code is readily available for anyone to review, contribute to, and take as their own.
-                    <!-- This holds us accountable and enables us to help other projects with their 
-                    development.     -->
+
                 </p>            
             </div>
 
@@ -35,9 +34,33 @@
             </div>                        
         </div> 
 
+         <!-- <div class="foundationHeader__pillars">
+            <div class="foundationHeader__pillar">
+                <p class="foundationHeader__pillar--title">ONE-TIME DONATIONS</p>
+                <p class="foundationHeader__pillar--body">We accept one-time donation through these Indiegogo InDemand,
+                    PayPal, and Holo Tokens. Our address to receive Holo Tokens is.
+                </p>                
+            </div>
 
+            <div class="foundationHeader__pillar foundationHeader__pillar--middle">
+                <p class="foundationHeader__pillar--title">BECOME A SPONSOR</p>
+                <p class="foundationHeader__pillar--body">If you're an individual or organization that 
+                    would like to sponsor Junto and be highlighted on our home page, feel free to 
+                    send an email to eric@junto.foundation. 
+                </p>            
+            </div>
 
-        <div class="foundationHeader__channels">
+            <div class="foundationHeader__pillar">
+                <p class="foundationHeader__pillar--title">RECURRING PLEDGES</p>
+                <p class="foundationHeader__pillar--body">We hold monthly calls anyone can join, 
+                    are active on Telegram, will be trasparent with our finances, and open source 
+                    all of our designs and code.
+                </p>
+            </div>                        
+        </div> 
+ -->
+
+         <div class="foundationHeader__channels">
             <p class="foundationHeader__channels--title">One-time Donations</p>
             <p class="foundationHeader__channels--subtitle">We accept one-time donation through these channels.</p>
             <div class="foundationHeader__channels--channels">
@@ -49,7 +72,7 @@
         </div>
 
         <div class="foundationHeader__channels">
-            <p class="foundationHeader__channels--title">Become a Sponsor</p>
+            <p class="foundationHeader__channels--title">BECOME A SPONSOR</p>
             <p class="foundationHeader__channels--subtitle">We accept one-time donation through these channels.</p>
         </div>
 
@@ -57,8 +80,6 @@
             <p class="foundationHeader__channels--title">Recurring Pledges</p>
             <p class="foundationHeader__channels--subtitle">Our founder Eric does not take a salary from Junto. 
         Find out why, read his story, and support his work here</p>
-
-        </div>                
-        
+        </div>                         
     </div>
 </template>
