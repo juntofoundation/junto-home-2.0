@@ -8,11 +8,12 @@
             early on that will ensure the integrity of this organization is sustainable long term. 
         </p>
 
-         <div class="foundationHeader__pillars">
+         <div class="foundationHeader__pillars">    
             <div class="foundationHeader__pillar">
                 <p class="foundationHeader__pillar--title">ONE-TIME DONATIONS</p>
-                <p class="foundationHeader__pillar--body">We accept one-time donation through these Indiegogo InDemand,
-                    PayPal, and Holo Tokens. Our address to receive Holo Tokens is.
+                <p class="foundationHeader__pillar--body">We accept one-time donation through 
+                    <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" style="text-decoration: none; color: blue;">Indiegogo InDemand</a>,
+                    PayPal, and Holo Tokens. Our address to receive Holo Tokens is: 0xCD75b4046A99101a232bB105915F182C7b7E136E
                 </p>                
             </div>
 
@@ -28,7 +29,7 @@
                 <p class="foundationHeader__pillar--title">RECURRING PLEDGES</p>
                 <p class="foundationHeader__pillar--body">Our founder Eric does not take
                     a salary from Junto. Feel free to find out why, read his story, and support his work
-                    here. 
+                    on Patreon. 
                 </p>
             </div>                        
         </div> 

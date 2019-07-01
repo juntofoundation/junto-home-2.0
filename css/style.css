@@ -240,6 +240,40 @@ body {
       color: #555;
       font-weight: 500; }
 
+.packMember {
+  background-color: white;
+  padding: 4rem 22% 8rem 22%;
+  display: flex;
+  flex-direction: column; }
+  .packMember__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem; }
+    .packMember__nav--item {
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all .2s; }
+  .packMember__left {
+    width: 35%; }
+  .packMember__right {
+    width: 65%;
+    padding-left: 5rem; }
+  .packMember__photo {
+    width: 100%; }
+    .packMember__photo--image {
+      height: 100%;
+      width: 100%; }
+  .packMember__name {
+    font-size: 2.4rem;
+    font-weight: 600; }
+  .packMember__title {
+    font-size: 2rem;
+    font-weight: 500; }
+  .packMember__bio {
+    font-size: 1.7rem; }
+
 .home {
   margin-top: 7rem;
   width: 100%;
@@ -545,15 +579,43 @@ body {
     flex-wrap: wrap; }
   .packHeader__member {
     flex-basis: 25%;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    transition: all .2s;
+    cursor: pointer; }
     .packHeader__member--photo {
       height: 22rem;
       width: 22rem;
       margin-bottom: 1rem;
       overflow-y: hidden;
+      position: relative;
       cursor: pointer; }
       .packHeader__member--photo--image {
         width: 100%; }
+      .packHeader__member--photo:hover > .packHeader__member--cover {
+        opacity: .8; }
+      .packHeader__member--photo:hover > .packHeader__member--cover--text {
+        opacity: 1; }
+    .packHeader__member--cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: linear-gradient(to right, #5E54D0, #307FAB);
+      opacity: 0;
+      z-index: 998;
+      transition: all .2s; }
+      .packHeader__member--cover--text {
+        opacity: 0;
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        position: absolute;
+        top: 10rem;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all .2s;
+        z-index: 999; }
     .packHeader__member--details {
       display: flex;
       flex-direction: column;
@@ -666,8 +728,6 @@ body {
       transition: all .2s;
       color: #999; }
       .faqHeader__nav--item:hover {
-        color: #333; }
-      .faqHeader__nav--item--active {
         color: #333; }
   .faqHeader__faqs {
     margin-right: 36%; }

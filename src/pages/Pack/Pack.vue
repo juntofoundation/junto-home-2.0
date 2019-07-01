@@ -8,7 +8,7 @@
         <junto-pack-header></junto-pack-header>
 
         <!-- flux-->
-        <junto-flux></junto-flux>      
+        <!-- <junto-flux></junto-flux>       -->
 
         <!-- footer-->
         <junto-footer></junto-footer>                

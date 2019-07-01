@@ -26,7 +26,7 @@
 
             <div class="learnHeader__section--right">
                 <h2 class="learnHeader__section--title">Agent-centric</h2>
-                    <p class="learnHeader__section--text">As a distributed application, our platform is more private, secure
+                    <p class="learnHeader__section--text">As a distributed application, Junto is more private, secure
                          and censorship-resistant. It is completely advertisement-free as well.</p>
              
             </div>            

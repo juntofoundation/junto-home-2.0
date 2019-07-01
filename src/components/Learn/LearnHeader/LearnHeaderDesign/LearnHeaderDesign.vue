@@ -67,10 +67,11 @@
             <div class="learnHeader__section--right">
                 <h2 class="learnHeader__section--title">Dynamic Discovery</h2>
 
-                    <p class="learnHeader__section--text">- Discover people and information through your social graph (degrees of separation)</p>
+                    <!-- <p class="learnHeader__section--text">- Discover people and information through your social graph (degrees of separation)</p> -->
                     <p class="learnHeader__section--text">- Create your own perspectives by adding individuals to unique feeds</p>
                     <p class="learnHeader__section--text">- Explore any perspective by channels (topics)</p>
                     <p class="learnHeader__section--text">- No algorithims that reinforce existing perspectives. You design your own experience.</p>
+                    <p class="learnHeader__section--text">- Groundbreaking feature to be revealed soon..</p>
              
             </div>            
 
