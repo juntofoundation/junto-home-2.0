@@ -5,11 +5,8 @@
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Powered by Holochain</h2>
-                    <p class="learnHeader__section--text">- Agency</p>
-                    <p class="learnHeader__section--text">- Accountability</p>
-                    <p class="learnHeader__section--text">- Authenticity</p>
-                    <p class="learnHeader__section--text">- Transparency</p>
-                    <p class="learnHeader__section--text">- Simplicity</p>                    
+                    <p class="learnHeader__section--text">Junto is built on a new, distributed technology
+                        called Holochain. We don't own, track, or sell your data - you own your identity and information.</p>              
 
                 </div>
             </div>
@@ -24,15 +21,13 @@
 
         <div class="learnHeader__section">
             <div class="learnHeader__section--left">
-                <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
+                <img src="../../../../assets/images/junto-home-2.0__learn--distributed.png" class="learnHeader__section--visual" alt="">
             </div>
 
             <div class="learnHeader__section--right">
-                <h2 class="learnHeader__section--title">Open Source</h2>
-                    <p class="learnHeader__section--text">- Transparent social profiles</p>
-                    <p class="learnHeader__section--text">- No like buttons or mandatory follower counts</p>
-                    <p class="learnHeader__section--text">- Junto is completely free of advertisements</p>
-                    <p class="learnHeader__section--text">- Fully customizeable notifications</p>
+                <h2 class="learnHeader__section--title">Agent-centric</h2>
+                    <p class="learnHeader__section--text">As a distributed application, our platform is more private, secure
+                         and censorship-resistant. It is completely advertisement-free as well.</p>
              
             </div>            
 
@@ -41,18 +36,16 @@
         <div class="learnHeader__section">
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
-                    <h2 class="learnHeader__section--title">Cutting Edge</h2>
-                    <p class="learnHeader__section--text">- Create in an everexpanding number of ways</p>
-                    <p class="learnHeader__section--text">- Our initial release will include Longform, Photo, Shortform, Bullet, and Events</p>
-                    <p class="learnHeader__section--text">- These will evolve
-                        with the types of expressions the community wants to exist</p> 
-                    <p class="learnHeader__section--text">- This center of expression will be fully customizable</p>                         
+                    <h2 class="learnHeader__section--title">Open Source</h2>
+                    <p class="learnHeader__section--text">All of our code is open source. This means anyone
+                        can review and contribute to our development, holding us accountable and enabling us
+                        to grow in a decentralized manner. (Github here)</p>                   
 
                 </div>
             </div>
 
             <div class="learnHeader__section--right">
-                <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
+                <img src="../../../../assets/images/junto-home-2.0__learn--opensource.png" class="learnHeader__section--visual" alt="">
             </div>            
 
         </div>      

@@ -3,7 +3,7 @@
     <div>
         <div class="learnHeader__section">
             <div class="learnHeader__section--left">
-                <div class="learnHeader__section--body">
+                <div class="learnHeader__section--body">    
                     <h2 class="learnHeader__section--title">Not For Profit</h2>
                     <p class="learnHeader__section--text">Junto is a New York-registered nonprofit
                     independent of investors and shareholders. This movement belongs to all of us and none of us. </p>           
@@ -44,7 +44,25 @@
                 <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
             </div>            
 
-        </div>      
+        </div>     
+
+        <div class="learnHeader__section">
+            <div class="learnHeader__section--left">
+                <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
+            </div>                 
+            <div class="learnHeader__section--right">
+                <div class="learnHeader__section--body">
+                    <h2 class="learnHeader__section--title">Offline</h2>
+                    <p class="learnHeader__section--text">We are growing a distributed
+                        network of physical Junto Dens (communities) around the world.
+                        Over time, we will reallocate a percentage of our revenue towards
+                        these Dens so they can affect change unique to their local communities.
+                    </p>
+                </div>
+            </div>
+       
+
+        </div>              
 
    
     </div>

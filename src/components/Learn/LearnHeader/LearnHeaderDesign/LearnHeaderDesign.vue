@@ -5,11 +5,15 @@
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Design Principles</h2>
-                    <p class="learnHeader__section--text">- Agency</p>
+                    <p class="learnHeader__section--text">We believe the forms we communicate
+                        through are just as important as the message itself. Here are some
+                        of our design principles: <strong> Agency, Accountability, Authenticity, Transparency, Simplicity.</strong>
+                    </p>
+                    <!-- <p class="learnHeader__section--text">- Agency</p>
                     <p class="learnHeader__section--text">- Accountability</p>
                     <p class="learnHeader__section--text">- Authenticity</p>
                     <p class="learnHeader__section--text">- Transparency</p>
-                    <p class="learnHeader__section--text">- Simplicity</p>                    
+                    <p class="learnHeader__section--text">- Simplicity</p>                     -->
 
                 </div>
             </div>
@@ -50,14 +54,14 @@
             </div>
 
             <div class="learnHeader__section--right">
-                <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
+                <img src="../../../../assets/images/junto-home-2.0__learn--creation.png" class="learnHeader__section--visual" alt="">
             </div>            
 
         </div>      
 
         <div class="learnHeader__section">
             <div class="learnHeader__section--left">
-                <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
+                <img src="../../../../assets/images/junto-home-2.0__learn--explore.png" class="learnHeader__section--visual" alt="">
             </div>
 
             <div class="learnHeader__section--right">
@@ -85,7 +89,7 @@
             </div>
 
             <div class="learnHeader__section--right">
-                <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
+                <img src="../../../../assets/images/junto-home-2.0__learn--layers.png" class="learnHeader__section--visual" alt="">
             </div>            
 
         </div>              

@@ -4,7 +4,7 @@
         <h2 class="foundationHeader__title">Support the Junto Foundation</h2>
         <p class="foundationHeader__subtitle"> Junto is a nonprofit organization registered
             in New York. This means there are no investors or shareholders that 'own' a stake 
-            in Junto and can alter the direction of it moving forward. We wanted to set measures
+            in Junto and can alter the direction of it moving forward. We are setting measures 
             early on that will ensure the integrity of this organization is sustainable long term. 
         </p>
 
@@ -26,9 +26,9 @@
 
             <div class="foundationHeader__pillar">
                 <p class="foundationHeader__pillar--title">RECURRING PLEDGES</p>
-                <p class="foundationHeader__pillar--body">We hold monthly calls anyone can join, 
-                    are active on Telegram, will be trasparent with our finances, and open source 
-                    all of our designs and code.
+                <p class="foundationHeader__pillar--body">Our founder Eric does not take
+                    a salary from Junto. Feel free to find out why, read his story, and support his work
+                    here. 
                 </p>
             </div>                        
         </div> 
@@ -37,3 +37,4 @@
 </template>
 
 
+    

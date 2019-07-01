@@ -471,19 +471,16 @@ body {
   .learnHeader__title {
     font-size: 2.4rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
-    margin-left: 8rem; }
+    margin-bottom: 1.5rem; }
   .learnHeader__subtitle {
     font-size: 1.7rem;
     font-weight: 500;
     margin-bottom: 2rem;
-    margin-right: 25%;
-    margin-left: 8rem; }
+    margin-right: 25%; }
   .learnHeader__nav {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
-    margin-left: 8rem; }
+    margin-bottom: 2rem; }
     .learnHeader__nav--item {
       font-size: 1.4rem;
       font-weight: 600;
