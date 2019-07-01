@@ -8,15 +8,15 @@
             <div style="display: flex">
                 <div class="packMember__left">
                     <div class="packMember__photo">
-                        <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--eric.png" alt="">        
+                        <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--art.png" alt="">        
                     </div>
                     <div class="packMember__socials">
                         <img src="" alt="" class="packMember__social">
                     </div>
                 </div>
                 <div class="packMember__right">
-                    <h2 slot="packMemberName" class="packMember__name">Eric Yang</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">Founder, Executive Director, President of Board</h2>            
+                    <h2 slot="packMemberName" class="packMember__name">Arthur Brock</h2>
+                    <h2 slot="packMemberTitle" class="packMember__title">Advisor, Co-founder of Holochain</h2>            
                     
                     <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
                     <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!

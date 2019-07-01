@@ -96,43 +96,61 @@
                 <h2 class="packHeader__title">Board of Directors</h2>        
                 <div class="packHeader__pack">
                     <div class="packHeader__member">
-                        <div class="packHeader__member--photo">
-                            <img src="../../../assets/images/junto-home-2.0__headshot--eric.png" alt="" class="packHeader__member--photo--image">
-                        </div>
-                        <div class="packHeader__member--details">
-                            <p class="packHeader__member--name">Eric Yang</p>
-                            <p class="packHeader__member--title">President, Board Member</p>
-                        </div>
+                        <a href="/pack-eric" class="removelink">
+
+                            <div class="packHeader__member--photo">
+                                    <p class="packHeader__member--cover--text">Eric's Story</p>
+                                    <div class="packHeader__member--cover">&nbsp;</div>                            
+                                <img src="../../../assets/images/junto-home-2.0__headshot--eric.png" alt="" class="packHeader__member--photo--image">
+                            </div>
+                            <div class="packHeader__member--details">
+                                <p class="packHeader__member--name">Eric Yang</p>
+                                <p class="packHeader__member--title">President, Board Member</p>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="packHeader__member">
-                        <div class="packHeader__member--photo">
-                            <img src="../../../assets/images/junto-home-2.0__headshot--riley.png" alt="" class="packHeader__member--photo--image">
-                        </div>
-                        <div class="packHeader__member--details">
-                            <p class="packHeader__member--name">Riley Wagner</p>
-                            <p class="packHeader__member--title">Secretary, Board Member</p>
-                        </div>
+                        <a href="/pack-riley" class="removelink">
+                            <div class="packHeader__member--photo">
+                                <p class="packHeader__member--cover--text">Riley's Story</p>
+                                <div class="packHeader__member--cover">&nbsp;</div>                             
+                                <img src="../../../assets/images/junto-home-2.0__headshot--riley.png" alt="" class="packHeader__member--photo--image">
+                            </div>
+                            <div class="packHeader__member--details">
+                                <p class="packHeader__member--name">Riley Wagner</p>
+                                <p class="packHeader__member--title">Secretary, Board Member</p>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="packHeader__member">
-                        <div class="packHeader__member--photo">
-                            <img src="../../../assets/images/junto-home-2.0__headshot--ekene.png" alt="" class="packHeader__member--photo--image">
-                        </div>
-                        <div class="packHeader__member--details">
-                            <p class="packHeader__member--name">Ekene Nkem-Mmekam</p>
-                            <p class="packHeader__member--title">Treasurer, Board Member</p>
-                        </div>
+                        <a href="/pack-ekene" class="removelink">
+                            <div class="packHeader__member--photo">
+                                <p class="packHeader__member--cover--text">Ekene's Story</p>
+                                <div class="packHeader__member--cover">&nbsp;</div>                             
+                                <img src="../../../assets/images/junto-home-2.0__headshot--ekene.png" alt="" class="packHeader__member--photo--image">
+                            </div>
+                            <div class="packHeader__member--details">
+                                <p class="packHeader__member--name">Ekene Nkem-Mmekam</p>
+                                <p class="packHeader__member--title">Treasurer, Board Member</p>
+                            </div>
+                        </a>
                     </div>             
 
                     <div class="packHeader__member">
-                        <div class="packHeader__member--photo">
-                            <img src="../../../assets/images/junto-home-2.0__headshot--kyle.png" alt="" class="packHeader__member--photo--image">
-                        </div>
-                        <div class="packHeader__member--details">
-                            <p class="packHeader__member--name">Kyle Hornick</p>
-                            <p class="packHeader__member--title">Board Member</p>
-                        </div>
+                        <a href="/pack-kyle" class="removelink">
+                            <div class="packHeader__member--photo">
+                                <p class="packHeader__member--cover--text">Kyle's Story</p>
+                                <div class="packHeader__member--cover">&nbsp;</div>                             
+                                <img src="../../../assets/images/junto-home-2.0__headshot--kyle.png" alt="" class="packHeader__member--photo--image">
+                            </div>
+                            <div class="packHeader__member--details">
+                                
+                                <p class="packHeader__member--name">Kyle Hornick</p>
+                                <p class="packHeader__member--title">Board Member</p>
+                            </div>
+                        </a>
                     </div>                              
                 </div>      
             </div>
@@ -140,43 +158,59 @@
             <h2 class="packHeader__title">Advisors</h2>        
             <div class="packHeader__pack">
                 <div class="packHeader__member">
-                    <div class="packHeader__member--photo">
-                        <img src="../../../assets/images/junto-home-2.0__headshot--art.png" alt="" class="packHeader__member--photo--image">
-                    </div>
-                    <div class="packHeader__member--details">
-                        <p class="packHeader__member--name">Arthur Brock</p>
-                        <p class="packHeader__member--title">Co-founder of Holochain</p>
-                    </div>
+                    <a href="/pack-art" class="removelink">
+                        <div class="packHeader__member--photo">
+                            <p class="packHeader__member--cover--text">Art's Story</p>
+                            <div class="packHeader__member--cover">&nbsp;</div>                           
+                            <img src="../../../assets/images/junto-home-2.0__headshot--art.png" alt="" class="packHeader__member--photo--image">
+                        </div>
+                        <div class="packHeader__member--details">
+                            <p class="packHeader__member--name">Arthur Brock</p>
+                            <p class="packHeader__member--title">Co-founder of Holochain</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="packHeader__member">
-                    <div class="packHeader__member--photo">
-                        <img src="../../../assets/images/junto-home-2.0__headshot--ray.png" alt="" class="packHeader__member--photo--image">
-                    </div>
-                    <div class="packHeader__member--details">
-                        <p class="packHeader__member--name">Raymond Powell</p>
-                        <p class="packHeader__member--title">Founder of CoGov</p>
-                    </div>
+                    <a href="/pack-ray" class="removelink">
+                        <div class="packHeader__member--photo">
+                            <p class="packHeader__member--cover--text">Ray's Story</p>
+                            <div class="packHeader__member--cover">&nbsp;</div>                           
+                            <img src="../../../assets/images/junto-home-2.0__headshot--ray.png" alt="" class="packHeader__member--photo--image">
+                        </div>
+                        <div class="packHeader__member--details">
+                            <p class="packHeader__member--name">Raymond Powell</p>
+                            <p class="packHeader__member--title">Founder of CoGov</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="packHeader__member">
-                    <div class="packHeader__member--photo">
-                        <img src="../../../assets/images/junto-home-2.0__headshot--rushkoff.png" alt="" class="packHeader__member--photo--image">
-                    </div>
-                    <div class="packHeader__member--details">
-                        <p class="packHeader__member--name">Douglas Rushkoff</p>
-                        <p class="packHeader__member--title">Activist, Author</p>
-                    </div>
+                    <a href="/pack-douglas" class="removelink">
+                        <div class="packHeader__member--photo">
+                            <p class="packHeader__member--cover--text">Douglas' Story</p>
+                            <div class="packHeader__member--cover">&nbsp;</div>                           
+                            <img src="../../../assets/images/junto-home-2.0__headshot--rushkoff.png" alt="" class="packHeader__member--photo--image">
+                        </div>
+                        <div class="packHeader__member--details">
+                            <p class="packHeader__member--name">Douglas Rushkoff</p>
+                            <p class="packHeader__member--title">Activist, Author</p>
+                        </div>
+                    </a>
                 </div>             
 
                 <div class="packHeader__member">
-                    <div class="packHeader__member--photo">
-                        <img src="../../../assets/images/junto-home-2.0__headshot--dora.png" alt="" class="packHeader__member--photo--image">
-                    </div>
-                    <div class="packHeader__member--details">
-                        <p class="packHeader__member--name">Nick Manning</p>
-                        <p class="packHeader__member--title">Software Engineer</p>
-                    </div>
+                    <a href="/pack-nick" class="removelink">
+                        <div class="packHeader__member--photo">
+                            <p class="packHeader__member--cover--text">Nick's Story</p>
+                            <div class="packHeader__member--cover">&nbsp;</div>                           
+                            <img src="../../../assets/images/junto-home-2.0__headshot--dora.png" alt="" class="packHeader__member--photo--image">
+                        </div>
+                        <div class="packHeader__member--details">
+                            <p class="packHeader__member--name">Nick Manning</p>
+                            <p class="packHeader__member--title">Software Engineer</p>
+                        </div>
+                    </a>
                 </div>                              
             </div>                    
         </div>

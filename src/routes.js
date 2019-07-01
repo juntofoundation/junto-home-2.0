@@ -7,7 +7,13 @@ import PackYaz from './pages/Pack/PackMembers/PackYaz.vue'
 import PackJosh from './pages/Pack/PackMembers/PackJosh.vue'
 import PackDora from './pages/Pack/PackMembers/PackDora.vue'
 import PackDrea from './pages/Pack/PackMembers/PackDrea.vue'
-// import Pack from './pages/Pack/Pack.vue'
+import PackRiley from './pages/Pack/PackMembers/PackRiley.vue'
+import PackEkene from './pages/Pack/PackMembers/PackEkene.vue'
+import PackKyle from './pages/Pack/PackMembers/PackKyle.vue'
+import PackArt from './pages/Pack/PackMembers/PackArt.vue'
+import PackRay from './pages/Pack/PackMembers/PackRay.vue'
+import PackDoug from './pages/Pack/PackMembers/PackDoug.vue'
+import PackNick from './pages/Pack/PackMembers/PackNick.vue'
 import Foundation from './pages/Foundation/Foundation.vue'
 import Events from './pages/Events/Events.vue'
 import Manifesto from './pages/Manifesto/Manifesto.vue'
@@ -23,6 +29,13 @@ export const routes = [
     { path: '/pack-josh', component: PackJosh },
     { path: '/pack-dora', component: PackDora },    
     { path: '/pack-drea', component: PackDrea },    
+    { path: '/pack-riley', component: PackRiley },
+    { path: '/pack-ekene', component: PackEkene},
+    { path: '/pack-kyle', component: PackKyle },
+    { path: '/pack-art', component: PackArt },    
+    { path: '/pack-ray', component: PackRay },  
+    { path: '/pack-douglas', component: PackDoug },    
+    { path: '/pack-nick', component: PackNick },        
     { path: '/foundation', component: Foundation },
     { path: '/events', component: Events },
     { path: '/manifesto', component: Manifesto },
