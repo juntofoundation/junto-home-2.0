@@ -15,7 +15,7 @@
         <div class="faqHeader__faqs">
             <div class="faqHeader__faq" v-for="faq in faqs" v-if="all" @click="toggleVisibility(faq.id)">
                 <p class="faqHeader__faq--question"> {{ faq.question }}</p>
-                <p class="faqHeader__faq--answer" style="display: none" :id=faq.id>{{ faq.answer }}</p>
+                <p class="faqHeader__faq--answer" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
             </div>
 
             <div class="faqHeader__faq" v-for="faq in faqs" v-if="community">
@@ -157,11 +157,14 @@
             toggleVisibility(id) {
                 
                 if(document.getElementById(id).style.display == 'none') {
+                    document.getElementById(id).style.transition = 'all .2s';
                     document.getElementById(id).style.display = 'block';
+
                 } else {
+                    document.getElementById(id).style.transition = 'all .2s';
                     document.getElementById(id).style.display = 'none';
                 }
-                
+                        
             }
         },        
 

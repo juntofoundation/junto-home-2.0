@@ -39,7 +39,18 @@
     }
     &__faq {
         cursor: pointer;
-        margin-bottom: 1rem; 
+        margin-bottom: 2.5rem; 
+
+        &:hover > &--question {
+            border-left: 2px solid $junto-primary;
+            padding-left: .75rem;
+            transition: all .2s; 
+        }
+
+        &:hover > &--answer {
+            padding-left: .75rem;
+            transition: all .2s; 
+        }
 
         &--question {
             font-size: 1.7rem;
