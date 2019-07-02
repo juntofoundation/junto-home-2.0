@@ -5,8 +5,6 @@
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Design Principles</h2>
-                    <!-- <p class="learnHeader__section--text" style="margin-bottom: 1rem;">How we've been approaching things:    -->
-                    </p>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Agency    </p>                        
@@ -148,9 +146,29 @@
             <div class="learnHeader__section--right">
                 <img src="../../../../assets/images/junto-home-2.0__learn--layers.png" class="learnHeader__section--visual" alt="">
             </div>            
-
         </div>     
 
-        .learnHeader__         
+        <p class="learnHeader__more">Read our full product description article here.</p>
+
+            <div class="learnHeader__articles">
+                <div class="learnHeader__article learnHeader__article--medium   ">
+                    <p class="learnHeader__article--title">The Medium is the Message</p>
+                    <p class="learnHeader__article--subtitle">(high level design philosophy)</p>
+                    <p class="learnHeader__article--author">by Eric Yang</p>
+                </div>
+
+                <div class="learnHeader__article learnHeader__article--medium">
+                    <p class="learnHeader__article--title">Rebalancing Our Relationship With Technology</p>
+                    <p class="learnHeader__article--subtitle">(full product description)</p>
+                    <p class="learnHeader__article--author">by Eric Yang</p>
+                </div>
+
+                <div class="learnHeader__article learnHeader__article--medium">
+                    <p class="learnHeader__article--title">How Junto is Better than Chicken Soup</p>
+                    <p class="learnHeader__article--subtitle">(social context and inspiration)</p>
+                    <p class="learnHeader__article--author">by Yaz and Drea</p>
+                </div>                
+            </div>
+
     </div>
 </template>

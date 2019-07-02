@@ -50,6 +50,18 @@
 
         </div>      
 
+        <p class="learnHeader__more">Read our full product description article here.</p>
+
+            <div class="learnHeader__articles">
+                <div class="learnHeader__article learnHeader__article--individual">
+                    <p class="learnHeader__article--title">You're An Individual , Not A Statistic</p>
+                    <div class="learnHeader__article--subtitle">deep dive into decentralization</div>
+                    <p class="learnHeader__article--author">by Eric Yang</p>
+                </div>
+
+          
+            </div>        
+
    
     </div>
 </template>

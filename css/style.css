@@ -27,7 +27,8 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   outline: none;
-  letter-spacing: .5px; }
+  letter-spacing: .5px;
+  color: #333; }
 
 .removelink {
   text-decoration: none;
@@ -569,6 +570,56 @@ body {
         margin-right: 1rem; }
     .learnHeader__section--text {
       font-size: 1.7rem; }
+  .learnHeader__more {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer; }
+  .learnHeader__articles {
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 5% 0 5%; }
+  .learnHeader__article {
+    position: relative;
+    padding: 9% 2rem 0 2rem;
+    text-align: center;
+    color: white;
+    height: 25.5rem;
+    width: 34rem;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer; }
+    .learnHeader__article--medium {
+      background-image: linear-gradient(to right, rgba(51, 51, 51, 0.36), rgba(51, 51, 51, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png");
+      transition: all .2s; }
+      .learnHeader__article--medium:hover {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png"); }
+    .learnHeader__article--individual {
+      background-image: linear-gradient(to right, rgba(51, 51, 51, 0.36), rgba(51, 51, 51, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }
+      .learnHeader__article--individual:hover {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }
+    .learnHeader__article--title {
+      font-size: 2rem;
+      font-weight: 600; }
+    .learnHeader__article--subtitle {
+      position: absolute;
+      top: 2rem;
+      left: -2rem;
+      height: 5rem;
+      padding: .5rem 1rem;
+      background-image: linear-gradient(to right, #5E54D0, #307FAB);
+      font-size: 1.4rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center; }
+    .learnHeader__article--author {
+      position: absolute;
+      bottom: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.4rem;
+      font-weight: 500; }
 
 .pack {
   margin-top: 7rem;
