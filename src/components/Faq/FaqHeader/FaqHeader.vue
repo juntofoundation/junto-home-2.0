@@ -1,9 +1,8 @@
 <template>
     <div class="faqHeader">
         <h2 class="faqHeader__title">FAQs</h2>
-        <p class="faqHeader__subtitle"> Have a question? Feel free to browse through
-            these list of questions and reach out to us at hi@junto.foundation 
-            if there's anything you'd still like clarity on.
+        <p class="faqHeader__subtitle"> Here's a list of questions we receive on a frequent basis.
+            Reach out to us at hi@junto.foundation if there's anything you'd still like clarity on!
         </p>    
         <div class="faqHeader__nav">
             <p class="faqHeader__nav--item" :class="{ active: all }" @click="setCategory('all')">ALL</p>

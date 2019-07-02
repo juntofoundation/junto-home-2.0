@@ -33,7 +33,7 @@ export const routes = [
     { path: '/pack-ekene', component: PackEkene},
     { path: '/pack-kyle', component: PackKyle },
     { path: '/pack-art', component: PackArt },    
-    { path: '/pack-ray', component: PackRay },  
+    { path: '/pack-ray  ', component: PackRay },  
     { path: '/pack-douglas', component: PackDoug },    
     { path: '/pack-nick', component: PackNick },        
     { path: '/foundation', component: Foundation },
