@@ -17,9 +17,14 @@
 
     &__nav {
         display: flex;
-        align-items: center;        
+        flex-direction: column;
         margin-bottom: 2rem;
 
+        &--items {
+            display: flex;
+            align-items: center;                  
+
+        }
         &--item {
             font-size: 1.4rem;
             font-weight: 600; 
@@ -33,6 +38,10 @@
                 color: #333;
             }
         }
+        &--border {
+            width: 55rem;
+            border-bottom: 1px solid #eee; 
+        }
     }
     &__faqs {
         margin-right: 36%; 
@@ -43,6 +52,7 @@
 
         &:hover > &--question {
             border-left: 2px solid $junto-primary;
+            border-radius: 2px;
             padding-left: .75rem;
             transition: all .2s; 
         }

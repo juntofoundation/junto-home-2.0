@@ -7,9 +7,12 @@
             sustainable online and offline tools dedicated to activating the vast resovoir of human potential.
         </p>
         <div class="learnHeader__nav">
-            <p class="learnHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p>
-            <p class="learnHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">TECHNOLOGY</p>
-            <p class="learnHeader__nav--item" :class="{ active: nonprofit }" @click="setCategory('nonprofit')">NOT FOR PROFIT</p>
+            <div class="learnHeader__nav--items">
+                <p class="learnHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p>
+                <p class="learnHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">TECHNOLOGY</p>
+                <p class="learnHeader__nav--item" :class="{ active: nonprofit }" @click="setCategory('nonprofit')">NOT FOR PROFIT</p>                
+            </div>
+            <div class="learnHeader__nav--border">&nbsp;</div>
         </div>
        
         <junto-learn-header-design v-if="design"></junto-learn-header-design>

@@ -5,7 +5,7 @@
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Design Principles</h2>
-                    <p class="learnHeader__section--text" style="margin-bottom: 1rem;">How we've been approaching things:   
+                    <!-- <p class="learnHeader__section--text" style="margin-bottom: 1rem;">How we've been approaching things:    -->
                     </p>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
@@ -149,6 +149,8 @@
                 <img src="../../../../assets/images/junto-home-2.0__learn--layers.png" class="learnHeader__section--visual" alt="">
             </div>            
 
-        </div>              
+        </div>     
+
+        .learnHeader__         
     </div>
 </template>

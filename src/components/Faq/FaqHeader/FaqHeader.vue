@@ -5,11 +5,14 @@
             Reach out to us at hi@junto.foundation if there's anything you'd still like clarity on!
         </p>    
         <div class="faqHeader__nav">
-            <p class="faqHeader__nav--item" :class="{ active: all }" @click="setCategory('all')">ALL</p>
-            <p class="faqHeader__nav--item" :class="{ active: community }" @click="setCategory('community')">COMMUNITY</p>
-            <p class="faqHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p>
-            <p class="faqHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">TECHNOLOGY</p>
-            <p class="faqHeader__nav--item" :class="{ active: fundraising }" @click="setCategory('fundraising')">FUNDRAISING</p>
+            <div class="faqHeader__nav--items">
+                <p class="faqHeader__nav--item" :class="{ active: all }" @click="setCategory('all')">ALL</p>
+                <p class="faqHeader__nav--item" :class="{ active: community }" @click="setCategory('community')">COMMUNITY</p>
+                <p class="faqHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p>
+                <p class="faqHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">TECHNOLOGY</p>
+                <p class="faqHeader__nav--item" :class="{ active: fundraising }" @click="setCategory('fundraising')">FUNDRAISING</p>                
+            </div>
+            <div class="faqHeader__nav--border">&nbsp;</div>
         </div>
 
         <div class="faqHeader__faqs">
@@ -18,24 +21,24 @@
                 <p class="faqHeader__faq--answer" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
             </div>
 
-            <div class="faqHeader__faq" v-for="faq in faqs" v-if="community">
-                <p class="faqHeader__faq--question" v-if="faq.type == 'community'" @click="toggleVisibility(faq.id)"> {{ faq.question }}</p>
-                <p class="faqHeader__faq--answer" v-if="faq.type == 'community' && isVisible">{{ faq.answer }}</p>
+            <div class="faqHeader__faq" v-for="faq in faqs" v-if="community" @click="toggleVisibility(faq.id)">
+                <p class="faqHeader__faq--question" v-if="faq.type == 'community'"> {{ faq.question }}</p>
+                <p class="faqHeader__faq--answer" v-if="faq.type == 'community'" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
             </div>            
 
-            <div class="faqHeader__faq" v-for="faq in faqs" v-if="design">
+            <div class="faqHeader__faq" v-for="faq in faqs" v-if="design" @click="toggleVisibility(faq.id)">
                 <p class="faqHeader__faq--question" v-if="faq.type == 'design'"> {{ faq.question }}</p>
-                <p class="faqHeader__faq--answer" v-if="faq.type == 'design'">{{ faq.answer }}</p>
+                <p class="faqHeader__faq--answer" v-if="faq.type == 'design'" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
             </div>            
 
-            <div class="faqHeader__faq" v-for="faq in faqs" v-if="technology">
+            <div class="faqHeader__faq" v-for="faq in faqs" v-if="technology" @click="toggleVisibility(faq.id)">
                 <p class="faqHeader__faq--question" v-if="faq.type == 'technology'"> {{ faq.question }}</p>
-                <p class="faqHeader__faq--answer" v-if="faq.type == 'technology'">{{ faq.answer }}</p>
+                <p class="faqHeader__faq--answer" v-if="faq.type == 'technology'" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
             </div>            
 
-            <div class="faqHeader__faq" v-for="faq in faqs" v-if="fundraising">
+            <div class="faqHeader__faq" v-for="faq in faqs" v-if="fundraising" @click="toggleVisibility(faq.id)">
                 <p class="faqHeader__faq--question" v-if="faq.type == 'fundraising'"> {{ faq.question }}</p>
-                <p class="faqHeader__faq--answer" v-if="faq.type == 'fundraising'">{{ faq.answer }}</p>
+                <p class="faqHeader__faq--answer" v-if="faq.type == 'fundraising'" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
             </div>                        
         </div>
     </div>
