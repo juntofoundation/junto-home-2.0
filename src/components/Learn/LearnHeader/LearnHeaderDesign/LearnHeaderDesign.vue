@@ -5,10 +5,8 @@
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Design Principles</h2>
-                    <!-- <p class="learnHeader__section--text">We believe the forms we communicate
-                        through are just as important as the message itself. Here are some
-                        of our design principles:       
-                    </p> -->
+                    <p class="learnHeader__section--text" style="margin-bottom: 1rem;">How we've been approaching things:   
+                    </p>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Agency    </p>                        

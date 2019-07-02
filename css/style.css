@@ -357,6 +357,7 @@ body {
     justify-content: space-between;
     margin-bottom: 4rem; }
   .homePillars__pillar {
+    flex-basis: 33.33%;
     display: flex;
     flex-direction: column;
     align-items: center; }

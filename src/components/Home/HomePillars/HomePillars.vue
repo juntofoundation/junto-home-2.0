@@ -9,8 +9,8 @@
             <div class="homePillars__pillar">
                 <img src="../../../assets/images/junto-home-2.0__pillar--design.png" alt="" class="homePillars__pillar--icon">
                 <p class="homePillars__pillar--title">CONSCIOUSLY DESIGNED</p>
-                <p class="homePillars__pillar--body">Junto is designed to enhance agency and flexibility. 
-                    Within Junto, there are no vanity metrics, advertisements, or AI-powered 
+                <p class="homePillars__pillar--body">We believe the forms we communicate through
+                    are just as important as the message itself. Within Junto, there are no vanity metrics, advertisements, or AI-powered 
                     feeds that reinforce what you believe. Create and discover on your own terms.                     
                 </p>
                 

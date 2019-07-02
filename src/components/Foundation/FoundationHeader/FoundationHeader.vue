@@ -3,9 +3,7 @@
     <div class="foundationHeader">
         <h2 class="foundationHeader__title">Support the Junto Foundation</h2>
         <p class="foundationHeader__subtitle"> Junto is a nonprofit organization registered
-            in New York. This means there are no investors or shareholders that 'own' a stake 
-            in Junto and can alter the direction of it moving forward. We are setting measures 
-            early on that will ensure the integrity of this organization is sustainable long term. 
+            in New York. We are setting measures early on that will ensure the independence and integrity of this organization is sustainable long term. 
         </p>
 
          <div class="foundationHeader__pillars">    
@@ -20,8 +18,7 @@
             <div class="foundationHeader__pillar foundationHeader__pillar--middle">
                 <p class="foundationHeader__pillar--title">BECOME A SPONSOR</p>
                 <p class="foundationHeader__pillar--body">If you're an individual or organization that 
-                    would like to sponsor Junto and be highlighted on our home page, feel free to 
-                    send an email to eric@junto.foundation. 
+                    would like to sponsor Junto and be highlighted on our home page, send us an email here! 
                 </p>            
             </div>
 
