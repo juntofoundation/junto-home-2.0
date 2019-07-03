@@ -74,7 +74,10 @@
                                 <p class="packHeader__member--title">Head of Operations</p>
                             </div>
                         </a>
-                    </div>                       
+                    </div>              
+                </div>      
+
+                    <div class="packHeader__pack">
 
                     <div class="packHeader__member">
                         <a href="/pack-drea" class="removelink">
@@ -88,8 +91,9 @@
                                 <p class="packHeader__member--title">Creative Director</p>
                             </div>
                         </a>
-                    </div>                                                    
-                </div>             
+                    </div>                                                                         
+                        
+                    </div>                              
             </div>        
 
             <div class="packHeader__section">
@@ -204,7 +208,7 @@
                         <div class="packHeader__member--photo">
                             <p class="packHeader__member--cover--text">Nick's Story</p>
                             <div class="packHeader__member--cover">&nbsp;</div>                           
-                            <img src="../../../assets/images/junto-home-2.0__headshot--dora.png" alt="" class="packHeader__member--photo--image">
+                            <img src="../../../assets/images/junto-home-2.0__headshot--nick.png" alt="" class="packHeader__member--photo--image">
                         </div>
                         <div class="packHeader__member--details">
                             <p class="packHeader__member--name">Nick Manning</p>

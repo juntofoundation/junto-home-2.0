@@ -670,15 +670,15 @@ body {
   .packHeader__pack {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap; }
   .packHeader__member {
-    flex-basis: 25%;
     margin-bottom: 3rem;
     transition: all .2s;
     cursor: pointer; }
     .packHeader__member--photo {
-      height: 22rem;
-      width: 22rem;
+      height: 24rem;
+      width: 24rem;
       margin-bottom: 1rem;
       overflow-y: hidden;
       position: relative;
