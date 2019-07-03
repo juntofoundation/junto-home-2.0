@@ -677,8 +677,41 @@ body {
     flex-wrap: wrap; }
   .packHeader__member {
     margin-bottom: 3rem;
-    transition: all .2s;
-    cursor: pointer; }
+    transition: all .2s; }
+    .packHeader__member--invisible {
+      height: 24rem;
+      width: 24rem; }
+    .packHeader__member--hire {
+      height: 24rem;
+      width: 24rem;
+      border: 3px solid #307FAB;
+      margin-bottom: 1rem;
+      position: relative;
+      background-image: linear-gradient(to right top, white, white);
+      cursor: pointer;
+      transition: all .2s;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .packHeader__member--hire:hover {
+        background-image: linear-gradient(to right top, rgba(94, 84, 208, 0.8), rgba(48, 127, 171, 0.8));
+        border: 3px solid white; }
+      .packHeader__member--hire:hover > .packHeader__member--hire--text {
+        opacity: 1; }
+      .packHeader__member--hire--image {
+        height: 9rem; }
+      .packHeader__member--hire--text {
+        opacity: 0;
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        position: absolute;
+        top: 9rem;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all .2s;
+        z-index: 999; }
     .packHeader__member--photo {
       height: 24rem;
       width: 24rem;
