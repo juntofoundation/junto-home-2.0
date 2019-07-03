@@ -16,7 +16,7 @@
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Eric Yang</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">Founder, Executive Director, Board President</h2>            
+                    <h2 slot="packMemberTitle" class="packMember__title">Founder, Executive Director</h2>            
                     
                     <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
                     <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!

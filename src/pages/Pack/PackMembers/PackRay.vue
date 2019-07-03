@@ -34,7 +34,7 @@
 </template>
 
 <script>
-    import juntoNav from '../../../components/Nav/Nav.vue';
+    import juntoNav from '../../../components/Nav/Nav.vue';    
     import juntoFooter from '../../../components/Footer/Footer.vue';
 
     export default {
