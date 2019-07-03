@@ -50,7 +50,7 @@
 
         </div>      
 
-        <p class="learnHeader__more">Read our full product description article here.</p>
+        <p class="learnHeader__more">Learn more about decentralization here.</p>
 
             <div class="learnHeader__articles">
                 <div class="learnHeader__article learnHeader__article--individual">

@@ -591,14 +591,24 @@ body {
     background-position: center;
     cursor: pointer; }
     .learnHeader__article--medium {
-      background-image: linear-gradient(to right, rgba(51, 51, 51, 0.36), rgba(51, 51, 51, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png");
       transition: all .2s; }
       .learnHeader__article--medium:hover {
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png"); }
+        background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png"); }
+    .learnHeader__article--rebalance {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--rebalance.png");
+      transition: all .2s; }
+      .learnHeader__article--rebalance:hover {
+        background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--rebalance.png"); }
+    .learnHeader__article--soup {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--soup.png");
+      transition: all .2s; }
+      .learnHeader__article--soup:hover {
+        background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--soup.png"); }
     .learnHeader__article--individual {
-      background-image: linear-gradient(to right, rgba(51, 51, 51, 0.36), rgba(51, 51, 51, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }
       .learnHeader__article--individual:hover {
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }
+        background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }
     .learnHeader__article--title {
       font-size: 2rem;
       font-weight: 600; }

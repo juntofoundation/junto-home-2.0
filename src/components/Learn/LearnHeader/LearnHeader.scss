@@ -136,20 +136,40 @@
         cursor: pointer;
 
         &--medium {
-            background-image: linear-gradient(to right, rgba(#333, .36), rgba(#333, .36)), url('../../../src/assets/images/junto-home-2.0__learn--medium.png');
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--medium.png');
             transition: all .2s; 
 
             &:hover {
-            background-image: linear-gradient(to right, rgba(#fff, .36), rgba(#fff, .36)), url('../../../src/assets/images/junto-home-2.0__learn--medium.png');
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--medium.png');
 
             }
-        }
+        }   
 
-        &--individual {
-            background-image: linear-gradient(to right, rgba(#333, .36), rgba(#333, .36)), url('../../../src/assets/images/junto-home-2.0__learn--individual.png');
+        &--rebalance {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--rebalance.png');
+            transition: all .2s; 
 
             &:hover {
-            background-image: linear-gradient(to right, rgba(#fff, .36), rgba(#fff, .36)), url('../../../src/assets/images/junto-home-2.0__learn--individual.png');
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--rebalance.png');
+
+            }
+        }           
+
+        &--soup {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--soup.png');
+            transition: all .2s; 
+
+            &:hover {
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--soup.png');
+
+            }
+        }        
+
+        &--individual {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--individual.png');
+
+            &:hover {
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--individual.png');
 
             }            
 

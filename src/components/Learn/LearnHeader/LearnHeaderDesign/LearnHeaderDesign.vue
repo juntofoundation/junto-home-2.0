@@ -29,7 +29,9 @@
             </div>
 
             <div class="learnHeader__section--right">
-                <iframe class="learnHeader__section--video" src="https://www.youtube.com/embed/Ko6J9v1C9zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                <!-- <iframe class="learnHeader__section--video" src="https://www.youtube.com/embed/Ko6J9v1C9zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                 -->
+                <img src="../../../../assets/images/junto-home-2.0__learn--principles.png" class="learnHeader__section--visual" alt="">
+            
             </div>            
 
         </div>
@@ -153,19 +155,19 @@
             <div class="learnHeader__articles">
                 <div class="learnHeader__article learnHeader__article--medium   ">
                     <p class="learnHeader__article--title">The Medium is the Message</p>
-                    <p class="learnHeader__article--subtitle">(high level design philosophy)</p>
+                    <div class="learnHeader__article--subtitle">high level design philosophy</div>
                     <p class="learnHeader__article--author">by Eric Yang</p>
                 </div>
 
-                <div class="learnHeader__article learnHeader__article--medium">
+                <div class="learnHeader__article learnHeader__article--rebalance">
                     <p class="learnHeader__article--title">Rebalancing Our Relationship With Technology</p>
-                    <p class="learnHeader__article--subtitle">(full product description)</p>
+                    <p class="learnHeader__article--subtitle">full product description</p>
                     <p class="learnHeader__article--author">by Eric Yang</p>
                 </div>
 
-                <div class="learnHeader__article learnHeader__article--medium">
+                <div class="learnHeader__article learnHeader__article--soup ">
                     <p class="learnHeader__article--title">How Junto is Better than Chicken Soup</p>
-                    <p class="learnHeader__article--subtitle">(social context and inspiration)</p>
+                    <p class="learnHeader__article--subtitle">social context and inspiration</p>
                     <p class="learnHeader__article--author">by Yaz and Drea</p>
                 </div>                
             </div>

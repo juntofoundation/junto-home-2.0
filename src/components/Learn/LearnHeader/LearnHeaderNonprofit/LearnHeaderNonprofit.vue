@@ -12,9 +12,7 @@
             </div>
 
             <div class="learnHeader__section--right">
-                
-                <iframe class="learnHeader__section--video" src="https://www.youtube.com/embed/2FJL3ibnZlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
-                <!-- <iframe class="learnHeader__section--video" src="https://www.youtube.com/embed/Ko6J9v1C9zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                 -->
+                <img src="../../../../assets/images/junto-home-2.0__learn--nonprofit.png" class="learnHeader__section--visual" alt="">                
             </div>            
 
         </div>
@@ -41,7 +39,7 @@
             </div>
 
             <div class="learnHeader__section--right">
-                <img src="../../../../assets/images/junto-home-2.0__learn--flows.png" class="learnHeader__section--visual" alt="">
+                <img src="../../../../assets/images/junto-home-2.0__learn--transparent.png" class="learnHeader__section--visual" alt="">
             </div>            
 
         </div>     
