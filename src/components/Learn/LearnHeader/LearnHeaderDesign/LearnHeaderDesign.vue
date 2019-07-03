@@ -125,7 +125,7 @@
         <div class="learnHeader__section">
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
-                    <h2 class="learnHeader__section--title">Multiple Layers </h2>
+                    <h2 class="learnHeader__section--title">Flexible Engagement</h2>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Interact within the 'collective' (public layer)</p>                        

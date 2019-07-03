@@ -35,6 +35,16 @@ body {
   outline: none;
   color: inherit; }
 
+.addlink {
+  color: #307FAB;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: all .2s; }
+  .addlink:hover {
+    color: #206D98; }
+
 .nav {
   position: fixed;
   top: 0;
@@ -196,7 +206,7 @@ body {
       font-weight: 500;
       margin-left: .75rem; }
   .media__back {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer; }
   .media__bottom {
@@ -298,7 +308,7 @@ body {
     left: 10%;
     z-index: 300;
     height: 50rem;
-    width: 36vw; }
+    width: 38vw; }
   .homeHeader__title {
     color: white;
     font-size: 4rem;
@@ -347,9 +357,10 @@ body {
   align-items: center; }
   .homePillars__title {
     font-size: 2.4rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 1rem;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 2px; }
   .homePillars__subtitle {
     font-weight: 500;
     padding: 0 17%;
@@ -640,14 +651,6 @@ body {
       transform: translateX(-50%);
       font-size: 1.4rem;
       font-weight: 500; }
-  .learnHeader__link {
-    color: #307FAB;
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all .2s; }
-    .learnHeader__link:hover {
-      color: #206D98; }
 
 .pack {
   margin-top: 7rem;
