@@ -23,7 +23,7 @@
                 </junto-media>
                 <div v-else></div>        
             </transition>
-
+ 
     </div>
 </template>
 
