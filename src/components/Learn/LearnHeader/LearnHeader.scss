@@ -7,6 +7,7 @@
         font-size: 2.4rem; 
         font-weight: 600;
         margin-bottom: 1.5rem; 
+        text-align: center;
 
     }
 
@@ -14,26 +15,31 @@
         font-size: 1.7rem;
         font-weight: 500;
         margin-bottom: 2rem; 
-        margin-right: 25%;
+        text-align: center;
 
+        // margin-right: 25%;
+        margin: 0 17% 2rem 17%;
+        
     }
 
     &__nav {
         display: flex;
         flex-direction: column; 
+        align-items: center;
 
         margin-bottom: 2rem;
-        margin-right: 65%; 
 
         &--items {
             display: flex;
-            align-items: center;        
+            align-items: center;    
+            justify-content: space-between; 
+            text-align: center; 
+            width: 38rem; 
         }
 
         &--item {
             font-size: 1.4rem;
             font-weight: 600; 
-            margin-right: 4rem; 
             cursor: pointer;
             transition: all .2s;
 
@@ -126,7 +132,6 @@
 
     &__article {        
         position: relative;
-        padding: 9% 2rem 0 2rem; 
         text-align: center; 
         color: white;
         height: 25.5rem;
@@ -176,6 +181,10 @@
         }
         
         &--title {
+            position: absolute;
+            top: 10rem;
+            left: 2rem;
+            right: 2rem;         
             font-size: 2rem;
             font-weight: 600;   
         }
@@ -204,4 +213,17 @@
         }
     }
 
+
+    &__link {
+        color: $junto-primary; 
+        font-weight: 500;
+        text-decoration: none;
+
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            color: $junto-primary-dark;
+        }
+    }
 }

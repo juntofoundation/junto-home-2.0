@@ -115,7 +115,7 @@
                     </div>
                     <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
                         <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
-                        <p class="learnHeader__section--text">Groundbreaking feature to be revealed soon..</p>                        
+                        <p class="learnHeader__section--text">Exciting  feature to be revealed soon..</p>                        
                     </div>                                                            
                                      
             </div>            
@@ -150,27 +150,32 @@
             </div>            
         </div>     
 
-        <p class="learnHeader__more">Read our full product description article here.</p>
+        <a href="https://medium.com/juntolove/junto-rebalancing-our-relationship-with-technology-52c1213fe60a" target="blank" class="removelink"><p class="learnHeader__more">Read our full product description article here.</p></a>
 
             <div class="learnHeader__articles">
-                <div class="learnHeader__article learnHeader__article--medium   ">
-                    <p class="learnHeader__article--title">The Medium is the Message</p>
-                    <div class="learnHeader__article--subtitle">high level design philosophy</div>
-                    <p class="learnHeader__article--author">by Eric Yang</p>
-                </div>
+                    <a href="https://medium.com/juntolove/the-medium-is-the-message-644837313afb" target="blank" class="removelink">
+                        <div class="learnHeader__article learnHeader__article--medium">   
+                            <p class="learnHeader__article--title">The Medium is the Message</p>
+                            <div class="learnHeader__article--subtitle">high level design philosophy</div>
+                            <p class="learnHeader__article--author">by Eric Yang</p>
+                        </div>                  
+                    </a>
 
-                <div class="learnHeader__article learnHeader__article--rebalance">
-                    <p class="learnHeader__article--title">Rebalancing Our Relationship With Technology</p>
-                    <p class="learnHeader__article--subtitle">full product description</p>
-                    <p class="learnHeader__article--author">by Eric Yang</p>
-                </div>
+                <a href="https://medium.com/juntolove/junto-rebalancing-our-relationship-with-technology-52c1213fe60a" target="blank" class="removelink">
+                    <div class="learnHeader__article learnHeader__article--rebalance">
+                        <p class="learnHeader__article--title">Rebalancing Our Relationship With Technology</p>
+                        <p class="learnHeader__article--subtitle">full product description</p>
+                        <p class="learnHeader__article--author">by Eric Yang</p>
+                    </div>
+                </a>
 
-                <div class="learnHeader__article learnHeader__article--soup ">
-                    <p class="learnHeader__article--title">How Junto is Better than Chicken Soup</p>
-                    <p class="learnHeader__article--subtitle">social context and inspiration</p>
-                    <p class="learnHeader__article--author">by Yaz and Drea</p>
-                </div>                
+                <a href="https://medium.com/juntolove/how-junto-is-better-than-chicken-soup-a59164819917" target="blank" class="removelink">
+                    <div class="learnHeader__article learnHeader__article--soup">
+                        <p class="learnHeader__article--title">How Junto is Better than Chicken Soup</p>
+                        <p class="learnHeader__article--subtitle">social context and inspiration</p>
+                        <p class="learnHeader__article--author">by Yaz and Drea</p>
+                    </div>      
+                </a>          
             </div>
-
     </div>
 </template>

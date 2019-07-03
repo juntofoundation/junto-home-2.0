@@ -6,7 +6,7 @@
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Powered by Holochain</h2>
                     <p class="learnHeader__section--text">Junto is built on a new, distributed technology
-                        called Holochain. We don't own, track, or sell your data - you own your identity and information.</p>              
+                        called <a href="https://holochain.org/" target="blank" class="learnHeader__link">Holochain</a>. We don't own, track, or sell your data - you own your identity and information.</p>              
 
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <h2 class="learnHeader__section--title">Open Source</h2>
                     <p class="learnHeader__section--text">All of our code is open source. This means anyone
                         can review and contribute to our development, holding us accountable and enabling us
-                        to grow in a decentralized manner. (Github here)</p>                   
+                        to grow in a decentralized manner. <a href="https://github.com/juntofoundation" target="blank" class="learnHeader__link"> View our Github here</a>.</p>                   
 
                 </div>
             </div>
@@ -53,12 +53,13 @@
         <p class="learnHeader__more">Learn more about decentralization here.</p>
 
             <div class="learnHeader__articles">
-                <div class="learnHeader__article learnHeader__article--individual">
-                    <p class="learnHeader__article--title">You're An Individual , Not A Statistic</p>
-                    <div class="learnHeader__article--subtitle">deep dive into decentralization</div>
-                    <p class="learnHeader__article--author">by Eric Yang</p>
-                </div>
-
+                <a href="https://medium.com/juntolove/youre-an-individual-not-a-statistic-4e04408b3503" target="blank" class="removelink">
+                    <div class="learnHeader__article learnHeader__article--individual">
+                        <p class="learnHeader__article--title">You're An Individual , Not A Statistic</p>
+                        <div class="learnHeader__article--subtitle">deep dive into decentralization</div>
+                        <p class="learnHeader__article--author">by Eric Yang</p>
+                    </div>
+                </a>
           
             </div>        
 

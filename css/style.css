@@ -510,24 +510,28 @@ body {
   .learnHeader__title {
     font-size: 2.4rem;
     font-weight: 600;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    text-align: center; }
   .learnHeader__subtitle {
     font-size: 1.7rem;
     font-weight: 500;
     margin-bottom: 2rem;
-    margin-right: 25%; }
+    text-align: center;
+    margin: 0 17% 2rem 17%; }
   .learnHeader__nav {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
-    margin-right: 65%; }
+    align-items: center;
+    margin-bottom: 2rem; }
     .learnHeader__nav--items {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      width: 38rem; }
     .learnHeader__nav--item {
       font-size: 1.4rem;
       font-weight: 600;
-      margin-right: 4rem;
       cursor: pointer;
       transition: all .2s;
       color: #999; }
@@ -585,7 +589,6 @@ body {
     margin: 6rem 5% 0 5%; }
   .learnHeader__article {
     position: relative;
-    padding: 9% 2rem 0 2rem;
     text-align: center;
     color: white;
     height: 25.5rem;
@@ -613,6 +616,10 @@ body {
       .learnHeader__article--individual:hover {
         background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }
     .learnHeader__article--title {
+      position: absolute;
+      top: 10rem;
+      left: 2rem;
+      right: 2rem;
       font-size: 2rem;
       font-weight: 600; }
     .learnHeader__article--subtitle {
@@ -633,6 +640,14 @@ body {
       transform: translateX(-50%);
       font-size: 1.4rem;
       font-weight: 500; }
+  .learnHeader__link {
+    color: #307FAB;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .2s; }
+    .learnHeader__link:hover {
+      color: #206D98; }
 
 .pack {
   margin-top: 7rem;
