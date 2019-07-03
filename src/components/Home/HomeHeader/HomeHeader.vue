@@ -3,10 +3,10 @@
         <!-- backdrop -->
             <div class="homeHeader__content">
                 <h2 class="homeHeader__title">JUNTO</h2>
-                <h3 class="homeHeader__subtitle">A Movement for Authenticity</h3>
+                <h3 class="homeHeader__subtitle">A Movement For Authenticity</h3>
                 <p class="homeHeader__description">Junto is a new breed of social media founded
-                    in the spirit of authenticity. Our goal is to rebalance our relationship with technology
-                    and activate a wave of agency, privacy, and free expression.
+                    in the spirit of authenticity. Our goal is to rebalance our relationship with
+                    technology and inspire agency, privacy, and free expression.
                 </p>
                 <a class="removelink" @click="visible = true">
                     <div class="homeHeader__action">
@@ -23,7 +23,7 @@
                 </junto-media>
                 <div v-else></div>        
             </transition>
-
+ 
     </div>
 </template>
 

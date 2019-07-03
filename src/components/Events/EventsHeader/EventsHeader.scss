@@ -1,0 +1,30 @@
+
+.eventsHeader {
+    background-color: white; 
+    padding: 4rem 0;
+
+    &__title {
+        font-size: 2.4rem; 
+        font-weight: 600;
+        margin-bottom: 1.5rem;         
+        padding: 0 8rem;
+    }
+
+    &__subtitle {
+        padding: 0 20% 0 8rem;
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-bottom: 2rem;        
+    }
+
+    &__calendar {
+        height: 75vh;
+        width: 100vw;
+        padding: 0 8rem; 
+
+        &--calendar {
+            height: 100%;
+            width: 100%; 
+        }
+    }
+}

@@ -3,8 +3,8 @@
     <div class="homeSponsors">
         <h2 class="homeSponsors__title">Meet the people who are making this project possible</h2>
         <p class="homeSponsors__body">As a nonprofit, our early 
-            stage success relies on the generosity of individuals and organizations. 
-            We'd like to recognize the following philanthropists.</p>
+            stage success relies on the generosity of our supporters.
+            We'd like to recognize the following individuals and organizations.</p>
 
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SPECIAL SPONSORS</h2>    
@@ -42,7 +42,7 @@
                     </a>                 
                 </div>      
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">                     
-                        YANG FAMILY              
+                        YANG FAMILY (楊家)              
                 </div>                  
             </div>                          
         </div>            

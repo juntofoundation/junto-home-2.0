@@ -6,6 +6,7 @@
 @import './../src/components/Flux/Flux';    
 @import './../src/components/Footer/Footer';        
 @import './../src/components/Media/Media';        
+@import './../src/pages/Pack/PackMembers/PackMember';   
 
 // Home 
 @import './../src/pages/Home/Home';
@@ -13,23 +14,29 @@
 @import './../src/components/Home/HomePillars/HomePillars';   
 @import './../src/components/Home/HomeSponsors/HomeSponsors';           
 
-// Learn
+// Learn    
 @import './../src/pages/Learn/Learn';
+@import './../src/components/Learn/LearnHeader/LearnHeader';
 
 // Pack
 @import './../src/pages/Pack/Pack';
-
+@import './../src/components/Pack/PackHeader/PackHeader';
+    
 // Foundation 
 @import './../src/pages/Foundation/Foundation';
+@import './../src/components/Foundation/FoundationHeader/FoundationHeader';
 
 // Events
 @import './../src/pages/Events/Events';
+@import './../src/components/Events/EventsHeader/EventsHeader';
 
 // Manifesto
 @import './../src/pages/Manifesto/Manifesto';
 
 // Faq
 @import './../src/pages/Faq/Faq';
+@import './../src/components/Faq/FaqHeader/FaqHeader';                          
+
 
 
 

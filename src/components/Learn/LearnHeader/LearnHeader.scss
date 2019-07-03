@@ -1,0 +1,215 @@
+
+.learnHeader {
+    background-color: white; 
+    padding: 4rem 8rem; 
+
+    &__title {
+        font-size: 2.4rem; 
+        font-weight: 600;
+        margin-bottom: 1.5rem; 
+        text-align: center;
+
+    }
+
+    &__subtitle {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-bottom: 2rem; 
+        text-align: center;
+
+        // margin-right: 25%;
+        margin: 0 17% 2rem 17%;
+        
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+
+        margin-bottom: 2rem;
+
+        &--items {
+            display: flex;
+            align-items: center;    
+            justify-content: space-between; 
+            text-align: center; 
+            width: 38rem; 
+        }
+
+        &--item {
+            font-size: 1.4rem;
+            font-weight: 600; 
+            cursor: pointer;
+            transition: all .2s;
+
+            color: #999; 
+
+            &:hover {
+                color: #333;
+            }
+        }
+
+        &--border {
+            border-bottom: 1px solid #eee;
+            width: 38rem; 
+        }
+    }
+
+    &__section {
+        min-height: 27rem;
+        margin: 6rem 0;
+        display: flex;
+
+        &--left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin-right: 8%;
+            padding-left: 8rem;
+        }
+        
+        &--right {     
+            width: 50%;
+            margin-left: 8%;
+            padding-right: 8rem; 
+            
+        }
+
+        &--video {
+            height: 100%;
+            width: 100%;
+        }
+
+        &--visual {
+            width: 100%; 
+        }
+
+        &--title {
+            font-size: 2rem;
+            font-weight: 600; 
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        &--body {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        &--bullet {
+            display: flex; 
+            align-items: center; 
+            margin-bottom: 1rem;     
+            
+            &--icon {
+                height: 1.5rem; 
+                margin-right: 1rem;           
+            }
+        }
+        &--text {        
+            font-size: 1.7rem;
+            // display: flex;
+        }
+    }
+
+    &__more {
+        text-align: center; 
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+
+    &__articles {
+        display: flex;
+        justify-content: space-between;      
+        margin: 6rem 5% 0 5%; 
+
+    }
+
+    &__article {        
+        position: relative;
+        text-align: center; 
+        color: white;
+        height: 25.5rem;
+        width: 34rem;
+        background-size: cover; 
+        background-position: center; 
+        cursor: pointer;
+
+        &--medium {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--medium.png');
+            transition: all .2s; 
+
+            &:hover {
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--medium.png');
+
+            }
+        }   
+
+        &--rebalance {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--rebalance.png');
+            transition: all .2s; 
+
+            &:hover {
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--rebalance.png');
+
+            }
+        }           
+
+        &--soup {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--soup.png');
+            transition: all .2s; 
+
+            &:hover {
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--soup.png');
+
+            }
+        }        
+
+        &--individual {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--individual.png');
+
+            &:hover {
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--individual.png');
+
+            }            
+
+        }
+        
+        &--title {
+            position: absolute;
+            top: 10rem;
+            left: 2rem;
+            right: 2rem;         
+            font-size: 2rem;
+            font-weight: 600;   
+        }
+
+        &--subtitle {
+            position: absolute;
+            top: 2rem;
+            left: -2rem;
+            height: 5rem;
+            padding: .5rem 1rem; 
+            background-image: linear-gradient(to right, $junto-purple, $junto-primary);
+            font-size: 1.4rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            // margin-bottom: 1.5rem;
+        }
+        &--author {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;     
+            transform: translateX(-50%);
+
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+    }
+}

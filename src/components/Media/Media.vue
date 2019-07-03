@@ -49,7 +49,7 @@
                         <p class="media__video--title">Why Does Decentralization Matter?</p>
                         <p class="media__video--date">Mar 11, 2019</p>
                     </div>                       
-                    </div>   
+                </div>   
 
                 <div class="media__video" @click="updateVideo('five')">
                     <img class="media__video--thumbnail" src="../../assets/images/junto-home-2.0__thumbnail--communitysm.png" alt="">
@@ -57,7 +57,15 @@
                         <p class="media__video--title">Junto Community Series - How Do You Feel About Social Media?</p>
                         <p class="media__video--date">Feb 7, 2019</p>
                     </div>                        
-                </div>                                                                                                
+                </div>     
+
+                <div class="media__video" @click="updateVideo('four')">
+                    <img class="media__video--thumbnail" src="../../assets/images/junto-home-2.0__thumbnail--decentralization.png" alt="">
+                    <div class="media__video--details">
+                        <p class="media__video--title">Why Does Decentralization Matter?</p>
+                        <p class="media__video--date">Mar 11, 2019</p>
+                    </div>                       
+                </div>                                                                                                              
             </div>                    
         </div>
     </div>       

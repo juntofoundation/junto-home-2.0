@@ -19,9 +19,9 @@
             <div class="nav__item">
                 <a href='/events' class="removelink">EVENTS</a>
             </div>
-            <div class="nav__item">
+            <!-- <div class="nav__item">
                 <a href='/manifesto' class="removelink">MANIFESTO</a>
-            </div>
+            </div> -->
             <div class="nav__item">
                 <a href='/faq' class="removelink">FAQ</a>
             </div>            

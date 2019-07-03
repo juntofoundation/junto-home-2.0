@@ -2,6 +2,7 @@
     position: relative;
     height: 95vh;
     background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
+    background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
 
     &__content {
         display: flex;
@@ -13,7 +14,7 @@
         z-index: 300;
 
         height: 50rem;
-        width: 36vw;
+        width: 38vw;
     }
 
     &__title {
@@ -42,6 +43,7 @@
         align-items: center;
         border: 2px solid white;
         border-radius: 100px;
+        // background-color: transparent; 
         background-color: transparent;
         padding: 1rem 2rem;
 
@@ -49,8 +51,9 @@
         transition: all .2s;
 
         &:hover {
-            border: 2px solid $junto-primary; 
-            background-color: $junto-primary;
+            border: 2px solid $junto-primary-dark; 
+            background-color: $junto-primary-dark;
+            // background-color: $junto-primary;
 
         }
 
