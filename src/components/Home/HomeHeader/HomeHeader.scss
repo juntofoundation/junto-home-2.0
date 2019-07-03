@@ -43,6 +43,7 @@
         align-items: center;
         border: 2px solid white;
         border-radius: 100px;
+        // background-color: transparent; 
         background-color: transparent;
         padding: 1rem 2rem;
 
@@ -50,8 +51,9 @@
         transition: all .2s;
 
         &:hover {
-            border: 2px solid $junto-primary; 
-            background-color: $junto-primary;
+            border: 2px solid $junto-primary-dark; 
+            background-color: $junto-primary-dark;
+            // background-color: $junto-primary;
 
         }
 

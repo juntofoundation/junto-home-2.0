@@ -226,13 +226,11 @@
 
 
 <script>
-    import juntoPackMember from '../PackMember/PackMember.vue';
     import juntoFlux from '../../Flux/Flux.vue';
 
     export default {
 
         components: {
-            juntoPackMember,
             juntoFlux
         }
     }

@@ -39,7 +39,7 @@
             </div>                        
         </div>
         <a href="/learn" class="removelink">
-            <button class="homePillars__more">GO DEEPER</button>
+            <button class="homePillars__more">GO IN DEPTH</button>
         </a>
     </div>
 </template>

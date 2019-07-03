@@ -34,14 +34,11 @@
 </template>
 
 <script>
-    import juntoNav from '../../../components/Nav/Nav.vue';
-    import juntoPackHeader from '../../../components/Pack/PackMember/PackMember.vue';
-    import juntoFooter from '../../../components/Footer/Footer.vue';
+    import juntoNav from '../../../components/Nav/Nav.vue';    import juntoFooter from '../../../components/Footer/Footer.vue';
 
     export default {
         components: {
             juntoNav,
-            juntoPackHeader,
             juntoFooter
         }
     }
