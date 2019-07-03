@@ -93,7 +93,7 @@
                         </div>     
 
                         <div class="packHeader__member">
-                            <a href="/pack-drea" class="removelink">
+                            <a href="/pack-hire-mobile" class="removelink">
                                 <div class="packHeader__member--hire" @click="navMember('drea')">
                                     <img class="packHeader__member--hire--image"  src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">
                                     <p class="packHeader__member--hire--text">Create With Us</p>
@@ -105,7 +105,7 @@
                             </a>
                         </div>     
                         <div class="packHeader__member">
-                            <a href="/pack-drea" class="removelink">
+                            <a href="/pack-hire-web" class="removelink">
                                 <div class="packHeader__member--hire" @click="navMember('drea')">
                                     <img class="packHeader__member--hire--image"  src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">
                                     <p class="packHeader__member--hire--text">Create With Us</p>

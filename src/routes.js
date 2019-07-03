@@ -14,6 +14,8 @@ import PackArt from './pages/Pack/PackMembers/PackArt.vue'
 import PackRay from './pages/Pack/PackMembers/PackRay.vue'
 import PackDoug from './pages/Pack/PackMembers/PackDoug.vue'
 import PackNick from './pages/Pack/PackMembers/PackNick.vue'
+import PackHireMobile from './pages/Pack/PackMembers/PackHireMobile.vue'
+import PackHireWeb from './pages/Pack/PackMembers/PackHireWeb.vue'
 import Foundation from './pages/Foundation/Foundation.vue'
 import Events from './pages/Events/Events.vue'
 import Manifesto from './pages/Manifesto/Manifesto.vue'
@@ -36,6 +38,8 @@ export const routes = [
     { path: '/pack-ray  ', component: PackRay },  
     { path: '/pack-douglas', component: PackDoug },    
     { path: '/pack-nick', component: PackNick },        
+    { path: '/pack-hire-mobile', component: PackHireMobile },        
+    { path: '/pack-hire-web', component: PackHireWeb },        
     { path: '/foundation', component: Foundation },
     { path: '/events', component: Events },
     { path: '/manifesto', component: Manifesto },
