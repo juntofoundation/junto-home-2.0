@@ -2,6 +2,11 @@
 <template>
     <div>
         <div class="learnHeader__section">
+
+            <div class="learnHeader__section--right learnHeader__section--right--tab">                
+                <iframe class="learnHeader__section--video" src="https://www.youtube.com/embed/2FJL3ibnZlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+            </div>   
+
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Powered by Holochain</h2>
@@ -11,10 +16,8 @@
                 </div>
             </div>
 
-            <div class="learnHeader__section--right">
-                
+            <div class="learnHeader__section--right learnHeader__section--right--desk">                
                 <iframe class="learnHeader__section--video" src="https://www.youtube.com/embed/2FJL3ibnZlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
-                <!-- <iframe class="learnHeader__section--video" src="https://www.youtube.com/embed/Ko6J9v1C9zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                 -->
             </div>            
 
         </div>
@@ -34,6 +37,12 @@
         </div>       
 
         <div class="learnHeader__section">
+
+
+            <div class="learnHeader__section--right learnHeader__section--right--tab">
+                <img src="../../../../assets/images/junto-home-2.0__learn--opensource.png" class="learnHeader__section--visual" alt="">
+            </div>            
+
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Open Source</h2>
@@ -44,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="learnHeader__section--right">
+            <div class="learnHeader__section--right learnHeader__section--right--desk">
                 <img src="../../../../assets/images/junto-home-2.0__learn--opensource.png" class="learnHeader__section--visual" alt="">
             </div>            
 

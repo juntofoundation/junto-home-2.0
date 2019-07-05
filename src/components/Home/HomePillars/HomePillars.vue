@@ -24,7 +24,7 @@
                     technology called Holochain. This means we don't store your information in
                     centralized servers we run or own. You own your data and we will never
                     be able to sell it to third parties. 
-                </p>
+                </p> 
                 
 
             </div>

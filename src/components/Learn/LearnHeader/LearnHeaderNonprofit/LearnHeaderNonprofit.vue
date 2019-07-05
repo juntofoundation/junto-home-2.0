@@ -2,6 +2,11 @@
 <template>
     <div>
         <div class="learnHeader__section">
+
+            <div class="learnHeader__section--right learnHeader__section--right--tab">
+                <img src="../../../../assets/images/junto-home-2.0__learn--nonprofit.png" class="learnHeader__section--visual" alt="">                
+            </div>      
+
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">    
                     <h2 class="learnHeader__section--title">Not For Profit</h2>
@@ -11,7 +16,7 @@
                 </div>
             </div>
 
-            <div class="learnHeader__section--right">
+            <div class="learnHeader__section--right learnHeader__section--right--desk">
                 <img src="../../../../assets/images/junto-home-2.0__learn--nonprofit.png" class="learnHeader__section--visual" alt="">                
             </div>            
 
@@ -32,6 +37,10 @@
         </div>       
 
         <div class="learnHeader__section">
+            <div class="learnHeader__section--right learnHeader__section--right--tab">
+                <img src="../../../../assets/images/junto-home-2.0__learn--grassroots.png" class="learnHeader__section--visual" alt="">
+            </div>          
+
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Transparent</h2>
@@ -39,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="learnHeader__section--right">
+            <div class="learnHeader__section--right learnHeader__section--right--desk">
                 <img src="../../../../assets/images/junto-home-2.0__learn--grassroots.png" class="learnHeader__section--visual" alt="">
             </div>            
 

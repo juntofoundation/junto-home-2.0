@@ -102,10 +102,12 @@ body {
   align-items: center; }
   .flux__title {
     font-size: 2.4rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    text-align: center; }
   .flux__subtitle {
     font-size: 2rem;
-    margin-bottom: 2.5rem; }
+    margin-bottom: 2.5rem;
+    text-align: center; }
   .flux__subscribe {
     background-image: linear-gradient(to right, #5E54D0, #307FAB);
     color: white;
@@ -372,7 +374,7 @@ body {
     @media (max-width: 56.25em) {
       .homeHeader__mockups {
         height: 42rem;
-        top: 4rem;
+        top: 5rem;
         left: 50%;
         transform: translateX(-50%); } }
 
@@ -454,7 +456,8 @@ body {
     font-size: 2.4rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    padding: 0 12rem; }
   .homeSponsors__body {
     font-size: 2rem;
     text-align: center;
@@ -465,6 +468,12 @@ body {
     flex-direction: column;
     padding: 2rem 24% 0 24%;
     width: 100vw; }
+    @media (max-width: 56.25em) {
+      .homeSponsors__section {
+        padding: 2rem 8% 0 8%; } }
+    @media (max-width: 37.5em) {
+      .homeSponsors__section {
+        padding: 2rem 4rem  0 4rem; } }
     .homeSponsors__section--title {
       font-size: 1.4rem;
       background: -webkit-linear-gradient(#5E54D0, #307FAB);
@@ -541,6 +550,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media (max-width: 56.25em) {
+      .homeSponsors__kickstarter {
+        padding: 0 12%; } }
     .homeSponsors__kickstarter--title {
       font-size: 2rem;
       font-weight: 600;
@@ -559,7 +571,7 @@ body {
 
 .learnHeader {
   background-color: white;
-  padding: 4rem 8rem; }
+  padding: 4rem; }
   .learnHeader__title {
     font-size: 2.4rem;
     font-weight: 600;
@@ -570,7 +582,13 @@ body {
     font-weight: 500;
     margin-bottom: 2rem;
     text-align: center;
-    margin: 0 17% 2rem 17%; }
+    margin: 0 17% 3rem 17%; }
+    @media (max-width: 56.25em) {
+      .learnHeader__subtitle {
+        margin: 0 8% 3rem 8%; } }
+    @media (max-width: 37.5em) {
+      .learnHeader__subtitle {
+        margin: 0 0 3rem 0; } }
   .learnHeader__nav {
     display: flex;
     flex-direction: column;
@@ -597,21 +615,55 @@ body {
     min-height: 27rem;
     margin: 6rem 0;
     display: flex; }
+    @media (max-width: 56.25em) {
+      .learnHeader__section {
+        flex-direction: column;
+        align-items: center; } }
     .learnHeader__section--left {
       width: 50%;
       display: flex;
       flex-direction: column;
       margin-right: 8%;
       padding-left: 8rem; }
+      @media (max-width: 56.25em) {
+        .learnHeader__section--left {
+          margin-right: 0;
+          padding-left: 0; } }
+      @media (max-width: 37.5em) {
+        .learnHeader__section--left {
+          width: 75%; } }
     .learnHeader__section--right {
       width: 50%;
       margin-left: 8%;
       padding-right: 8rem; }
+      @media (max-width: 56.25em) {
+        .learnHeader__section--right {
+          margin-left: 0;
+          padding-right: 0; } }
+      @media (max-width: 37.5em) {
+        .learnHeader__section--right {
+          width: 75%; } }
+      .learnHeader__section--right--desk {
+        display: block; }
+        @media (max-width: 56.25em) {
+          .learnHeader__section--right--desk {
+            display: none; } }
+      .learnHeader__section--right--tab {
+        display: none; }
+        @media (max-width: 56.25em) {
+          .learnHeader__section--right--tab {
+            display: block; } }
     .learnHeader__section--video {
       height: 100%;
       width: 100%; }
+      @media (max-width: 56.25em) {
+        .learnHeader__section--video {
+          margin-bottom: 2rem; } }
     .learnHeader__section--visual {
       width: 100%; }
+      @media (max-width: 56.25em) {
+        .learnHeader__section--visual {
+          margin-bottom: 2rem; } }
     .learnHeader__section--title {
       font-size: 2rem;
       font-weight: 600;
@@ -639,7 +691,14 @@ body {
   .learnHeader__articles {
     display: flex;
     justify-content: space-between;
-    margin: 6rem 5% 0 5%; }
+    margin: 4rem 4% 0 4%; }
+    @media (max-width: 75em) {
+      .learnHeader__articles {
+        margin: 4rem 2% 0 2%; } }
+    @media (max-width: 56.25em) {
+      .learnHeader__articles {
+        flex-direction: column;
+        align-items: center; } }
   .learnHeader__article {
     position: relative;
     text-align: center;
@@ -649,6 +708,13 @@ body {
     background-size: cover;
     background-position: center;
     cursor: pointer; }
+    @media (max-width: 75em) {
+      .learnHeader__article {
+        height: 21rem;
+        width: 28rem; } }
+    @media (max-width: 56.25em) {
+      .learnHeader__article {
+        margin-bottom: 3rem; } }
     .learnHeader__article--medium {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png");
       transition: all .2s; }
@@ -656,7 +722,11 @@ body {
         background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--medium.png"); }
     .learnHeader__article--rebalance {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--rebalance.png");
-      transition: all .2s; }
+      transition: all .2s;
+      margin: 0 2rem; }
+      @media (max-width: 56.25em) {
+        .learnHeader__article--rebalance {
+          margin: 0 0 3rem 0; } }
       .learnHeader__article--rebalance:hover {
         background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--rebalance.png"); }
     .learnHeader__article--soup {
@@ -675,6 +745,13 @@ body {
       right: 2rem;
       font-size: 2rem;
       font-weight: 600; }
+      @media (max-width: 75em) {
+        .learnHeader__article--title {
+          top: 9rem;
+          font-size: 1.4rem; } }
+      @media (max-width: 56.25em) {
+        .learnHeader__article--title {
+          font-size: 1.7rem; } }
     .learnHeader__article--subtitle {
       position: absolute;
       top: 2rem;

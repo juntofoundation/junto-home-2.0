@@ -1,7 +1,7 @@
 
 .learnHeader {
     background-color: white; 
-    padding: 4rem 8rem; 
+    padding: 4rem;
 
     &__title {
         font-size: 2.4rem; 
@@ -17,8 +17,15 @@
         margin-bottom: 2rem; 
         text-align: center;
 
-        // margin-right: 25%;
-        margin: 0 17% 2rem 17%;
+        margin: 0 17% 3rem 17%;
+
+        @include respond(tab-port) {
+            margin: 0 8% 3rem 8%;
+        }
+
+        @include respond(phone) {
+            margin: 0 0 3rem 0;
+        }        
         
     }
 
@@ -61,28 +68,74 @@
         margin: 6rem 0;
         display: flex;
 
+        @include respond(tab-port) {
+            flex-direction: column;
+            align-items: center;
+        }
         &--left {
             width: 50%;
             display: flex;
             flex-direction: column;
             margin-right: 8%;
             padding-left: 8rem;
+
+            @include respond(tab-port) {
+                margin-right: 0;
+                padding-left: 0;
+            }
+
+            @include respond(phone) {
+                width: 75%;
+            }            
         }
         
         &--right {     
             width: 50%;
             margin-left: 8%;
             padding-right: 8rem; 
+    
+            @include respond(tab-port) {       
+                margin-left: 0;         
+                padding-right: 0;
+            }        
             
+            @include respond(phone) {
+                width: 75%;
+            }
+
+            &--desk {
+                display: block;
+
+                @include respond(tab-port) {
+                    display: none;
+                }
+            }
+            
+            &--tab {
+                display: none;
+
+                @include respond(tab-port) {
+                    display: block; 
+                }
+            }
         }
 
         &--video {
             height: 100%;
             width: 100%;
+
+            @include respond(tab-port) {                
+                margin-bottom: 2rem; 
+            }                   
         }
 
         &--visual {
             width: 100%; 
+
+            @include respond(tab-port) {                
+                margin-bottom: 2rem; 
+            }                 
+
         }
 
         &--title {
@@ -126,7 +179,16 @@
     &__articles {
         display: flex;
         justify-content: space-between;      
-        margin: 6rem 5% 0 5%; 
+        margin: 4rem 4% 0 4%; 
+
+        @include respond(tab-land) {
+            margin: 4rem 2% 0 2%;
+        }
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            align-items: center;
+        }
 
     }
 
@@ -139,6 +201,15 @@
         background-size: cover; 
         background-position: center; 
         cursor: pointer;
+
+        @include respond(tab-land) {
+            height: 21rem;
+            width: 28rem;
+        }
+        
+        @include respond(tab-port) {
+            margin-bottom: 3rem; 
+        }
 
         &--medium {
             background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--medium.png');
@@ -153,6 +224,12 @@
         &--rebalance {
             background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--rebalance.png');
             transition: all .2s; 
+
+            margin: 0 2rem;
+
+            @include respond(tab-port) {
+                margin: 0 0 3rem 0;
+            }
 
             &:hover {
             background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--rebalance.png');
@@ -187,6 +264,15 @@
             right: 2rem;         
             font-size: 2rem;
             font-weight: 600;   
+
+            @include respond(tab-land) {
+                top: 9rem;
+                font-size: 1.4rem;
+            }
+
+            @include respond(tab-port) {
+                font-size: 1.7rem;
+            }
         }
 
         &--subtitle {

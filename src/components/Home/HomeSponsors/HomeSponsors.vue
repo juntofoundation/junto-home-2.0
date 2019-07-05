@@ -104,7 +104,7 @@
                 </div>      
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
-                        Adishakti                    
+                        Adishakti                     
                 </div>   
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                        Prayugo Moekie                  
