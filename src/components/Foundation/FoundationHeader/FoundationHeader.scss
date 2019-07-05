@@ -3,6 +3,10 @@
     background-color: white; 
     padding: 4rem 8rem; 
 
+    @include respond(phone) {
+        padding: 4rem;
+    }    
+
     &__title {
         font-size: 2.4rem; 
         font-weight: 600;
@@ -14,21 +18,41 @@
         font-weight: 500;
         margin-right: 25%;
         margin-bottom: 4rem; 
+
+        @include respond(phone) {
+            margin-right: 2rem;
+        }
     }
 
     &__pillars {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         margin-bottom: 4rem;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            margin-bottom: 0;
+        }
     }
 
     &__pillar {
-        flex-basis: 33.3%;
+        width: 33.33%;
         display: flex;
         flex-direction: column;
 
+        @include respond(tab-port) {
+            width: 75%;
+            margin-bottom: 2rem; 
+        }
+
         &--middle {
             margin: 0 6rem; 
+
+            @include respond(tab-port) {
+                margin: 0;
+                margin-bottom: 2rem; 
+            }
         }
 
         &--icon {

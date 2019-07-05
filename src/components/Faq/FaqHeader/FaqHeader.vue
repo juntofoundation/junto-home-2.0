@@ -8,8 +8,8 @@
             <div class="faqHeader__nav--items">
                 <p class="faqHeader__nav--item" :class="{ active: all }" @click="setCategory('all')">ALL</p>
                 <p class="faqHeader__nav--item" :class="{ active: community }" @click="setCategory('community')">COMMUNITY</p>
-                <p class="faqHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p>
-                <p class="faqHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">TECHNOLOGY</p>
+                <!-- <p class="faqHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p> -->
+                <p class="faqHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">DESIGN/TECH</p>
                 <p class="faqHeader__nav--item" :class="{ active: fundraising }" @click="setCategory('fundraising')">FUNDRAISING</p>                
             </div>
             <div class="faqHeader__nav--border">&nbsp;</div>

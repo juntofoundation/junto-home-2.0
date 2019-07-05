@@ -2,6 +2,10 @@
     background-color: white; 
     padding: 4rem 8rem; 
 
+    @include respond(phone) {
+        padding: 4rem;
+    }    
+
     &__title {
         font-size: 2.4rem; 
         font-weight: 600;
@@ -13,6 +17,10 @@
         font-weight: 500;
         margin-right: 25%;
         margin-bottom: 2rem; 
+
+        @include respond(phone) {
+            margin-right: 2rem; 
+        }
     }
 
     &__nav {
@@ -39,8 +47,12 @@
             }
         }
         &--border {
-            width: 55rem;
+            width: 45rem;
             border-bottom: 1px solid #eee; 
+
+            @include respond(phone) {
+                width: 40rem;
+            }
         }
     }
     &__faqs {

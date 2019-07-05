@@ -124,7 +124,8 @@
             height: 100%;
             width: 100%;
 
-            @include respond(tab-port) {                
+            @include respond(tab-port) {        
+                height: 24rem;           
                 margin-bottom: 2rem; 
             }                   
         }

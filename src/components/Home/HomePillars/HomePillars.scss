@@ -21,6 +21,11 @@
         font-size: 2rem;
         text-align: center; 
         margin-bottom: 4rem; 
+
+        @include respond(phone) {
+            padding: 0 2rem;
+
+        }        
     }
 
     &__pillars {

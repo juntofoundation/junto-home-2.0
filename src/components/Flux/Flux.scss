@@ -7,6 +7,10 @@
     flex-direction: column;
     align-items: center;
 
+    @include respond(phone) {
+        padding: 4rem; 
+    }
+
     &__title {
         font-size: 2.4rem; 
         margin-bottom: 1rem;
@@ -15,7 +19,7 @@
 
     &__subtitle {
         font-size: 2rem;
-        margin-bottom: 2.5rem; 
+        margin-bottom: 2rem; 
         text-align: center;
     }
 

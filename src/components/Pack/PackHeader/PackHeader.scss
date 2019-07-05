@@ -3,6 +3,10 @@
     background-color: white; 
     padding: 4rem 8rem; 
 
+    @include respond(phone) {
+        padding: 4rem;
+    }
+
     &__title {
         font-size: 2.4rem; 
         font-weight: 600;
@@ -14,6 +18,10 @@
         font-weight: 500;
         margin-right: 25%;
         margin-bottom: 2rem; 
+
+        @include respond(phone) {
+            margin-right: 2rem;
+        }
     }
 
     &__section {        
@@ -26,11 +34,25 @@
         justify-content: space-between;
         flex-wrap: wrap; 
 
+        &--desk {
+            
+            @include respond(pack) {
+                display: none;
+            }
+        }
     }
 
     &__member {    
         margin-bottom: 3rem;      
         transition: all .2s;
+
+        &--mobile {
+            display: none;
+
+            @include respond(pack) {
+                display: block;
+            }
+        }
 
         &--invisible {
             height: 24rem;

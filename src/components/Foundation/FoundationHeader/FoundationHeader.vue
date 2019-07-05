@@ -10,14 +10,10 @@
          <div class="foundationHeader__pillars">    
             <div class="foundationHeader__pillar">
                 <p class="foundationHeader__pillar--title">ONE-TIME DONATIONS</p>
-                <!-- <p class="foundationHeader__pillar--body">We accept one-time donation through 
-                    <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="addlink">Indiegogo InDemand</a>,
-                    PayPal, and Holo Tokens. Our address to receive Holo Tokens is: 0xCD75b4046A99101a232bB105915F182C7b7E136E
-                </p>          -->
-
                 <p class="foundationHeader__pillar--body">We accept donations through 
                     <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="addlink">Indiegogo</a> and Holo Tokens. 
-                    Our address to receive Holo Tokens is: 0xCD75b4046A99101a232bB105915F182C7b7E136E 
+                    Our address to receive Holo Tokens is: 
+                    <!-- 0xCD75b4046A99101a232bB105915F182C7b7E136E  -->
                   
                 </p>                                  
             </div>
