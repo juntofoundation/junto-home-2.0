@@ -77,6 +77,9 @@ body {
     transition: all .2s; }
     .nav__item:hover {
       color: #307FAB; }
+    @media (max-width: 37.5em) {
+      .nav__item {
+        display: none; } }
   .nav__button {
     margin-left: 2rem;
     padding: 1rem 2rem;
@@ -90,6 +93,54 @@ body {
     transition: all .2s; }
     .nav__button:hover {
       transform: scale(1.05); }
+  .nav__icon {
+    height: 2rem;
+    display: none;
+    margin-left: 2rem;
+    cursor: pointer; }
+    .nav__icon--image {
+      height: 100%; }
+    @media (max-width: 37.5em) {
+      .nav__icon {
+        display: block; } }
+
+.navOpen {
+  background-image: linear-gradient(to right top, #4D42C9, #307FAB);
+  height: 100vh;
+  width: 100vw;
+  z-index: 20000;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  .navOpen__nav {
+    padding: 0 1.5rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .navOpen__nav--item {
+      transition: all .2s;
+      cursor: pointer;
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 500; }
+      .navOpen__nav--item:hover {
+        font-weight: 600; }
+  .navOpen__body {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .navOpen__body--item {
+      margin-bottom: 2rem;
+      color: white;
+      font-size: 1.7rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all .2s; }
+      .navOpen__body--item:hover {
+        font-weight: 600; }
 
 .flux {
   padding: 5rem 8%;

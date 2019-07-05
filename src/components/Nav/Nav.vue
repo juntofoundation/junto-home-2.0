@@ -24,10 +24,13 @@
             </div> -->
             <div class="nav__item">
                 <a href='/faq' class="removelink">FAQ</a>
-            </div>            
+            </div>    
+
             <div class="nav__button">
                 <a href='https://junto.typeform.com/to/xpwCxK' target="blank" class="removelink">SIGN UP</a>
-            </div>            
+            </div>     
+
+            <slot name="navIcon"></slot>               
         </div>
 
     </div>
