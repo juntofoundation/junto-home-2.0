@@ -8,7 +8,7 @@
             <div style="display: flex">
                 <div class="packMember__left">
                     <div class="packMember__photo">
-                        <img slot="packMemberPhoto" class="packMember__photo--image packMember__photo--image--hire" src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">        
+                        <img slot="packMemberPhoto" class="packMember__photo--image--hire" src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">        
                     </div>
                     <div class="packMember__socials">
                         <img src="" alt="" class="packMember__social">

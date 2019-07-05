@@ -280,8 +280,8 @@ body {
       height: 100%;
       width: 100%; }
       .packMember__photo--image--hire {
-        height: 17rem;
-        width: 17rem; }
+        height: 12rem;
+        width: auto; }
   .packMember__name {
     font-size: 2.4rem;
     font-weight: 600; }
@@ -302,6 +302,9 @@ body {
   height: 95vh;
   background-image: linear-gradient(to right top, #5E54D0, #307FAB);
   background-image: linear-gradient(to right top, #4D42C9, #307FAB); }
+  @media (max-width: 56.25em) {
+    .homeHeader {
+      height: 100vh; } }
   .homeHeader__content {
     display: flex;
     flex-direction: column;
@@ -312,20 +315,36 @@ body {
     z-index: 300;
     height: 50rem;
     width: 38vw; }
+    @media (max-width: 56.25em) {
+      .homeHeader__content {
+        top: 47rem;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        width: 75vw; } }
   .homeHeader__title {
     color: white;
     font-size: 4rem;
     font-weight: 500;
     letter-spacing: 3px; }
+    @media (max-width: 56.25em) {
+      .homeHeader__title {
+        text-align: center; } }
   .homeHeader__subtitle {
     color: white;
     font-size: 2.7rem;
     font-weight: 400;
     margin-bottom: 1rem; }
+    @media (max-width: 56.25em) {
+      .homeHeader__subtitle {
+        text-align: center; } }
   .homeHeader__description {
     color: white;
     font-size: 1.7rem;
     margin-bottom: 2rem; }
+    @media (max-width: 56.25em) {
+      .homeHeader__description {
+        text-align: center; } }
   .homeHeader__action {
     display: flex;
     align-items: center;
@@ -350,6 +369,12 @@ body {
     height: 57rem;
     top: 12%;
     right: 12%; }
+    @media (max-width: 56.25em) {
+      .homeHeader__mockups {
+        height: 42rem;
+        top: 4rem;
+        left: 50%;
+        transform: translateX(-50%); } }
 
 .homePillars {
   width: 100%;
@@ -374,13 +399,27 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4rem; }
+    @media (max-width: 56.25em) {
+      .homePillars__pillars {
+        flex-direction: column;
+        margin-bottom: 0; } }
   .homePillars__pillar {
     flex-basis: 33.33%;
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media (max-width: 56.25em) {
+      .homePillars__pillar {
+        margin-bottom: 4rem;
+        padding: 0 8rem; } }
+    @media (max-width: 37.5em) {
+      .homePillars__pillar {
+        padding: 0 4rem; } }
     .homePillars__pillar--middle {
       margin: 0 6rem; }
+      @media (max-width: 56.25em) {
+        .homePillars__pillar--middle {
+          margin: 0 0 4rem 0; } }
     .homePillars__pillar--icon {
       height: 4rem;
       margin-bottom: 1.5rem; }

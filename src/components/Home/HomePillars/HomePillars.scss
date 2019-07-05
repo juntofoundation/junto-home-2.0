@@ -27,16 +27,36 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 4rem;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            margin-bottom: 0;
+        }
     }
 
     &__pillar {
         flex-basis: 33.33%;
         display: flex;
         flex-direction: column;
-        align-items: center;        
+        align-items: center;       
+        
+        @include respond(tab-port) {
+            margin-bottom: 4rem; 
+            padding: 0 8rem;
+            
+        }   
+
+        @include respond(phone) {
+            padding: 0 4rem;
+        }
 
         &--middle {
             margin: 0 6rem; 
+
+            @include respond(tab-port) {
+                margin: 0 0 4rem 0;
+                
+            }               
         }
 
         &--icon {
