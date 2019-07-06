@@ -5,7 +5,7 @@
     background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
     
     @include respond(tab-port) {
-        height: 100vh;
+        height: 110vh;
     }
 
     &__content {

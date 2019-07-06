@@ -16,6 +16,9 @@ html {
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 46.88%; } }
 
 body {
   font-family: 'Avenir', 'Raleway', sans-serif;
@@ -235,6 +238,9 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column; }
+  @media (max-width: 56.25em) {
+    .media {
+      height: 100%; } }
   .media__top {
     min-height: 7rem;
     border-bottom: 1px solid #eee;
@@ -261,22 +267,33 @@ body {
     height: 95vh;
     width: 100vw;
     display: flex; }
-  .media__panel {
-    width: 25vw;
-    background-color: white;
-    border-left: 1px solid #eee; }
+    @media (max-width: 56.25em) {
+      .media__bottom {
+        height: 100%;
+        flex-direction: column; } }
   .media__main {
     width: 70vw; }
+    @media (max-width: 56.25em) {
+      .media__main {
+        height: 60vh;
+        width: 100vw; } }
     .media__main--video {
       height: 80%;
       width: 100%; }
+      @media (max-width: 56.25em) {
+        .media__main--video {
+          height: 100%; } }
   .media__videos {
     width: 30vw;
+    padding-bottom: 10rem;
     background-color: white;
     border-left: 1px solid #eee;
     display: flex;
     flex-direction: column;
     overflow-y: scroll; }
+    @media (max-width: 56.25em) {
+      .media__videos {
+        width: 100vw; } }
     .media__videos--title {
       padding: 1rem 1rem 0 1rem;
       font-size: 1.4rem;
@@ -288,19 +305,56 @@ body {
     background-color: white;
     border-bottom: 1px solid #eee;
     cursor: pointer; }
+    @media (max-width: 56.25em) {
+      .media__video {
+        padding: 2rem 4rem 2rem 1rem; } }
     .media__video--thumbnail {
       height: 10rem;
+      min-width: 15rem;
       margin-right: 1rem; }
+      @media (max-width: 56.25em) {
+        .media__video--thumbnail {
+          height: 12rem; } }
+      .media__video--thumbnail--one {
+        background-image: url("../../../src/assets/images/junto-home-2.0__thumbnail--flows.png");
+        background-position: center;
+        background-size: cover; }
+      .media__video--thumbnail--two {
+        background-image: url("../../../src/assets/images/junto-home-2.0__thumbnail--hcxjunto.png");
+        background-position: center;
+        background-size: cover; }
+      .media__video--thumbnail--three {
+        background-image: url("../../../src/assets/images/junto-home-2.0__thumbnail--demo.png");
+        background-position: center;
+        background-size: cover; }
+      .media__video--thumbnail--four {
+        background-image: url("../../../src/assets/images/junto-home-2.0__thumbnail--decentralization.png");
+        background-position: center;
+        background-size: cover; }
+      .media__video--thumbnail--five {
+        background-image: url("../../../src/assets/images/junto-home-2.0__thumbnail--communitysm.png");
+        background-position: center;
+        background-size: cover; }
+      .media__video--thumbnail--six {
+        background-image: url("../../../src/assets/images/junto-home-2.0__thumbnail--blooper.png");
+        background-position: center;
+        background-size: cover; }
     .media__video--details {
       display: flex;
       flex-direction: column; }
     .media__video--title {
       font-size: 1.4rem;
       font-weight: 500; }
+      @media (max-width: 56.25em) {
+        .media__video--title {
+          font-size: 1.7rem; } }
     .media__video--date {
       font-size: 1.2rem;
       color: #555;
       font-weight: 500; }
+      @media (max-width: 56.25em) {
+        .media__video--date {
+          font-size: 1.4rem; } }
 
 .packMember {
   background-color: white;
@@ -352,7 +406,7 @@ body {
   background-image: linear-gradient(to right top, #4D42C9, #307FAB); }
   @media (max-width: 56.25em) {
     .homeHeader {
-      height: 100vh; } }
+      height: 110vh; } }
   .homeHeader__content {
     display: flex;
     flex-direction: column;
@@ -517,7 +571,7 @@ body {
     margin-bottom: 2rem; }
     @media (max-width: 37.5em) {
       .homeSponsors__body {
-        padding: 0 2rem; } }
+        padding: 0 4rem; } }
   .homeSponsors__section {
     display: flex;
     flex-direction: column;
@@ -528,7 +582,7 @@ body {
         padding: 2rem 8% 0 8%; } }
     @media (max-width: 37.5em) {
       .homeSponsors__section {
-        padding: 2rem 4rem  0 4rem; } }
+        padding: 2rem 1rem 0 1rem; } }
     .homeSponsors__section--title {
       font-size: 1.4rem;
       background: -webkit-linear-gradient(#5E54D0, #307FAB);
