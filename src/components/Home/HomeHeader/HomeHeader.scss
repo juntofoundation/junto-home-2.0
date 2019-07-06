@@ -1,29 +1,36 @@
+@import '../../../../sass/base';
+
 .homeHeader {
     position: relative;
-    height: 95vh;
     background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
     background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
+
+    width: 100vw;
     
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+
     @include respond(tab-port) {
-        height: 110vh;
+        align-items: center;
+        flex-direction: column;      
+        // justify-content: flex-start;
+
     }
 
     &__content {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        position: absolute;
-        top: 15rem;
-        left: 10%;
-        z-index: 300;
-
-        height: 50rem;
+        margin-left: 8%;
+        margin-top: 4%;
         width: 38vw;
 
         @include respond(tab-port) {
-            top: 47rem;
-            left: 50%;
-            transform: translateX(-50%);
+            margin: 0;
+            margin-top: 2rem;
+            margin-bottom: 4rem; 
             align-items: center;
             width: 75vw;            
         }
@@ -67,9 +74,10 @@
         align-items: center;
         border: 2px solid white;
         border-radius: 100px;
-        // background-color: transparent; 
         background-color: transparent;
         padding: 1rem 2rem;
+        white-space: nowrap;
+        overflow: hidden;
 
         cursor: pointer;
         transition: all .2s;
@@ -95,16 +103,11 @@
     }
 
     &__mockups {
-        position: absolute;
         height: 57rem;
-        top: 12%;
-        right: 12%;        
 
         @include respond(tab-port) {
-            height: 42rem;
-            top: 5rem;
-            left: 50%;
-            transform: translateX(-50%);
+            height: 49rem;
+
         }
     }
 

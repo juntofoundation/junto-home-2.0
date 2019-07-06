@@ -14,7 +14,7 @@
                         <p class="homeHeader__action--text">OUR STORY</p>
                     </div>
                 </a>
-            </div>
+            </div> 
             <img class="homeHeader__mockups" src="../../../assets/images/junto-home-2.0__mockups.png" alt="">  
 
             <transition name="fade">

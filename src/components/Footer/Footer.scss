@@ -1,3 +1,4 @@
+@import '../../../sass/base';
 
 .footer {
     height: 33rem; 
@@ -36,6 +37,10 @@
             color: white;
             font-size: 2.4rem; 
             font-weight: 500; 
+
+            @include respond(phone) {
+                display: none;
+            }
         }
     }
 
