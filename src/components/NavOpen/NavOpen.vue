@@ -15,6 +15,9 @@
             <a href="/pack" class="navOpen__body--item removelink">
                 Pack
             </a>
+            <a href="/foundation" class="navOpen__body--item removelink">
+                Foundation
+            </a>            
             <a href="/events" class="navOpen__body--item removelink">
                 Events
             </a>
@@ -24,3 +27,4 @@
         </div>
     </div>
 </template>
+ 

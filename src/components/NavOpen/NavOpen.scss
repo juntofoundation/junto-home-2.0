@@ -17,16 +17,9 @@
         justify-content: space-between;
         align-items: center;
 
-        &--item {
-            transition: all .2s;
-            cursor: pointer; 
-            color: white;
-            font-size: 1.4rem;
-            font-weight: 500;
-
-            &:hover {
-                font-weight: 600;
-            }
+        &--icon {
+            height: 2rem;
+            cursor: pointer;
         }
     }
 
