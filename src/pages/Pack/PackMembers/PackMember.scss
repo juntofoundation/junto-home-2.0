@@ -51,6 +51,10 @@
     &__photo {
         width: 100%;
 
+        @include respond(phone) {
+            padding: 0 8rem; 
+        }
+
         &--image {
             height: 100%;
             width: 100%; 

@@ -608,6 +608,9 @@ body {
         padding-left: 0; } }
   .packMember__photo {
     width: 100%; }
+    @media (max-width: 37.5em) {
+      .packMember__photo {
+        padding: 0 8rem; } }
     .packMember__photo--image {
       height: 100%;
       width: 100%; }
