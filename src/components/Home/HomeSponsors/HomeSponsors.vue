@@ -22,19 +22,21 @@
                     </a>                    
                 </div>  
 
-                <!-- <a href="" class="removelink"> -->
-                    <div class="homeSponsors__sponsor--special">    
+                    <div class="homeSponsors__sponsor homeSponsors__sponsor--special">    
                         <a href="https://www.pacificintegral.com/gtc-north-america" target="blank" class="removelink homeSponsors__sponsor--logo">
                             <img src="../../../assets/images/junto-home-2.0__sponsor--gtc.png" alt="" class="homeSponsors__sponsor--logo--image">
                             <p class="homeSponsors__sponsor--logo--text">PACIFIC INTEGRAL</p>                            
                         </a>                 
-                    </div> 
+                    </div>      
 
-                <!-- </a>    -->
-                   
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--special homeSponsors__sponsor--special--mobile"> 
+                    <a href="http://artbrock.com/" target="blank" class="removelink">
+                        DAVID MAGERMAN                                     
+                    </a>                    
+                </div>                                                                              
             </div>      
             <div class="homeSponsors__sponsors homeSponsors__sponsors--specialtwo">
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo">    
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo homeSponsors__sponsor--specialtwo--david">    
                     <a href="https://news.vice.com/en_us/article/yw7wxm/facebook-is-so-afraid-of-this-man-it-smeared-him-as-both-backed-by-george-soros-and-anti-semitic" class="removelink">
                         DAVID MAGERMAN                                        
                     </a>                 
@@ -44,7 +46,7 @@
                 </div>                  
             </div>                          
         </div>            
-         
+          
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">PLATINUM</h2>    
             <div class="homeSponsors__sponsors homeSponsors__sponsors--platinum">
@@ -64,7 +66,7 @@
                 <div class="homeSponsors__sponsor">                     
                     Maxim Drobintsev                    
                 </div>           
-            </div>                                
+            </div>                                 
         </div>   
 
         <div class="homeSponsors__section">
@@ -116,13 +118,20 @@
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         DHTNETWORK           
-                </div>                                                                                            
+                </div>      
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver homeSponsors__sponsor--silver--mobile">                     
+                        Philip Kirsh                
+                </div>                  
+
+                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver homeSponsors__sponsor--silver--mobile">                     
+                        Jeremy Wallis         
+                </div>                                                                                                         
             </div>      
                 <div class="" style="display: flex; justify-content: center;">
-                    <div class="homeSponsors__sponsor" style='font-size: 1.7rem; margin-right: 4rem;'>                     
+                    <div class="homeSponsors__sponsor homeSponsors__sponsor--silver--desk " style='font-size: 1.7rem; margin-right: 4rem;'>                     
                         Philip Kirsh                  
                     </div>   
-                    <div class="homeSponsors__sponsor" style='font-size: 1.7rem'>                     
+                    <div class="homeSponsors__sponsor homeSponsors__sponsor--silver--desk " style='font-size: 1.7rem'>                     
                         Jeremy Wallis               
                     </div>                                  
                     

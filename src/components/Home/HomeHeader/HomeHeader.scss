@@ -6,7 +6,7 @@
     background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
 
     width: 100vw;
-    
+
     padding-top: 4rem;
     display: flex;
     justify-content: space-between;
@@ -104,9 +104,11 @@
 
     &__mockups {
         height: 57rem;
+        margin-right: 8%;
 
         @include respond(tab-port) {
             height: 49rem;
+            margin-right: 0;
 
         }
     }

@@ -1,5 +1,6 @@
 
 import Home from './pages/Home/Home.vue'
+import Media from './components/Media/Media.vue'
 import Learn from './pages/Learn/Learn.vue'
 import Pack from './pages/Pack/Pack.vue'
 import PackEric from './pages/Pack/PackMembers/PackEric.vue'
@@ -24,6 +25,7 @@ import Faq from './pages/Faq/Faq.vue'
 
 export const routes = [
     { path: '/', component: Home },
+    { path: '/media', component: Media },
     { path: '/learn', component: Learn },
     { path: '/pack', component: Pack },
     { path: '/pack-eric', component: PackEric },

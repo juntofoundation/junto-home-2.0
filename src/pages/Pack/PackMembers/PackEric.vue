@@ -5,7 +5,6 @@
         <junto-nav></junto-nav>
 
         <div class="packMember">
-            <div style="display: flex">
                 <div class="packMember__left">
                     <div class="packMember__photo">
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--eric.png" alt="">        
@@ -23,7 +22,6 @@
                     <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
                 </div>
 
-            </div>
 
         </div>        
 

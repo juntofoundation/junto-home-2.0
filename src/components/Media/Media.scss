@@ -5,8 +5,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100vw;
+    // height: 100vh;
+    // width: 100vw;
+    overflow: scroll;
     background-color: white;
 
     display: flex;
@@ -65,7 +66,7 @@
         width: 70vw;
 
         @include respond(tab-port) {
-            height: 60vh;
+            height: 50vh;
             width: 100vw;
         }
 
@@ -87,7 +88,7 @@
         border-left: 1px solid #eee;        
         display: flex;
         flex-direction: column;
-        overflow-y: scroll;
+        // overflow-y: scroll;
 
         @include respond(tab-port) {
             width: 100vw;
@@ -108,13 +109,14 @@
         border-bottom: 1px solid #eee;
 
         cursor: pointer;
+        min-height: 15rem;
 
         @include respond(tab-port) {
             padding: 2rem 4rem 2rem 1rem; 
         }
 
         &--thumbnail {
-            height: 10rem; 
+            min-height: 10rem; 
             min-width: 15rem;
             margin-right: 1rem;
 

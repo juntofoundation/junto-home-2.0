@@ -65,10 +65,6 @@
         justify-content: space-between; 
         flex-wrap: wrap; 
 
-        &--special {
-
-        }
-
         &--specialtwo {
             justify-content: center; 
         }
@@ -104,7 +100,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 2rem;
             cursor: pointer;
 
             &:hover > &--text {
@@ -124,22 +119,65 @@
         }
 
         &--special {             
-            flex-basis: 33.33%;            
+            flex-basis: 33.33%;         
+            
+            @include respond(phone) {
+                flex-basis: 50%;
+            }
+            
+            &--mobile {
+                display: none;
+
+                @include respond(phone) {
+                    display: block;
+                    margin-bottom: 0;
+                }
+            }
         }
 
         &--specialtwo {             
             margin: 0 3rem;
+
+            &--david {
+
+                @include respond(phone) {
+                    display: none;
+                }
+            }
         }
 
         &--platinum {
             margin: 0 2rem; 
+
+            @include respond(phone) {
+                margin: 0;
+                flex-basis: 50%;
+            }
         }
 
-        &--gold {
-
-        }
         &--silver {
             flex-basis: 33%;
+
+            @include respond(phone) {
+                flex-basis: 50%;
+            }
+            &--desk {
+                display: block;
+                
+                @include respond(phone) {
+                    display: none;
+                }                
+            }
+
+            &--mobile {
+                display: none;
+
+                @include respond(phone) {
+                    display: block;
+                    flex-basis: 50%;
+
+                }
+            }
         }
         
     }

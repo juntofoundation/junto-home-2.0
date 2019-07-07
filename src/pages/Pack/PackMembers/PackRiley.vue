@@ -5,7 +5,6 @@
         <junto-nav></junto-nav>
 
         <div class="packMember">
-            <div style="display: flex">
                 <div class="packMember__left">
                     <div class="packMember__photo">
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--riley.png" alt="">        
@@ -15,7 +14,7 @@
                     </div>
                 </div>
                 <div class="packMember__right">
-                    <h2 slot="packMemberName" class="packMember__name">Riley Wager</h2>
+                    <h2 slot="packMemberName" class="packMember__name">Riley Wagner</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Secretary, Board Member</h2>            
                     
                     <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
@@ -23,7 +22,6 @@
                     <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
                 </div>
 
-            </div>
 
         </div>        
 

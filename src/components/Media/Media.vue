@@ -5,9 +5,8 @@
                 <img class="media__logo--image" src="../../assets/images/junto-home-2.0__logo.png" alt="">
                 <p class="media__logo--name">JUNTO VIDEO LIBRARY</p>
             </div>
-            <slot name="back"></slot>
-        </div>                 
-
+            <a href="/" class="media__back removelink">BACK</a>
+        </div>      
         <div class="media__bottom">
             <div class="media__main">                
                 <iframe v-if="videoOne" class="media__main--video" src="https://www.youtube.com/embed/HsWSHH7hHRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
