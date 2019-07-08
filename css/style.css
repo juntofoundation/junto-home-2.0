@@ -445,19 +445,19 @@ body {
     color: #206D98; }
 
 .media {
-  z-index: 1001;
-  position: fixed;
-  top: 0;
-  left: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
   overflow: scroll;
   background-color: white;
   display: flex;
   flex-direction: column; }
-  @media (max-width: 56.25em) {
-    .media {
-      height: 100%; } }
   .media__top {
+    position: fixed;
+    top: 0;
+    left: 0;
     min-height: 7rem;
+    width: 100vw;
     border-bottom: 1px solid #eee;
     background-color: white;
     background-color: white;
@@ -479,6 +479,7 @@ body {
     font-weight: 500;
     cursor: pointer; }
   .media__bottom {
+    margin-top: 7rem;
     height: 95vh;
     width: 100vw;
     display: flex; }
