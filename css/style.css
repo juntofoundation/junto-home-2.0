@@ -366,6 +366,16 @@ body {
     font-size: 1.4rem;
     font-weight: 500;
     color: white; }
+    .footer__copyright--desk {
+      display: block; }
+      @media (max-width: 37.5em) {
+        .footer__copyright--desk {
+          display: none; } }
+    .footer__copyright--mobile {
+      display: none; }
+      @media (max-width: 37.5em) {
+        .footer__copyright--mobile {
+          display: block; } }
   .footer__socials {
     height: 100%;
     display: flex;
@@ -389,6 +399,9 @@ body {
       font-weight: 500; }
       .footer__social--text:hover {
         text-decoration: underline; }
+    @media (max-width: 37.5em) {
+      .footer__social--email {
+        display: none; } }
 
 *,
 *::before,
@@ -606,6 +619,9 @@ body {
     margin-bottom: 2rem; }
   .packMember__bio {
     font-size: 1.7rem; }
+    @media (max-width: 37.5em) {
+      .packMember__bio {
+        font-size: 1.8rem; } }
     .packMember__bio--section {
       font-size: 2rem;
       font-weight: 600;
@@ -1376,7 +1392,7 @@ body {
   padding: 4rem 8rem; }
   @media (max-width: 37.5em) {
     .packHeader {
-      padding: 4rem; } }
+      padding: 4rem 2rem; } }
   .packHeader__title {
     font-size: 2.4rem;
     font-weight: 600;
@@ -1388,7 +1404,7 @@ body {
     margin-bottom: 2rem; }
     @media (max-width: 37.5em) {
       .packHeader__subtitle {
-        margin-right: 2rem; } }
+        margin-right: 0; } }
   .packHeader__pack {
     display: flex;
     align-items: center;
@@ -1478,12 +1494,21 @@ body {
       display: flex;
       flex-direction: column;
       width: 22rem; }
+      @media (max-width: 37.5em) {
+        .packHeader__member--details {
+          width: 100%; } }
     .packHeader__member--name {
       font-size: 1.5rem;
       font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .packHeader__member--name {
+          font-size: 1.7rem; } }
     .packHeader__member--title {
       font-size: 1.5rem;
       font-weight: 500; }
+      @media (max-width: 37.5em) {
+        .packHeader__member--title {
+          font-size: 1.7rem; } }
 
 .foundation {
   margin-top: 7rem;
@@ -1537,7 +1562,7 @@ body {
   padding: 4rem 8rem; }
   @media (max-width: 37.5em) {
     .foundationHeader {
-      padding: 4rem; } }
+      padding: 4rem 2rem; } }
   .foundationHeader__title {
     font-size: 2.4rem;
     font-weight: 600;
@@ -1602,6 +1627,10 @@ body {
       margin-bottom: 1rem; }
     .foundationHeader__hot--address {
       font-size: 1.7rem; }
+      @media (max-width: 37.5em) {
+        .foundationHeader__hot--address {
+          font-size: 1.4rem;
+          font-weight: 500; } }
 
 .events {
   margin-top: 7rem;
@@ -1660,7 +1689,7 @@ body {
     padding: 0 8rem; }
     @media (max-width: 37.5em) {
       .eventsHeader__title {
-        padding: 0 4rem; } }
+        padding: 0 2rem; } }
   .eventsHeader__subtitle {
     padding: 0 20% 0 8rem;
     font-size: 1.7rem;
@@ -1669,14 +1698,14 @@ body {
     @media (max-width: 37.5em) {
       .eventsHeader__subtitle {
         margin-bottom: 3rem;
-        padding: 0 6rem 0 4rem; } }
+        padding: 0 2rem; } }
   .eventsHeader__calendar {
     height: 75vh;
     width: 100vw;
     padding: 0 8rem; }
     @media (max-width: 37.5em) {
       .eventsHeader__calendar {
-        padding: 0 4rem; } }
+        padding: 0 2rem; } }
     .eventsHeader__calendar--calendar {
       height: 100%;
       width: 100%; }
@@ -1739,7 +1768,7 @@ body {
   padding: 4rem 8rem; }
   @media (max-width: 37.5em) {
     .faqHeader {
-      padding: 4rem; } }
+      padding: 4rem 2rem; } }
   .faqHeader__title {
     font-size: 2.4rem;
     font-weight: 600;
@@ -1747,11 +1776,11 @@ body {
   .faqHeader__subtitle {
     font-size: 1.7rem;
     font-weight: 500;
-    margin-right: 25%;
+    margin-right: 36%;
     margin-bottom: 2rem; }
     @media (max-width: 37.5em) {
       .faqHeader__subtitle {
-        margin-right: 2rem; } }
+        margin-right: 0; } }
   .faqHeader__nav {
     display: flex;
     flex-direction: column;
@@ -1769,13 +1798,13 @@ body {
       .faqHeader__nav--item:hover {
         color: #333; }
     .faqHeader__nav--border {
-      width: 45rem;
+      width: 32rem;
       border-bottom: 1px solid #eee; }
-      @media (max-width: 37.5em) {
-        .faqHeader__nav--border {
-          width: 40rem; } }
   .faqHeader__faqs {
     margin-right: 36%; }
+    @media (max-width: 37.5em) {
+      .faqHeader__faqs {
+        margin-right: 0; } }
   .faqHeader__faq {
     cursor: pointer;
     margin-bottom: 2.5rem; }

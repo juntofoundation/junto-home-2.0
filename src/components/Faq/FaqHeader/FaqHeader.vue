@@ -8,9 +8,7 @@
             <div class="faqHeader__nav--items">
                 <p class="faqHeader__nav--item" :class="{ active: all }" @click="setCategory('all')">ALL</p>
                 <p class="faqHeader__nav--item" :class="{ active: community }" @click="setCategory('community')">COMMUNITY</p>
-                <!-- <p class="faqHeader__nav--item" :class="{ active: design }" @click="setCategory('design')">DESIGN</p> -->
                 <p class="faqHeader__nav--item" :class="{ active: technology }" @click="setCategory('technology')">DESIGN/TECH</p>
-                <p class="faqHeader__nav--item" :class="{ active: fundraising }" @click="setCategory('fundraising')">FUNDRAISING</p>                
             </div>
             <div class="faqHeader__nav--border">&nbsp;</div>
         </div>
@@ -35,11 +33,7 @@
                 <p class="faqHeader__faq--question" v-if="faq.type == 'technology'"> {{ faq.question }}</p>
                 <p class="faqHeader__faq--answer" v-if="faq.type == 'technology'" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
             </div>            
-
-            <div class="faqHeader__faq" v-for="faq in faqs" v-if="fundraising" @click="toggleVisibility(faq.id)">
-                <p class="faqHeader__faq--question" v-if="faq.type == 'fundraising'"> {{ faq.question }}</p>
-                <p class="faqHeader__faq--answer" v-if="faq.type == 'fundraising'" style="display: none;" :id=faq.id>{{ faq.answer }}</p>
-            </div>                        
+                 
         </div>
     </div>
 </template>
@@ -53,7 +47,6 @@
                 community: false,
                 design: false,
                 technology: false, 
-                fundraising: false, 
                 faqs: [
                     { 
                       question: 'What is Junto?', 
@@ -110,13 +103,13 @@
                     { 
                       question: 'Will you have a cryptocurrency or initial coin offering (ICO)?', 
                       answer: 'No.',      
-                      type: 'fundraising',
+                      type: 'community',
                       id: 8
                     },          
                     { 
                       question: 'How are you funding this project?', 
                       answer: 'Junto is crowdfunded by the generosity of its supporters during these early stages. We launched a successful Kickstarter in January 2019, raising $106,949 from 678 backers. We plan on raising more money from institutional donors and will soon implement a sustainble revenue model. Right now, we are leaning towards a subscription/freemium model.',      
-                      type: 'fundraising',
+                      type: 'community',
                       id: 9
                     },                              
                     { 
@@ -142,7 +135,6 @@
                 this.community = false;
                 this.design = false;
                 this.technology = false;
-                this.fundraising = false;
 
                 if(category == 'all') {
                     this.all = true;
@@ -152,9 +144,7 @@
                     this.design = true;
                 } else if (category == 'technology') {  
                     this.technology = true;
-                } else if (category == 'fundraising') {
-                    this.fundraising = true;
-                }
+                } 
             },
 
             toggleVisibility(id) {

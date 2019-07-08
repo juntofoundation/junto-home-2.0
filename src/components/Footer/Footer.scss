@@ -12,7 +12,7 @@
 
     &__left {
         height: 100%; 
-        display: flex;
+        display: flex; 
         flex-direction: column;
         justify-content: space-between;
     }
@@ -49,6 +49,22 @@
         font-size: 1.4rem;
         font-weight: 500;
         color: white;
+
+        &--desk {
+            display: block;
+            
+            @include respond(phone) {
+                display: none; 
+            }
+        }
+
+        &--mobile {
+            display: none;
+
+            @include respond(phone) {
+                display: block; 
+            }
+        }
     }
 
     &__socials {
@@ -84,6 +100,12 @@
             &:hover {
                text-decoration: underline;
             }                     
+        }
+
+        &--email {
+            @include respond(phone) {
+                display: none; 
+            }
         }
     }
 }

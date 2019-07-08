@@ -5,7 +5,7 @@
     padding: 4rem 8rem; 
 
     @include respond(phone) {
-        padding: 4rem;
+        padding: 4rem 2rem;
     }
 
     &__title {
@@ -21,7 +21,7 @@
         margin-bottom: 2rem; 
 
         @include respond(phone) {
-            margin-right: 2rem;
+            margin-right: 0;
         }
     }
 
@@ -160,16 +160,28 @@
             display: flex;
             flex-direction: column;       
             width: 22rem;   
+
+            @include respond(phone) {
+                width: 100%;
+            }
         }
 
         &--name {
             font-size: 1.5rem;
             font-weight: 600;
+
+            @include respond(phone) {
+                font-size: 1.7rem;
+            }
         }
 
         &--title  {
             font-size: 1.5rem;
-            font-weight: 500;            
+            font-weight: 500;         
+            
+            @include respond(phone) {
+                font-size: 1.7rem;
+            }            
         }
     }
 }
