@@ -30,9 +30,19 @@
                     <h2 slot="packMemberName" class="packMember__name">Yaz Owainati</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Head of Outreach</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Hi - I’m Yaz!! Firstly, I’m flattered that you clicked on me. 
+                        <br><br>
+                        Aside from impromptu dancing, making and listening to music are definitely some of my top priorities. I’m heavily influenced by 80s synth pop, but enjoy a range of styles from heavier beats, rap, indie rock, dreamy-sounding tunes and everything in between. Outside the realm of auditory experience, I’m very partial to lounging with kittens. A lover of rabbithole-esque conversation, unstructured and frequent writing, enthusiastic peoples and sun! 
+                        <br><br>
+                        My best pal, Drea, serendipitously met Eric in August of 2017 and I met him soon after. Having extensively contemplated the implications of social interactions facilitated by technology, I was astounded when I heard about the concept Eric was working on. When offered the opportunity to join the team, I decided to leave my junior year at the University of Rochester and move to NYC to fully dedicate myself to materializing this idea. 
+                        <br><br>
+                        In the spirit of personal creative fulfillment, I’m so happy to introduce Junto to you! You, reading this, are one of the first to see. We’re counting on word of mouth to get this off the ground. 
+                        <br><br>
+                        ⁃Yaz 
+                        <br><br>
+                        Ps. Seriously huge shoutouts to my amazing family and friends. You guys are the whole point of doing any of this!                        
+                    </p>
                 </div>
 
         </div>        

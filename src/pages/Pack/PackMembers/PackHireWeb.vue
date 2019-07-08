@@ -30,9 +30,111 @@
                     <h2 slot="packMemberName" class="packMember__name">??</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Lead Web Developer</h2>            
                     
-                    <p class="packMember__bio">(web specs here) Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <div class="packMember__bio">
+                        Hey there! We're looking for a passionate software engineer 
+                        who can lead our web development efforts, mentor new members moving forward,
+                        and lay a strong foundation for Junto to scale with minimal friction. 
+                        If you feel called to apply, please send us an email introducing yourself attached with your CV!          
+
+                    <p class="packMember__bio--section">Why Junto</p>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text"><em>The work matters</em></p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">This is an opportunity to tackle a large, meaningful problem and facilitate a more open era of human connection.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">Junto is more than a digital interface. We plan to continue holding space for people from all walks of life in the spirit of this project.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You’ll be joining a diverse, non-hierarchical and tight-knit team. We invite you to co-live and create with us.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">We are a small team, so your contributions will have significant weight. This is a leadership position with large upside for growth.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">We value radical transparency and difficult, but necessary conversations.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">This is a startup, so long hours are to be expected. That being said, we make an effort to prioritize self-care and ensure balance. </p>
+                    </div>
+
+                    <p class="packMember__bio--section">High Level</p>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You feel a strong conviction to forward this cause.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You’re a team player who’s also comfortable in a self-directed role.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You are a student of your craft and pay relentless attention to detail.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You have a gift for simplifying and communicating technical details.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You believe less is more. You prefer elegant, minimalist solutions over unnecessarily rigid and complex architectures.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You’re interested in the potential of decentralization and are not afraid to work with new, cutting-edge technologies.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You measure twice and cut once. You care about doing things the right way, but know how to get things done in a timely manner.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You hold yourself and others around you accountable.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You see yourself as more than a software engineer. You want to be involved in a number of moving parts and are comfortable in a leadership position..</p>
+                    </div>
+
+
+                    <p class="packMember__bio--section">Specifics</p>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You have a mastery of the fundamentals (HTML, CSS, JavaScript, ES6+).</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You are capable of building beautiful, responsive designs.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You have experience with Sass.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You have a strong grasp of modern frontend frameworks like Vue or React and state management libraries like Vuex or Redux (Vue/Vuex is a plus).</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You’ve worked extensively with APIs.</p>
+                    </div>
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You have experience building or are interested in the future of PWAs.</p>
+                    </div>                    
+                    <div class="packMember__bio--bullet">
+                        <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
+                        <p class="packMember__bio--bullet--text">You’re an interdisciplinary software engineer. You don’t confine yourself to web development and have an innate drive to explore new technologies.                       </p>
+                    </div>
+                    </div>
                 </div>
         </div>        
 

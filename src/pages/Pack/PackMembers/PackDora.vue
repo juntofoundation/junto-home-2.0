@@ -30,9 +30,12 @@
                     <h2 slot="packMemberName" class="packMember__name">Dora Czovek</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Head of Operations</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Hello and Welcome! 
+                        <br><br>
+
+                        I’m Hungarian but spent the past 19 years in NYC. A Citizen of Earth. I worked in the field of visual arts for 13 years. Landmark Education, Yoga &amp; 3,000 Bows, Oneness Blessing, Oriental Dance, Tom Kenyon, Jennifer Luna Posada, Drunvalo Melchizedek, Pyradym by Yarah Formation and Veganism forged who I am. A Truth-seeker, forever learning and expanding. I’m here to serve Humanity, the Animals and our Planet. I joined Junto because I believe that we are stronger Together. 🕊️                        
+                    </p>
                 </div>
         </div>        
 

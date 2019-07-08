@@ -30,9 +30,9 @@
                     <h2 slot="packMemberName" class="packMember__name">Josh Parkin</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">CTO</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Aloha! Ever since I can remember I have always been obsessed with creation. Whether that be creating software, music, drones or a powerful connection it completely captivates me. When I first heard about Junto, I found something I was looking for. A social network which truly connects people, something which can create a real sense of community and inclusivity, a safe place where you can learn and share with no holding back. I'm excited to embark on this adventure with you. See you on Junto!                        
+                    </p>
                 </div>
         </div>        
 

@@ -6,7 +6,7 @@
     display: flex;
 
     @include respond(phone) {
-        padding: 4rem 8rem;
+        padding: 4rem;
         flex-direction: column;
         align-items: center;
     }
@@ -51,10 +51,6 @@
     &__photo {
         width: 100%;
 
-        @include respond(phone) {
-            padding: 0 8rem; 
-        }
-
         &--image {
             height: 100%;
             width: 100%; 
@@ -73,9 +69,28 @@
     &__title {
         font-size: 2rem;
         font-weight: 500;
+        margin-bottom: 2rem; 
     }
 
     &__bio {
         font-size: 1.7rem; 
+
+        &--section {
+            font-size: 2rem;
+            font-weight: 600; 
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        &--bullet {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem; 
+
+            &--icon {
+                height: 2rem;
+                margin-right: 2rem; 
+            }
+        }
     }
 }

@@ -30,9 +30,27 @@
                     <h2 slot="packMemberName" class="packMember__name">Kyle Hornick</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Board Member</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Hey Friends! Kyle here. I’m after authenticity and self-expression and that’s why I’m off the walls excited to be a part of Junto. My journey with the team began when I reconnected with Yaz after high school. She introduced me to the movement and inspired me to pursue the creative path. 
+                        <br><br>
+                        A few months later I broke my collarbone while skiing and during the recovery I became interested in philosophy, spirituality, and comics. I now spend my free time combining these passions in an effort to bring the gift of personal growth to others. I’m really interested in finding things that pull me forward and right now it’s building a strong foundation of love, respect, and resilience within myself and the people around me. 
+                        <br><br>
+                        A few months after the collarbone break I travelled to Varanasi, India where I lived for 4 months. This place gave me the desire to take initiative to push my passions all the way. I also left with un unquenchable thirst for MASALA CHAI! 
+                        <br><br>
+                        These days, If I’m not making comics I can be found reading, skateboarding, journaling, loving life, dancing like a maniac, bowing to existence while listening to Alice Coltrane, playing ukulele, or hugging my friends and family. 
+                        <br><br>
+                        
+
+                        Random thoughts:
+                        <br><br>
+                        - Morning Routine SO IMPORTANT
+                        <br>
+                        - Reflect, Reflect, Reflect—maintain a positive dialogue with yourself
+                        <br>
+                        - The highest expression of any artform is divinity
+                        <br>
+                        - Nothing that is worth it is easy                        
+                    </p>
                 </div>
         </div>        
 

@@ -30,9 +30,16 @@
                     <h2 slot="packMemberName" class="packMember__name">Arthur Brock</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Advisor, Co-founder of Holochain</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Arthur is the co-founder of Holochain and Holo, which are stepping stones towards
+                        fulfilling other projects he co-founded called Ceptr and MetaCurrency.
+                        <br><br>
+                        Arthur Brock has a history of building targeted currencies which shape the social dynamics of our emerging post-industrial economy. He has created more than a hundred designs for multi-currency systems and his software company has built and deployed dozens of those systems.
+                        <br><br>
+                        Initially, Arthur put his experience Artificial Intelligence to use at GM, Chrysler & Hughes, but shifted his focus to building intelligence into social architectures rather than to computers. He started student-run schools and award-winning, employee-run businesses and discovered the engine that runs these types of organizations involve specific patterns of incentives and feedback. He began to unlock secrets of the Social DNA by which people operate and the critical role of currencies for programming these patterns. 
+                        <br><br>
+                        Arthur’s designs include currency systems for: collaborative scientific research, sustainable fishery management, corporate compensation plans, employee stock options, community-based economic development, business barter and exchange, triple-bottom-line trade credits, open source software development, customer loyalty programs, water rights, recirculating gift certificates, community service, employee performance management, arts & culture development, efficient resource sharing & management, and community & environmental impact assessment.                        
+                    </p>
                 </div>
         </div>        
 

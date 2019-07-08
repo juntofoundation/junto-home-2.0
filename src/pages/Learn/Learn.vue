@@ -13,11 +13,10 @@
         <!-- navigation -->
         <transition name="fade"> 
             <junto-nav-open v-if="navOpen">
-                <p @click="navOpen = false" slot="navClose" class="navOpen__nav--item">CLOSE</p>
-            
+                <img @click="navOpen = false" slot="navClose" class="navOpen__nav--icon" src="../../assets/images/junto-home-2.0__moon--filled.png">                        
             </junto-nav-open>        
         </transition>
-
+ 
         <!-- learn header -->
         <junto-learn-header></junto-learn-header>
 
