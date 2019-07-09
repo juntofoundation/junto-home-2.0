@@ -688,13 +688,17 @@ body {
   background-image: linear-gradient(to right top, #5E54D0, #307FAB);
   background-image: linear-gradient(to right top, #4D42C9, #307FAB);
   width: 100vw;
-  padding-top: 4rem;
+  padding-top: 6rem;
   display: flex;
   justify-content: space-between; }
   @media (max-width: 56.25em) {
     .homeHeader {
       align-items: center;
       flex-direction: column; } }
+  @media (max-width: 37.5em) {
+    .homeHeader {
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
   .homeHeader__content {
     display: flex;
     flex-direction: column;
@@ -938,12 +942,12 @@ body {
   .homeSponsors__body {
     font-size: 2rem;
     text-align: center;
-    padding: 0 17%;
-    margin-bottom: 2rem; }
+    padding: 0 17%; }
     @media (max-width: 37.5em) {
       .homeSponsors__body {
         padding: 0 2rem; } }
   .homeSponsors__section {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     padding: 2rem 24% 0 24%;

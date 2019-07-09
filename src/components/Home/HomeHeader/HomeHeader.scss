@@ -7,7 +7,7 @@
 
     width: 100vw;
 
-    padding-top: 4rem;
+    padding-top: 6rem;
     display: flex;
     justify-content: space-between;
     // align-items: center;
@@ -17,6 +17,11 @@
         flex-direction: column;      
         // justify-content: flex-start;
 
+    }
+
+    @include respond(phone) {
+        padding-top: 4rem;
+        padding-bottom: 2rem; 
     }
 
     &__content {
