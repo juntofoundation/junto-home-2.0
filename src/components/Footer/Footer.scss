@@ -1,3 +1,4 @@
+@import '../../../sass/base';
 
 .footer {
     height: 33rem; 
@@ -6,11 +7,12 @@
     padding: 4rem 1.5rem; 
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
 
     &__left {
         height: 100%; 
-        display: flex;
+        display: flex; 
         flex-direction: column;
         justify-content: space-between;
     }
@@ -36,6 +38,10 @@
             color: white;
             font-size: 2.4rem; 
             font-weight: 500; 
+
+            @include respond(phone) {
+                display: none;
+            }
         }
     }
 
@@ -43,6 +49,22 @@
         font-size: 1.4rem;
         font-weight: 500;
         color: white;
+
+        &--desk {
+            display: block;
+            
+            @include respond(phone) {
+                display: none; 
+            }
+        }
+
+        &--mobile {
+            display: none;
+
+            @include respond(phone) {
+                display: block; 
+            }
+        }
     }
 
     &__socials {
@@ -78,6 +100,12 @@
             &:hover {
                text-decoration: underline;
             }                     
+        }
+
+        &--email {
+            @include respond(phone) {
+                display: none; 
+            }
         }
     }
 }

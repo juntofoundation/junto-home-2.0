@@ -2,10 +2,22 @@
 <template>
     <div class="pack">
         <!-- navigation -->
-        <junto-nav></junto-nav>
+        <junto-nav>
+            <div slot="navIcon" class="nav__icon" @click="navOpen = true">
+                <a class="removelink">
+                    <img src="../../../assets/images/junto-home-2.0__moon.png" alt="" class="nav__icon--image">
+                </a>
+            </div>                    
+        </junto-nav>
+
+        <!-- navigation -->
+        <transition name="fade"> 
+            <junto-nav-open v-if="navOpen">
+                <img @click="navOpen = false" slot="navClose" class="navOpen__nav--icon" src="../../../assets/images/junto-home-2.0__moon--filled.png">                        
+            </junto-nav-open>        
+        </transition>
 
         <div class="packMember">
-            <div style="display: flex">
                 <div class="packMember__left">
                     <div class="packMember__photo">
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--josh.png" alt="">        
@@ -18,13 +30,10 @@
                     <h2 slot="packMemberName" class="packMember__name">Josh Parkin</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">CTO</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Aloha! Ever since I can remember I have always been obsessed with creation. Whether that be creating software, music, drones or a powerful connection it completely captivates me. When I first heard about Junto, I found something I was looking for. A social network which truly connects people, something which can create a real sense of community and inclusivity, a safe place where you can learn and share with no holding back. I'm excited to embark on this adventure with you. See you on Junto!                        
+                    </p>
                 </div>
-
-            </div>
-
         </div>        
 
         <!-- footer-->
@@ -35,12 +44,30 @@
 
 <script>
     import juntoNav from '../../../components/Nav/Nav.vue';
+    import juntoNavOpen from '../../../components/NavOpen/NavOpen.vue';
     import juntoFooter from '../../../components/Footer/Footer.vue';
 
     export default {
+        data() {
+            return {
+                navOpen: false  
+            }
+        },          
         components: {
             juntoNav,
+            juntoNavOpen,
             juntoFooter
         }
     }
 </script>
+<style>
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity .2s
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+        opacity: 0
+    }
+</style>

@@ -1,0 +1,48 @@
+@import '../../../sass/base';
+
+.navOpen {
+    background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
+    height: 100vh;
+    width: 100vw;
+    z-index: 20000;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    &__nav {
+        padding: 0 1.5rem;
+        height: 7rem;
+        // background-color: green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--icon {
+            height: 2.4rem;
+            cursor: pointer;
+        }
+    }
+
+    &__body {
+        margin-top: 12%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--item {
+            margin-bottom: 2rem; 
+            color: white !important;
+            font-size: 1.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+
+            cursor: pointer;
+            transition: all .2s;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+}

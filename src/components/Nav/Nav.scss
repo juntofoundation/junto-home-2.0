@@ -1,3 +1,4 @@
+@import '../../../sass/base';
 
 .nav {
     position: fixed;
@@ -51,6 +52,10 @@
         &:hover {
             color: $junto-primary;
         }
+
+        @include respond(phone) {
+            display: none; 
+        }
     }
 
     &__button {
@@ -67,6 +72,22 @@
 
         &:hover {
             transform: scale(1.05);
+        }
+    }
+
+    &__icon {
+        height: 2.4rem; 
+        display: none;
+        margin-left: 2rem; 
+        cursor: pointer;
+
+        &--image {
+            height: 100%;
+        }
+
+        @include respond(phone) {
+            display: block;
+
         }
     }
 }

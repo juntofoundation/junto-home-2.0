@@ -10,12 +10,12 @@
                         <p class="footer__logo--text">JUNTO FOUNDATION</p>
                     </a>
                 </div>
-
-            <p class="footer__copyright">Made with <span style="color: #EA6BA1">&hearts;</span> in New York</p>
+            <p class="footer__copyright footer__copyright--desk">Made with <span style="color: #EA6BA1">&hearts;</span> in New York</p>
+            <p class="footer__copyright footer__copyright--mobile">hi@junto.foundation<br>Made with <span style="color: #EA6BA1">&hearts;</span> in New York</p>
         </div>
         <div class="footer__right">
             <div class="footer__socials">
-                <a href="mailto:hi@junto.foundation" target="blank" class="removelink footer__social">
+                <a href="mailto:hi@junto.foundation" target="blank" class="removelink footer__social removelink footer__social--email">
                     <img class="footer__social--icon footer__social--icon--large" src="../../assets/images/junto-home-2.0__email.png" alt="">
                     <p class="footer__social--text">Email</p>
                 </a>       

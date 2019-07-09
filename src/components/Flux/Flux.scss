@@ -1,3 +1,4 @@
+@import '../../../sass/base';
 
 .flux {
     padding: 5rem 8%;
@@ -7,21 +8,28 @@
     flex-direction: column;
     align-items: center;
 
+    @include respond(phone) {
+        padding: 4rem 2rem; 
+    }
+
     &__title {
         font-size: 2.4rem; 
         margin-bottom: 1rem;
+        text-align: center; 
     }
 
     &__subtitle {
-        font-size: 2rem;
-        margin-bottom: 2.5rem; 
+        font-size: 1.7rem;
+        margin-bottom: 2rem; 
+        text-align: center;
+
     }
 
     &__subscribe {
         background-image: linear-gradient(to right, $junto-purple, $junto-primary);
         color: white;        
         font-size: 1.4rem;
-        font-weight: 500;
+        font-weight: 600;
         border-radius: 100px;
         padding: 1.5rem 3rem; 
         outline: none; 

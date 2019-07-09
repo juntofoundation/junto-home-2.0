@@ -1,19 +1,21 @@
+@import '../../../sass/base';
 
 .media {
-    z-index: 1001;
-    // transform: translateY(-7rem);    
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: scroll;
     background-color: white;
 
     display: flex;
     flex-direction: column;
 
     &__top {
+        position: fixed; 
+        top: 0;
+        left: 0;
         min-height: 7rem;
+        width: 100vw;
         border-bottom: 1px solid #eee;
         background-color: white;
 
@@ -46,42 +48,47 @@
     }
 
     &__bottom {
+        margin-top: 7rem;
         height: 95vh;
         width: 100vw;
         display: flex;
-        // overflow-y: scroll;
 
-        // background-image: linear-gradient(to right, $junto-purple, $junto-primary);
-    }
-
-    &__panel {
-        width: 25vw;
-        background-color: white;
-        border-left: 1px solid #eee;
-        
-        // background-image: linear-gradient(to right, $junto-purple, $junto-primary);
-
+        @include respond(tab-port) {
+            height: 100%;
+            flex-direction: column;
+        }
     }
 
     &__main {
         width: 70vw;
 
+        @include respond(tab-port) {
+            height: 50vh;
+            width: 100vw;
+        }
+
         &--video {
             height: 80%;
             width: 100%;
-            // margin-left: 50%;
-            // margin-top: 25%;
-            // transform: translate(-50%, -50%);
+
+            @include respond(tab-port) {
+                height: 100%;
+            }
+
         }
     }
 
     &__videos {
         width: 30vw;
+        padding-bottom: 10rem;
         background-color: white;
         border-left: 1px solid #eee;        
         display: flex;
         flex-direction: column;
-        overflow-y: scroll;
+
+        @include respond(tab-port) {
+            width: 100vw;
+        }      
         
         &--title {
             padding: 1rem 1rem 0 1rem; 
@@ -98,10 +105,59 @@
         border-bottom: 1px solid #eee;
 
         cursor: pointer;
+        min-height: 15rem;
+
+        @include respond(tab-port) {
+            padding: 2rem 4rem 2rem 1rem; 
+        }
 
         &--thumbnail {
-            height: 10rem; 
+            min-height: 10rem; 
+            min-width: 15rem;
             margin-right: 1rem;
+
+            @include respond(tab-port) {
+                height: 12rem;
+            }
+
+            &--one {
+                background-image: url('../../../src/assets/images/junto-home-2.0__thumbnail--flows.png');
+                background-position: center;
+                background-size: cover;
+            }
+
+            &--two {            
+                background-image: url('../../../src/assets/images/junto-home-2.0__thumbnail--hcxjunto.png');
+                background-position: center;
+                background-size: cover;    
+            }
+
+            &--three {
+                background-image: url('../../../src/assets/images/junto-home-2.0__thumbnail--demo.png');
+                background-position: center;
+                background-size: cover;                    
+
+            }
+
+            &--four {
+                background-image: url('../../../src/assets/images/junto-home-2.0__thumbnail--decentralization.png');
+                background-position: center;
+                background-size: cover;                    
+
+            }
+
+            &--five {
+                background-image: url('../../../src/assets/images/junto-home-2.0__thumbnail--communitysm.png');
+                background-position: center;
+                background-size: cover;                    
+
+            }
+
+            &--six {
+                background-image: url('../../../src/assets/images/junto-home-2.0__thumbnail--blooper.png');
+                background-position: center;
+                background-size: cover;        
+            }
         }
 
         &--details {
@@ -112,12 +168,21 @@
         &--title {
             font-size: 1.4rem;
             font-weight: 500;
+
+            @include respond(tab-port) {
+                font-size:  1.7rem;
+            }
         }
 
         &--date {
             font-size: 1.2rem;
             color: #555;
             font-weight: 500;
+
+
+            @include respond(tab-port) {
+                font-size:  1.4rem;
+            }            
         }
     }
 

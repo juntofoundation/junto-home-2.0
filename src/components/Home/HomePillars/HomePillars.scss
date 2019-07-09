@@ -1,3 +1,4 @@
+@import '../../../../sass/base';
 
 .homePillars {
     width: 100%;
@@ -6,6 +7,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include respond(phone) {
+        padding: 4rem 2rem; 
+    }
 
     &__title {
         font-size: 2.4rem;
@@ -21,22 +26,47 @@
         font-size: 2rem;
         text-align: center; 
         margin-bottom: 4rem; 
+
+        @include respond(phone) {
+            padding: 0 2rem;
+
+        }        
     }
 
     &__pillars {
         display: flex;
         justify-content: space-between;
         margin-bottom: 4rem;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            margin-bottom: 0;
+        }
     }
 
     &__pillar {
         flex-basis: 33.33%;
         display: flex;
         flex-direction: column;
-        align-items: center;        
+        align-items: center;       
+        
+        @include respond(tab-port) {
+            margin-bottom: 4rem; 
+            padding: 0 8rem;
+            
+        }   
+
+        @include respond(phone) {
+            padding: 0 2rem;
+        }
 
         &--middle {
             margin: 0 6rem; 
+
+            @include respond(tab-port) {
+                margin: 0 0 4rem 0;
+                
+            }               
         }
 
         &--icon {
@@ -52,6 +82,10 @@
         &--body {
             font-size: 1.5rem;
             text-align: center;
+
+            @include respond(phone) {
+                font-size: 1.7rem; 
+            }
         }
     }
 
@@ -59,7 +93,7 @@
         padding: 1.5rem 3rem;
         background-image: linear-gradient(to right, $junto-purple, $junto-primary);
         color: white;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1.4rem;
         border: none;
         border-radius: 100px; 

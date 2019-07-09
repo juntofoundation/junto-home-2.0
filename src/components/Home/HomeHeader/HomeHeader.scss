@@ -1,20 +1,44 @@
+@import '../../../../sass/base';
+
 .homeHeader {
     position: relative;
-    height: 95vh;
     background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
     background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
+
+    width: 100vw;
+
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+
+    @include respond(tab-port) {
+        align-items: center;
+        flex-direction: column;      
+        // justify-content: flex-start;
+
+    }
+
+    @include respond(phone) {
+        padding-top: 4rem;
+        padding-bottom: 2rem; 
+    }
 
     &__content {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        position: absolute;
-        top: 15rem;
-        left: 10%;
-        z-index: 300;
-
-        height: 50rem;
+        margin-left: 8%;
+        margin-top: 4%;
         width: 38vw;
+
+        @include respond(tab-port) {
+            margin: 0;
+            margin-top: 2rem;
+            margin-bottom: 4rem; 
+            align-items: center;
+            width: 90vw;
+        }
     }
 
     &__title {
@@ -22,6 +46,10 @@
         font-size: 4rem;
         font-weight: 500;
         letter-spacing: 3px;
+
+        @include respond(tab-port) {
+            text-align: center;
+        }        
     }
 
     &__subtitle {
@@ -30,12 +58,20 @@
         font-weight: 400;
 
         margin-bottom: 1rem; 
+
+        @include respond(tab-port) {
+            text-align: center;
+        }              
     }
 
     &__description {
         color: white;
         font-size: 1.7rem;
         margin-bottom: 2rem;
+
+        @include respond(tab-port) {
+            text-align: center;
+        }              
     }
 
     &__action {
@@ -43,9 +79,10 @@
         align-items: center;
         border: 2px solid white;
         border-radius: 100px;
-        // background-color: transparent; 
         background-color: transparent;
         padding: 1rem 2rem;
+        white-space: nowrap;
+        overflow: hidden;
 
         cursor: pointer;
         transition: all .2s;
@@ -65,16 +102,20 @@
         &--text {
             font-size: 1.4rem; 
             color: white;
-            font-weight: 500;
+            font-weight: 600;
         }
 
     }
 
     &__mockups {
-        position: absolute;
         height: 57rem;
-        top: 12%;
-        right: 12%;        
+        margin-right: 8%;
+
+        @include respond(tab-port) {
+            height: 49rem;
+            margin-right: 0;
+
+        }
     }
 
 }

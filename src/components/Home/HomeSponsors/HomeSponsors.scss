@@ -1,3 +1,4 @@
+@import '../../../../sass/base';
 
 .homeSponsors {
     background-color: #fbfbfb;
@@ -12,21 +13,38 @@
         font-weight: 600;
         text-align: center; 
         margin-bottom: 1rem; 
+        padding: 0 12rem;
+
+        @include respond(phone) {
+            padding: 0 2rem;
+        }
     }
 
     &__body {
         font-size: 2rem;
         text-align: center;
         padding: 0 17%; 
-        margin-bottom: 2rem; 
+
+        @include respond(phone) {
+            padding: 0 2rem;
+        }
     }
 
     &__section {
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
 
         padding: 2rem 24% 0 24%; 
         width: 100vw;
+
+        @include respond(tab-port) {
+            padding: 2rem 8% 0 8%;
+        }
+
+        @include respond(phone) {
+            padding: 2rem 1rem 0 1rem;
+        }        
 
         &--title {
             font-size: 1.4rem;        
@@ -47,9 +65,10 @@
         justify-content: space-between; 
         flex-wrap: wrap; 
 
-        &--special {
-
+        @include respond(phone) {
+            font-size: 1.4rem;
         }
+
 
         &--specialtwo {
             justify-content: center; 
@@ -86,7 +105,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 2rem;
             cursor: pointer;
 
             &:hover > &--text {
@@ -106,22 +124,65 @@
         }
 
         &--special {             
-            flex-basis: 33.33%;            
+            flex-basis: 33.33%;         
+            
+            @include respond(phone) {
+                flex-basis: 50%;
+            }
+            
+            &--mobile {
+                display: none;
+
+                @include respond(phone) {
+                    display: block;
+                    margin-bottom: 0;
+                }
+            }
         }
 
         &--specialtwo {             
             margin: 0 3rem;
+
+            &--david {
+
+                @include respond(phone) {
+                    display: none;
+                }
+            }
         }
 
         &--platinum {
             margin: 0 2rem; 
+
+            @include respond(phone) {
+                margin: 0;
+                flex-basis: 50%;
+            }
         }
 
-        &--gold {
-
-        }
         &--silver {
             flex-basis: 33%;
+
+            @include respond(phone) {
+                flex-basis: 50%;
+            }
+            &--desk {
+                display: block;
+                
+                @include respond(phone) {
+                    display: none;
+                }                
+            }
+
+            &--mobile {
+                display: none;
+
+                @include respond(phone) {
+                    display: block;
+                    flex-basis: 50%;
+
+                }
+            }
         }
         
     }
@@ -132,9 +193,9 @@
         background-color: transparent; 
         color: $junto-primary;        
         font-size: 1.2rem;
-        font-weight: 500;
+        font-weight: 600;
         border-radius: 100px;
-        padding: 1.5rem 3rem; 
+        padding: 1.5rem 2rem; 
         outline: none; 
         text-transform: uppercase;
 
@@ -155,6 +216,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @include respond(tab-port) {
+            padding: 0 12%; 
+        }
+
+        @include respond(phone) {
+            padding: 0 2rem;
+        }
+
 
         &--title {
             font-size: 2rem;        

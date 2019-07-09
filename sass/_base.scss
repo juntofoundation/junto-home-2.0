@@ -8,9 +8,15 @@ $junto-purple-dark: #4D42C9;
     @if $breakpoint == phone {
         @media (max-width: 37.5em) {@content}; //600px
     }
+
     @if $breakpoint == tab-port {
         @media (max-width: 56.25em) {@content}; //900px
     }
+
+    @if $breakpoint == pack {
+        @media (max-width: 62em) {@content}; //960px
+    }
+
     @if $breakpoint == tab-land {
         @media (max-width: 75em) {@content}; //1200px
     }
@@ -38,12 +44,12 @@ html {
         font-size: 56.25%;
     }
 
-    @include respond(tab-port){
-        font-size: 50%; 
-    }
+    // @include respond(tab-port){
+    //     font-size: 50%; 
+    // }
 
     @include respond(phone) {
-        font-size: 46.88%;
+        // font-size: 46.88%;
     }    
 } 
 

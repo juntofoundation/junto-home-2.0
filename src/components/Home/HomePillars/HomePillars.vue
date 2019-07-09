@@ -2,15 +2,15 @@
     <div class="homePillars">
         <h2 class="homePillars__title">META</h2>
         <p class="homePillars__subtitle">The evolution of social media begins with
-            revisiting the fundamentals and redesigning them in ways that can activate
-            our capacity.
+            redesigning the fundamentals in ways that can activate
+            our expressive capacities. 
         </p>
         <div class="homePillars__pillars">
             <div class="homePillars__pillar">
                 <img src="../../../assets/images/junto-home-2.0__pillar--design.png" alt="" class="homePillars__pillar--icon">
                 <p class="homePillars__pillar--title">CONSCIOUSLY DESIGNED</p>
                 <p class="homePillars__pillar--body">We believe the forms we communicate through
-                    are just as important as the message itself. We've designed new social flows to
+                    are as important as the message itself. We've designed new social flows to
                     enable more agency and flexibility. No ads, vanity metrics, AI-powered echo chambers,
                     and much more. 
                 </p>
@@ -24,7 +24,7 @@
                     technology called Holochain. This means we don't store your information in
                     centralized servers we run or own. You own your data and we will never
                     be able to sell it to third parties. 
-                </p>
+                </p> 
                 
 
             </div>

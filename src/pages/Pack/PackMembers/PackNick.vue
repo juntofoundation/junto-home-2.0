@@ -2,10 +2,22 @@
 <template>
     <div class="pack">
         <!-- navigation -->
-        <junto-nav></junto-nav>
+        <junto-nav>
+            <div slot="navIcon" class="nav__icon" @click="navOpen = true">
+                <a class="removelink">
+                    <img src="../../../assets/images/junto-home-2.0__moon.png" alt="" class="nav__icon--image">
+                </a>
+            </div>                    
+        </junto-nav>
+
+        <!-- navigation -->
+        <transition name="fade"> 
+            <junto-nav-open v-if="navOpen">
+                <img @click="navOpen = false" slot="navClose" class="navOpen__nav--icon" src="../../../assets/images/junto-home-2.0__moon--filled.png">                        
+            </junto-nav-open>        
+        </transition>
 
         <div class="packMember">
-            <div style="display: flex">
                 <div class="packMember__left">
                     <div class="packMember__photo">
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--nick.png" alt="">        
@@ -22,9 +34,6 @@
                     <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
                     <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
                 </div>
-
-            </div>
-
         </div>        
 
         <!-- footer-->
@@ -35,12 +44,31 @@
 
 <script>
     import juntoNav from '../../../components/Nav/Nav.vue';
+    import juntoNavOpen from '../../../components/NavOpen/NavOpen.vue';
     import juntoFooter from '../../../components/Footer/Footer.vue';
 
     export default {
+        data() {
+            return {
+                navOpen: false  
+            }
+        },          
         components: {
             juntoNav,
+            juntoNavOpen,
             juntoFooter
         }
     }
 </script>
+
+<style>
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity .2s
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+        opacity: 0
+    }
+</style>

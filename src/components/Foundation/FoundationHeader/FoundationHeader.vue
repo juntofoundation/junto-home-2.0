@@ -10,17 +10,11 @@
          <div class="foundationHeader__pillars">    
             <div class="foundationHeader__pillar">
                 <p class="foundationHeader__pillar--title">ONE-TIME DONATIONS</p>
-                <!-- <p class="foundationHeader__pillar--body">We accept one-time donation through 
-                    <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="addlink">Indiegogo InDemand</a>,
-                    PayPal, and Holo Tokens. Our address to receive Holo Tokens is: 0xCD75b4046A99101a232bB105915F182C7b7E136E
-                </p>          -->
-
                 <p class="foundationHeader__pillar--body">We accept donations through 
                     <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="addlink">Indiegogo</a> and Holo Tokens. 
-                    Our address to receive Holo Tokens is: 0xCD75b4046A99101a232bB105915F182C7b7E136E 
-                  
-                </p>                                  
-            </div>
+                    View our $HOT address below.
+                </p>                                        
+                </div>
 
             <div class="foundationHeader__pillar foundationHeader__pillar--middle">
                 <p class="foundationHeader__pillar--title">BECOME A SPONSOR</p>
@@ -38,8 +32,35 @@
             </div>                        
         </div> 
 
+        <div class="foundationHeader__hot">
+            <img src="../../../assets/images/junto-home-2.0__holo.jpg" alt="" class="foundationHeader__hot--icon">
+            <p class="foundationHeader__hot--title">Holo Token Address:</p>
+            <p class="foundationHeader__hot--address">0xCD75b4046A99101a232bB105915F182C7b7E136E</p>
+        </div>
+
     </div>
 </template>
 
 
-    
+<script>
+    export default {
+        data() {
+            return {
+                hotOn: false                    
+            }
+        },
+
+        methods: {
+            showAddress() {
+
+            }
+        }
+    }
+
+</script>
+
+
+
+
+  
+
