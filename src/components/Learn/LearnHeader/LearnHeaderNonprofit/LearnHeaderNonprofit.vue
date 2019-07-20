@@ -44,7 +44,7 @@
             <div class="learnHeader__section--left">
                 <div class="learnHeader__section--body">
                     <h2 class="learnHeader__section--title">Transparent</h2>
-                    <p class="learnHeader__section--text">We hold monthly calls anyone can join, are active on Telegram, will be trasparent with our finances, and open source all of our designs and code.</p>
+                    <p class="learnHeader__section--text">We invite anyone who would like to participate in this conversation to join our public Telegram channel. All of our designs and code are open source as well.</p>
                 </div>
             </div>
 
@@ -70,7 +70,10 @@
             </div>
        
 
-        </div>              
+        </div>    
+
+        <slot name="learnDesignMore"></slot>
+
 
    
     </div>

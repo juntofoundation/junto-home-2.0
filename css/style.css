@@ -592,9 +592,12 @@ body {
       cursor: pointer;
       transition: all .2s; }
   .packMember__left {
-    width: 35%; }
+    width: 35%;
+    display: flex;
+    flex-direction: column; }
     @media (max-width: 37.5em) {
       .packMember__left {
+        align-items: center;
         width: 100%; } }
   .packMember__right {
     width: 65%;
@@ -611,6 +614,21 @@ body {
       .packMember__photo--image--hire {
         height: 12rem;
         width: auto; }
+  .packMember__socials {
+    margin: 1rem 0;
+    display: flex; }
+    @media (max-width: 37.5em) {
+      .packMember__socials {
+        margin: 2rem 0; } }
+  .packMember__social {
+    display: flex;
+    align-items: center; }
+    .packMember__social--icon {
+      height: 1.5rem;
+      margin-right: 1rem; }
+    .packMember__social--text {
+      font-size: 1.4rem;
+      font-weight: 500; }
   .packMember__name {
     font-size: 2.4rem;
     font-weight: 600; }
@@ -987,7 +1005,6 @@ body {
     text-align: center;
     transition: all .2s;
     text-transform: uppercase;
-    cursor: pointer;
     margin-bottom: 2rem;
     transition: all .4s; }
     .homeSponsors__sponsor:hover {
@@ -1465,10 +1482,14 @@ body {
       width: 24rem;
       margin-bottom: 1rem;
       overflow-y: hidden;
+      overflow-x: hidden;
       position: relative;
       cursor: pointer; }
       .packHeader__member--photo--image {
         width: 100%; }
+        .packHeader__member--photo--image--david {
+          width: auto;
+          height: 100%; }
       .packHeader__member--photo:hover > .packHeader__member--cover {
         opacity: .8; }
       .packHeader__member--photo:hover > .packHeader__member--cover--text {

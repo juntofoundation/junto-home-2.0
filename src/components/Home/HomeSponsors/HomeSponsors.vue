@@ -37,7 +37,7 @@
             </div>      
             <div class="homeSponsors__sponsors homeSponsors__sponsors--specialtwo">
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--specialtwo homeSponsors__sponsor--specialtwo--david">    
-                    <a href="https://news.vice.com/en_us/article/yw7wxm/facebook-is-so-afraid-of-this-man-it-smeared-him-as-both-backed-by-george-soros-and-anti-semitic" class="removelink">
+                    <a href="https://news.vice.com/en_us/article/yw7wxm/facebook-is-so-afraid-of-this-man-it-smeared-him-as-both-backed-by-george-soros-and-anti-semitic" target="blank" class="removelink">
                         DAVID MAGERMAN                                        
                     </a>                 
                 </div>      

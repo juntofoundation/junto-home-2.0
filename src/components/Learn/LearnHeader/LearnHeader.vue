@@ -4,7 +4,7 @@
         <h2 class="learnHeader__title">Rebalancing Our Relationship With Technology</h2>
         <p class="learnHeader__subtitle"> 
             Junto holistically integrates new patterns of design, technology, and governance to create
-            sustainable online and offline tools dedicated to activating the vast resovoir of human potential.
+            sustainable online and offline tools that embrace our human potential. 
         </p>
         <div class="learnHeader__nav">
             <div class="learnHeader__nav--items">
@@ -15,15 +15,18 @@
             <div class="learnHeader__nav--border">&nbsp;</div>
         </div>
        
-        <junto-learn-header-design v-if="design"></junto-learn-header-design>
-        <junto-learn-header-technology v-if="technology"></junto-learn-header-technology>
-        <junto-learn-header-nonprofit v-if="nonprofit"></junto-learn-header-nonprofit>
+        <junto-learn-header-design v-if="design">            
+            <p slot="learnDesignMore" @click="setCategory('technology')" class="learnHeader__more">Learn more about our technology.</p>
+        </junto-learn-header-design>
 
-        <div class="learnHeader__section--reads">
+        <junto-learn-header-technology v-if="technology">
+            <p slot="learnGovernanceMore" @click="setCategory('nonprofit')" class="learnHeader__more">Learn more about our governance.</p>
+        </junto-learn-header-technology>
 
-        </div>
-         
-                 
+        <junto-learn-header-nonprofit v-if="nonprofit">
+            <p slot="learnDesignMore" @click="setCategory('design')" class="learnHeader__more">Learn more about our design.</p>
+        </junto-learn-header-nonprofit>
+
     </div>    
 </template>
 
@@ -43,6 +46,9 @@
         },
         methods: {
             setCategory(category) {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+
                 this.design = false;
                 this.technology = false;
                 this.nonprofit = false;

@@ -15,7 +15,7 @@
                     </div>
                 </a>
             </div> 
-            <img class="homeHeader__mockups" src="../../../assets/images/junto-home-2.0__mockups.png" alt="">  
+            <img class="homeHeader__mockups" src="../../../assets/images/junto-home-2.0__mockups.png" >  
     </div>
 </template>
 

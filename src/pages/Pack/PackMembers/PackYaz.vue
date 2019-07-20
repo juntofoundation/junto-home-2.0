@@ -23,25 +23,30 @@
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--yaz.png" alt="">        
                     </div>
                     <div class="packMember__socials">
-                        <img src="" alt="" class="packMember__social">
+                        <div class="packMember__social">
+                            <img src="../../../assets/images/junto-home-2.0__email--black.png" alt="" class="packMember__social--icon">
+                            <p class="packMember__social--text">yasmin@junto.foundation</p>
+                        </div>
                     </div>
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Yaz Owainati</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">Head of Outreach</h2>            
+                    <h2 slot="packMemberTitle" class="packMember__title">Director of Outreach</h2>            
                     
                     <p class="packMember__bio">
-                        Hi - I’m Yaz!! Firstly, I’m flattered that you clicked on me. 
+                        Hellooooo. Yaz here!
                         <br><br>
-                        Aside from impromptu dancing, making and listening to music are definitely some of my top priorities. I’m heavily influenced by 80s synth pop, but enjoy a range of styles from heavier beats, rap, indie rock, dreamy-sounding tunes and everything in between. Outside the realm of auditory experience, I’m very partial to lounging with kittens. A lover of rabbithole-esque conversation, unstructured and frequent writing, enthusiastic peoples and sun! 
+                        In addition to overseeing our community and outreach initiatives, I do a variety of things from written, video, audio and visual content creation to UX related matters and event hosting!
                         <br><br>
-                        My best pal, Drea, serendipitously met Eric in August of 2017 and I met him soon after. Having extensively contemplated the implications of social interactions facilitated by technology, I was astounded when I heard about the concept Eric was working on. When offered the opportunity to join the team, I decided to leave my junior year at the University of Rochester and move to NYC to fully dedicate myself to materializing this idea. 
+                        I came about the Junto team through Drea, my best friend from college. She had serendipitously met Eric in August of 2017 and introduced me soon after. Having extensively contemplated the implications of social interaction facilitated by technology, I was blown away upon learning about Junto. Having heard about the first alpha test at Vanderbilt that past summer, I felt immense drive and passion to help bring the project into existence. I ended up deciding to take a leave from my junior year at the University of Rochester and move to NYC to fully dedicate myself to materializing this idea.
                         <br><br>
-                        In the spirit of personal creative fulfillment, I’m so happy to introduce Junto to you! You, reading this, are one of the first to see. We’re counting on word of mouth to get this off the ground. 
+                        I’m a lover of rabbithole-esque conversation, unstructured writing, enthusiastic peoples, musical creation and sun! 
+                        <br><br>
+                        In the spirit of personal creative fulfillment, I’m so happy to introduce Junto to you!
                         <br><br>
                         ⁃Yaz 
-                        <br><br>
-                        Ps. Seriously huge shoutouts to my amazing family and friends. You guys are the whole point of doing any of this!                        
+                        <br><br>    
+                        Ps. Seriously huge shoutouts to everyone who has supported this team along our journey so far. It’s been quite a ride. Veeeery excited to see what’s to come.                                             
                     </p>
                 </div>
 

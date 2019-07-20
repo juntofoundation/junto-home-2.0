@@ -6,7 +6,7 @@
             <p class="packHeader__subtitle"> We are a group of individuals who have come together from
                 many walks of life to help realign technology with humanity. We envision social technology
                 as a tool to activate our creative, collaborative, and expressive capacities and 
-                welcome anyone who feels called to participate to join this movement.
+                welcome anyone who feels called to participate in this movement.
             </p>
 
             <div class="packHeader__section">
@@ -34,11 +34,11 @@
                             <div class="packHeader__member--photo" @click="navMember('yaz')">
                                 <p class="packHeader__member--cover--text">Yaz's Story</p>
                                 <div class="packHeader__member--cover">&nbsp;</div>                        
-                                <img style="transform: translateY(-4rem);" src="../../../assets/images/junto-home-2.0__headshot--yaz.png" alt="" class="packHeader__member--photo--image">
+                                <img style="transform: translateY(-1rem);" src="../../../assets/images/junto-home-2.0__headshot--yaz.png" alt="" class="packHeader__member--photo--image">
                             </div>
                             <div class="packHeader__member--details" @click="navMember('yaz')">
                                 <p class="packHeader__member--name">Yaz Owainati</p>
-                                <p class="packHeader__member--title">Head of Outreach</p>
+                                <p class="packHeader__member--title">Director of Outreach</p>
                             </div>
                         </a>
                     </div>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="packHeader__member--details" @click="navMember('dora')">                            
                                 <p class="packHeader__member--name">Dora Czovek</p>
-                                <p class="packHeader__member--title">Head of Operations</p>
+                                <p class="packHeader__member--title">Director of Operations</p>
                             </div>
                         </a>
                     </div>       
@@ -247,20 +247,6 @@
                 </div>
 
                 <div class="packHeader__member">
-                    <a href="/pack-ray" class="removelink">
-                        <div class="packHeader__member--photo">
-                            <p class="packHeader__member--cover--text">Ray's Story</p>
-                            <div class="packHeader__member--cover">&nbsp;</div>                           
-                            <img src="../../../assets/images/junto-home-2.0__headshot--ray.png" alt="" class="packHeader__member--photo--image">
-                        </div>
-                        <div class="packHeader__member--details">
-                            <p class="packHeader__member--name">Raymond Powell</p>
-                            <p class="packHeader__member--title">Founder of CoGov</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="packHeader__member">
                     <a href="/pack-douglas" class="removelink">
                         <div class="packHeader__member--photo">
                             <p class="packHeader__member--cover--text">Douglas' Story</p>
@@ -272,9 +258,37 @@
                             <p class="packHeader__member--title">Activist, Author</p>
                         </div>
                     </a>
-                </div>             
+                </div>         
 
                 <div class="packHeader__member">
+                    <a href="/pack-david" class="removelink">
+                        <div class="packHeader__member--photo">
+                            <p class="packHeader__member--cover--text">David's Story</p>
+                            <div class="packHeader__member--cover">&nbsp;</div>                           
+                            <img src="../../../assets/images/junto-home-2.0__headshot--david.png" alt="" class="packHeader__member--photo--image--david">
+                        </div>
+                        <div class="packHeader__member--details">
+                            <p class="packHeader__member--name">David Magerman</p>
+                            <p class="packHeader__member--title">Philanthropist, Investor</p>
+                        </div>
+                    </a>
+                </div>              
+
+                <div class="packHeader__member">
+                    <a href="/pack-ray" class="removelink">
+                        <div class="packHeader__member--photo">
+                            <p class="packHeader__member--cover--text">Ray's Story</p>
+                            <div class="packHeader__member--cover">&nbsp;</div>                           
+                            <img src="../../../assets/images/junto-home-2.0__headshot--ray.png" alt="" class="packHeader__member--photo--image">
+                        </div>
+                        <div class="packHeader__member--details">
+                            <p class="packHeader__member--name">Raymond Powell</p>
+                            <p class="packHeader__member--title">Founder of CoGov</p>
+                        </div>
+                    </a>
+                </div>                        
+
+                <div class="packHeader__member packHeader__member--mobile">
                     <a href="/pack-nick" class="removelink">
                         <div class="packHeader__member--photo">
                             <p class="packHeader__member--cover--text">Nick's Story</p>
@@ -283,11 +297,25 @@
                         </div>
                         <div class="packHeader__member--details">
                             <p class="packHeader__member--name">Nick Manning</p>
-                            <p class="packHeader__member--title">Software Engineer</p>
+                            <p class="packHeader__member--title">Senior Software Engineer</p>
                         </div>
                     </a>
-                </div>                              
-            </div>                    
+                </div>                             
+            </div>      
+
+                <div class="packHeader__member packHeader__pack--desk">
+                    <a href="/pack-nick" class="removelink">
+                        <div class="packHeader__member--photo">
+                            <p class="packHeader__member--cover--text">Nick's Story</p>
+                            <div class="packHeader__member--cover">&nbsp;</div>                           
+                            <img src="../../../assets/images/junto-home-2.0__headshot--nick.png" alt="" class="packHeader__member--photo--image">
+                        </div>
+                        <div class="packHeader__member--details">
+                            <p class="packHeader__member--name">Nick Manning</p>
+                            <p class="packHeader__member--title">Senior Software Engineer</p>
+                        </div>
+                    </a>
+                </div>                             
         </div>
 
 

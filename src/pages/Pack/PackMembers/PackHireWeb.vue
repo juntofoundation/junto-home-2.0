@@ -101,7 +101,7 @@
                     </div>
                     <div class="packMember__bio--bullet">
                         <img class="packMember__bio--bullet--icon" src="../../../assets/images/junto-home-2.0__bullet.png">
-                        <p class="packMember__bio--bullet--text">You see yourself as more than a software engineer. You want to be involved in a number of moving parts and are comfortable in a leadership position..</p>
+                        <p class="packMember__bio--bullet--text">You see yourself as more than a software engineer. You want to be involved in a number of moving parts and are comfortable in a leadership position.</p>
                     </div>
 
 

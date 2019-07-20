@@ -6,10 +6,11 @@
                 <img class="nav__logo--image" src="../../assets/images/junto-home-2.0__logo.png" alt="">
             </div>        
         </a>
-        <div class="nav__items">
+        <div class="nav__items"> 
             <div class="nav__item">
                 <a href='/learn' class="removelink">LEARN</a>
-            </div>            
+            </div>        
+                                              
             <div class="nav__item">
                 <a href='/pack' class="removelink">PACK</a>
             </div>

@@ -50,14 +50,14 @@
                 faqs: [
                     { 
                       question: 'What is Junto?', 
-                      answer: 'Junto is a nonprofit organization creating online and offline tools to inspire authenticty and deeeper connectivity. To start, we are introducing a new breed social media while simultaneously growing a distributed network of physical communities. Join the movement!'   , 
+                      answer: 'Junto is a nonprofit organization creating online and offline tools to inspire authenticity and deeeper connectivity. To start, we are introducing a new breed social media while simultaneously growing a distributed network of physical communities. Join the movement!'   , 
                       type: 'community',
                       id: 0   
 
                     },                    
                     { 
                       question: 'What was the inspiration behind Junto?', 
-                      answer: 'Junto was created to inspire authenticity and deeper connectivity. We want to harness the potential technology has to activate rich self-expression, grassroots movements, and meaningful collaboration.', 
+                      answer: 'Junto was created to facilitate a more open era of human connection. We want to harness the potential technology has to activate rich self-expression, grassroots movements, and meaningful collaboration.', 
                       type: 'community',
                       id: 1
                     },
@@ -76,7 +76,7 @@
                     },                    
                     { 
                       question: 'What makes Junto different?', 
-                      answer: 'Junto is more consciously designed, built on distributed technology, and is not for profit. Feel free to read into everything in more depth here!', 
+                      answer: "Junto is more consciously designed, built on distributed technology, and is not for profit. Feel free to read into everything in more depth in the 'Learn' section!", 
                       type: 'community',
                       id: 4
                     },          
@@ -95,7 +95,7 @@
                     },          
                     { 
                       question: 'What kind of decentralized technology are you using?', 
-                      answer: 'In short, decentralized technology cuts out the need for the middle-man. Today, most web traffic passes through corporate web servers and in the case of social media, this puts corporations in between our interactions. As a result, they have a license to track and sell our data. Their centralized nature is also more prone to hacks and censorship. Built on decentralized technology, Junto is more secure than its centralized counterparts. It is more resilient to censorship and provides its members with ownership of their information. In short, we are unable to track or sell your data even if we wanted to. For more depth, visit our article on decentralization here.',      
+                      answer: 'Junto is built on Holochain, a biomimicry-inspired framework to build distributed applications. Learn more about the technology at www.holochain.org!',      
                       type: 'technology',
                       id: 7
                     },                                        
@@ -114,13 +114,13 @@
                     },                              
                     { 
                       question: 'When does Junto come out?', 
-                      answer: 'Junto is launching in 2019. Once we open, only those who signed up pre-release or contributed to our crowdfunding campaign will be able to access the app. Reserve your spot here.', 
+                      answer: 'Junto is launching in 2019. Once we open, only those who signed up pre-release or contributed to our crowdfunding campaign will be able to access the app. Reserve your spot!', 
                       type: 'community',
                       id: 10
                     },       
                     { 
                       question: 'How can I help?', 
-                      answer: 'Junto is launching in 2019. Once we open, only those who signed up pre-release or contributed to our crowdfunding campaign will be able to access the app. Reserve your spot here.', 
+                      answer: 'This is a community-driven initiative. Help spread the word and join our communication channel on Telegram for more active involvement.', 
                       type: 'community',
                       id: 11
                     },                                                                                                    
