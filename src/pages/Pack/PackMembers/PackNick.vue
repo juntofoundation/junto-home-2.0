@@ -30,9 +30,13 @@
                     <h2 slot="packMemberName" class="packMember__name">Nick Manning</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Advisor, Software Engineer</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Nick has been a software engineering mentor, writer, software craftsman and entrepreneur for over 20 years.
+                        <br><br>
+                        Currently, Nick is a Senior Manager of Cloud Software Engineering at Capital One. He recently launched fluttercrashcourse.com in August, 2018 and has also held engineering, tech lead and consulting positions working with various Fortune 500 companies, including Adidas, Reebok, Benefit Cosmetics and TaylorMade in the past.                        
+                        <br><br>
+                        As for extra curricular projects, Nick founded the largest Golang meetup in the U.S. outside of Silicon Valley, as well as the NYC Neo4j meetup. He and his wife design and write mobile apps in their free time, such as Steady Calendar and Brewswap. He also writes about technology on a regular basis.
+                    </p>
                 </div>
         </div>        
 

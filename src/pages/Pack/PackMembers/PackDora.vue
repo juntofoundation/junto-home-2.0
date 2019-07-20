@@ -23,12 +23,15 @@
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--dora.png" alt="">        
                     </div>
                     <div class="packMember__socials">
-                        <img src="" alt="" class="packMember__social">
+                        <div class="packMember__social">
+                            <img src="../../../assets/images/junto-home-2.0__email--black.png" alt="" class="packMember__social--icon">
+                            <p class="packMember__social--text">dora@junto.foundation</p>
+                        </div>
                     </div>
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Dora Czovek</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">Head of Operations</h2>            
+                    <h2 slot="packMemberTitle" class="packMember__title">Director of Operations</h2>            
                     
                     <p class="packMember__bio">
                         Hello and Welcome! 

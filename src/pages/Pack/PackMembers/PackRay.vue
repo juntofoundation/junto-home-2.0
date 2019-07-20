@@ -30,9 +30,14 @@
                     <h2 slot="packMemberName" class="packMember__name">Raymond Powell</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Advisor, Founder of CoGov</h2>            
                     
-                    <p class="packMember__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse accusamus, est voluptatum aspernatur deleniti ex tempora rem nesciunt itaque? Dolorem itaque consequatur, officiis hic facere nobis tenetur in illum.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam officiis corporis sint doloribus maxime non tempora error quasi maiores, illo earum expedita velit? Dolorem eligendi nemo quis provident itaque?
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem esse iure molestiae, velit expedita beatae hic, reiciendis unde totam fuga minus non, cum fugit corporis deserunt neque ex! Itaque!
-                    <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio repellendus a nesciunt, id cumque similique, tempora error alias dignissimos earum? Placeat minus quos, iure beatae recusandae dolorem enim mollitia?</p>
+                    <p class="packMember__bio">
+                        Ray started programming computers at the age of 7 and by the age of 19 was hired as a professional software engineer. Since then, he has stayed on the cutting edge of industry trends and he now applies that knowledge to co-create systems and blueprints that take on some of today’s most complex social problems.
+                        <br><br>
+                        Becoming an entrepreneur and obtaining success as a young man, in parallel with awakening to the reality of a world filled with oppression, Ray set out to create true inner wealth beyond money. He has been a pioneer in truly defining sovereignty, and revealing how from that place, people can create environments of true synergistic co-creation.
+                        <br><br>
+                        From capitalist, to activist, Ray has been bringing awareness to what was really going on in the world since 2007. When Ray became a father, he was pushed him even further along in the discovery of how to create profound changes in our political, social, and economical systems.
+
+                    </p>
                 </div>
         </div>        
 

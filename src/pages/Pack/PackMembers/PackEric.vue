@@ -23,14 +23,34 @@
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--eric.png" alt="">        
                     </div>
                     <div class="packMember__socials">
-                        <img src="" alt="" class="packMember__social">
+                        <div class="packMember__social">
+                            <img src="../../../assets/images/junto-home-2.0__email--black.png" alt="" class="packMember__social--icon">
+                            <p class="packMember__social--text">eric@junto.foundation</p>
+                        </div>
                     </div>
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Eric Yang</h2>
                     <h2 slot="packMemberTitle" class="packMember__title">Founder, Executive Director</h2>            
                     
-                    <p class="packMember__bio">Will update this soon :)</p>
+                    <p class="packMember__bio">
+                        Hey, Eric here.
+                        <br><br>
+                        I'm a Houston native with parents who emigrated from Taiwan. 
+                        I would not be able to do the work I am today without the
+                        sacrifices they have made. 
+                        <br><br>
+                        The first concept of Junto came to me in the summer of 2015. The 
+                        potential that consciously crafted social technologies could have 
+                        on shaping more harmonious social flows, enhancing self-determination, and activating our expressive capacities
+                        inspired me to dedicate the past few years manifesting this vision.
+                        <br><br>
+                        You can read the full story here on Patreon. In the meantime,
+                        catch me playing basketball, practicing Qigong, brainstorming
+                        new ventures, and adding to the long list of things I plan on learning.
+                        <br><br>
+                        Much love and reach out if you need me.    
+                    </p>
                 </div>
 
 

@@ -29,7 +29,7 @@
 
             <div class="learnHeader__section--right">
                 <h2 class="learnHeader__section--title">Agent-centric</h2>
-                    <p class="learnHeader__section--text">As a distributed application, Junto is more private, secure
+                    <p class="learnHeader__section--text">As a distributed application, Junto is more private, secure,
                          and censorship-resistant. It is completely advertisement-free as well.</p>
              
             </div>            
@@ -59,12 +59,12 @@
 
         </div>      
 
-        <p class="learnHeader__more">Learn more about decentralization here.</p>
+        <slot name="learnGovernanceMore"></slot>
 
             <div class="learnHeader__articles">
                 <a href="https://medium.com/juntolove/youre-an-individual-not-a-statistic-4e04408b3503" target="blank" class="removelink">
                     <div class="learnHeader__article learnHeader__article--individual">
-                        <p class="learnHeader__article--title">You're An Individual , Not A Statistic</p>
+                        <p class="learnHeader__article--title">You're An Individual, Not A Statistic</p>
                         <div class="learnHeader__article--subtitle">deep dive into decentralization</div>
                         <p class="learnHeader__article--author">by Eric Yang</p>
                     </div>

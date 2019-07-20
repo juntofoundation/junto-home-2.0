@@ -23,7 +23,10 @@
                         <img slot="packMemberPhoto" class="packMember__photo--image" src="../../../assets/images/junto-home-2.0__headshot--drea.png" alt="">        
                     </div>
                     <div class="packMember__socials">
-                        <img src="" alt="" class="packMember__social">
+                        <div class="packMember__social">
+                            <img src="../../../assets/images/junto-home-2.0__email--black.png" alt="" class="packMember__social--icon">
+                            <p class="packMember__social--text">drea@junto.foundation</p>
+                        </div>
                     </div>
                 </div>
                 <div class="packMember__right">

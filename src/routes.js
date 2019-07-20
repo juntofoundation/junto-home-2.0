@@ -14,6 +14,7 @@ import PackKyle from './pages/Pack/PackMembers/PackKyle.vue'
 import PackArt from './pages/Pack/PackMembers/PackArt.vue'
 import PackRay from './pages/Pack/PackMembers/PackRay.vue'
 import PackDoug from './pages/Pack/PackMembers/PackDoug.vue'
+import PackDavid from './pages/Pack/PackMembers/PackDavid.vue'
 import PackNick from './pages/Pack/PackMembers/PackNick.vue'
 import PackHireMobile from './pages/Pack/PackMembers/PackHireMobile.vue'
 import PackHireWeb from './pages/Pack/PackMembers/PackHireWeb.vue'
@@ -39,6 +40,7 @@ export const routes = [
     { path: '/pack-art', component: PackArt },    
     { path: '/pack-ray', component: PackRay },  
     { path: '/pack-douglas', component: PackDoug },    
+    { path: '/pack-david', component: PackDavid },    
     { path: '/pack-nick', component: PackNick },        
     { path: '/pack-hire-mobile', component: PackHireMobile },        
     { path: '/pack-hire-web', component: PackHireWeb },        
