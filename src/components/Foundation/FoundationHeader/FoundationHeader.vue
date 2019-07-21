@@ -25,9 +25,9 @@
 
             <div class="foundationHeader__pillar">
                 <p class="foundationHeader__pillar--title">RECURRING PLEDGES</p>
-                <p class="foundationHeader__pillar--body">Our founder Eric does not take
-                    a salary from Junto. Feel free to find out why, read his story, and support his work
-                    on Patreon here. 
+                <p class="foundationHeader__pillar--body">Junto's founder Eric does not take
+                    a salary from the organization. Feel free to find out why, read his story, and support his work
+                    on Patreon <a href="https://www.patreon.com/ericyang" target="blank" class="addlink">here.</a>
                 </p>
             </div>                        
         </div> 
