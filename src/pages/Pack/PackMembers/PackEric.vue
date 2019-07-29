@@ -45,11 +45,8 @@
                         on shaping more harmonious social flows, enhancing self-determination, and activating our expressive capacities
                         inspired me to dedicate the past few years manifesting this vision.
                         <br><br>
-                        You can read the full story <a href="https://www.patreon.com/ericyang" target="blank" class="addlink">here on Patreon.</a> In the meantime,
-                        catch me playing basketball, practicing Qigong, brainstorming
-                        new ventures, and adding to the long list of things I plan on learning.
-                        <br><br>
-                        Much love and reach out if you need me!
+                        This has been an incredible journey so far and I'm excited to grow
+                        this movement with you. Reach out if you need me and see you on Junto!
                     </p>
                 </div>
 
