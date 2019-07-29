@@ -8,28 +8,30 @@
         </p>
 
          <div class="foundationHeader__pillars">    
+
+
             <div class="foundationHeader__pillar">
                 <p class="foundationHeader__pillar--title">ONE-TIME DONATIONS</p>
                 <p class="foundationHeader__pillar--body">We accept donations through 
                     <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="addlink">Indiegogo</a> and Holo Tokens. 
                     View our $HOT address below.
                 </p>                                        
-                </div>
+            </div>
 
             <div class="foundationHeader__pillar foundationHeader__pillar--middle">
                 <p class="foundationHeader__pillar--title">BECOME A SPONSOR</p>
                 <p class="foundationHeader__pillar--body">If you're an individual or organization that 
                     would like to sponsor Junto and be highlighted on our home page, send us an email <a href="mailto:hi@junto.foundation" class="addlink">here!</a> 
                 </p>            
-            </div>
+            </div>  
 
-            <div class="foundationHeader__pillar">
-                <p class="foundationHeader__pillar--title">RECURRING PLEDGES</p>
-                <p class="foundationHeader__pillar--body">Junto's founder Eric does not take
-                    a salary from the organization. Feel free to find out why, read his story, and support his work
-                    on Patreon <a href="https://www.patreon.com/ericyang" target="blank" class="addlink">here.</a>
-                </p>
-            </div>                        
+
+            <div class="foundationHeader__pillar foundationHeader__pillar--middle">
+                <p class="foundationHeader__pillar--title">JUNTO MERCH</p>
+                <p class="foundationHeader__pillar--body">We are opening up a Junto merch store soon. All proceeds 
+                    go towards moving this initiative forward. Stay tuned!
+                </p>            
+            </div>                                 
         </div> 
 
         <div class="foundationHeader__hot">
