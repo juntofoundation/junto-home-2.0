@@ -119,18 +119,12 @@
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver">                     
                         DHTNETWORK           
                 </div>      
-                <div class="homeSponsors__sponsor homeSponsors__sponsor--silver homeSponsors__sponsor--silver--mobile">                     
-                        Philip Kirsh                
-                </div>                  
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--silver homeSponsors__sponsor--silver--mobile">                     
                         Jeremy Wallis         
                 </div>                                                                                                         
             </div>      
                 <div class="" style="display: flex; justify-content: center;">
-                    <div class="homeSponsors__sponsor homeSponsors__sponsor--silver--desk " style='font-size: 1.7rem; margin-right: 4rem;'>                     
-                        Philip Kirsh                  
-                    </div>   
                     <div class="homeSponsors__sponsor homeSponsors__sponsor--silver--desk " style='font-size: 1.7rem'>                     
                         Jeremy Wallis               
                     </div>                                  
