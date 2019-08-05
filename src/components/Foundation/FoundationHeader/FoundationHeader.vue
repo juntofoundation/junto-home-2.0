@@ -22,10 +22,10 @@
              <div class="foundationHeader__pillar">
                  <div class="foundationHeader__pillar--left foundationHeader__pillar--left--sponsor">&nbsp;</div>
                  <div class="foundationHeader__pillar--right">
-                     <p class="foundationHeader__pillar--title">Become A Sponsor</p>
-                     <p class="foundationHeader__pillar--body">If you're an individual or organization that would 
-                         like to sponsor Junto and be highlighted on our home page, send an email to eric@junto.foundation! We will close
-                         this offer in 2020.</p>
+                     <p class="foundationHeader__pillar--title">Become A Sponsor/Philanthropist</p>
+                     <p class="foundationHeader__pillar--body">If you would 
+                         like to sponsor Junto to be highlighted on our home page or contribute a larger donation, send an email to eric@junto.foundation!
+                         </p>
                      <a href="mailto:eric@junto.foundation" target="blank" class="removelink"><button class="foundationHeader__pillar--button">Email Us!</button></a>
                  </div>
              </div>             
