@@ -1596,42 +1596,53 @@ body {
   .foundationHeader__subtitle {
     font-size: 1.7rem;
     font-weight: 500;
-    margin-right: 25%;
-    margin-bottom: 4rem; }
+    margin-right: 25%; }
     @media (max-width: 37.5em) {
       .foundationHeader__subtitle {
         margin-right: 2rem; } }
   .foundationHeader__pillars {
     width: 100%;
     display: flex;
+    flex-direction: column;
     margin-bottom: 4rem; }
     @media (max-width: 56.25em) {
       .foundationHeader__pillars {
-        flex-direction: column;
         margin-bottom: 0; } }
   .foundationHeader__pillar {
-    width: 33.33%;
     display: flex;
-    flex-direction: column; }
-    @media (max-width: 56.25em) {
-      .foundationHeader__pillar {
-        width: 75%;
-        margin-bottom: 2rem; } }
-    .foundationHeader__pillar--middle {
-      margin: 0 6rem; }
-      @media (max-width: 56.25em) {
-        .foundationHeader__pillar--middle {
-          margin: 0;
-          margin-bottom: 2rem; } }
-    .foundationHeader__pillar--icon {
-      height: 4rem;
-      margin-bottom: 1.5rem; }
+    margin-top: 4rem; }
+    .foundationHeader__pillar--left {
+      margin-right: 4rem;
+      width: 24rem;
+      height: 24rem;
+      background-position: center;
+      background-size: cover; }
+      .foundationHeader__pillar--left--founder {
+        background-image: url("../../../../src/assets/images/junto-home-2.0__foundation--founder.png"); }
+      .foundationHeader__pillar--left--sponsor {
+        background-image: url("../../../../src/assets/images/junto-home-2.0__foundation--sponsor.png"); }
+    .foundationHeader__pillar--right {
+      width: 60%; }
     .foundationHeader__pillar--title {
-      font-size: 1.7rem;
       font-weight: 600;
-      margin-bottom: 1rem; }
+      font-size: 2.2rem; }
     .foundationHeader__pillar--body {
-      font-size: 1.5rem; }
+      font-size: 1.7rem; }
+    .foundationHeader__pillar--button {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 100px;
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: white;
+      background-image: linear-gradient(to right, #5E54D0, #307FAB);
+      outline: none;
+      transition: all .2s;
+      cursor: pointer; }
+      .foundationHeader__pillar--button:hover {
+        transform: scale(1.05); }
   .foundationHeader__hot {
     margin-top: 2rem;
     margin-left: 50%;

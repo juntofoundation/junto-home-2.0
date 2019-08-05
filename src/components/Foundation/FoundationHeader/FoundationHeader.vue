@@ -8,7 +8,28 @@
         </p>
 
          <div class="foundationHeader__pillars">    
+             <div class="foundationHeader__pillar">
+                 <div class="foundationHeader__pillar--left foundationHeader__pillar--left--founder">&nbsp;</div>
+                 <div class="foundationHeader__pillar--right">
+                     <p class="foundationHeader__pillar--title">Founder's Pack</p>
+                     <p class="foundationHeader__pillar--body">In 2020, we will offer
+                         an optional subscription with a full suite of premium features and customizability. Contribute $25 today to receive free lifetime premium access and a founder's emblem on your profile! 
+                     </p>
+                     <button class="foundationHeader__pillar--button">Donate $25</button>
+                 </div>
+             </div>
 
+             <div class="foundationHeader__pillar">
+                 <div class="foundationHeader__pillar--left foundationHeader__pillar--left--sponsor">&nbsp;</div>
+                 <div class="foundationHeader__pillar--right">
+                     <p class="foundationHeader__pillar--title">Become A Sponsor</p>
+                     <p class="foundationHeader__pillar--body">If you're an individual or organization that would 
+                         like to sponsor Junto and be highlighted on our home page, send an email to eric@junto.foundation! We will close
+                         this offer in 2020.</p>
+                     <a href="mailto:eric@junto.foundation" target="blank" class="removelink"><button class="foundationHeader__pillar--button">Email Us!</button></a>
+                 </div>
+             </div>             
+<!-- 
 
             <div class="foundationHeader__pillar">
                 <p class="foundationHeader__pillar--title">ONE-TIME DONATIONS</p>
@@ -23,22 +44,22 @@
                 <p class="foundationHeader__pillar--body">If you're an individual or organization that 
                     would like to sponsor Junto and be highlighted on our home page, send us an email <a href="mailto:hi@junto.foundation" class="addlink">here!</a> 
                 </p>            
-            </div>  
+            </div>   -->
 
 
-            <div class="foundationHeader__pillar foundationHeader__pillar--middle">
+            <!-- <div class="foundationHeader__pillar foundationHeader__pillar--middle">
                 <p class="foundationHeader__pillar--title">JUNTO MERCH</p>
                 <p class="foundationHeader__pillar--body">We are opening up a Junto merch store soon. All proceeds 
                     go towards moving this initiative forward. Stay tuned!
                 </p>            
-            </div>                                 
+            </div>                                  -->
         </div> 
 
-        <div class="foundationHeader__hot">
+        <!-- <div class="foundationHeader__hot">
             <img src="../../../assets/images/junto-home-2.0__holo.jpg" alt="" class="foundationHeader__hot--icon">
             <p class="foundationHeader__hot--title">Holo Token Address:</p>
             <p class="foundationHeader__hot--address">0xCD75b4046A99101a232bB105915F182C7b7E136E</p>
-        </div>
+        </div> -->
 
     </div>
 </template>
