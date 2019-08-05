@@ -288,7 +288,7 @@
                     </a>
                 </div>                        
 
-                <div class="packHeader__member packHeader__member--mobile">
+                <!-- <div class="packHeader__member packHeader__member--mobile">
                     <a href="/pack-nick" class="removelink">
                         <div class="packHeader__member--photo">
                             <p class="packHeader__member--cover--text">Nick's Story</p>
@@ -300,10 +300,10 @@
                             <p class="packHeader__member--title">Senior Software Engineer</p>
                         </div>
                     </a>
-                </div>                             
+                </div>                              -->
             </div>      
 
-                <div class="packHeader__member packHeader__pack--desk">
+                <!-- <div class="packHeader__member packHeader__pack--desk">
                     <a href="/pack-nick" class="removelink">
                         <div class="packHeader__member--photo">
                             <p class="packHeader__member--cover--text">Nick's Story</p>
@@ -315,7 +315,7 @@
                             <p class="packHeader__member--title">Senior Software Engineer</p>
                         </div>
                     </a>
-                </div>                             
+                </div>                              -->
         </div>
 
 
