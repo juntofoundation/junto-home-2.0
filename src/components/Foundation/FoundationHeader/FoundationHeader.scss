@@ -40,6 +40,11 @@
         display: flex;
         margin-top: 4rem;
 
+        @include respond(phone) {
+            flex-direction: column;
+            align-items: center;
+        }
+
         &--left {
             margin-right: 4rem;
             width: 24rem;
@@ -47,6 +52,11 @@
 
             background-position: center;
             background-size: cover; 
+
+            @include respond(phone) {
+                margin-bottom: 1.5rem; 
+                margin-right: 0;
+            }
 
             &--founder {
                 background-image: url('../../../../src/assets/images/junto-home-2.0__foundation--founder.png');
@@ -59,6 +69,11 @@
 
         &--right {
             width: 60%;
+
+            @include respond(phone) {
+                text-align: center; 
+                width: 90%; 
+            }            
         }
 
         &--title {
@@ -71,7 +86,7 @@
         }
 
         &--button {
-            margin-top: 2rem;            
+            margin-top: 1rem;            
             padding: 1rem 2rem;
             border: none;
             border-radius: 100px; 
@@ -81,47 +96,12 @@
             color: white; 
             background-image: linear-gradient(to right, $junto-purple, $junto-primary);
             outline: none;
-            
+
             transition: all .2s; 
             cursor: pointer;
 
             &:hover {
                 transform: scale(1.05);
-            }
-        }
-    }
-
-    &__hot {
-        margin-top: 2rem;
-        margin-left: 50%; 
-        transform: translateX(-50%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        @include respond(phone) {
-            margin-left: 0;
-            transform: translateX(0);
-            align-items: flex-start;
-
-        }
-
-        &--icon {
-            height: 5rem;
-            margin-bottom: 1rem; 
-        }
-        &--title {
-            font-size: 1.7rem;
-            font-weight: 600;  
-            margin-bottom: 1rem;
-        }
-
-        &--address {
-            font-size: 1.7rem; 
-
-            @include respond(phone) {
-                font-size: 1.4rem;
-                font-weight: 500; 
             }
         }
     }

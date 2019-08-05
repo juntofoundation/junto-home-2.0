@@ -1611,25 +1611,37 @@ body {
   .foundationHeader__pillar {
     display: flex;
     margin-top: 4rem; }
+    @media (max-width: 37.5em) {
+      .foundationHeader__pillar {
+        flex-direction: column;
+        align-items: center; } }
     .foundationHeader__pillar--left {
       margin-right: 4rem;
       width: 24rem;
       height: 24rem;
       background-position: center;
       background-size: cover; }
+      @media (max-width: 37.5em) {
+        .foundationHeader__pillar--left {
+          margin-bottom: 1.5rem;
+          margin-right: 0; } }
       .foundationHeader__pillar--left--founder {
         background-image: url("../../../../src/assets/images/junto-home-2.0__foundation--founder.png"); }
       .foundationHeader__pillar--left--sponsor {
         background-image: url("../../../../src/assets/images/junto-home-2.0__foundation--sponsor.png"); }
     .foundationHeader__pillar--right {
       width: 60%; }
+      @media (max-width: 37.5em) {
+        .foundationHeader__pillar--right {
+          text-align: center;
+          width: 90%; } }
     .foundationHeader__pillar--title {
       font-weight: 600;
       font-size: 2.2rem; }
     .foundationHeader__pillar--body {
       font-size: 1.7rem; }
     .foundationHeader__pillar--button {
-      margin-top: 2rem;
+      margin-top: 1rem;
       padding: 1rem 2rem;
       border: none;
       border-radius: 100px;
@@ -1643,31 +1655,6 @@ body {
       cursor: pointer; }
       .foundationHeader__pillar--button:hover {
         transform: scale(1.05); }
-  .foundationHeader__hot {
-    margin-top: 2rem;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    @media (max-width: 37.5em) {
-      .foundationHeader__hot {
-        margin-left: 0;
-        transform: translateX(0);
-        align-items: flex-start; } }
-    .foundationHeader__hot--icon {
-      height: 5rem;
-      margin-bottom: 1rem; }
-    .foundationHeader__hot--title {
-      font-size: 1.7rem;
-      font-weight: 600;
-      margin-bottom: 1rem; }
-    .foundationHeader__hot--address {
-      font-size: 1.7rem; }
-      @media (max-width: 37.5em) {
-        .foundationHeader__hot--address {
-          font-size: 1.4rem;
-          font-weight: 500; } }
 
 .events {
   margin-top: 7rem;
