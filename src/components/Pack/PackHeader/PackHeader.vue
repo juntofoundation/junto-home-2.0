@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="packHeader__member--details" @click="navMember('drea')">                          
                                     <p class="packHeader__member--name">Drea Bennett</p>
-                                    <p class="packHeader__member--title">Creative Director</p>
+                                    <p class="packHeader__member--title">Creative Lead</p>
                                 </div>
                             </a>
                         </div>     
@@ -124,7 +124,7 @@
                                 </div>
                                 <div class="packHeader__member--details" @click="navMember('drea')">                          
                                     <p class="packHeader__member--name">Drea Bennett</p>
-                                    <p class="packHeader__member--title">Creative Director</p>
+                                    <p class="packHeader__member--title">Creative Lead</p>
                                 </div>
                             </a>
                         </div>     
