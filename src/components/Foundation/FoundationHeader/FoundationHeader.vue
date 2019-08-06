@@ -15,7 +15,14 @@
                      <p class="foundationHeader__pillar--body">In 2020, we will offer
                          an optional subscription with a full suite of premium features and customizability. Contribute $25 today to receive free lifetime premium access and a founder's emblem on your profile! 
                      </p>
-                     <button class="foundationHeader__pillar--button">Donate $25</button>
+                     <a target="blank" class="removelink">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="blank" >
+                            <input type="hidden" name="cmd" value="_s-xclick" />
+                            <input type="hidden" name="hosted_button_id" value="L4YFCX74BE57S" />
+                            <button class="foundationHeader__pillar--button">Donate $25</button>
+                        </form>                                 
+                     </a>
+           
                  </div>
              </div>
 
@@ -28,7 +35,9 @@
                          </p>
                      <a href="mailto:eric@junto.foundation" target="blank" class="removelink"><button class="foundationHeader__pillar--button">Email Us!</button></a>
                  </div>
-             </div>             
+             </div>            
+             
+              
 <!-- 
 
             <div class="foundationHeader__pillar">
@@ -82,8 +91,4 @@
 
 </script>
 
-
-
-
-  
 

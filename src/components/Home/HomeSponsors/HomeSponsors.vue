@@ -136,7 +136,7 @@
         </div>   
 
         <a href="/foundation" class="removelink">
-            <button class="homeSponsors__cta">Become a sponsor!</button>
+            <button class="homeSponsors__cta">Support Us!</button>
         </a>
 
         <div class="homeSponsors__kickstarter">
