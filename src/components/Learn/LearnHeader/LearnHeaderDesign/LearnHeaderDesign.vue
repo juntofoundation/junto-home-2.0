@@ -74,7 +74,7 @@
                     <h2 class="learnHeader__section--title">Dynamic Creation</h2>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
-                        <p class="learnHeader__section--text">Create in an everexpanding number of ways</p>                        
+                        <p class="learnHeader__section--text">Share in an ever expanding number of ways</p>                        
                     </div>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
@@ -82,7 +82,7 @@
                     </div>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
-                        <p class="learnHeader__section--text">These will evolve according to what the community wants to exist</p>                        
+                        <p class="learnHeader__section--text">These forms of sharing will evolve according to what the community wants</p>                        
                     </div>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
                         <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
-                        <p class="learnHeader__section--text">Exciting feature to be revealed soon..</p>                        
+                        <p class="learnHeader__section--text">Exciting feature to be revealed soon...</p>                        
                     </div>                                                                                                  
             </div>            
         </div>      
@@ -142,15 +142,16 @@
                         <p class="learnHeader__article--subtitle">full product description</p>
                         <p class="learnHeader__article--author">by Eric Yang</p>
                     </div>
-                </a>
+                </a>                
 
                 <a href="https://medium.com/juntolove/how-junto-is-better-than-chicken-soup-a59164819917" target="blank" class="removelink">
-                    <div class="learnHeader__article learnHeader__article--soup">
-                        <p class="learnHeader__article--title">How Junto is Better than Chicken Soup</p>
-                        <p class="learnHeader__article--subtitle">social context and inspiration</p>
-                        <p class="learnHeader__article--author">by Yaz and Drea</p>
+                    <div class="learnHeader__article learnHeader__article--socialtool">
+                        <p class="learnHeader__article--title">Junto: A Social Tool</p>
+                        <p class="learnHeader__article--subtitle">unpacking Junto's creative solutions</p>
+                        <p class="learnHeader__article--author">by Yaz Owainati</p>
                     </div>      
-                </a>          
+                </a>    
+                    
             </div>
     </div>
 </template>

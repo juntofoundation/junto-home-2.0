@@ -74,6 +74,17 @@
 
         <slot name="learnDesignMore"></slot>
 
+        <div class="learnHeader__articles">
+                <a href="https://medium.com/juntolove/how-junto-is-better-than-chicken-soup-a59164819917" target="blank" class="removelink">
+                    <div class="learnHeader__article learnHeader__article--soup">
+                        <p class="learnHeader__article--title">How Junto is Better than Chicken Soup</p>
+                        <p class="learnHeader__article--subtitle">social context and inspiration</p>
+                        <p class="learnHeader__article--author">by Yaz and Drea</p>
+                    </div>      
+                </a>                
+
+        </div>
+
 
    
     </div>

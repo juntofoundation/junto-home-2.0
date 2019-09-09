@@ -1062,9 +1062,9 @@ body {
             flex-basis: 50%; } }
   .homeSponsors__cta {
     margin: 2rem;
-    border: 2px solid #307FAB;
-    background-color: transparent;
-    color: #307FAB;
+    border: none;
+    background-image: linear-gradient(to right, #5E54D0, #307FAB);
+    color: white;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 100px;
@@ -1323,6 +1323,11 @@ body {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--soup.png");
       transition: all .2s; }
       .learnHeader__article--soup:hover {
+        background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--soup.png"); }
+    .learnHeader__article--socialtool {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--socialtool.png");
+      transition: all .2s; }
+      .learnHeader__article--socialtool:hover {
         background-image: linear-gradient(to right, rgba(85, 85, 85, 0.36), rgba(85, 85, 85, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--soup.png"); }
     .learnHeader__article--individual {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url("../../../src/assets/images/junto-home-2.0__learn--individual.png"); }

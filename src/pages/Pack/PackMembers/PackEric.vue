@@ -39,14 +39,15 @@
                         I'm a Houston native with parents who emigrated from Taiwan. 
                         I would not be able to do the work I am today without the
                         sacrifices they have made. 
+                        <br><br>        
+                        My personal journey of reaching a space where I could express myself
+                        freely led me to create Junto. The potential that consciously crafted social technologies could have 
+                        on activating higher manifestations of our expressive capacities 
+                        inspired me to dedicate the past few years bringing this intention to life.
                         <br><br>
-                        The first concept of Junto came to me in the summer of 2015. The 
-                        potential that consciously crafted social technologies could have 
-                        on shaping more harmonious social flows, enhancing self-determination, and activating our expressive capacities
-                        inspired me to dedicate the past few years manifesting this vision.
-                        <br><br>
-                        This has been an incredible journey so far and I'm excited to grow
-                        this movement with you. Reach out if you need me and see you on Junto!
+                        Join us as this next chapter unfolds. This movement is yours as much 
+                        as it is mine and we'd love your help in shifting this new paradigm. 
+                        See you on Junto!
                     </p>
                 </div>
 
