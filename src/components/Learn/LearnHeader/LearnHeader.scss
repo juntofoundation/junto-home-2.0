@@ -264,7 +264,17 @@
             background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--soup.png');
 
             }
-        }        
+        } 
+        
+        &--socialtool {
+            background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--socialtool.png');
+            transition: all .2s; 
+
+            &:hover {
+            background-image: linear-gradient(to right, rgba(#555, .36), rgba(#555, .36)), url('../../../src/assets/images/junto-home-2.0__learn--soup.png');
+
+            }
+        }         
 
         &--individual {
             background-image: linear-gradient(to right, rgba(#000, .36), rgba(#000, .36)), url('../../../src/assets/images/junto-home-2.0__learn--individual.png');

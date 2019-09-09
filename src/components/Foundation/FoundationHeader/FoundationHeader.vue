@@ -11,16 +11,13 @@
              <div class="foundationHeader__pillar">
                  <div class="foundationHeader__pillar--left foundationHeader__pillar--left--founder">&nbsp;</div>
                  <div class="foundationHeader__pillar--right">
-                     <p class="foundationHeader__pillar--title">Founder's Pack</p>
-                     <p class="foundationHeader__pillar--body">In 2020, we will offer
-                         an optional subscription with a full suite of premium features and customizability. Contribute $25 today to receive free lifetime premium access and a founder's emblem on your profile! 
+                     <p class="foundationHeader__pillar--title">Grassroots Donations</p>
+                     <p class="foundationHeader__pillar--body">Everything we do is not for profit and open source. Your generosity and support is what will
+                         carry this movement forward. We invite all ranges of donations and walks of life to contribute - thank you for believing in this vision! 
                      </p>
                      <a target="blank" class="removelink">
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="blank" >
-                            <input type="hidden" name="cmd" value="_s-xclick" />
-                            <input type="hidden" name="hosted_button_id" value="L4YFCX74BE57S" />
-                            <button class="foundationHeader__pillar--button">Donate $25</button>
-                        </form>                                 
+
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CX87U4QQQX2TW&source=url" target="blank" class="removelink"><button class="foundationHeader__pillar--button">Support Junto</button></a>
                      </a>
            
                  </div>
@@ -30,8 +27,7 @@
                  <div class="foundationHeader__pillar--left foundationHeader__pillar--left--sponsor">&nbsp;</div>
                  <div class="foundationHeader__pillar--right">
                      <p class="foundationHeader__pillar--title">Become A Sponsor/Philanthropist</p>
-                     <p class="foundationHeader__pillar--body">If you would 
-                         like to sponsor Junto to be highlighted on our home page or contribute a larger donation, send an email to eric@junto.foundation!
+                     <p class="foundationHeader__pillar--body">If you would like to sponsor Junto and be highlighted on our home page, send an email to eric@junto.foundation!  
                          </p>
                      <a href="mailto:eric@junto.foundation" target="blank" class="removelink"><button class="foundationHeader__pillar--button">Email Us!</button></a>
                  </div>

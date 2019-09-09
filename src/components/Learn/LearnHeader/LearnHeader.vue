@@ -16,15 +16,15 @@
         </div>
        
         <junto-learn-header-design v-if="design">            
-            <p slot="learnDesignMore" @click="setCategory('technology')" class="learnHeader__more">Learn more about our technology.</p>
+            <p slot="learnDesignMore" @click="setCategory('technology')" class="learnHeader__more">Learn more about our technology &rarr;</p>
         </junto-learn-header-design>
 
         <junto-learn-header-technology v-if="technology">
-            <p slot="learnGovernanceMore" @click="setCategory('nonprofit')" class="learnHeader__more">Learn more about our governance.</p>
+            <p slot="learnGovernanceMore" @click="setCategory('nonprofit')" class="learnHeader__more">Learn more about our governance &rarr;</p>
         </junto-learn-header-technology>
 
         <junto-learn-header-nonprofit v-if="nonprofit">
-            <p slot="learnDesignMore" @click="setCategory('design')" class="learnHeader__more">Learn more about our design.</p>
+            <p slot="learnDesignMore" @click="setCategory('design')" class="learnHeader__more">Learn more about our design &rarr;</p>
         </junto-learn-header-nonprofit>
 
     </div>    

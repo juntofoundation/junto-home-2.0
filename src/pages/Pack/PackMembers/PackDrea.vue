@@ -31,20 +31,23 @@
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Drea Bennett</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">Creative Director</h2>            
+                    <h2 slot="packMemberTitle" class="packMember__title">Creative Lead</h2>            
                     
                     <p class="packMember__bio">
-                        hELLoO I’m Drea. 
+                        Hello! Lovely to have you here.
                         <br><br>
-                        Find me harmonizing meows with my cats, crafting spaces of primarily oriental rugs, colored lighting and plants, falling off my skateboard, aspiring to be the most nonjudgmental version of myself, drifting in a sea of mac demarco, consuming mass amounts of cauliflower, and pretending I stopped caring about astrology a few years back. Most importantly, my favorite line is a spiral. 
+                        If you’re reading this, you’re likely deep-diving in the wonders of how social technology can be leveraged to complement the offline social networks we naturally form in our lives.
                         <br><br>
-                        In august of 2017, Yas and I decided that technology in its current form is kind of tearing us all apart. By the time I cease to exist, I will have spent multiple YEARS of my life staring at a screen just like the one I’m using to type right now. Even if you don’t spend your days constructing an unintentionally egotistical cyber-identity from which you inadvertently begin to draw your self-worth from, you’re probably still using your phone as a social crutch from time to time. 
+                        Considering the roles we adopt in the attention economy, it occurred to me that our autonomy of thought isn’t being respected in current social media platforms. Monolithic internet structures hold massive influence over society, so I encourage you to never stop questioning who owns the data we spend years of our lives accumulating - and why that data is sold.
                         <br><br>
-                        So if technology HAS the potential to structure connections that foster the depth and creativity we are all capable of, why aren’t we using it this way ???? 
+                        Nonetheless, having a space to dynamically connect and share what’s important to us is essential. Since our brains constantly adapt to new content formats, flexibility remains paramount. We shape it, then it shapes us.
                         <br><br>
-                        Hopefully, we’ve thought of everything. But when you do notice something that could improve, don’t hesitate to reach out so we can make it happen. 
+                        These reflections in mind, my contribution to Junto is multidisciplinary - but generally circulates around creative initiatives. In addition to the typical ambitions of an artist in residence, my daily activities range from video and podcast production, drafting and editing written pieces, and event facilitation to community building and input in UX design / Junto’s overall vision.
                         <br><br>
-                        : )                        
+                        In the same spirit of authenticity, I also spend my time making art and music with the goal of expanding the range of possibility non-verbal communication has. If you’d like to check out where my awareness has traveled, check out my <a href="https://bydrea.space" target="blank" class="addlink"> website</a> and my art available for purchase at <a href="https://society6.com/bydrea" target="blank" class="addlink">Society6</a>.
+                        <br><br>
+                        Infinite gratitude to you, have a lovely day!
+                        =)                    
                     </p>
                 </div>
         </div>        

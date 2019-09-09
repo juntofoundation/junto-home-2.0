@@ -2,7 +2,7 @@
 <template>
     <div class="eventsHeader">
         <p class="eventsHeader__title">Junto Events</p>
-        <p class="eventsHeader__subtitle">We understand social media won't replace 
+        <p class="eventsHeader__subtitle">Social media won't replace 
             the connections you make it real life. We
             hold space for a variety of events around the world. Get to know the community
             and reach out if you'd like to host Junto events in your city!
