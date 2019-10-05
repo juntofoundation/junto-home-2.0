@@ -46,7 +46,7 @@
                         inspired me to dedicate the past few years bringing this intention to life.
                         <br><br>
                         Join us as this next chapter unfolds. This movement is yours as much 
-                        as it is mine and we'd love your help in shifting this new paradigm. 
+                        as it is ours and we'd love your help in shifting this new paradigm. 
                         See you on Junto!
                     </p>
                 </div>
