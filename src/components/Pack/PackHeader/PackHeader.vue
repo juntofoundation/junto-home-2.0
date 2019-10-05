@@ -70,51 +70,11 @@
                                 <p class="packHeader__member--title">Director of Operations</p>
                             </div>
                         </a>
-                    </div>       
-
-                    <!--  for mobile -->
-                        <div class="packHeader__member packHeader__member--mobile">
-                            <a href="/pack-drea" class="removelink">
-                                <div class="packHeader__member--photo" @click="navMember('drea')">
-                                    <p class="packHeader__member--cover--text">Drea's Story</p>
-                                    <div class="packHeader__member--cover">&nbsp;</div>                            
-                                    <img src="../../../assets/images/junto-home-2.0__headshot--drea.png" alt="" class="packHeader__member--photo--image">
-                                </div>
-                                <div class="packHeader__member--details" @click="navMember('drea')">                          
-                                    <p class="packHeader__member--name">Drea Bennett</p>
-                                    <p class="packHeader__member--title">Creative Lead</p>
-                                </div>
-                            </a>
-                        </div>     
-
-                        <div class="packHeader__member packHeader__member--mobile">
-                            <a href="/pack-hire-mobile" class="removelink">
-                                <div class="packHeader__member--hire" @click="navMember('drea')">
-                                    <img class="packHeader__member--hire--image"  src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">
-                                    <p class="packHeader__member--hire--text">Create With Us</p>
-                                </div>
-                                <div class="packHeader__member--details" @click="navMember('drea')">                          
-                                    <p class="packHeader__member--name">???</p>
-                                    <p class="packHeader__member--title">Lead Mobile Developer</p>
-                                </div>
-                            </a>
-                        </div>     
-                        <div class="packHeader__member packHeader__member--mobile">
-                            <a href="/pack-hire-web" class="removelink">
-                                <div class="packHeader__member--hire" @click="navMember('drea')">
-                                    <img class="packHeader__member--hire--image"  src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">
-                                    <p class="packHeader__member--hire--text">Create With Us</p>
-                                </div>
-                                <div class="packHeader__member--details" @click="navMember('drea')">                          
-                                    <p class="packHeader__member--name">???</p>
-                                    <p class="packHeader__member--title">Lead Web Developer</p>
-                                </div>
-                            </a>
-                        </div>                         
+                    </div>                          
 
                 </div>      
 
-                    <div class="packHeader__pack packHeader__pack--desk">
+                    <div class="packHeader__pack packHeader__pack">
                         <div class="packHeader__member">
                             <a href="/pack-drea" class="removelink">
                                 <div class="packHeader__member--photo" @click="navMember('drea')">
@@ -130,6 +90,32 @@
                         </div>     
 
                         <div class="packHeader__member">
+                            <a href="/pack-tomis" class="removelink">
+                                <div class="packHeader__member--photo" @click="navMember('tomis')">
+                                    <p class="packHeader__member--cover--text">Tomis' Story</p>
+                                    <div class="packHeader__member--cover">&nbsp;</div>                            
+                                    <img src="../../../assets/images/junto-home-2.0__headshot--tomis.png" alt="" class="packHeader__member--photo--image">
+                                </div>
+                                <div class="packHeader__member--details" @click="navMember('tomis')">                          
+                                    <p class="packHeader__member--name">Tomis Parker</p>
+                                    <p class="packHeader__member--title">People and Culture Lead</p>
+                                </div>
+                            </a>
+                        </div>                             
+                        <div class="packHeader__member">
+                            <a href="/pack-nash" class="removelink">
+                                <div class="packHeader__member--photo" @click="navMember('nash')">
+                                    <p class="packHeader__member--cover--text">Nash's Story</p>
+                                    <div class="packHeader__member--cover">&nbsp;</div>                            
+                                    <img src="../../../assets/images/junto-home-2.0__headshot--nash.png" alt="" class="packHeader__member--photo--image">
+                                </div>
+                                <div class="packHeader__member--details" @click="navMember('nash')">                          
+                                    <p class="packHeader__member--name">Neevash Ramdial</p>
+                                    <p class="packHeader__member--title">Mobile Developer</p>
+                                </div>
+                            </a>
+                        </div>       
+                        <div class="packHeader__member">
                             <a href="/pack-hire-mobile" class="removelink">
                                 <div class="packHeader__member--hire" @click="navMember('drea')">
                                     <img class="packHeader__member--hire--image"  src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">
@@ -141,6 +127,12 @@
                                 </div>
                             </a>
                         </div>     
+
+              
+                                                                                                                                                    
+                    </div>     
+
+                    <div class="packHeader__pack packHeader__pack">
                         <div class="packHeader__member">
                             <a href="/pack-hire-web" class="removelink">
                                 <div class="packHeader__member--hire" @click="navMember('drea')">
@@ -154,17 +146,12 @@
                             </a>
                         </div>     
 
-                        <div class="packHeader__member packHeader__member--invisible">
-                            &nbsp;
-                        </div>                             
+              
+                                                                                                                                                    
+                    </div>     
 
-                                                 
 
-                                          
-                        
-                                                                                                                    
-                        
-                    </div>                              
+
             </div>        
 
             <div class="packHeader__section">
