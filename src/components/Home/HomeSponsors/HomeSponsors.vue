@@ -135,9 +135,6 @@
          
         </div>   
 
-        <a href="/foundation" class="removelink">
-            <button class="homeSponsors__cta">Get Involved!</button>
-        </a>
 
         <div class="homeSponsors__kickstarter">
             <p class="homeSponsors__kickstarter--title">Thank you as well to the 
@@ -148,12 +145,7 @@
                     Check out the campaign here
                 </p>
             </a>
-
-            <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2" target="blank" class="removelink">
-                <p class="homeSponsors__kickstarter--more">
-                    Get involved through Indiegogo here
-                </p>
-            </a>            
+       
         </div>              
     </div>
 
