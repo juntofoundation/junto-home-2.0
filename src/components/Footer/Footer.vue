@@ -3,11 +3,8 @@
     <section class="footer">
         <div class="footer__left">
                 <div class="footer__logo">
-                    <a href="/" class="removelink footer__logo--image">
-                        <img class="footer__logo--image" src="../../assets/images/junto-home-2.0__logo--outline.png" alt="">
-                    </a>
                     <a href="/" class="removelink footer__logo--text">
-                        <p class="footer__logo--text">JUNTO FOUNDATION</p>
+                        <p class="footer__logo--text">JUNTO</p>
                     </a>
                 </div>
             <p class="footer__copyright footer__copyright--desk">Made with <span style="color: #EA6BA1">&hearts;</span> in New York</p>
