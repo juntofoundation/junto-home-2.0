@@ -2,20 +2,21 @@
 
 .homeHeader {
     position: relative;
-    background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
-    background-image: linear-gradient(to right top, $junto-purple-dark, $junto-primary);
+    background-image: url('../../../../src/assets/images/junto-home-2.0__rainbow.png');
+    background-position: center;
+    background-size: cover;
 
     width: 100vw;
+    // height: 85vh;
 
     padding-top: 6rem;
     display: flex;
     justify-content: space-between;
-    // align-items: center;
 
     @include respond(tab-port) {
+        height: auto;
         align-items: center;
         flex-direction: column;      
-        // justify-content: flex-start;
 
     }
 

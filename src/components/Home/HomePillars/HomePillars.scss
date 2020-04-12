@@ -65,14 +65,15 @@
 
             @include respond(tab-port) {
                 margin: 0 0 4rem 0;
-                
             }               
         }
 
         &--icon {
             height: 4rem;
             margin-bottom: 1.5rem; 
+            color: $junto-primary;
         }
+
         &--title {
             font-size: 1.7rem;
             font-weight: 600;
@@ -80,7 +81,7 @@
         }
 
         &--body {
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             text-align: center;
 
             @include respond(phone) {
@@ -91,7 +92,7 @@
 
     &__more {
         padding: 1.5rem 3rem;
-        background-image: linear-gradient(to right, $junto-purple, $junto-primary);
+        background-image: linear-gradient(to right, $junto-primary, $junto-primary);
         color: white;
         font-weight: 600;
         font-size: 1.4rem;

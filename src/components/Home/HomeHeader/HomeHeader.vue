@@ -5,8 +5,7 @@
                 <h2 class="homeHeader__title">JUNTO</h2>
                 <h3 class="homeHeader__subtitle">A Movement For Authenticity</h3>
                 <p class="homeHeader__description">Junto is a new breed of social media founded
-                    in the spirit of authenticity. Our goal is to rebalance our relationship with
-                    technology and to inspire agency, privacy, and free expression.
+                    to rebalance our relationship with technology. Our goal is to move beyond today's extractive paradigm through more human-centered design, distributed technology, and a nonprofit approach.
                 </p>
                 <a class="removelink" href="/media">
                     <div class="homeHeader__action">

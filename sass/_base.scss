@@ -1,8 +1,7 @@
 
-$junto-primary: #307FAB;
-$junto-primary-dark: #206D98;
-$junto-purple: #5E54D0;
-$junto-purple-dark: #4D42C9;
+$junto-primary: #555;
+$junto-primary-dark: #333;
+
 
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {
