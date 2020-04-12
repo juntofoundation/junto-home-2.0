@@ -76,7 +76,7 @@
             justify-content: center;
 
             &:hover {
-                background-image: linear-gradient(to right top, rgba($junto-purple, .8), rgba($junto-primary, .8));
+                background-image: linear-gradient(to right top, rgba($junto-primary, .8), rgba($junto-primary, .8));
                 border: 3px solid white; 
             }
 
@@ -140,7 +140,7 @@
             left: 0;
             height: 100%;
             width: 100%;
-            background-image: linear-gradient(to right top, $junto-purple, $junto-primary);
+            background-image: linear-gradient(to right top, $junto-primary, $junto-primary);
             opacity: 0;
             z-index: 998;
 
