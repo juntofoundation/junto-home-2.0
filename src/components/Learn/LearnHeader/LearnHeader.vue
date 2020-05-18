@@ -2,7 +2,7 @@
 <template>
   <div class="learnHeader">
     <div class="learnHeader__header">
-      <h2 class="learnHeader__header--title">Learn About Our Holistic Approach</h2>
+      <h2 class="learnHeader__header--title">A Holistic Approach</h2>
     </div>
     <div class="learnHeader__main">
       <h2 class="learnHeader__main--title">Rebalancing our relationship with technology</h2>

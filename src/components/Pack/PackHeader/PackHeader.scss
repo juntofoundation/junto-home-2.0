@@ -2,10 +2,40 @@
 
 .packHeader {
     background-color: white; 
-    padding: 4rem 8rem; 
+
+    &__header {
+        position: relative;
+        background-image: url('../../../../src/assets/images/junto-home-2.0__rainbow.png');
+        background-position: center;
+        background-size: cover;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 8rem;
+
+
+        &--title {
+            font-size: 4.5rem;
+            color: white;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        &--subtitle {
+            font-size: 2.4rem;
+            color: white;
+            font-weight: 500;
+            width: 75%;
+        }
+    }        
+
+    &__main {
+            padding: 4rem 8rem; 
 
     @include respond(phone) {
         padding: 4rem 2rem;
+    }
     }
 
     &__title {
