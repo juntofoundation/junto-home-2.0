@@ -346,21 +346,39 @@ body {
 .footer {
   height: 33rem;
   width: 100%;
-  background-color: #111;
-  padding: 4rem 1.5rem;
+  background-color: white;
+  padding: 4rem 2rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between; }
+  align-items: start;
+  justify-content: space-between;
+  border-top: solid .5px #eee; }
   .footer__left {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: start;
+    align-content: start; }
+  .footer__legal {
+    display: flex;
+    flex-direction: column;
+    align-items: start; }
+    .footer__legal--text {
+      font-size: 1.4rem;
+      color: #333;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      text-align: left; }
+      .footer__legal--text:hover {
+        cursor: pointer;
+        text-decoration: underline; }
   .footer__right {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end; }
   .footer__logo {
     display: flex;
     align-items: center;
@@ -369,7 +387,7 @@ body {
       height: 3.6rem;
       margin-right: .5rem; }
     .footer__logo--text {
-      color: white;
+      color: #333;
       font-size: 2.4rem;
       font-weight: 500; }
       @media (max-width: 37.5em) {
@@ -378,7 +396,7 @@ body {
   .footer__copyright {
     font-size: 1.4rem;
     font-weight: 500;
-    color: white; }
+    color: #333; }
     .footer__copyright--desk {
       display: block; }
       @media (max-width: 37.5em) {
@@ -392,7 +410,8 @@ body {
   .footer__socials {
     height: 100%;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 2rem; }
   .footer__social {
     display: flex;
     align-items: center;
@@ -402,12 +421,14 @@ body {
       text-decoration: underline; }
     .footer__social--icon {
       height: 2rem;
-      margin-right: 1rem; }
+      margin-right: 1rem;
+      filter: invert(100%); }
       .footer__social--icon--large {
-        height: 1.7rem; }
+        height: 1.7rem;
+        color: #333; }
     .footer__social--text {
       font-size: 1.4rem;
-      color: white;
+      color: #333;
       font-weight: 500; }
       .footer__social--text:hover {
         text-decoration: underline; }
@@ -1162,28 +1183,46 @@ body {
     color: #333; }
 
 .learnHeader {
-  background-color: white;
-  padding: 4rem; }
-  @media (max-width: 37.5em) {
-    .learnHeader {
-      padding: 4rem 2rem; } }
-  .learnHeader__title {
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    text-align: center; }
-  .learnHeader__subtitle {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    text-align: center;
-    margin: 0 17% 3rem 17%; }
-    @media (max-width: 56.25em) {
-      .learnHeader__subtitle {
-        margin: 0 8% 3rem 8%; } }
+  background-color: white; }
+  .learnHeader__header {
+    position: relative;
+    background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8rem; }
+    .learnHeader__header--title {
+      font-size: 4.5rem;
+      color: white;
+      font-weight: 600;
+      margin-bottom: 2rem; }
+    .learnHeader__header--subtitle {
+      font-size: 2.4rem;
+      color: white;
+      font-weight: 500;
+      width: 75%; }
+  .learnHeader__main {
+    padding: 8rem; }
     @media (max-width: 37.5em) {
-      .learnHeader__subtitle {
-        margin: 0 0 3rem 0; } }
+      .learnHeader__main {
+        padding: 4rem 4rem; } }
+    .learnHeader__main--title {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem; }
+    .learnHeader__main--subtitle {
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-bottom: 2rem; }
+      @media (max-width: 56.25em) {
+        .learnHeader__main--subtitle {
+          margin: 0 8% 3rem 8%; } }
+      @media (max-width: 37.5em) {
+        .learnHeader__main--subtitle {
+          margin: 0 0 3rem 0; } }
   .learnHeader__nav {
     display: flex;
     flex-direction: column;
