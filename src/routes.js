@@ -25,6 +25,7 @@ import Events from './pages/Events/Events.vue'
 import Manifesto from './pages/Manifesto/Manifesto.vue'
 import Faq from './pages/Faq/Faq.vue'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy.vue'
+import TermsOfService from './pages/TermsOfService/TermsOfService.vue'
 
 
 export const routes = [
@@ -54,6 +55,6 @@ export const routes = [
     { path: '/manifesto', component: Manifesto },
     { path: '/faq', component: Faq },
     { path: '/privacy-policy', component: PrivacyPolicy },
-    { path: '/terms-of-service', component: Faq },
+    { path: '/terms-of-service', component: TermsOfService },
 
 ]

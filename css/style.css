@@ -1938,3 +1938,75 @@ body {
     .privacyPolicyHeader__bullet--text {
       font-size: 1.7rem;
       font-weight: 500; }
+
+.termsOfService {
+  margin-top: 7rem;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.termsOfServiceHeader {
+  background-color: white; }
+  .termsOfServiceHeader__header {
+    position: relative;
+    background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8rem; }
+    .termsOfServiceHeader__header--title {
+      font-size: 4.5rem;
+      color: white;
+      font-weight: 600;
+      margin-bottom: 2rem; }
+    .termsOfServiceHeader__header--subtitle {
+      font-size: 2.4rem;
+      color: white;
+      font-weight: 500;
+      width: 75%; }
+  .termsOfServiceHeader__main {
+    padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .termsOfServiceHeader__main {
+        padding: 4rem 4rem; } }
+  .termsOfServiceHeader__section {
+    margin-bottom: 6rem; }
+    .termsOfServiceHeader__section--title {
+      color: #333;
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase; }
+    .termsOfServiceHeader__section--subtitle {
+      color: #333;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem; }
+    .termsOfServiceHeader__section--body {
+      color: #333;
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-bottom: 2rem; }
+  .termsOfServiceHeader__item {
+    margin-bottom: 2rem; }
+    .termsOfServiceHeader__item--title {
+      color: #333;
+      font-size: 2rem;
+      font-weight: 700;
+      font-style: italic; }
+    .termsOfServiceHeader__item--body {
+      font-size: 1.7rem;
+      font-weight: 500; }
+  .termsOfServiceHeader__bullet {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem; }
+    .termsOfServiceHeader__bullet--icon {
+      height: 1.7rem;
+      margin-right: 2rem; }
+    .termsOfServiceHeader__bullet--text {
+      font-size: 1.7rem;
+      font-weight: 500; }
