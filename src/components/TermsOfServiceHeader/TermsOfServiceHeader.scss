@@ -1,0 +1,98 @@
+
+.termsOfServiceHeader {
+    background-color: white; 
+  
+
+    &__header {
+        position: relative;
+        background-image: url('../../../../src/assets/images/junto-home-2.0__rainbow.png');
+        background-position: center;
+        background-size: cover;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 8rem;
+
+
+        &--title {
+            font-size: 4.5rem;
+            color: white;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        &--subtitle {
+            font-size: 2.4rem;
+            color: white;
+            font-weight: 500;
+            width: 75%;
+        }
+    }
+
+    &__main {
+    padding: 8rem; 
+
+    @include respond(phone) {
+        padding: 4rem 4rem;
+    }      
+}
+
+    &__section {
+        margin-bottom: 6rem;
+        &--title {
+            color: #333;
+            font-size: 2.4rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+        &--subtitle {
+            color: #333;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }            
+
+        &--body {
+            color: #333;
+            font-size: 1.7rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+
+        }
+    }
+
+    &__item {
+        margin-bottom: 2rem;
+        &--title {
+            color: #333;
+            font-size: 2rem;
+            font-weight: 700;
+            font-style: italic;                
+        }
+
+        &--body {
+            font-size: 1.7rem;
+            font-weight: 500;
+        }
+    }
+
+    &__bullet {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        &--icon {
+            height: 1.7rem;
+            margin-right: 2rem;
+        }
+
+        &--text {
+            font-size: 1.7rem;
+            font-weight: 500;
+
+        }
+    }
+    
+}
