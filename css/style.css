@@ -1884,7 +1884,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 8rem 4rem; }
+    padding: 8rem; }
     .privacyPolicyHeader__header--title {
       font-size: 4.5rem;
       color: white;
@@ -1896,33 +1896,38 @@ body {
       font-weight: 500;
       width: 75%; }
   .privacyPolicyHeader__main {
-    padding: 4rem 8rem; }
+    padding: 8rem; }
     @media (max-width: 37.5em) {
       .privacyPolicyHeader__main {
-        padding: 4rem 2rem; } }
-  .privacyPolicyHeader__title {
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem; }
-  .privacyPolicyHeader__subtitle {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-right: 25%;
-    margin-bottom: 2rem; }
-    @media (max-width: 37.5em) {
-      .privacyPolicyHeader__subtitle {
-        margin-right: 0; } }
+        padding: 4rem 4rem; } }
   .privacyPolicyHeader__section {
-    margin-bottom: 4rem; }
+    margin-bottom: 6rem; }
     .privacyPolicyHeader__section--title {
-      font-size: 2rem;
+      color: #333;
+      font-size: 2.4rem;
       font-weight: 600;
       margin-bottom: 1.5rem;
       text-transform: uppercase; }
+    .privacyPolicyHeader__section--subtitle {
+      color: #333;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem; }
     .privacyPolicyHeader__section--body {
+      color: #333;
       font-size: 1.7rem;
       font-weight: 500;
       margin-bottom: 2rem; }
+  .privacyPolicyHeader__item {
+    margin-bottom: 2rem; }
+    .privacyPolicyHeader__item--title {
+      color: #333;
+      font-size: 2rem;
+      font-weight: 700;
+      font-style: italic; }
+    .privacyPolicyHeader__item--body {
+      font-size: 1.7rem;
+      font-weight: 500; }
   .privacyPolicyHeader__bullet {
     display: flex;
     align-items: center;
