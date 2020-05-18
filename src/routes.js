@@ -24,6 +24,7 @@ import Foundation from './pages/Foundation/Foundation.vue'
 import Events from './pages/Events/Events.vue'
 import Manifesto from './pages/Manifesto/Manifesto.vue'
 import Faq from './pages/Faq/Faq.vue'
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy.vue'
 
 
 export const routes = [
@@ -34,23 +35,25 @@ export const routes = [
     { path: '/pack-eric', component: PackEric },
     { path: '/pack-yaz', component: PackYaz },
     { path: '/pack-josh', component: PackJosh },
-    { path: '/pack-dora', component: PackDora },    
-    { path: '/pack-drea', component: PackDrea },    
+    { path: '/pack-dora', component: PackDora },
+    { path: '/pack-drea', component: PackDrea },
     { path: '/pack-riley', component: PackRiley },
-    { path: '/pack-ekene', component: PackEkene},
+    { path: '/pack-ekene', component: PackEkene },
     { path: '/pack-kyle', component: PackKyle },
-    { path: '/pack-art', component: PackArt },    
-    { path: '/pack-ray', component: PackRay },  
-    { path: '/pack-douglas', component: PackDoug },    
-    { path: '/pack-david', component: PackDavid },    
-    { path: '/pack-nick', component: PackNick },        
-    { path: '/pack-tomis', component: PackTomis },        
-    { path: '/pack-nash', component: PackNash },        
-    { path: '/pack-hire-mobile', component: PackHireMobile },        
-    { path: '/pack-hire-web', component: PackHireWeb },        
+    { path: '/pack-art', component: PackArt },
+    { path: '/pack-ray', component: PackRay },
+    { path: '/pack-douglas', component: PackDoug },
+    { path: '/pack-david', component: PackDavid },
+    { path: '/pack-nick', component: PackNick },
+    { path: '/pack-tomis', component: PackTomis },
+    { path: '/pack-nash', component: PackNash },
+    { path: '/pack-hire-mobile', component: PackHireMobile },
+    { path: '/pack-hire-web', component: PackHireWeb },
     { path: '/foundation', component: Foundation },
     { path: '/events', component: Events },
     { path: '/manifesto', component: Manifesto },
     { path: '/faq', component: Faq },
+    { path: '/privacy-policy', component: PrivacyPolicy },
+    { path: '/terms-of-service', component: Faq },
 
 ]

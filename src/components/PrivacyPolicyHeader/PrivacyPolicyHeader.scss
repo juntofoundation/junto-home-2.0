@@ -1,0 +1,55 @@
+
+.privacyPolicyHeader {
+        background-color: white; 
+        padding: 4rem 8rem; 
+    
+        @include respond(phone) {
+            padding: 4rem 2rem;
+        }
+    
+        &__title {
+            font-size: 2.4rem; 
+            font-weight: 600;
+            margin-bottom: 1.5rem; 
+        }
+    
+        &__subtitle {
+            font-size: 1.7rem;
+            font-weight: 500;
+            margin-right: 25%;
+            margin-bottom: 2rem; 
+     
+            @include respond(phone) {
+                margin-right: 0;
+            }
+        }
+
+        &__section {
+            &--title {
+                font-size: 2rem;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+            }
+
+            &--body {
+                font-size: 1.7rem;
+                font-weight: 500;
+                margin-bottom: 2rem;
+
+            }
+        }
+
+        &__bullet {
+            display: flex;
+            &--icon {
+                height: 1.7rem;
+                margin-right: 1rem;
+            }
+            &--text {
+                font-size: 1.7rem;
+                font-weight: 500;
+
+            }
+        }
+        
+}

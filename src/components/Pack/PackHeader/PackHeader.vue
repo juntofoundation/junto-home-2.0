@@ -3,7 +3,7 @@
     <div>
         <div class="packHeader" v-if="memberOpen != true">         
             <h2 class="packHeader__title">Mission</h2>
-            <p class="packHeader__subtitle"> We are a group of individuals who have come together from
+            <p class="packHeader__subtitle"> We've come together from
                 many walks of life to help realign technology with humanity. We envision social technology
                 as a tool to activate our creative, collaborative, and expressive capacities and 
                 welcome anyone who feels called to participate in this movement.
@@ -114,44 +114,8 @@
                                     <p class="packHeader__member--title">Mobile Developer</p>
                                 </div>
                             </a>
-                        </div>       
-                        <div class="packHeader__member">
-                            <a href="/pack-hire-mobile" class="removelink">
-                                <div class="packHeader__member--hire" @click="navMember('drea')">
-                                    <img class="packHeader__member--hire--image"  src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">
-                                    <p class="packHeader__member--hire--text">Create With Us</p>
-                                </div>
-                                <div class="packHeader__member--details" @click="navMember('drea')">                          
-                                    <p class="packHeader__member--name">???</p>
-                                    <p class="packHeader__member--title">Lead Mobile Developer</p>
-                                </div>
-                            </a>
-                        </div>     
-
-              
-                                                                                                                                                    
-                    </div>     
-
-                    <div class="packHeader__pack packHeader__pack">
-                        <div class="packHeader__member">
-                            <a href="/pack-hire-web" class="removelink">
-                                <div class="packHeader__member--hire" @click="navMember('drea')">
-                                    <img class="packHeader__member--hire--image"  src="../../../assets/images/junto-home-2.0__logo--outline.png" alt="">
-                                    <p class="packHeader__member--hire--text">Create With Us</p>
-                                </div>
-                                <div class="packHeader__member--details" @click="navMember('drea')">                          
-                                    <p class="packHeader__member--name">???</p>
-                                    <p class="packHeader__member--title">Lead Web Developer</p>
-                                </div>
-                            </a>
-                        </div>     
-
-              
-                                                                                                                                                    
-                    </div>     
-
-
-
+                        </div>                                                                                                                                                    
+                    </div>    
             </div>        
 
             <div class="packHeader__section">

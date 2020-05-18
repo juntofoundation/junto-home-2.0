@@ -1866,3 +1866,44 @@ body {
     .faqHeader__faq--answer {
       font-size: 1.7rem;
       font-weight: 400; }
+
+.privacyPolicy {
+  margin-top: 7rem;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.privacyPolicyHeader {
+  background-color: white;
+  padding: 4rem 8rem; }
+  @media (max-width: 37.5em) {
+    .privacyPolicyHeader {
+      padding: 4rem 2rem; } }
+  .privacyPolicyHeader__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .privacyPolicyHeader__subtitle {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: 25%;
+    margin-bottom: 2rem; }
+    @media (max-width: 37.5em) {
+      .privacyPolicyHeader__subtitle {
+        margin-right: 0; } }
+  .privacyPolicyHeader__section--title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .privacyPolicyHeader__section--body {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 2rem; }
+  .privacyPolicyHeader__bullet {
+    display: flex; }
+    .privacyPolicyHeader__bullet--icon {
+      height: 1.7rem;
+      margin-right: 1rem; }
+    .privacyPolicyHeader__bullet--text {
+      font-size: 1.7rem;
+      font-weight: 500; }
