@@ -31,7 +31,7 @@
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Yaz Owainati</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">Director of Outreach</h2>            
+                    <h2 slot="packMemberTitle" class="packMember__title">Director of Communication &amp; Experience Design</h2>            
                     
                     <p class="packMember__bio">
                         Hellooooo. Yaz here!

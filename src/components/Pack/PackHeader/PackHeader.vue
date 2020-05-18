@@ -32,7 +32,25 @@
 
                 <div class="packHeader__member--details" @click="navMember('eric')">
                   <p class="packHeader__member--name">Eric Yang</p>
-                  <p class="packHeader__member--title">Founder, Executive Director</p>
+                  <p class="packHeader__member--title">Founder &amp; Executive Director</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="packHeader__member">
+              <a href="/pack-josh" class="removelink">
+                <div class="packHeader__member--photo" @click="navMember('josh')">
+                  <p class="packHeader__member--cover--text">Josh's Story</p>
+                  <div class="packHeader__member--cover">&nbsp;</div>
+                  <img
+                    src="../../../assets/images/junto-home-2.0__headshot--josh.png"
+                    alt
+                    class="packHeader__member--photo--image"
+                  />
+                </div>
+                <div class="packHeader__member--details" @click="navMember('josh')">
+                  <p class="packHeader__member--name">Josh Parkin</p>
+                  <p class="packHeader__member--title">CTO &amp; Systems Architect</p>
                 </div>
               </a>
             </div>
@@ -51,29 +69,35 @@
                 </div>
                 <div class="packHeader__member--details" @click="navMember('yaz')">
                   <p class="packHeader__member--name">Yaz Owainati</p>
-                  <p class="packHeader__member--title">Director of Outreach</p>
+                  <p
+                    class="packHeader__member--title"
+                  >Director of Communication &amp; Experience Design</p>
                 </div>
               </a>
             </div>
 
             <div class="packHeader__member">
-              <a href="/pack-josh" class="removelink">
-                <div class="packHeader__member--photo" @click="navMember('josh')">
-                  <p class="packHeader__member--cover--text">Josh's Story</p>
+              <a href="/pack-tomis" class="removelink">
+                <div class="packHeader__member--photo" @click="navMember('tomis')">
+                  <p class="packHeader__member--cover--text">Tomis' Story</p>
                   <div class="packHeader__member--cover">&nbsp;</div>
                   <img
-                    src="../../../assets/images/junto-home-2.0__headshot--josh.png"
+                    src="../../../assets/images/junto-home-2.0__headshot--tomis.png"
                     alt
                     class="packHeader__member--photo--image"
                   />
                 </div>
-                <div class="packHeader__member--details" @click="navMember('josh')">
-                  <p class="packHeader__member--name">Josh Parkin</p>
-                  <p class="packHeader__member--title">Chief Technology Officer</p>
+                <div class="packHeader__member--details" @click="navMember('tomis')">
+                  <p class="packHeader__member--name">Tomis Parker</p>
+                  <p
+                    class="packHeader__member--title"
+                  >Director of Strategy &amp; Business Development</p>
                 </div>
               </a>
             </div>
+          </div>
 
+          <div class="packHeader__pack packHeader__pack">
             <div class="packHeader__member">
               <a href="/pack-dora" class="removelink">
                 <div class="packHeader__member--photo" @click="navMember('dora')">
@@ -91,9 +115,6 @@
                 </div>
               </a>
             </div>
-          </div>
-
-          <div class="packHeader__pack packHeader__pack">
             <div class="packHeader__member">
               <a href="/pack-drea" class="removelink">
                 <div class="packHeader__member--photo" @click="navMember('drea')">
@@ -113,23 +134,6 @@
             </div>
 
             <div class="packHeader__member">
-              <a href="/pack-tomis" class="removelink">
-                <div class="packHeader__member--photo" @click="navMember('tomis')">
-                  <p class="packHeader__member--cover--text">Tomis' Story</p>
-                  <div class="packHeader__member--cover">&nbsp;</div>
-                  <img
-                    src="../../../assets/images/junto-home-2.0__headshot--tomis.png"
-                    alt
-                    class="packHeader__member--photo--image"
-                  />
-                </div>
-                <div class="packHeader__member--details" @click="navMember('tomis')">
-                  <p class="packHeader__member--name">Tomis Parker</p>
-                  <p class="packHeader__member--title">People and Culture Lead</p>
-                </div>
-              </a>
-            </div>
-            <div class="packHeader__member">
               <a href="/pack-nash" class="removelink">
                 <div class="packHeader__member--photo" @click="navMember('nash')">
                   <p class="packHeader__member--cover--text">Nash's Story</p>
@@ -147,7 +151,7 @@
               </a>
             </div>
             <div class="packHeader__member">
-              <a href="/pack-nash" class="removelink">
+              <a href class="removelink">
                 <div class="packHeader__member--photo" @click="navMember('dominik')">
                   <p class="packHeader__member--cover--text">Dominik's Story</p>
                   <div class="packHeader__member--cover">&nbsp;</div>

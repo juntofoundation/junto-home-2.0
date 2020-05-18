@@ -31,7 +31,7 @@
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Josh Parkin</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">CTO</h2>            
+                    <h2 slot="packMemberTitle" class="packMember__title">CTO &amp; Systems Architect</h2>            
                     
                     <p class="packMember__bio">
                         Aloha! Ever since I can remember I have always been obsessed with creation. Whether that be creating software, music, drones or a powerful connection it completely captivates me. When I first heard about Junto, I found something I was looking for. A social network which truly connects people, something which can create a real sense of community and inclusivity, a safe place where you can learn and share with no holding back. I'm excited to embark on this adventure with you. See you on Junto!                        
