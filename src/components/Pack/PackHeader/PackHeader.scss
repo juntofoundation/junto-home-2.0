@@ -31,11 +31,11 @@
     }        
 
     &__main {
-            padding: 4rem 8rem; 
+        padding: 4rem 8rem; 
 
-    @include respond(phone) {
-        padding: 4rem 2rem;
-    }
+        @include respond(phone) {
+            padding: 4rem 2rem;
+        }
     }
 
     &__title {
@@ -55,13 +55,10 @@
         }
     }
 
-    &__section {        
-        // margin-bottom: 1rem;  
-    }
 
     &__pack {
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: space-between;
         flex-wrap: wrap; 
 

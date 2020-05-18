@@ -31,7 +31,7 @@
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Eric Yang</h2>
-                    <h2 slot="packMemberTitle" class="packMember__title">Founder, Executive Director</h2>            
+                    <h2 slot="packMemberTitle" class="packMember__title">Founder &amp; Executive Director</h2>            
                     
                     <p class="packMember__bio">
                         Hey, Eric here.

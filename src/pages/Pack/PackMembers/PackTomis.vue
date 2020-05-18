@@ -38,7 +38,7 @@
       </div>
       <div class="packMember__right">
         <h2 slot="packMemberName" class="packMember__name">Tomis Parker</h2>
-        <h2 slot="packMemberTitle" class="packMember__title">People and Culture Lead</h2>
+        <h2 slot="packMemberTitle" class="packMember__title">Director of Strategy &amp; Business Development</h2>
 
         <p class="packMember__bio">
           Hey there - Tomis here.

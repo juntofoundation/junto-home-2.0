@@ -1510,7 +1510,7 @@ body {
         margin-right: 0; } }
   .packHeader__pack {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap; }
     @media (max-width: 62em) {
