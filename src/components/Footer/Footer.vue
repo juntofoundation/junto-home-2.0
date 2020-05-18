@@ -2,11 +2,13 @@
 <template>
   <section class="footer">
     <div class="footer__left">
-      <div class="footer__logo">
-        <a href="/" class="removelink footer__logo--text">
-          <p class="footer__logo--text">JUNTO</p>
-        </a>
-      </div>
+      <a href="/" class="removelink">
+        <img
+          class="footer__logo--image"
+          src="../../assets/images/junto-home-2.0__logo--rainbow.png"
+          alt
+        />
+      </a>
 
       <div class="footer__legal">
         <a class="footer__legal--text" href="/privacy-policy">Privacy Policy</a>
