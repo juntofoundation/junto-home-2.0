@@ -56,5 +56,4 @@ export const routes = [
     { path: '/faq', component: Faq },
     { path: '/privacy-policy', component: PrivacyPolicy },
     { path: '/terms-of-service', component: TermsOfService },
-
 ]
