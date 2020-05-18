@@ -2,13 +2,14 @@
 <template>
   <div>
     <div class="privacyPolicyHeader" v-if="memberOpen != true">
-      <h2 class="privacyPolicyHeader__title">Junto Privacy Policy</h2>
-      <p class="privacyPolicyHeader__subtitle">
+      <div class="privacyPolicyHeader__header">
+        <h2 class="privacyPolicyHeader__header--title">Junto Privacy Policy</h2>
+        <p class="privacyPolicyHeader__header--subtitle">
         This privacy policy is effective as of
         <strong>May 18, 2020.</strong>
-        We encourage you to read this policy in full so you understand our position as it pertains
-        to managing your data and the rights you have over your information.
-      </p>
+        A commitment to privacy is at the heart of Junto and we encourage you to read this policy in full.
+        </p>
+      </div>
 
       <div class="privacyPolicyHeader__section">
         <p class="privacyPolicyHeader__section--title">Privacy Statement</p>
@@ -45,8 +46,97 @@
             it’s up to you what you decide to share with the world.
           </p>
         </div>
+        <div class="privacyPolicyHeader__bullet">
+          <img
+            src="../../assets/images/junto-home-2.0__bullet.png"
+            alt
+            class="privacyPolicyHeader__bullet--icon"
+          />
+          <p
+            class="privacyPolicyHeader__bullet--text"
+          >We will never sell your data to ANYONE. The vast majority of companies profit off their users by selling their information. We promise to never do that. In fact, we won’t ever share any personal data about your online activity or use it to target you individually.</p>
+        </div>
+        <div class="privacyPolicyHeader__bullet">
+          <img
+            src="../../assets/images/junto-home-2.0__bullet.png"
+            alt
+            class="privacyPolicyHeader__bullet--icon"
+          />
+          <p
+            class="privacyPolicyHeader__bullet--text"
+          >We DO NOT track you. Few companies occasionally give users the option to exercise your Do Not Track right, but only do so after a user jumps through a bunch of confusing hoops. With us, you don’t have to worry about this. We don’t use tracking to collect any personal information. End of story.</p>
+        </div>
+        <div class="privacyPolicyHeader__bullet">
+          <img
+            src="../../assets/images/junto-home-2.0__bullet.png"
+            alt
+            class="privacyPolicyHeader__bullet--icon"
+          />
+          <p
+            class="privacyPolicyHeader__bullet--text"
+          >[We DO NOT run targeted advertisements.] Junto does not facilitate the use of targeted advertisements on our App. However, you may still see third-party advertisements from time to time independent of us. This is because we do not restrict our users from posting their own advertisements; we just won’t have a hand in the facilitation of any posted ads.</p>
+        </div>
+      </div>
+
+      <!-- new section -->
+      <div class="privacyPolicyHeader__section">
+        <p class="privacyPolicyHeader__section--title">SERVICES WE USE</p>
+        <div class="privacyPolicyHeader__bullet">
+          <img
+            src="../../assets/images/junto-home-2.0__bullet.png"
+            alt
+            class="privacyPolicyHeader__bullet--icon"
+          />
+          <p
+            class="privacyPolicyHeader__bullet--text"
+          >AWS (Privacy Policy) : Used by us to store, process and distribute information.</p>
+        </div>
+        <div class="privacyPolicyHeader__bullet">
+          <img
+            src="../../assets/images/junto-home-2.0__bullet.png"
+            alt
+            class="privacyPolicyHeader__bullet--icon"
+          />
+          <p
+            class="privacyPolicyHeader__bullet--text"
+          >Sentry (Privacy Policy) : Used by us to log anonymous reports on bugs and crashes happening in the Junto App.</p>
+        </div>
+      </div>
+
+      <!-- new section -->
+      <div class="privacyPolicyHeader__section">
+        <p class="privacyPolicyHeader__section--title">INFORMATION WE COLLECT</p>
+        <div class="privacyPolicyHeader__bullet">
+          <img
+            src="../../assets/images/junto-home-2.0__bullet.png"
+            alt
+            class="privacyPolicyHeader__bullet--icon"
+          />
+          <p
+            class="privacyPolicyHeader__bullet--text"
+          >AWS (Privacy Policy) : Used by us to store, process and distribute information.</p>
+        </div>
+        <div class="privacyPolicyHeader__bullet">
+          <img
+            src="../../assets/images/junto-home-2.0__bullet.png"
+            alt
+            class="privacyPolicyHeader__bullet--icon"
+          />
+          <p
+            class="privacyPolicyHeader__bullet--text"
+          >Sentry (Privacy Policy) : Used by us to log anonymous reports on bugs and crashes happening in the Junto App.</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+privacyPolicyHeader__section--title
+privacyPolicyHeader__section--body
+privacyPolicyHeader__section--bullet
+privacyPolicyHeader__bullet
+privacyPolicyHeader__bullet--icon
+privacyPolicyHeader__bullet--text
+
+
 
