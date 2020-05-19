@@ -5,11 +5,6 @@
       <!--  header + background image -->
       <div class="privacyPolicyHeader__header">
         <h2 class="privacyPolicyHeader__header--title">Junto Privacy Policy</h2>
-        <p class="privacyPolicyHeader__header--subtitle">
-          This privacy policy is effective as of
-          <strong>May 18, 2020.</strong>
-          Privacy is an important cornerstone at Junto and we encourage you to read this policy in full.
-        </p>
       </div>
 
       <!-- main section -->

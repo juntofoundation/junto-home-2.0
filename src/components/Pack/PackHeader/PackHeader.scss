@@ -14,11 +14,19 @@
         justify-content: flex-end;
         padding: 8rem;
 
+        @include respond(phone) {
+            height: 60vh;
+            padding: 4rem 2rem; 
+        }
 
         &--title {
             font-size: 4.5rem;
             color: white;
             font-weight: 600;
+
+            @include respond(phone) {
+                font-size: 3.8rem;
+            }            
         }
 
 
@@ -54,9 +62,9 @@
         align-items: start;
         justify-content: space-between;
         flex-wrap: wrap; 
+        
 
         &--desk {
-            
             @include respond(pack) {
                 display: none;
             }
@@ -66,6 +74,9 @@
     &__member {    
         margin-bottom: 3rem;      
         transition: all .2s;
+        @include respond(phone) {          
+            flex: 50%;      
+        }
 
         &--mobile {
             display: none;
@@ -185,11 +196,11 @@
         &--details {
             display: flex;
             flex-direction: column;       
-            width: 22rem;   
+            width: 24rem;   
 
-            @include respond(phone) {
-                width: 100%;
-            }
+            // @include respond(phone) {
+            //     width: 100%;
+            // }
         }
 
         &--name {
@@ -204,6 +215,7 @@
         &--title  {
             font-size: 1.5rem;
             font-weight: 500;         
+            width: 22rem;
             
             @include respond(phone) {
                 font-size: 1.7rem;

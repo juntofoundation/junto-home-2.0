@@ -95,9 +95,79 @@
                 </div>
               </a>
             </div>
+
+            <div class="packHeader__member packHeader__member--mobile">
+              <a href="/pack-dora" class="removelink">
+                <div class="packHeader__member--photo" @click="navMember('dora')">
+                  <p class="packHeader__member--cover--text">Dora's Story</p>
+                  <div class="packHeader__member--cover">&nbsp;</div>
+                  <img
+                    src="../../../assets/images/junto-home-2.0__headshot--dora.png"
+                    alt
+                    class="packHeader__member--photo--image"
+                  />
+                </div>
+                <div class="packHeader__member--details" @click="navMember('dora')">
+                  <p class="packHeader__member--name">Dora Czovek</p>
+                  <p class="packHeader__member--title">Director of Operations</p>
+                </div>
+              </a>
+            </div>
+            <div class="packHeader__member packHeader__member--mobile">
+              <a href="/pack-drea" class="removelink">
+                <div class="packHeader__member--photo" @click="navMember('drea')">
+                  <p class="packHeader__member--cover--text">Drea's Story</p>
+                  <div class="packHeader__member--cover">&nbsp;</div>
+                  <img
+                    src="../../../assets/images/junto-home-2.0__headshot--drea.png"
+                    alt
+                    class="packHeader__member--photo--image"
+                  />
+                </div>
+                <div class="packHeader__member--details" @click="navMember('drea')">
+                  <p class="packHeader__member--name">Drea Bennett</p>
+                  <p class="packHeader__member--title">Creative Lead</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="packHeader__member packHeader__member--mobile">
+              <a href="/pack-nash" class="removelink">
+                <div class="packHeader__member--photo" @click="navMember('nash')">
+                  <p class="packHeader__member--cover--text">Nash's Story</p>
+                  <div class="packHeader__member--cover">&nbsp;</div>
+                  <img
+                    src="../../../assets/images/junto-home-2.0__headshot--nash.png"
+                    alt
+                    class="packHeader__member--photo--image"
+                  />
+                </div>
+                <div class="packHeader__member--details" @click="navMember('nash')">
+                  <p class="packHeader__member--name">Neevash Ramdial</p>
+                  <p class="packHeader__member--title">Mobile / Flutter Developer</p>
+                </div>
+              </a>
+            </div>
+            <div class="packHeader__member packHeader__member--mobile">
+              <a href class="removelink">
+                <div class="packHeader__member--photo" @click="navMember('dominik')">
+                  <p class="packHeader__member--cover--text">Dominik's Story</p>
+                  <div class="packHeader__member--cover">&nbsp;</div>
+                  <img
+                    src="../../../assets/images/junto-home-2.0__headshot--dominik.png"
+                    alt
+                    class="packHeader__member--photo--image"
+                  />
+                </div>
+                <div class="packHeader__member--details" @click="navMember('dominik')">
+                  <p class="packHeader__member--name">Dominik Roszkowski</p>
+                  <p class="packHeader__member--title">Mobile / Flutter Developer</p>
+                </div>
+              </a>
+            </div>
           </div>
 
-          <div class="packHeader__pack">
+          <div class="packHeader__pack packHeader__pack--desk">
             <div class="packHeader__member">
               <a href="/pack-dora" class="removelink">
                 <div class="packHeader__member--photo" @click="navMember('dora')">

@@ -13,7 +13,7 @@ $junto-primary-dark: #333;
     }
 
     @if $breakpoint == pack {
-        @media (max-width: 62em) {@content}; //960px
+        @media (max-width: 63em) {@content}; //1008px
     }
 
     @if $breakpoint == tab-land {

@@ -1195,10 +1195,17 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .learnHeader__header {
+        height: 60vh;
+        padding: 4rem 2rem; } }
     .learnHeader__header--title {
       font-size: 4.5rem;
       color: white;
       font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .learnHeader__header--title {
+          font-size: 3.8rem; } }
   .learnHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
@@ -1475,10 +1482,17 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .packHeader__header {
+        height: 60vh;
+        padding: 4rem 2rem; } }
     .packHeader__header--title {
       font-size: 4.5rem;
       color: white;
       font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .packHeader__header--title {
+          font-size: 3.8rem; } }
   .packHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
@@ -1501,15 +1515,18 @@ body {
     align-items: start;
     justify-content: space-between;
     flex-wrap: wrap; }
-    @media (max-width: 62em) {
+    @media (max-width: 63em) {
       .packHeader__pack--desk {
         display: none; } }
   .packHeader__member {
     margin-bottom: 3rem;
     transition: all .2s; }
+    @media (max-width: 37.5em) {
+      .packHeader__member {
+        flex: 50%; } }
     .packHeader__member--mobile {
       display: none; }
-      @media (max-width: 62em) {
+      @media (max-width: 63em) {
         .packHeader__member--mobile {
           display: block; } }
     .packHeader__member--invisible {
@@ -1588,10 +1605,7 @@ body {
     .packHeader__member--details {
       display: flex;
       flex-direction: column;
-      width: 22rem; }
-      @media (max-width: 37.5em) {
-        .packHeader__member--details {
-          width: 100%; } }
+      width: 24rem; }
     .packHeader__member--name {
       font-size: 1.5rem;
       font-weight: 600; }
@@ -1600,7 +1614,8 @@ body {
           font-size: 1.7rem; } }
     .packHeader__member--title {
       font-size: 1.5rem;
-      font-weight: 500; }
+      font-weight: 500;
+      width: 22rem; }
       @media (max-width: 37.5em) {
         .packHeader__member--title {
           font-size: 1.7rem; } }
@@ -1664,10 +1679,17 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .foundationHeader__header {
+        height: 60vh;
+        padding: 4rem 2rem; } }
     .foundationHeader__header--title {
       font-size: 4.5rem;
       color: white;
       font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .foundationHeader__header--title {
+          font-size: 3.8rem; } }
   .foundationHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
@@ -1799,10 +1821,17 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .eventsHeader__header {
+        height: 60vh;
+        padding: 4rem 2rem; } }
     .eventsHeader__header--title {
       font-size: 4.5rem;
       color: white;
       font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .eventsHeader__header--title {
+          font-size: 3.8rem; } }
   .eventsHeader__main {
     padding: 4rem 0; }
     .eventsHeader__main--title {
@@ -1898,10 +1927,17 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .faqHeader__header {
+        height: 60vh;
+        padding: 4rem 2rem; } }
     .faqHeader__header--title {
       font-size: 4.5rem;
       color: white;
       font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .faqHeader__header--title {
+          font-size: 3.8rem; } }
   .faqHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
@@ -1976,16 +2012,17 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .privacyPolicyHeader__header {
+        height: 60vh;
+        padding: 4rem 2rem; } }
     .privacyPolicyHeader__header--title {
       font-size: 4.5rem;
       color: white;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .privacyPolicyHeader__header--subtitle {
-      font-size: 2.4rem;
-      color: white;
-      font-weight: 500;
-      width: 75%; }
+      font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .privacyPolicyHeader__header--title {
+          font-size: 3.8rem; } }
   .privacyPolicyHeader__main {
     padding: 8rem; }
     @media (max-width: 37.5em) {
