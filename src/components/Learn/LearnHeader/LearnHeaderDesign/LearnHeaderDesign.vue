@@ -78,7 +78,7 @@
                     </div>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
-                        <p class="learnHeader__section--text">To start, the expression center will include Longform, Photo, Shortform, Bullet, and Events</p>                        
+                        <p class="learnHeader__section--text">To start, the expression center will include Dynamic (Rich Text), Photo, Shortform, Audio, and Videos</p>                        
                     </div>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
