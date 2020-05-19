@@ -1198,13 +1198,7 @@ body {
     .learnHeader__header--title {
       font-size: 4.5rem;
       color: white;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .learnHeader__header--subtitle {
-      font-size: 2.4rem;
-      color: white;
-      font-weight: 500;
-      width: 75%; }
+      font-weight: 600; }
   .learnHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
@@ -1484,13 +1478,7 @@ body {
     .packHeader__header--title {
       font-size: 4.5rem;
       color: white;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .packHeader__header--subtitle {
-      font-size: 2.4rem;
-      color: white;
-      font-weight: 500;
-      width: 75%; }
+      font-weight: 600; }
   .packHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
@@ -1679,13 +1667,7 @@ body {
     .foundationHeader__header--title {
       font-size: 4.5rem;
       color: white;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .foundationHeader__header--subtitle {
-      font-size: 2.4rem;
-      color: white;
-      font-weight: 500;
-      width: 75%; }
+      font-weight: 600; }
   .foundationHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
@@ -1820,13 +1802,7 @@ body {
     .eventsHeader__header--title {
       font-size: 4.5rem;
       color: white;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .eventsHeader__header--subtitle {
-      font-size: 2.4rem;
-      color: white;
-      font-weight: 500;
-      width: 75%; }
+      font-weight: 600; }
   .eventsHeader__main {
     padding: 4rem 0; }
     .eventsHeader__main--title {
@@ -1925,13 +1901,7 @@ body {
     .faqHeader__header--title {
       font-size: 4.5rem;
       color: white;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .faqHeader__header--subtitle {
-      font-size: 2.4rem;
-      color: white;
-      font-weight: 500;
-      width: 75%; }
+      font-weight: 600; }
   .faqHeader__main {
     padding: 4rem 8rem; }
     @media (max-width: 37.5em) {

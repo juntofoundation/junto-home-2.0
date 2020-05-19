@@ -6,7 +6,7 @@
     </div>
 
     <div class="eventsHeader__main">
-      <p class="eventsHeader__main--title">Creating online and offline balance</p>
+      <p class="eventsHeader__main--title">Creating an online and offline balance</p>
       <p class="eventsHeader__main--subtitle">
         Social media won't replace
         the connections you make it real life. We
