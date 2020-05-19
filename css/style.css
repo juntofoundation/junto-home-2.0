@@ -197,7 +197,9 @@ body {
     color: #333; }
 
 .navOpen {
-  background-image: linear-gradient(to right top, #333, #555);
+  background-image: url("../../../../src/assets/images/junto-home-2.0__background--rainbow.png");
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
   z-index: 20000;
@@ -2085,16 +2087,17 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 8rem; }
+    @media (max-width: 37.5em) {
+      .termsOfServiceHeader__header {
+        height: 60vh;
+        padding: 4rem 2rem; } }
     .termsOfServiceHeader__header--title {
       font-size: 4.5rem;
       color: white;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .termsOfServiceHeader__header--subtitle {
-      font-size: 2.4rem;
-      color: white;
-      font-weight: 500;
-      width: 75%; }
+      font-weight: 600; }
+      @media (max-width: 37.5em) {
+        .termsOfServiceHeader__header--title {
+          font-size: 3.8rem; } }
   .termsOfServiceHeader__main {
     padding: 8rem; }
     @media (max-width: 37.5em) {
