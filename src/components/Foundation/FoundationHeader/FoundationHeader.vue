@@ -7,7 +7,7 @@
     <div class="foundationHeader__main">
       <h2 class="foundationHeader__main--title">Support the Junto Foundation</h2>
       <p class="foundationHeader__main--subtitle">
-        Junto is a nonprofit organization registered
+        Junto is a 501c(4) nonprofit registered
         in New York. This is to ensure the independence and integrity of this organization is sustainable long term.
         Any contribution to help move Junto forward is much appreciated!
       </p>
