@@ -23,7 +23,6 @@
             @click="setCategory('technology')"
           >DESIGN/TECH</p>
         </div>
-        <div class="faqHeader__nav--border">&nbsp;</div>
       </div>
 
       <div class="faqHeader__faqs">

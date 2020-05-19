@@ -1935,9 +1935,6 @@ body {
       color: #999; }
       .faqHeader__nav--item:hover {
         color: #333; }
-    .faqHeader__nav--border {
-      width: 32rem;
-      border-bottom: 1px solid #eee; }
   .faqHeader__faqs {
     margin-right: 36%; }
     @media (max-width: 37.5em) {
