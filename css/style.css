@@ -1806,25 +1806,46 @@ body {
     color: #333; }
 
 .eventsHeader {
-  background-color: white;
-  padding: 4rem 0; }
-  .eventsHeader__title {
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    padding: 0 8rem; }
-    @media (max-width: 37.5em) {
-      .eventsHeader__title {
-        padding: 0 2rem; } }
-  .eventsHeader__subtitle {
-    padding: 0 20% 0 8rem;
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-bottom: 2rem; }
-    @media (max-width: 37.5em) {
-      .eventsHeader__subtitle {
-        margin-bottom: 3rem;
-        padding: 0 2rem; } }
+  background-color: white; }
+  .eventsHeader__header {
+    position: relative;
+    background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8rem; }
+    .eventsHeader__header--title {
+      font-size: 4.5rem;
+      color: white;
+      font-weight: 600;
+      margin-bottom: 2rem; }
+    .eventsHeader__header--subtitle {
+      font-size: 2.4rem;
+      color: white;
+      font-weight: 500;
+      width: 75%; }
+  .eventsHeader__main {
+    padding: 4rem 0; }
+    .eventsHeader__main--title {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      padding: 0 8rem; }
+      @media (max-width: 37.5em) {
+        .eventsHeader__main--title {
+          padding: 0 2rem; } }
+    .eventsHeader__main--subtitle {
+      padding: 0 20% 0 8rem;
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-bottom: 4rem; }
+      @media (max-width: 37.5em) {
+        .eventsHeader__main--subtitle {
+          margin-bottom: 3rem;
+          padding: 0 2rem; } }
   .eventsHeader__calendar {
     height: 75vh;
     width: 100vw;
