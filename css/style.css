@@ -1190,7 +1190,7 @@ body {
     background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
     background-position: center;
     background-size: cover;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1476,7 +1476,7 @@ body {
     background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
     background-position: center;
     background-size: cover;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1496,18 +1496,18 @@ body {
     @media (max-width: 37.5em) {
       .packHeader__main {
         padding: 4rem 2rem; } }
-  .packHeader__title {
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem; }
-  .packHeader__subtitle {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-right: 25%;
-    margin-bottom: 2rem; }
-    @media (max-width: 37.5em) {
-      .packHeader__subtitle {
-        margin-right: 0; } }
+    .packHeader__main--title {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem; }
+    .packHeader__main--subtitle {
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-right: 25%;
+      margin-bottom: 2rem; }
+      @media (max-width: 37.5em) {
+        .packHeader__main--subtitle {
+          margin-right: 0; } }
   .packHeader__pack {
     display: flex;
     align-items: start;
@@ -1665,22 +1665,43 @@ body {
     color: #333; }
 
 .foundationHeader {
-  background-color: white;
-  padding: 4rem 8rem; }
-  @media (max-width: 37.5em) {
-    .foundationHeader {
-      padding: 4rem 2rem; } }
-  .foundationHeader__title {
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem; }
-  .foundationHeader__subtitle {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-right: 25%; }
+  background-color: white; }
+  .foundationHeader__header {
+    position: relative;
+    background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8rem; }
+    .foundationHeader__header--title {
+      font-size: 4.5rem;
+      color: white;
+      font-weight: 600;
+      margin-bottom: 2rem; }
+    .foundationHeader__header--subtitle {
+      font-size: 2.4rem;
+      color: white;
+      font-weight: 500;
+      width: 75%; }
+  .foundationHeader__main {
+    padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
-      .foundationHeader__subtitle {
-        margin-right: 2rem; } }
+      .foundationHeader__main {
+        padding: 4rem 2rem; } }
+    .foundationHeader__main--title {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem; }
+    .foundationHeader__main--subtitle {
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-right: 25%; }
+      @media (max-width: 37.5em) {
+        .foundationHeader__main--subtitle {
+          margin-right: 2rem; } }
   .foundationHeader__pillars {
     width: 100%;
     display: flex;
@@ -1707,7 +1728,7 @@ body {
           margin-bottom: 1.5rem;
           margin-right: 0; } }
       .foundationHeader__pillar--left--founder {
-        background-image: url("../../../../src/assets/images/junto-home-2.0__foundation--founder.png"); }
+        background-image: url("../../../../src/assets/images/junto-home-2.0__grassroots.png"); }
       .foundationHeader__pillar--left--sponsor {
         background-image: url("../../../../src/assets/images/junto-home-2.0__foundation--sponsor.png"); }
     .foundationHeader__pillar--right {

@@ -7,8 +7,8 @@
       </div>
 
       <div class="packHeader__main">
-        <h2 class="packHeader__title">Mission</h2>
-        <p class="packHeader__subtitle">
+        <h2 class="packHeader__main--title">Mission</h2>
+        <p class="packHeader__main--subtitle">
           We've come together from
           many walks of life to help realign technology with humanity. We envision social technology
           as a tool to activate our creative, collaborative, and expressive capacities and
@@ -16,7 +16,7 @@
         </p>
 
         <div class="packHeader__section">
-          <h2 class="packHeader__title">Pack</h2>
+          <h2 class="packHeader__main--title">Pack</h2>
           <div class="packHeader__pack">
             <div class="packHeader__member">
               <a href="/pack-eric" class="removelink">
@@ -97,7 +97,7 @@
             </div>
           </div>
 
-          <div class="packHeader__pack packHeader__pack">
+          <div class="packHeader__pack">
             <div class="packHeader__member">
               <a href="/pack-dora" class="removelink">
                 <div class="packHeader__member--photo" @click="navMember('dora')">
@@ -146,7 +146,7 @@
                 </div>
                 <div class="packHeader__member--details" @click="navMember('nash')">
                   <p class="packHeader__member--name">Neevash Ramdial</p>
-                  <p class="packHeader__member--title">Mobile Developer</p>
+                  <p class="packHeader__member--title">Mobile / Flutter Developer</p>
                 </div>
               </a>
             </div>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="packHeader__member--details" @click="navMember('dominik')">
                   <p class="packHeader__member--name">Dominik Roszkowski</p>
-                  <p class="packHeader__member--title">Mobile Developer</p>
+                  <p class="packHeader__member--title">Mobile / Flutter Developer</p>
                 </div>
               </a>
             </div>
@@ -171,7 +171,7 @@
         </div>
 
         <div class="packHeader__section">
-          <h2 class="packHeader__title">Board of Directors</h2>
+          <h2 class="packHeader__main--title">Board of Directors</h2>
           <div class="packHeader__pack">
             <div class="packHeader__member">
               <a href="/pack-eric" class="removelink">
@@ -247,7 +247,7 @@
           </div>
         </div>
 
-        <h2 class="packHeader__title">Advisors</h2>
+        <h2 class="packHeader__main--title">Advisors</h2>
         <div class="packHeader__pack">
           <div class="packHeader__member">
             <a href="/pack-art" class="removelink">

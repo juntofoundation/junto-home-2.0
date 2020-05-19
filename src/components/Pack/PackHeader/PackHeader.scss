@@ -8,7 +8,7 @@
         background-image: url('../../../../src/assets/images/junto-home-2.0__rainbow.png');
         background-position: center;
         background-size: cover;
-        height: 75vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -36,25 +36,24 @@
         @include respond(phone) {
             padding: 4rem 2rem;
         }
-    }
 
-    &__title {
-        font-size: 2.4rem; 
-        font-weight: 600;
-        margin-bottom: 1.5rem; 
-    }
-
-    &__subtitle {
-        font-size: 1.7rem;
-        font-weight: 500;
-        margin-right: 25%;
-        margin-bottom: 2rem; 
- 
-        @include respond(phone) {
-            margin-right: 0;
+        &--title {
+            font-size: 2.4rem; 
+            font-weight: 600;
+            margin-bottom: 1.5rem; 
         }
+    
+        &--subtitle {
+            font-size: 1.7rem;
+            font-weight: 500;
+            margin-right: 25%;
+            margin-bottom: 2rem; 
+     
+            @include respond(phone) {
+                margin-right: 0;
+            }
+        }        
     }
-
 
     &__pack {
         display: flex;
