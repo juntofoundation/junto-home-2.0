@@ -499,7 +499,7 @@
         </div>
         <!-- new section -->
         <div class="privacyPolicyHeader__section">
-            <p class="privacyPolicyHeader__section--subtitle">Last Revised May 18, 2020</p>
+            <p class="privacyPolicyHeader__section--subtitle">Last Revised May 19, 2020</p>
         </div>
 
     </div>
