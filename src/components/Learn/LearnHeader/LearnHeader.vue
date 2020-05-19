@@ -28,7 +28,6 @@
             @click="setCategory('nonprofit')"
           >NOT FOR PROFIT</p>
         </div>
-        <div class="learnHeader__nav--border">&nbsp;</div>
       </div>
 
       <junto-learn-header-design v-if="design">

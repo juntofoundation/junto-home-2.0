@@ -48,16 +48,16 @@
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Interact within the 'collective' (public layer)</p>                        
                     </div>
-                    <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
-                        <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
+                    <div class="learnHeader__section--bullet">
+                        <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Create and join 'spheres' (communities)</p>                        
                     </div>
-                    <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
-                        <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
+                    <div class="learnHeader__section--bullet">
+                        <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Share and discover between people in your pack (semi-private layer)</p>                        
                     </div>
-                    <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
-                        <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
+                    <div class="learnHeader__section--bullet">
+                        <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Keep things to yourself in your den (private layer)</p>                        
                     </div>                                                                                                  
             </div>            
@@ -110,16 +110,16 @@
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Create your own perspectives by adding individuals to unique feeds</p>                        
                     </div>
-                    <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
-                        <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
+                    <div class="learnHeader__section--bullet">
+                        <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Explore any perspective by channels (topics)</p>                        
                     </div>
-                    <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
-                        <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
+                    <div class="learnHeader__section--bullet">
+                        <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">No algorithims that reinforce existing perspectives. You design your own experience</p>                        
                     </div>
-                    <div class="learnHeader__section--bullet" style="display: flex; align-items: center;">
-                        <img class="leranHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png" alt="" style="height: 1.5rem; margin-right: 1rem; ">
+                    <div class="learnHeader__section--bullet">
+                        <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
                         <p class="learnHeader__section--text">Exciting feature to be revealed soon...</p>                        
                     </div>                                                                                                  
             </div>            

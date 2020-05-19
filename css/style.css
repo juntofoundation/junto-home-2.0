@@ -1190,7 +1190,7 @@ body {
     background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1206,18 +1206,21 @@ body {
       font-weight: 500;
       width: 75%; }
   .learnHeader__main {
-    padding: 8rem; }
+    padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
       .learnHeader__main {
         padding: 4rem 4rem; } }
     .learnHeader__main--title {
       font-size: 2.4rem;
       font-weight: 600;
-      margin-bottom: 1.5rem; }
+      margin-bottom: 1.5rem;
+      text-align: center; }
     .learnHeader__main--subtitle {
       font-size: 1.7rem;
       font-weight: 500;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      text-align: center;
+      margin: 0 17% 3rem 17%; }
       @media (max-width: 56.25em) {
         .learnHeader__main--subtitle {
           margin: 0 8% 3rem 8%; } }
@@ -1243,9 +1246,6 @@ body {
       color: #999; }
       .learnHeader__nav--item:hover {
         color: #333; }
-    .learnHeader__nav--border {
-      border-bottom: 1px solid #eee;
-      width: 38rem; }
   .learnHeader__section {
     min-height: 27rem;
     margin: 6rem 0;
@@ -1304,7 +1304,7 @@ body {
       font-size: 2rem;
       font-weight: 600;
       text-transform: uppercase;
-      margin-bottom: 1rem; }
+      margin-bottom: 1.5rem; }
     .learnHeader__section--body {
       display: flex;
       flex-direction: column;
@@ -1315,7 +1315,7 @@ body {
       margin-bottom: 1rem; }
       .learnHeader__section--bullet--icon {
         height: 1.5rem;
-        margin-right: 1.5rem; }
+        margin-right: 2rem; }
     .learnHeader__section--text {
       font-size: 1.7rem; }
       @media (max-width: 37.5em) {
@@ -1476,7 +1476,7 @@ body {
     background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1671,7 +1671,7 @@ body {
     background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1812,7 +1812,7 @@ body {
     background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

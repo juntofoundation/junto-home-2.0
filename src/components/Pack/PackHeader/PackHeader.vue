@@ -3,7 +3,7 @@
   <div>
     <div class="packHeader" v-if="memberOpen != true">
       <div class="packHeader__header">
-        <h2 class="packHeader__header--title">Our Pack</h2>
+        <h2 class="packHeader__header--title">Meet the Pack</h2>
       </div>
 
       <div class="packHeader__main">

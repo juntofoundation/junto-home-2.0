@@ -8,7 +8,7 @@
         background-image: url('../../../../src/assets/images/junto-home-2.0__rainbow.png');
         background-position: center;
         background-size: cover;
-        height: 80vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -31,7 +31,7 @@
     }    
 
     &__main {
-        padding: 8rem; 
+        padding: 4rem 8rem; 
     
         @include respond(phone) {
             padding: 4rem 4rem;
@@ -40,7 +40,7 @@
             font-size: 2.4rem; 
             font-weight: 600;
             margin-bottom: 1.5rem; 
-            // text-align: center;
+            text-align: center;
     
         }
     
@@ -48,9 +48,9 @@
             font-size: 1.7rem;
             font-weight: 500;
             margin-bottom: 2rem; 
-            // text-align: center;
+            text-align: center;
     
-            // margin: 0 17% 3rem 17%;
+            margin: 0 17% 3rem 17%;
     
             @include respond(tab-port) {
                 margin: 0 8% 3rem 8%;
@@ -93,10 +93,6 @@
             }
         }
 
-        &--border {
-            border-bottom: 1px solid #eee;
-            width: 38rem; 
-        }
     }
 
     &__section {
@@ -179,7 +175,7 @@
             font-size: 2rem;
             font-weight: 600; 
             text-transform: uppercase;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
         }
 
         &--body {
@@ -195,7 +191,7 @@
             
             &--icon {
                 height: 1.5rem; 
-                margin-right: 1.5rem;           
+                margin-right: 2rem;           
             }
         }
         &--text {        
