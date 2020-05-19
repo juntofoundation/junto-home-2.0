@@ -1890,23 +1890,44 @@ body {
     color: #333; }
 
 .faqHeader {
-  background-color: white;
-  padding: 4rem 8rem; }
-  @media (max-width: 37.5em) {
-    .faqHeader {
-      padding: 4rem 2rem; } }
-  .faqHeader__title {
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem; }
-  .faqHeader__subtitle {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-right: 36%;
-    margin-bottom: 2rem; }
+  background-color: white; }
+  .faqHeader__header {
+    position: relative;
+    background-image: url("../../../../src/assets/images/junto-home-2.0__rainbow.png");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8rem; }
+    .faqHeader__header--title {
+      font-size: 4.5rem;
+      color: white;
+      font-weight: 600;
+      margin-bottom: 2rem; }
+    .faqHeader__header--subtitle {
+      font-size: 2.4rem;
+      color: white;
+      font-weight: 500;
+      width: 75%; }
+  .faqHeader__main {
+    padding: 4rem 8rem; }
     @media (max-width: 37.5em) {
-      .faqHeader__subtitle {
-        margin-right: 0; } }
+      .faqHeader__main {
+        padding: 4rem 2rem; } }
+    .faqHeader__main--title {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem; }
+    .faqHeader__main--subtitle {
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-right: 36%;
+      margin-bottom: 2rem; }
+      @media (max-width: 37.5em) {
+        .faqHeader__main--subtitle {
+          margin-right: 0; } }
   .faqHeader__nav {
     display: flex;
     flex-direction: column;
