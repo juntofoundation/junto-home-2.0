@@ -1,8 +1,8 @@
 
 <template>
   <div class="foundationHeader">
-    <div class="packHeader__header">
-      <h2 class="packHeader__header--title">Not For Profit</h2>
+    <div class="foundationHeader__header">
+      <h2 class="foundationHeader__header--title">Not For Profit</h2>
     </div>
     <div class="foundationHeader__main">
       <h2 class="foundationHeader__main--title">Support the Junto Foundation</h2>
