@@ -21,6 +21,11 @@
 
     }
 
+    @include respond(phone) {
+        background-image: url('../../../../src/assets/images/junto-home-2.0__background--rainbow.png');
+
+    }
+
     &__content {
         display: flex;
         flex-direction: column;

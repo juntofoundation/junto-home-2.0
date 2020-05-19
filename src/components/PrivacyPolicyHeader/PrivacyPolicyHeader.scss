@@ -33,11 +33,12 @@
 
         &__main {
         padding: 8rem; 
-    
         @include respond(phone) {
-            padding: 4rem 4rem;
-        }      
-    }
+            padding: 4rem 2rem;
+        }            
+    
+
+        }
 
         &__section {
             margin-bottom: 6rem;
