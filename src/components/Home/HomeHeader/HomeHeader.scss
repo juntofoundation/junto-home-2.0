@@ -7,11 +7,12 @@
     background-size: cover;
 
     width: 100vw;
-    // height: 85vh;
+    min-height: 85vh;
 
-    padding-top: 6rem;
+    padding: 6rem 8%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     @include respond(tab-port) {
         height: auto;
@@ -20,25 +21,17 @@
 
     }
 
-    @include respond(phone) {
-        padding-top: 4rem;
-        padding-bottom: 2rem; 
-    }
-
     &__content {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 8%;
-        margin-top: 4%;
         width: 38vw;
 
         @include respond(tab-port) {
-            margin: 0;
-            margin-top: 2rem;
+            
             margin-bottom: 4rem; 
             align-items: center;
-            width: 90vw;
+            width: 100%;
         }
     }
 
@@ -72,7 +65,7 @@
 
         @include respond(tab-port) {
             text-align: center;
-        }              
+        }               
     }
 
     &__action {
@@ -91,8 +84,6 @@
         &:hover {
             border: 2px solid $junto-primary-dark; 
             background-color: $junto-primary-dark;
-            // background-color: $junto-primary;
-
         }
 
         &--icon {
@@ -109,13 +100,11 @@
     }
 
     &__mockups {
-        height: 57rem;
-        margin-right: 8%;
-
-        @include respond(tab-port) {
-            height: 49rem;
-            margin-right: 0;
-
+        height: 49rem;
+        transform: translate(0.0, 3rem);
+        @include respond(phone) {
+            transform: none;
+            margin-top: 3rem;
         }
     }
 
