@@ -13,12 +13,20 @@
         flex-direction: column;
         justify-content: flex-end;
         padding: 8rem;
-
+        
+        @include respond(phone) {
+            height: 60vh;
+            padding: 4rem 2rem; 
+        }
 
         &--title {
             font-size: 4.5rem;
             color: white;
             font-weight: 600;
+
+            @include respond(phone) {
+                font-size: 3.8rem;
+            }                
         }
     }      
 
