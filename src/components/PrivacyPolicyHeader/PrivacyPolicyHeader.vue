@@ -10,7 +10,7 @@
 
         <div class="privacyPolicyHeader__main">
             <div class="privacyPolicyHeader__section">
-                <p class="privacyPolicyHeader__section--title">Privacy Statement</p>
+                <p class="privacyPolicyHeader__section--title">Privacy Statement 4 catSS</p>
                 <p class="privacyPolicyHeader__section--body">
                     Privacy is at the very heart of the Junto Foundation, Inc. (“Junto,” “we,” “our,” or “us”).
                     As a social media company founded in the spirit of authenticity, privacy represents a fundamental
