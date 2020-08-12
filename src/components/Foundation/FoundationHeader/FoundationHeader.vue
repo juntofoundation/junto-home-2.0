@@ -50,19 +50,3 @@
   </div>
 </template>
 
-
-<script>
-export default {
-  data() {
-    return {
-      hotOn: false
-    };
-  },
-
-  methods: {
-    showAddress() {}
-  }
-};
-</script>
-
-

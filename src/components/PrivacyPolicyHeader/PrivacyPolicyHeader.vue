@@ -12,17 +12,17 @@
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">Privacy Statement</p>
                 <p class="privacyPolicyHeader__section--body">
-                    Privacy is at the very heart of the Junto Foundation, Inc. (“Junto,” “we,” “our,” or “us”).
+                    Privacy is at the very heart of Junto Foundation, Inc. (“Junto,” “we,” “our” or “us”).
                     As a social media company founded in the spirit of authenticity, privacy represents a fundamental
-                    tenet of our belief system and an essential part of the very backbone upon which our Services stand.
+                    tenet of our belief system and is an essential part of the very backbone upon which our Services stand.
                     Therefore, we want you as a visitor to our Application (“App”) and user of our apps, features and software
-                    (collectively, “Services”) to feel confident in using our provisions and fully understand the expectations
+                    (collectively, “Services”) to feel confident in using our provisions, as well as fully understand the expectations
                     surrounding your privacy.
                 </p>
                 <p class="privacyPolicyHeader__section--body">
-                    We're dedicated to consumer privacy rights and thus offer our users a comprehensive Privacy Policy,
-                    written in plain language and with the intent of helping you understand what information we collect,
-                    why we collect it, and how you can update, manage, export, and delete your information. When we collect
+                    We're dedicated to consumer privacy rights and, thus, offer our users a comprehensive Privacy Policy. It's
+                    written in plain language, with the intent of helping you understand what information we collect,
+                    why we collect it, and how you can update, manage, export and delete your information. When we collect
                     your information, we are subject to various laws in the United States and the General Data Protection Regulation (“GDPR”)
                     which applies across the European Union (including in the United Kingdom), and we are responsible as the “controller” of that
                     personal information for the purposes of those laws.
@@ -33,18 +33,18 @@
                     <p class="privacyPolicyHeader__bullet--text">
                         We do not own your data, PERIOD. Plain and simple, your data is yours.
                         We don’t own it. Similarly, we do our very best
-                        in ensuring that any companies we formally collaborate with will never own
+                        to ensure that any companies we formally collaborate with will neither own
                         your data nor possess the right to share it with anyone else. At the end of the day,
                         it’s up to you what you decide to share with the world.
                     </p>
                 </div>
                 <div class="privacyPolicyHeader__bullet">
                     <img src="../../assets/images/junto-home-2.0__bullet.png" alt class="privacyPolicyHeader__bullet--icon" />
-                    <p class="privacyPolicyHeader__bullet--text">We will never sell your data to ANYONE. The vast majority of companies profit off their users by selling their information. We promise to never do that. In fact, we won’t ever share any personal data about your online activity or use it to target you individually.</p>
+                    <p class="privacyPolicyHeader__bullet--text">We will never sell your data to ANYONE. The vast majority of companies profit off of their users by selling their information. We promise to never do that. We won’t ever share any personal data about your online activity or use it to target you individually.</p>
                 </div>
                 <div class="privacyPolicyHeader__bullet">
                     <img src="../../assets/images/junto-home-2.0__bullet.png" alt class="privacyPolicyHeader__bullet--icon" />
-                    <p class="privacyPolicyHeader__bullet--text">We DO NOT track you. Few companies occasionally give users the option to exercise your Do Not Track right, but only do so after a user jumps through a bunch of confusing hoops. With us, you don’t have to worry about this. We don’t use tracking to collect any personal information. End of story.</p>
+                    <p class="privacyPolicyHeader__bullet--text">We DO NOT track you. Few companies occasionally give users the option to exercise your Do Not Track right, but do so only after a user jumps through a bunch of confusing hoops. With us, you don’t have to worry about this. We don’t use tracking to collect any personal information. End of story.</p>
                 </div>
                 <div class="privacyPolicyHeader__bullet">
                     <img src="../../assets/images/junto-home-2.0__bullet.png" alt class="privacyPolicyHeader__bullet--icon" />
@@ -75,11 +75,11 @@
                 </div>
                 <div class="privacyPolicyHeader__bullet">
                     <img src="../../assets/images/junto-home-2.0__bullet.png" alt class="privacyPolicyHeader__bullet--icon" />
-                    <p class="privacyPolicyHeader__bullet--text">To help you organize how you communicate with others, whether directly or in groups, we may create a list of your contacts for you, and you can create, join, or get added to groups and broadcast lists. These groups and lists get associated with your account information.</p>
+                    <p class="privacyPolicyHeader__bullet--text">To help you organize how you communicate with others, whether directly or in groups, we may create a list of your contacts for you. You can create, join, or be added to groups and broadcast lists. These groups and lists become associated with your account information.</p>
                 </div>
                 <div class="privacyPolicyHeader__bullet">
                     <img src="../../assets/images/junto-home-2.0__bullet.png" alt class="privacyPolicyHeader__bullet--icon" />
-                    <p class="privacyPolicyHeader__bullet--text">Even if you aren’t signed into your Junto account, you might choose to provide us with information, such as an email address to receive updates and community highlights about our Services. You may customize your communication preferences, or let us know if you do not wish to receive any updates from the company by adjusting your subscriptions &amp; email options on the Junto Website.</p>
+                    <p class="privacyPolicyHeader__bullet--text">Even if you aren’t signed into your Junto account, you might choose to provide us with information, such as an email address to receive updates and community highlights about our Services. You may customize your communication preferences or let us know if you do not wish to receive any updates from the company by adjusting your subscriptions &amp; email options on the Junto website.</p>
                 </div>
                 <div class="privacyPolicyHeader__bullet">
                     <img src="../../assets/images/junto-home-2.0__bullet.png" alt class="privacyPolicyHeader__bullet--icon" />
@@ -87,7 +87,7 @@
                 </div>
 
                 <p class="privacyPolicyHeader__section--subtitle">Information we collect automatically</p>
-                <p class="privacyPolicyHeader__section--body">When you visit our Website, we may collect certain user information automatically from your device. In some territories, including California and countries in the European Economic Area, this information may be considered personal data or personally identifiable information under applicable data protection laws.</p>
+                <p class="privacyPolicyHeader__section--body">When you visit our website, we may collect certain user information automatically from your device. In some territories, including California and countries in the European Economic Area, this information may be considered personal data or personally identifiable information under applicable data protection laws.</p>
                 <div class="privacyPolicyHeader__bullet">
                     <img src="../../assets/images/junto-home-2.0__bullet.png" alt class="privacyPolicyHeader__bullet--icon" />
                     <p class="privacyPolicyHeader__bullet--text">Log &amp; Device data. Information about your interactions with our Services, which may include log data like your device model, operating system, mobile network carrier, and time zone. Whether we collect some or all of this information often depends on what type of device you’re using and its settings.</p>
@@ -138,7 +138,7 @@
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">WHO WE SHARE YOUR INFORMATION WITH</p>
                 <p class="privacyPolicyHeader__section--body">
-                    No one. We aren’t interested in profiting off your personal data so there’s no need to share it.
+                    No one. We aren’t interested in profiting off your personal data, so there’s no need to share it.
                     You and only you have the right to control how you share your information.
                 </p>
             </div>
@@ -146,14 +146,14 @@
             <!-- new section -->
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">YOUR DATA, YOUR RIGHTS, YOUR CHOICE</p>
-                <p class="privacyPolicyHeader__section--body">Under normal circumstances, local data protection laws (such as GDPR or the California Consumer Privacy Act) give a person rights with respect to personal information if that person is located in or is a resident of that country, state, or territory (including if you are located in the EU/EEA).</p>
-                <p class="privacyPolicyHeader__section--body">Junto believes every person who uses our Services should have complete autonomy over their personal information. Therefore, we extend the following rights to ALL users our Services, no matter where you are or the applicability of the corresponding data protection law(s).</p>
+                <p class="privacyPolicyHeader__section--body">Under normal circumstances, local data protection laws (such as GDPR or the California Consumer Privacy Act) give a person rights to their personal information if that person is located in or a resident of that country, state or territory (including if you are located in the EU/EEA).</p>
+                <p class="privacyPolicyHeader__section--body">Junto believes every person who uses our Services should have complete autonomy over their personal information. Therefore, we extend the following rights to ALL users of our Services, no matter where you are or the applicability of the corresponding data protection law(s).</p>
                 <div class="privacyPolicyHeader__item">
                     <p class="privacyPolicyHeader__item--title">Right to Access Your Personal Information</p>
-                    <p class="privacyPolicyHeader__item--body">You may have the right to request access to a copy of your personal information right in the App. For any data beyond basic account information, Junto is currently in the process of finalizing the process by which one can access such information. As soon as this process is complete, you will be the first to know.</p>
+                    <p class="privacyPolicyHeader__item--body">You may have the right to request access to a copy of your personal information directly in the App. For any data beyond basic account information, Junto is currently in the process of finalizing the process by which one can access such information. As soon as this process is complete, you will be the first to know.</p>
                 </div>
                 <div class="privacyPolicyHeader__item">
-                    <p class="privacyPolicyHeader__item--title">Right to Rectify of your Personal Information</p>
+                    <p class="privacyPolicyHeader__item--title">Right to Rectify Your Personal Information</p>
                     <p class="privacyPolicyHeader__item--body">You have the right to request that we rectify any mistakes in your personal information, including the right to have partial personal information completed.</p>
                 </div>
                 <div class="privacyPolicyHeader__item">
@@ -190,7 +190,7 @@
             <!-- new section -->
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">KEEPING YOUR INFORMATION SECURE</p>
-                <p class="privacyPolicyHeader__section--body">The security of your personal data is one of our highest priorities. We work hard to protect the personal data that you provide from loss, misuse, and unauthorized access, or disclosure. Given the nature of communications and information processing technology, there is no guarantee that personal data will be absolutely safe from access, alteration, or destruction by a breach of any of our physical, technical, and managerial safeguards.</p>
+                <p class="privacyPolicyHeader__section--body">The security of your personal data is one of our highest priorities. We work hard to protect the personal data that you provide from loss, misuse, and unauthorized access or disclosure. Given the nature of communications and information processing technology, there is no guarantee that personal data will be absolutely safe from access, alteration, or destruction by a breach of any of our physical, technical, and managerial safeguards.</p>
                 <p class="privacyPolicyHeader__section--body">You should take steps to protect against unauthorized access to your device and account by, among other things, choosing a unique and complex password that nobody else knows or can easily guess and keeping your log-in and password private. We are not responsible for any lost, stolen, or compromised passwords or for any activity on your account via unauthorized password activity.</p>
                 <div class="privacyPolicyHeader__item">
                     <p class="privacyPolicyHeader__item--title">Data Retention</p>
@@ -201,16 +201,16 @@
             <!-- new section -->
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">THIRD-PARTY WEBSITES</p>
-                <p class="privacyPolicyHeader__section--body">Our Website may contain links to third-party websites and applications. Any access to and use of such linked websites and applications is not governed by this Policy but instead is governed by the privacy policies of those third parties. We do not endorse these parties, their content, or any products and services they offer, and we are not responsible for the information practices of such third-party websites or applications.</p>
+                <p class="privacyPolicyHeader__section--body">Our eebsite may contain links to third-party websites and applications. Any access to and use of such linked websites and applications is not governed by this Policy but instead is governed by the privacy policies of those third parties. We do not endorse these parties, their content, or any products and services they offer, and we are not responsible for the information practices of such third-party websites or applications.</p>
             </div>
 
             <!-- new section -->
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">TRANSFER OF YOUR INFORMATION</p>
-                <p class="privacyPolicyHeader__section--body">This Website is based in the United States. Your information may be processed, transferred to, and maintained on, servers and databases located within the U.S. and elsewhere. We reserve the right to transfer your information to and from any state, province, country or other governmental jurisdiction. When we transfer personal data outside of the European Union or EFTA States, we ensure an adequate level of protection for the rights of data subjects based on the adequacy of the receiving country’s data protection laws, contractual obligations placed on the recipient of the data (model clauses may be requested by inquiry as described below), or EU-US and Swiss-US Privacy Shield principles.</p>
+                <p class="privacyPolicyHeader__section--body">This eebsite is based in the United States. Your information may be processed, transferred to, and maintained on servers and databases located within the U.S. and elsewhere. We reserve the right to transfer your information to and from any state, province, country or other governmental jurisdiction. When we transfer personal data outside of the European Union or EFTA States, we ensure an adequate level of protection for the rights of data subjects based on the adequacy of the receiving country’s data protection laws, contractual obligations placed on the recipient of the data (model clauses may be requested by inquiry as described below), or EU-US and Swiss-US Privacy Shield principles.</p>
 
                 <p class="privacyPolicyHeader__section--body">
-                    In connection with the operation of the website, Junto may transfer your personal information to various locations, which may include locations both inside and outside of the European Economic Area. Junto complies with the EU-U.S. Privacy Shield Framework and the Swiss-U.S. Privacy Shield Framework, as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information transferred from the European Union and/or Switzerland, to the United States. Under the Privacy Shield Framework, Junto is responsible for the processing of personal data it receives and subsequently transfers to a third party acting as an agent on its behalf. Junto complies with the Privacy Shield Principles for all onward transfers of personal data from the EU, including the onward transfer liability provisions. Junto has certified to the Department of Commerce that it adheres to the Privacy Shield Principles. If there is any conflict between the terms in this Policy and the Privacy Shield Principles, the Privacy Shield Principles shall govern. To learn more about the Privacy Shield program, and to view our certification, please visit https://www.privacyshield.gov/.
+                    In connection with the operation of the website, Junto may transfer your personal information to various locations, which may include locations both inside and outside of the European Economic Area. Junto complies with the EU-U.S. Privacy Shield Framework and the Swiss-U.S. Privacy Shield Framework, as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information transferred from the European Union and/or Switzerland to the United States. Under the Privacy Shield Framework, Junto is responsible for the processing of personal data it receives and subsequently transfers to a third party acting as an agent on its behalf. Junto complies with the Privacy Shield Principles for all onward transfers of personal data from the EU, including the onward transfer liability provisions. Junto has certified to the Department of Commerce that it adheres to the Privacy Shield Principles. If there is any conflict between the terms in this Policy and the Privacy Shield Principles, the Privacy Shield Principles shall govern. To learn more about the Privacy Shield program and to view our certification, please visit https://www.privacyshield.gov/.
                     With respect to personal data received or transferred pursuant to the Privacy Shield Framework, Junto is subject to the regulatory enforcement powers of the U.S. Federal Trade Commission.
                 </p>
             </div>
@@ -218,13 +218,13 @@
             <!-- new section -->
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">CHILDREN</p>
-                <p class="privacyPolicyHeader__section--body">Junto is not directed to children under 13 years of age and we do not knowingly collect personal information from children under 13. You must also be old enough to consent to the processing of your personal data in your country (in some countries we may allow your parent or guardian to do so on your behalf). If we discover that a child has provided us with personal information, we will promptly delete such personal information from our systems.</p>
+                <p class="privacyPolicyHeader__section--body">Junto is not directed to children under 13 years of age, and we do not knowingly collect personal information from children under 13. You must also be old enough to consent to the processing of your personal data in your country (in some countries we may allow your parent or guardian to do so on your behalf). If we discover that a child has provided us with personal information, we will promptly delete such personal information from our systems.</p>
             </div>
 
             <!-- new section -->
             <div class="privacyPolicyHeader__section">
                 <p class="privacyPolicyHeader__section--title">CHANGES TO THIS POLICY</p>
-                <p class="privacyPolicyHeader__section--body">This Policy is current as of the date below. By using our Services, you signify your agreement to this Privacy Policy. We reserve the right to amend this Policy at our discretion and at any time and will notify you of such amendment(s) on our homepage. Please note that if you continue to visit and use this Website and our Services after those changes are in effect, you agree to the revised Policy.</p>
+                <p class="privacyPolicyHeader__section--body">This Policy is current as of the date below. By using our Services, you signify your agreement to this Privacy Policy. We reserve the right to amend this Policy at our discretion at any time and will notify you of such amendment(s) on our homepage. Please note that if you continue to visit and use this website and our Services after those changes are in effect, you agree to the revised Policy.</p>
             </div>
 
             <!-- new section -->
@@ -242,9 +242,3 @@
 </div>
 </template>
 
-privacyPolicyHeader__section--title
-privacyPolicyHeader__section--body
-privacyPolicyHeader__section--bullet
-privacyPolicyHeader__bullet
-privacyPolicyHeader__bullet--icon
-privacyPolicyHeader__bullet--text
