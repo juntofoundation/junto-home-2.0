@@ -242,9 +242,3 @@
 </div>
 </template>
 
-privacyPolicyHeader__section--title
-privacyPolicyHeader__section--body
-privacyPolicyHeader__section--bullet
-privacyPolicyHeader__bullet
-privacyPolicyHeader__bullet--icon
-privacyPolicyHeader__bullet--text
