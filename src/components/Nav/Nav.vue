@@ -51,5 +51,6 @@
 
       <slot name="navIcon"></slot>
     </div>
+    N
   </div>
 </template>
