@@ -116,7 +116,7 @@
                     </div>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
-                        <p class="learnHeader__section--text">No algorithims that reinforce existing perspectives. You design your own experience</p>                        
+                        <p class="learnHeader__section--text">No algorithms that reinforce existing perspectives. You design your own experience</p>                        
                     </div>
                     <div class="learnHeader__section--bullet">
                         <img class="learnHeader__section--bullet--icon" src="../../../../assets/images/junto-home-2.0__bullet.png">
