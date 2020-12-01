@@ -12,7 +12,7 @@
     </a>
     <div class="nav__items">
       <div class="nav__item">
-        <a href="/learn" class="removelink">LEARN</a>
+        <a href="https://learn.junto.foundation/" target="blank" class="removelink">LEARN</a>
       </div>
 
       <div class="nav__item">

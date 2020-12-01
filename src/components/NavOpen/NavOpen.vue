@@ -9,7 +9,7 @@
             <a href="/" class="navOpen__body--item removelink">
                 HOME
             </a>
-            <a href="/learn" class="navOpen__body--item removelink">
+            <a href="https://learn.junto.foundation/" target="blank" class="navOpen__body--item removelink">
                 Learn
             </a>
             <a href="/pack" class="navOpen__body--item removelink">
