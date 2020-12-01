@@ -18,9 +18,9 @@
             <a href="/foundation" class="navOpen__body--item removelink">
                 Foundation
             </a>            
-            <a href="/events" class="navOpen__body--item removelink">
+            <!-- <a href="/events" class="navOpen__body--item removelink">
                 Events
-            </a>
+            </a> -->
             <a href="/faq" class="navOpen__body--item removelink">
                 FAQ
             </a>                                                

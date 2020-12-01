@@ -21,9 +21,9 @@
       <div class="nav__item">
         <a href="/foundation" class="removelink">FOUNDATION</a>
       </div>
-      <div class="nav__item">
+      <!-- <div class="nav__item">
         <a href="/events" class="removelink">EVENTS</a>
-      </div>
+      </div> -->
       <!-- <div class="nav__item">
                 <a href='/manifesto' class="removelink">MANIFESTO</a>
             </div> -->
@@ -51,6 +51,6 @@
 
       <slot name="navIcon"></slot>
     </div>
-    N
+    
   </div>
 </template>
