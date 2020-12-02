@@ -655,16 +655,20 @@ body {
         width: auto; }
   .packMember__socials {
     margin: 1rem 0;
-    display: flex; }
+    display: flex;
+    flex-direction: column; }
     @media (max-width: 37.5em) {
       .packMember__socials {
         margin: 2rem 0; } }
   .packMember__social {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #333333; }
     .packMember__social--icon {
       height: 1.5rem;
-      margin-right: 1rem; }
+      margin-right: 1rem;
+      color: #333333; }
     .packMember__social--text {
       font-size: 1.4rem;
       font-weight: 500; }

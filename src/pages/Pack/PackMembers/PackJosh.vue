@@ -27,7 +27,12 @@
                             <img src="../../../assets/images/junto-home-2.0__email--black.png" alt="" class="packMember__social--icon">
                             <p class="packMember__social--text">josh@junto.foundation</p>
                         </div>
+                         <div class="packMember__social">
+                            <img src="../../../assets/images/junto-home-2.0__logo.png" alt="" class="packMember__social--icon">
+                            <p class="packMember__social--text">@josh</p>
+                        </div>
                     </div>
+                    
                 </div>
                 <div class="packMember__right">
                     <h2 slot="packMemberName" class="packMember__name">Josh Parkin</h2>

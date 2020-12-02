@@ -27,6 +27,10 @@
                             <img src="../../../assets/images/junto-home-2.0__email--black.png" alt="" class="packMember__social--icon">
                             <p class="packMember__social--text">dora@junto.foundation</p>
                         </div>
+                            <div class="packMember__social">
+                            <img src="../../../assets/images/junto-home-2.0__logo.png" alt="" class="packMember__social--icon">
+                            <p class="packMember__social--text">@dora</p>
+                        </div>
                     </div>
                 </div>
                 <div class="packMember__right">
