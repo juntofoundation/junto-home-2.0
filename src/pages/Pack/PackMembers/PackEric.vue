@@ -88,8 +88,8 @@
 
           <br /><br />
           I invite you to join us as this next chapter unfolds. This movement is
-          yours as much as it is ours and we could use your support in shifting
-          this new paradigm together.
+          yours as much as it is ours and we would love to shift this 
+          new paradigm with you together.
         </p>
       </div>
     </div>

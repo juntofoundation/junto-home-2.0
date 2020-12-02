@@ -1625,6 +1625,15 @@ body {
       @media (max-width: 37.5em) {
         .packHeader__member--title {
           font-size: 1.7rem; } }
+  .packHeader__next {
+    width: 100%;
+    margin: 4rem 0;
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    color: #186EB7; }
+    .packHeader__next:hover {
+      cursor: pointer; }
 
 .foundation {
   margin-top: 7rem;

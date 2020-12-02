@@ -44,7 +44,7 @@
         </div> -->
       </div>
       <div class="packMember__right">
-        <h2 slot="packMemberName" class="packMember__name">Neevash Ramdial</h2>
+        <h2 slot="packMemberName" class="packMember__name">Nash Ramdial</h2>
         <h2 slot="packMemberTitle" class="packMember__title">Mobile Developer</h2>
 
         <p class="packMember__bio">

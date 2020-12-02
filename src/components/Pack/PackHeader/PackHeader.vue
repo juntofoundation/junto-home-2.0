@@ -16,7 +16,7 @@
         </p>
 
         <div class="packHeader__section">
-          <h2 class="packHeader__main--title">Pack</h2>
+          <h2 class="packHeader__main--title">Core Team</h2>
           <div class="packHeader__pack">
             <div class="packHeader__member">
               <a href="/pack-eric" class="removelink">
@@ -120,7 +120,6 @@
             </div>
 
             <div class="packHeader__member packHeader__member--mobile">
-              <a href="" class="removelink">
                 <div class="packHeader__member--photo">
                   <p class="packHeader__member--cover--text">
                     Nastasia's Story
@@ -141,7 +140,6 @@
                     Backend / Rust Developer (PT)
                   </p>
                 </div>
-              </a>
             </div>
             <!-- <div class="packHeader__member packHeader__member--mobile">
               <a href="/pack-drea" class="removelink">
@@ -185,7 +183,7 @@
                   class="packHeader__member--details"
                   @click="navMember('nash')"
                 >
-                  <p class="packHeader__member--name">Neevash Ramdial</p>
+                  <p class="packHeader__member--name">Nash Ramdial</p>
                   <p class="packHeader__member--title">
                     Mobile / Flutter Developer (PT)
                   </p>
@@ -226,7 +224,7 @@
                   />
                 </div>
                 <div class="packHeader__member--details">
-                  <p class="packHeader__member--name">Nastsia Emelianova</p>
+                  <p class="packHeader__member--name">Nastasia Emelianova</p>
                   <p class="packHeader__member--title">
                     Backend / Rust Dev (PT)
                   </p>
@@ -252,7 +250,7 @@
                   class="packHeader__member--details"
                   @click="navMember('nash')"
                 >
-                  <p class="packHeader__member--name">Neevash Ramdial</p>
+                  <p class="packHeader__member--name">Nash Ramdial</p>
                   <p class="packHeader__member--title">
                     Mobile / Flutter Developer (PT)
                   </p>
@@ -298,6 +296,87 @@
             </div>
           </div>
         </div>
+
+        <!-- Core Volunteers -->
+
+        <h2 class="packHeader__main--title">Core Volunteers</h2>
+        <div class="packHeader__pack">
+          <div class="packHeader__member">
+            <a href="/pack-yaz" class="removelink">
+              <div class="packHeader__member--photo">
+                <p class="packHeader__member--cover--text">Yaz's Story</p>
+                <div class="packHeader__member--cover">&nbsp;</div>
+                <img
+                  src="../../../assets/images/junto-home-2.0__headshot--yaz.png"
+                  alt
+                  class="packHeader__member--photo--image"
+                />
+              </div>
+              <div class="packHeader__member--details">
+                <p class="packHeader__member--name">Yaz Owainati</p>
+                <p class="packHeader__member--title">
+                  Outreach &amp; Experience Design
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="packHeader__member">
+            <a href="/pack-drea" class="removelink">
+              <div class="packHeader__member--photo">
+                <p class="packHeader__member--cover--text">Drea Bennett</p>
+                <div class="packHeader__member--cover">&nbsp;</div>
+                <img
+                  src="../../../assets/images/junto-home-2.0__headshot--drea.png"
+                  alt
+                  class="packHeader__member--photo--image"
+                />
+              </div>
+              <div class="packHeader__member--details">
+                <p class="packHeader__member--name">Drea Bennett</p>
+                <p class="packHeader__member--title">
+                  Creative Support &amp; Design
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="packHeader__member">
+            <div class="packHeader__member--photo">
+              <p class="packHeader__member--cover--text">Nicolas' Story</p>
+              <div class="packHeader__member--cover">&nbsp;</div>
+              <img
+                src="../../../assets/images/junto-home-2.0__headshot--nicolas.png"
+                alt
+                class="packHeader__member--photo--image"
+              />
+            </div>
+            <div class="packHeader__member--details">
+              <p class="packHeader__member--name">Nicolas Luck</p>
+              <p class="packHeader__member--title">
+                Open Source Dev, Distributed Systems
+              </p>
+            </div>
+          </div>
+
+          <div class="packHeader__member">
+            <div class="packHeader__member--photo">
+              <p class="packHeader__member--cover--text">Dominik's Story</p>
+              <div class="packHeader__member--cover">&nbsp;</div>
+              <img
+                src="../../../assets/images/junto-home-2.0__headshot--dominik.png"
+                alt
+                class="packHeader__member--photo--image--david"
+              />
+            </div>
+            <div class="packHeader__member--details">
+              <p class="packHeader__member--name">Dominik Roszkowski</p>
+              <p class="packHeader__member--title">Open Source Dev, Mobile</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Board of Directions -->
 
         <div class="packHeader__section">
           <h2 class="packHeader__main--title">Board of Directors</h2>
@@ -381,6 +460,9 @@
             </div>
           </div>
         </div>
+        -->
+
+        <!-- Advisors -->
 
         <h2 class="packHeader__main--title">Advisors</h2>
         <div class="packHeader__pack">
@@ -458,6 +540,8 @@
             </a>
           </div>
         </div>
+
+        <!-- <a ><p class="packHeader__next">Meet the Board and Advisors &rarr;</p></a> -->
       </div>
     </div>
 
