@@ -17,8 +17,8 @@
                 </div>   
 
                 <div class="homeSponsors__sponsor homeSponsors__sponsor--special"> 
-                    <a href="http://cogov.startbutton.com/" target="blank" class="removelink">
-                        RAYMOND POWELL                                        
+                    <a href="https://cogov.tech/protocol.love/" target="blank" class="removelink">
+                        PROTOCOL.LOVE ✌🏼                                    
                     </a>                    
                 </div>  
 
