@@ -92,7 +92,9 @@
 
     &__more {
         padding: 1.5rem 3rem;
-        background-image: linear-gradient(to right, $junto-primary, $junto-primary);
+        background-image: url('../../../src/assets/images/junto-home-2.0__rainbow--horizontal.png');
+        background-position: center;
+        background-size: cover;
         color: white;
         font-weight: 600;
         font-size: 1.4rem;

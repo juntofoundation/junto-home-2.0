@@ -30,7 +30,7 @@
       <div class="nav__item">
         <a href="/faq" class="removelink">FAQ</a>
       </div>
-
+<!-- 
       <div class="nav__button--outline">
         <a
           href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CX87U4QQQX2TW&source=url"
@@ -38,7 +38,7 @@
           class="removelink"
           >DONATE</a
         >
-      </div>
+      </div> -->
 
       <div class="nav__button">
         <a
