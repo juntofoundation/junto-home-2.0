@@ -1,0 +1,117 @@
+@import '../../../../sass/base';
+
+.confirmSubscriptionHeader {
+    position: relative;
+    background-image: url('../../../../src/assets/images/junto-home-2.0__rainbow.png');
+    background-position: center;
+    background-size: cover;
+
+    width: 100vw;
+    min-height: 85vh;
+
+    padding: 6rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include respond(tab-port) {
+        height: auto;
+        align-items: center;
+        flex-direction: column;      
+
+    }
+
+    @include respond(phone) {
+        background-image: url('../../../../src/assets/images/junto-home-2.0__background--rainbow.png');
+
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 38vw;
+
+        @include respond(tab-port) {
+            
+            margin-bottom: 4rem; 
+            align-items: center;
+            width: 100%;
+        }
+    }
+
+    &__title {
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+        // letter-spacing: 3px;
+
+        @include respond(tab-port) {
+            text-align: center;
+            margin-top: 8rem;
+        }        
+    }
+
+    &__subtitle {
+        color: white;
+        font-size: 2.7rem;
+        font-weight: 400;
+
+        margin-bottom: 1rem; 
+
+        @include respond(tab-port) {
+            text-align: center;
+        }              
+    }
+
+    &__description {
+        color: white;
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+
+        @include respond(tab-port) {
+            text-align: center;
+        }               
+    }
+
+    &__action {
+        display: flex;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 100px;
+        background-color: transparent;
+        padding: 1rem 2rem;
+        white-space: nowrap;
+        overflow: hidden;
+
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            border: 2px solid $junto-primary-dark; 
+            background-color: $junto-primary-dark;
+        }
+
+        &--icon {
+            height: 2rem;
+            margin-right: 1rem; 
+        }
+
+        &--text {
+            font-size: 1.4rem; 
+            color: white;
+            font-weight: 600;
+        }
+
+    }
+
+    &__mockups {
+        height: 49rem;
+        transform: translate(0.0, 3rem);
+        @include respond(phone) {
+            transform: none;
+            margin-top: 3rem;
+        }
+    }
+
+}
