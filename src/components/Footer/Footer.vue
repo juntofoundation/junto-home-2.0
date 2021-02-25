@@ -83,7 +83,7 @@
           <p class="footer__social--text">Medium</p>
         </a>
 
-        <a
+        <!-- <a
           href="https://www.instagram.com/junto.foundation/"
           target="blank"
           class="removelink footer__social"
@@ -94,16 +94,16 @@
             alt
           />
           <p class="footer__social--text">Instagram</p>
-        </a>
+        </a> -->
 
-        <a
+        <!-- <a
           href="https://www.facebook.com/juntofam"
           target="blank"
           class="removelink footer__social"
         >
           <img class="footer__social--icon" src="../../assets/images/junto-home-2.0__fb.png" alt />
           <p class="footer__social--text">Facebook</p>
-        </a>
+        </a> -->
       </div>
     </div>
   </section>

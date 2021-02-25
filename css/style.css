@@ -122,7 +122,7 @@ body {
       .nav__item {
         display: none; } }
   .nav__button {
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 1rem 2rem;
     background-image: url("../../../src/assets/images/junto-home-2.0__rainbow--horizontal.png");
     background-position: center;
@@ -828,6 +828,107 @@ body {
       .homeHeader__mockups {
         transform: none;
         margin-top: 3rem; } }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 70%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+
+body {
+  font-family: 'Avenir', 'Raleway', sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 1.6;
+  overflow-x: hidden;
+  outline: none;
+  letter-spacing: .5px;
+  color: #333; }
+
+.removelink {
+  text-decoration: none;
+  outline: none;
+  color: inherit; }
+
+.addlink {
+  color: #555;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: all .2s; }
+  .addlink:hover {
+    color: #333; }
+
+.homeVideo {
+  width: 100%;
+  background-color: white;
+  padding: 6rem 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media (max-width: 37.5em) {
+    .homeVideo {
+      padding: 4rem 2rem; } }
+  .homeVideo__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 1px; }
+  .homeVideo__subtitle {
+    font-weight: 500;
+    padding: 0 17%;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+    @media (max-width: 37.5em) {
+      .homeVideo__subtitle {
+        padding: 0 2rem; } }
+  .homeVideo__link {
+    color: #B3808F;
+    font-weight: 700; }
+    .homeVideo__link:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+  .homeVideo__video--media {
+    width: 50vw;
+    height: 25vw;
+    background-color: #eee;
+    margin-bottom: 2rem; }
+    @media (max-width: 56.25em) {
+      .homeVideo__video--media {
+        width: 70vw;
+        height: 35vw; } }
+    @media (max-width: 37.5em) {
+      .homeVideo__video--media {
+        width: 90vw;
+        height: 45vw; } }
+  .homeVideo__more {
+    padding: 1.5rem 3rem;
+    background-image: url("../../../src/assets/images/junto-home-2.0__rainbow--horizontal.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s; }
+    .homeVideo__more:hover {
+      transform: scale(1.05); }
 
 *,
 *::before,

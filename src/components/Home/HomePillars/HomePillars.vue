@@ -51,7 +51,7 @@
         </p>
       </div>
     </div>
-    <a href="https://learn.junto.foundation/" target="blank" class="removelink">
+    <a href="https://learn.junto.foundation" target="blank" class="removelink">
       <button class="homePillars__more">GO IN DEPTH</button>
     </a>
   </div>

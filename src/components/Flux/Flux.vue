@@ -7,7 +7,7 @@
       Flux. Subscribe below!
     </p>
     <a
-      href="https://artisanal-painter-4753.ck.page/66b91891b8"
+      href="https://junto.typeform.com/to/iY66XCod"
       target="blank"
       class="removelink"
     >

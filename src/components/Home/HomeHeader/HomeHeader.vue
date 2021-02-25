@@ -7,10 +7,10 @@
                 <p class="homeHeader__description">Junto is a new breed of social media founded
                     to rebalance our relationship with technology. Our goal is to move beyond today's extractive paradigm through more human-centered design, distributed technology, and a nonprofit approach.
                 </p>
-                <a class="removelink" href="https://junto.typeform.com/to/iY66XCod" target="blank">
+                <a class="removelink" href="https://www.indiegogo.com/campaigns/junto-a-new-breed-of-social-media--2" target="blank">
                     <div class="homeHeader__action">
                         <img src="../../../assets/images/junto-home-2.0__flame.png" alt="" class="homeHeader__action--icon">
-                        <p class="homeHeader__action--text">SIGN UP FOR OUR BETA</p>
+                        <p class="homeHeader__action--text">GET EARLY ACCESS TO THE BETA</p>
                     </div>
                 </a>
             </div> 

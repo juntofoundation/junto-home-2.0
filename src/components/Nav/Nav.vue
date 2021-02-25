@@ -40,7 +40,7 @@
         >
       </div> -->
 
-      <div class="nav__button">
+      <div class="nav__button--outline">
         <a
           href="https://junto.typeform.com/to/iY66XCod"
           target="blank"
@@ -48,6 +48,14 @@
           >SIGN UP</a
         >
       </div>
+    <div class="nav__button">
+        <a
+          href="https://junto.typeform.com/to/iY66XCod"
+          target="blank"
+          class="removelink"
+          >GET EARLY ACCESS</a
+        >
+      </div>      
 
       <slot name="navIcon"></slot>
     </div>
