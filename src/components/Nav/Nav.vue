@@ -50,7 +50,7 @@
       </div>
     <div class="nav__button">
         <a
-          href="https://junto.typeform.com/to/iY66XCod"
+          href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2#/"
           target="blank"
           class="removelink"
           >GET EARLY ACCESS</a

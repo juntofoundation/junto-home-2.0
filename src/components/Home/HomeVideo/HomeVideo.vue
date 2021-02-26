@@ -8,21 +8,21 @@
       <a
         class="homeVideo__link"
         target="blank"
-        href="https://www.indiegogo.com/campaigns/junto-a-new-breed-of-social-media--2"
+        href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2#/"
         >crowdfunding campaign.</a
       >
     </p>
     <div class="homeVideo__video">
       <iframe
         class="homeVideo__video--media"
-        src="https://www.youtube.com/embed/Ko6J9v1C9zE"
+        src="https://www.youtube.com/embed/z4Fb5x1RAmk"
         frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
     </div>
     <a
-      href="https://www.indiegogo.com/campaigns/junto-a-new-breed-of-social-media--2"
+      href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2#/"
       target="blank"
       class="removelink"
     >
