@@ -145,26 +145,14 @@ export default {
           type: "community",
           id: 6
         },
-        {
-          question: "How are you funding this project?",
-          answer:
-            "During these stages, Junto is crowdfunded by the generosity of its supporters. In January 2019, we launched a successful Kickstarter, raising $106,949 from 678 backers. We plan to raise more money from institutional donors and will soon implement a sustainble revenue model. Right now, we are leaning towards a subscription/freemium model.",
-          type: "community",
-          id: 7
-        },
-        {
-          question: "When does Junto come out?",
-          answer:
-            "Junto is launching in 2019. Once we open, those who signed up pre-release or contributed to our crowdfunding campaign will be able to access the app. Reserve your spot!",
-          type: "community",
-          id: 8
-        },
+     
+   
         {
           question: "How can I help?",
           answer:
             "This is a community-driven initiative. Help spread the word and join our communication channel on Telegram for more active involvement.",
           type: "community",
-          id: 9
+          id: 7
         }
       ]
     };

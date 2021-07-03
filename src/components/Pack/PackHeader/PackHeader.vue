@@ -36,7 +36,7 @@
                 >
                   <p class="packHeader__member--name">Eric Yang</p>
                   <p class="packHeader__member--title">
-                    Founder, Executive Director, Designer / Dev (FT)
+                    Founder / Executive Director
                   </p>
                 </div>
               </a>
@@ -62,7 +62,7 @@
                 >
                   <p class="packHeader__member--name">Josh Parkin</p>
                   <p class="packHeader__member--title">
-                    CTO &amp; Systems Architect (FT)
+                    CTO &amp; Systems Architect
                   </p>
                 </div>
               </a>
@@ -87,7 +87,7 @@
                 >
                   <p class="packHeader__member--name">Dora Czovek</p>
                   <p class="packHeader__member--title">
-                    Director of Operations (PT)
+                    Director of Operations
                   </p>
                 </div>
               </a>
@@ -113,33 +113,31 @@
                 >
                   <p class="packHeader__member--name">Tomis Parker</p>
                   <p class="packHeader__member--title">
-                    Director of Strategy &amp; Business Development (PT)
+                    Director of Strategy &amp; Business Development
                   </p>
                 </div>
               </a>
             </div>
 
             <div class="packHeader__member packHeader__member--mobile">
-                <div class="packHeader__member--photo">
-                  <p class="packHeader__member--cover--text">
-                    Nastasia's Story
-                  </p>
-                  <div class="packHeader__member--cover">&nbsp;</div>
-                  <img
-                    src="../../../assets/images/junto-home-2.0__headshot--nastasia.png"
-                    alt
-                    class="packHeader__member--photo--image"
-                  />
-                </div>
-                <div
-                  class="packHeader__member--details"
-                  @click="navMember('dora')"
-                >
-                  <p class="packHeader__member--name">Nastasia Emelianova</p>
-                  <p class="packHeader__member--title">
-                    Backend / Rust Developer (PT)
-                  </p>
-                </div>
+              <div class="packHeader__member--photo">
+                <p class="packHeader__member--cover--text">Nastasia's Story</p>
+                <div class="packHeader__member--cover">&nbsp;</div>
+                <img
+                  src="../../../assets/images/junto-home-2.0__headshot--nastasia.png"
+                  alt
+                  class="packHeader__member--photo--image"
+                />
+              </div>
+              <div
+                class="packHeader__member--details"
+                @click="navMember('dora')"
+              >
+                <p class="packHeader__member--name">Nastasia Emelianova</p>
+                <p class="packHeader__member--title">
+                  Backend / Rust Developer (PT)
+                </p>
+              </div>
             </div>
             <!-- <div class="packHeader__member packHeader__member--mobile">
               <a href="/pack-drea" class="removelink">
@@ -167,26 +165,18 @@
 
             <div class="packHeader__member packHeader__member--mobile">
               <a href="/pack-nash" class="removelink">
-                <div
-                  class="packHeader__member--photo"
-                  @click="navMember('nash')"
-                >
-                  <p class="packHeader__member--cover--text">Nash's Story</p>
+                <div class="packHeader__member--photo">
+                  <p class="packHeader__member--cover--text">Leif's Story</p>
                   <div class="packHeader__member--cover">&nbsp;</div>
                   <img
-                    src="../../../assets/images/junto-home-2.0__headshot--nash.png"
+                    src="../../../assets/images/junto-home-2.0__headshot--leif.png"
                     alt
                     class="packHeader__member--photo--image"
                   />
                 </div>
-                <div
-                  class="packHeader__member--details"
-                  @click="navMember('nash')"
-                >
-                  <p class="packHeader__member--name">Nash Ramdial</p>
-                  <p class="packHeader__member--title">
-                    Mobile / Flutter Developer (PT)
-                  </p>
+                <div class="packHeader__member--details">
+                  <p class="packHeader__member--name">Leif Riksheim</p>
+                  <p class="packHeader__member--title">Lead Web Developer</p>
                 </div>
               </a>
             </div>
@@ -233,27 +223,19 @@
             </div>
 
             <div class="packHeader__member">
-              <a href="/pack-nash" class="removelink">
-                <div
-                  class="packHeader__member--photo"
-                  @click="navMember('nash')"
-                >
-                  <p class="packHeader__member--cover--text">Nash's Story</p>
+              <a class="removelink">
+                <div class="packHeader__member--photo">
+                  <p class="packHeader__member--cover--text">Leif's Story</p>
                   <div class="packHeader__member--cover">&nbsp;</div>
                   <img
-                    src="../../../assets/images/junto-home-2.0__headshot--nash.png"
+                    src="../../../assets/images/junto-home-2.0__headshot--leif.png"
                     alt
                     class="packHeader__member--photo--image"
                   />
                 </div>
-                <div
-                  class="packHeader__member--details"
-                  @click="navMember('nash')"
-                >
-                  <p class="packHeader__member--name">Nash Ramdial</p>
-                  <p class="packHeader__member--title">
-                    Mobile / Flutter Developer (PT)
-                  </p>
+                <div class="packHeader__member--details">
+                  <p class="packHeader__member--name">Leif Riksheim</p>
+                  <p class="packHeader__member--title">Lead Web Developer</p>
                 </div>
               </a>
             </div>
@@ -297,90 +279,11 @@
           </div>
         </div>
 
-        <!-- Core Volunteers -->
-
-        <h2 class="packHeader__main--title">Core Volunteers</h2>
-        <div class="packHeader__pack">
-          <div class="packHeader__member">
-            <a href="/pack-yaz" class="removelink">
-              <div class="packHeader__member--photo">
-                <p class="packHeader__member--cover--text">Yaz's Story</p>
-                <div class="packHeader__member--cover">&nbsp;</div>
-                <img
-                  src="../../../assets/images/junto-home-2.0__headshot--yaz.png"
-                  alt
-                  class="packHeader__member--photo--image"
-                />
-              </div>
-              <div class="packHeader__member--details">
-                <p class="packHeader__member--name">Yaz Owainati</p>
-                <p class="packHeader__member--title">
-                  Outreach &amp; Experience Design
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <div class="packHeader__member">
-            <a href="/pack-drea" class="removelink">
-              <div class="packHeader__member--photo">
-                <p class="packHeader__member--cover--text">Drea Bennett</p>
-                <div class="packHeader__member--cover">&nbsp;</div>
-                <img
-                  src="../../../assets/images/junto-home-2.0__headshot--drea.png"
-                  alt
-                  class="packHeader__member--photo--image"
-                />
-              </div>
-              <div class="packHeader__member--details">
-                <p class="packHeader__member--name">Drea Bennett</p>
-                <p class="packHeader__member--title">
-                  Creative Support &amp; Design
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <div class="packHeader__member">
-            <div class="packHeader__member--photo">
-              <p class="packHeader__member--cover--text">Nicolas' Story</p>
-              <div class="packHeader__member--cover">&nbsp;</div>
-              <img
-                src="../../../assets/images/junto-home-2.0__headshot--nicolas.png"
-                alt
-                class="packHeader__member--photo--image"
-              />
-            </div>
-            <div class="packHeader__member--details">
-              <p class="packHeader__member--name">Nicolas Luck</p>
-              <p class="packHeader__member--title">
-                Open Source Dev, Distributed Systems
-              </p>
-            </div>
-          </div>
-
-          <div class="packHeader__member">
-            <div class="packHeader__member--photo">
-              <p class="packHeader__member--cover--text">Dominik's Story</p>
-              <div class="packHeader__member--cover">&nbsp;</div>
-              <img
-                src="../../../assets/images/junto-home-2.0__headshot--dominik.png"
-                alt
-                class="packHeader__member--photo--image--david"
-              />
-            </div>
-            <div class="packHeader__member--details">
-              <p class="packHeader__member--name">Dominik Roszkowski</p>
-              <p class="packHeader__member--title">Open Source Dev, Mobile</p>
-            </div>
-          </div>
-        </div>
-
         <!-- Board of Directions -->
-
+        <!-- 
         <div class="packHeader__section">
           <h2 class="packHeader__main--title">Board of Directors</h2>
-          <div class="packHeader__pack">
+          <div class="packHeader__board" style="display: flex;">
             <div class="packHeader__member">
               <a href="/pack-eric" class="removelink">
                 <div class="packHeader__member--photo">
@@ -396,26 +299,6 @@
                   <p class="packHeader__member--name">Eric Yang</p>
                   <p class="packHeader__member--title">
                     President, Board Member
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="packHeader__member">
-              <a href="/pack-riley" class="removelink">
-                <div class="packHeader__member--photo">
-                  <p class="packHeader__member--cover--text">Riley's Story</p>
-                  <div class="packHeader__member--cover">&nbsp;</div>
-                  <img
-                    src="../../../assets/images/junto-home-2.0__headshot--riley.png"
-                    alt
-                    class="packHeader__member--photo--image"
-                  />
-                </div>
-                <div class="packHeader__member--details">
-                  <p class="packHeader__member--name">Riley Wagner</p>
-                  <p class="packHeader__member--title">
-                    Secretary, Board Member
                   </p>
                 </div>
               </a>
@@ -440,27 +323,8 @@
                 </div>
               </a>
             </div>
-
-            <div class="packHeader__member">
-              <a href="/pack-kyle" class="removelink">
-                <div class="packHeader__member--photo">
-                  <p class="packHeader__member--cover--text">Kyle's Story</p>
-                  <div class="packHeader__member--cover">&nbsp;</div>
-                  <img
-                    src="../../../assets/images/junto-home-2.0__headshot--kyle.png"
-                    alt
-                    class="packHeader__member--photo--image"
-                  />
-                </div>
-                <div class="packHeader__member--details">
-                  <p class="packHeader__member--name">Kyle Hornick</p>
-                  <p class="packHeader__member--title">Board Member</p>
-                </div>
-              </a>
-            </div>
           </div>
-        </div>
-        -->
+        </div> -->
 
         <!-- Advisors -->
 
@@ -485,19 +349,24 @@
           </div>
 
           <div class="packHeader__member">
-            <a href="/pack-douglas" class="removelink">
+            <a
+              href="https://commonsengine.org/"
+              target="blank"
+              class="removelink"
+            >
               <div class="packHeader__member--photo">
-                <p class="packHeader__member--cover--text">Douglas' Story</p>
                 <div class="packHeader__member--cover">&nbsp;</div>
                 <img
-                  src="../../../assets/images/junto-home-2.0__headshot--rushkoff.png"
+                  src="../../../assets/images/junto-home-2.0__logo--comms-engine.png"
                   alt
                   class="packHeader__member--photo--image"
                 />
               </div>
               <div class="packHeader__member--details">
-                <p class="packHeader__member--name">Douglas Rushkoff</p>
-                <p class="packHeader__member--title">Activist, Author</p>
+                <p class="packHeader__member--name">Commons Engine</p>
+                <p class="packHeader__member--title">
+                  Ferananda Ibarra &amp; Emaline Friedman
+                </p>
               </div>
             </a>
           </div>
@@ -521,27 +390,10 @@
               </div>
             </a>
           </div>
-
           <div class="packHeader__member">
-            <a href="/pack-ray" class="removelink">
-              <div class="packHeader__member--photo">
-                <p class="packHeader__member--cover--text">Ray's Story</p>
-                <div class="packHeader__member--cover">&nbsp;</div>
-                <img
-                  src="../../../assets/images/junto-home-2.0__headshot--ray.png"
-                  alt
-                  class="packHeader__member--photo--image"
-                />
-              </div>
-              <div class="packHeader__member--details">
-                <p class="packHeader__member--name">Raymond Powell</p>
-                <p class="packHeader__member--title">Founder of CoGov</p>
-              </div>
-            </a>
+            <div class="packHeader__member--photo">&nbsp;</div>
           </div>
         </div>
-
-        <!-- <a ><p class="packHeader__next">Meet the Board and Advisors &rarr;</p></a> -->
       </div>
     </div>
 
@@ -560,48 +412,3 @@ export default {
 };
 </script>
 
-
-     <!-- <div class="packHeader__member">
-              <a href="/pack-yaz" class="removelink">
-                <div class="packHeader__member--photo" @click="navMember('yaz')">
-                  <p class="packHeader__member--cover--text">Yaz's Story</p>
-                  <div class="packHeader__member--cover">&nbsp;</div>
-                  <img
-                    style="transform: translateY(-1rem);"
-                    src="../../../assets/images/junto-home-2.0__headshot--yaz.png"
-                    alt
-                    class="packHeader__member--photo--image"
-                  />
-                </div>
-                <div class="packHeader__member--details" @click="navMember('yaz')">
-                  <p class="packHeader__member--name">Yaz Owainati</p>
-                  <p
-                    class="packHeader__member--title"
-                  >Director of Communication &amp; Experience Design</p>
-                </div>
-              </a>
-            </div> -->
-
-                <!-- <div class="packHeader__member">
-              <a href="/pack-drea" class="removelink">
-                <div
-                  class="packHeader__member--photo"
-                  @click="navMember('drea')"
-                >
-                  <p class="packHeader__member--cover--text">Drea's Story</p>
-                  <div class="packHeader__member--cover">&nbsp;</div>
-                  <img
-                    src="../../../assets/images/junto-home-2.0__headshot--drea.png"
-                    alt
-                    class="packHeader__member--photo--image"
-                  />
-                </div>
-                <div
-                  class="packHeader__member--details"
-                  @click="navMember('drea')"
-                >
-                  <p class="packHeader__member--name">Drea Bennett</p>
-                  <p class="packHeader__member--title">Creative Lead</p>
-                </div>
-              </a>
-            </div> -->

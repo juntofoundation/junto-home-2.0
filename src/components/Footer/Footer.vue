@@ -14,15 +14,9 @@
         <a class="footer__legal--text" href="/privacy-policy">Privacy Policy</a>
         <a class="footer__legal--text" href="/terms-of-service">Terms of Service</a>
         <p class="footer__copyright footer__copyright--desk">
-          Made with
-          <span style="color: #EA6BA1">&hearts;</span> in New York
+         Junto Foundation &copy; 2021
         </p>
       </div>
-      <!-- <p class="footer__copyright footer__copyright--mobile">
-        hi@junto.foundation
-        <br />Made with
-        <span style="color: #EA6BA1">&hearts;</span> in New York
-      </p>-->
     </div>
     <div class="footer__right">
       <div class="footer__socials">

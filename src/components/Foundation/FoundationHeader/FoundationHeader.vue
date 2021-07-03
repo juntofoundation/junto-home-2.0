@@ -19,11 +19,11 @@
             <p class="foundationHeader__pillar--title">Grassroots Donations</p>
             <p class="foundationHeader__pillar--body">
               Everything we do is not for profit and open source. Your generosity and support is what will
-              carry this movement forward. We invite all ranges of donations and walks of life to contribute - thank you for believing in this vision!
+              carry this movement forward.
             </p>
             <a target="blank" class="removelink">
               <a
-                href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CX87U4QQQX2TW&source=url"
+                href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2"
                 target="blank"
                 class="removelink"
               >
