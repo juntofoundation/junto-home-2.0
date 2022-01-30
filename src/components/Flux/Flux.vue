@@ -3,8 +3,7 @@
   <div class="flux">
     <h2 class="flux__title">Stay on top of what's happening</h2>
     <p class="flux__subtitle">
-      We send regular updates and community highlights through our newsletter
-      Flux. Subscribe below!
+      We send regular updates and community highlights through our newsletter.
     </p>
     <a
       href="https://junto.typeform.com/to/iY66XCod"

@@ -2,9 +2,8 @@
 <template>
     <div class="homeSponsors">
         <h2 class="homeSponsors__title">Meet the people who are making this project possible</h2>
-        <p class="homeSponsors__body">As a nonprofit, our early 
-            stage success relies on the generosity of our supporters.
-            We'd like to recognize the following individuals and organizations.</p>
+        <p class="homeSponsors__body">
+            We'd like to recognize the following individuals and organizations that helped us get this off the ground.</p>
 
         <div class="homeSponsors__section">
             <h2 class="homeSponsors__section--title">SPECIAL SPONSORS</h2>    
@@ -138,9 +137,9 @@
 
         <div class="homeSponsors__kickstarter">
             <p class="homeSponsors__kickstarter--title">Thank you as well to the 
-                678 Kickstarter backers who helped us raise $106,949 in 30 days!
+                1,120+ crowdfunding backers who helped us raise more than $129k!
             </p>
-            <a href="https://www.kickstarter.com/projects/1958309948/junto-a-new-breed-of-social-media" target="blank" class="removelink">
+            <a href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2#/" target="blank" class="removelink">
                 <p class="homeSponsors__kickstarter--more">
                     Check out the campaign here
                 </p>
