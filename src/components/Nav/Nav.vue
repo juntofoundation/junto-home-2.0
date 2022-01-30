@@ -42,7 +42,7 @@
 
       <!-- <div class="nav__button--outline">
         <a
-          href="https://junto.typeform.com/to/iY66XCod"
+          href="https://fluxsocial.typeform.com/access"
           target="blank"
           class="removelink"
           >SIGN UP</a

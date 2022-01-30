@@ -6,7 +6,7 @@
       We send regular updates and community highlights through our newsletter.
     </p>
     <a
-      href="https://junto.typeform.com/to/iY66XCod"
+      href="https://fluxsocial.typeform.com/access"
       target="blank"
       class="removelink"
     >
