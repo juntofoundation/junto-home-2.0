@@ -5,7 +5,7 @@
       <a href="/" class="removelink">
         <img
           class="footer__logo--image"
-          src="../../assets/images/junto-home-2.0__logo--rainbow.png"
+          src="../../assets/images/junto-home-2.0__logo--gradient.png"
           alt
         />
       </a>

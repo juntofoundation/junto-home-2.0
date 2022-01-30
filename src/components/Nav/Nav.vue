@@ -5,7 +5,7 @@
       <div class="nav__logo--container">
         <img
           class="nav__logo--image"
-          src="../../assets/images/junto-home-2.0__logo--rainbow.png"
+          src="../../assets/images/junto-home-2.0__logo--gradient.png"
           alt=""
         />
       </div>

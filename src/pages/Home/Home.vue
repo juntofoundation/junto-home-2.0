@@ -30,7 +30,7 @@
     <junto-home-header> </junto-home-header>
 
     <!--  video -->
-    <junto-home-video> </junto-home-video>
+    <!-- <junto-home-video> </junto-home-video> -->
 
     <!--  pillars-->
     <junto-home-pillars></junto-home-pillars>

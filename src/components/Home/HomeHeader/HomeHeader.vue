@@ -6,10 +6,9 @@
                 <h3 class="homeHeader__subtitle">A Social Toolkit for the New Internet</h3>
                 <p class="homeHeader__description">Flux is a decentralized community platform that facilitates social coordination with greater privacy, collaboration, and flexibility. Leverage Flux for any and all your comunity needs, from group DMs to documentation, distributed governance, web3 integrations, and more.
                 </p>
-                <a class="removelink" href="https://www.indiegogo.com/projects/junto-a-new-breed-of-social-media--2#/" target="blank">
+                <a class="removelink" href="https://fluxsocial.io" target="blank">
                     <div class="homeHeader__action">
-                        <!-- <img src="../../../assets/images/junto-home-2.0__flame.png" alt="" class="homeHeader__action--icon"> -->
-                        <p class="homeHeader__action--text">TRY FLUX</p>
+                        <p class="homeHeader__action--text">LEARN MORE</p>
                     </div>
                 </a>
             </div> 

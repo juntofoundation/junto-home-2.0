@@ -41,11 +41,9 @@
     }
 
     &__title {
-        color: white;
         color: #333;
         font-size: 4rem;
         font-weight: 500;
-        // letter-spacing: 3px;
 
         @include respond(tab-port) {
             text-align: center;
@@ -53,7 +51,6 @@
     }
 
     &__subtitle {
-        color: white;
         color: #333;
 
         font-size: 2.7rem;
@@ -82,7 +79,6 @@
         display: flex;
         align-items: center;
         border: 2px solid #333;
-
         border-radius: 100px;
         background-color: transparent;
         padding: 1rem 2rem;
@@ -95,6 +91,12 @@
         &:hover {
             border: 2px solid $junto-primary-dark; 
             background-color: $junto-primary-dark;
+            color: white;
+
+        }
+
+        &:hover > &--text {
+            color: white;
         }
 
         &--icon {

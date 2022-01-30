@@ -1,9 +1,7 @@
 <template>
   <div class="homePillars">
     <h2 class="homePillars__title">META</h2>
-    <p class="homePillars__subtitle">
-      The evolution of social media begins with redesigning the fundamentals.
-    </p>
+    <p class="homePillars__subtitle">Here are some principles that guide how we are reshaping the fundamentals of the social web.</p>
     <div class="homePillars__pillars">
       <div class="homePillars__pillar">
         <img
@@ -13,10 +11,10 @@
         />
         <p class="homePillars__pillar--title">HUMAN-CENTERED DESIGN</p>
         <p class="homePillars__pillar--body">
-          The forms we communicate through are as important as the messages
-          themselves. We've designed new patterns to shape a digital culture
-          that inspires authenticity and connection. No ads, AI-powered echo
-          chambers, and more.
+          By default, Flux is designed with new patterns that inspire more
+          meaningful and healthy interactions. While our
+          tools are free from many extractive norms, we also respect people's
+          agency to shape their community culture however they want.
         </p>
       </div>
 
@@ -28,11 +26,10 @@
         />
         <p class="homePillars__pillar--title">DISTRIBUTED TECHNOLOGY</p>
         <p class="homePillars__pillar--body">
-          Junto will be powered by a scalable, distributed technology called
-          Holochain. This means we don't store your information in centralized
-          servers run or owned by us. You own your data and we won't sell it to
-          third parties. Our initial release will be centralized, but open
-          source.
+          Flux is powered by web3 technologies, Holochain and AD4M. This means
+          all your communication is p2p and decentralized, protecting you from
+          spying, ads, censorship, and much more. You own both your data and
+          experience.
         </p>
       </div>
 
@@ -42,17 +39,16 @@
           alt=""
           class="homePillars__pillar--icon"
         />
-        <p class="homePillars__pillar--title">NOT FOR PROFIT</p>
+        <p class="homePillars__pillar--title">COMMUNITY DRIVEN</p>
         <p class="homePillars__pillar--body">
-          Junto is a nonprofit organization independent of any shareholders or
-          special interests. We are building tools for you to shape its
-          direction in a decentralized manner. This movement belongs to all of
-          us and none of us.
+          All of the software we build is open source and eventually, we will
+          have distributed governance tools that enable our community to drive
+          the development of this social utility moving forward.
         </p>
       </div>
     </div>
-    <a href="https://learn.junto.foundation" target="blank" class="removelink">
-      <button class="homePillars__more">GO IN DEPTH</button>
+    <a href="https://fluxsocial.io" target="blank" class="removelink">
+      <button class="homePillars__more">LEARN MORE</button>
     </a>
   </div>
 </template>
