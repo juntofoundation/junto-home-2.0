@@ -8,7 +8,7 @@
                 </p>
                 <a class="removelink" href="https://fluxsocial.io" target="blank">
                     <div class="homeHeader__action">
-                        <p class="homeHeader__action--text">LEARN MORE</p>
+                        <p class="homeHeader__action--text">TRY FLUX</p>
                     </div>
                 </a>
             </div> 

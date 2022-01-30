@@ -18,9 +18,9 @@
       <!-- <div class="nav__item">
         <a href="/pack" class="removelink">PACK</a>
       </div> -->
-      <div class="nav__item">
+      <!-- <div class="nav__item">
         <a href="/foundation" class="removelink">ABOUT</a>
-      </div>
+      </div> -->
       <!-- <div class="nav__item">
         <a href="/events" class="removelink">EVENTS</a>
       </div> -->
