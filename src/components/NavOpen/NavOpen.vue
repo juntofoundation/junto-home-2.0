@@ -9,21 +9,21 @@
             <a href="/" class="navOpen__body--item removelink">
                 HOME
             </a>
-            <a href="https://learn.junto.foundation/" target="blank" class="navOpen__body--item removelink">
+            <!-- <a href="https://learn.junto.foundation/" target="blank" class="navOpen__body--item removelink">
                 Learn
             </a>
             <a href="/pack" class="navOpen__body--item removelink">
-                Pack
-            </a>
+                Pack -->
+            <!-- </a> -->
             <a href="/foundation" class="navOpen__body--item removelink">
-                Foundation
+                About
             </a>            
             <!-- <a href="/events" class="navOpen__body--item removelink">
                 Events
             </a> -->
-            <a href="/faq" class="navOpen__body--item removelink">
+            <!-- <a href="/faq" class="navOpen__body--item removelink">
                 FAQ
-            </a>                                                
+            </a>                                                 -->
         </div>
     </div>
 </template>
